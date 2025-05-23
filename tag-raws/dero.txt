@@ -34,7 +34,7 @@ console.log(final);
 
 {sh:
 load https://cdn.discordapp.com/attachments/1124758334805909509/1375602636451221634/ATTFShinGoProHeavy.ttf?ex=68324949&is=6830f7c9&hm=a344cf6169ca8625026ea0bafef717221a055cfc199b0b49b1b6b4e8a53d318d&
-magick -background transparent -fill black -font $FILE_1 -pointsize 512 -interline-spacing 50 label:' {get:text} ' ./output/jtcg_font.png
+magick -background transparent -fill black -font $FILE_1 -pointsize 512 -interline-spacing 50 label:'{get:text}' ./output/jtcg_font.png
 }
 
 {iscripturl:
@@ -45,7 +45,7 @@ create bg w w 255 255 255
 get bg width o
 get bg height p
 copy bg bg2
-scale bg2 1.1
+scale bg2 5/4
 get bg2 width a
 get bg2 height b
 hueshiftrgb bg2 -255 0 -255
