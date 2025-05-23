@@ -1,4 +1,4 @@
-{set:puzzle|{choose:pepsi|space|local|movie|world|anime|omega|earth}}
+{set:puzzle|{upper:{choose:pepsi|space|local|movie|world|anime|omega|earth}}}
 {set:text|{js:
 const text = `{get:puzzle}`
 const arr = [];
@@ -34,9 +34,22 @@ console.log(final);
 
 {sh:
 load https://cdn.discordapp.com/attachments/1124758334805909509/1375602636451221634/ATTFShinGoProHeavy.ttf?ex=68324949&is=6830f7c9&hm=a344cf6169ca8625026ea0bafef717221a055cfc199b0b49b1b6b4e8a53d318d&
-magick -background transparent -fill black -font $FILE_1 -pointsize 512 -interline-spacing 50 label:'{get:text}' ./output/jtcg_font.png
+magick -background transparent -fill black -font $FILE_1 -pointsize 512 -interline-spacing 50 label:' {get:text} ' ./output/jtcg_font.png
 }
 
-{iscript:
+{iscripturl:
 load FILE_1 the
+get the width w
+get the height h
+create bg w w 255 255 255
+get bg width o
+get bg height p
+copy bg bg2
+scale bg2 1.1
+get bg2 width a
+get bg2 height b
+hueshiftrgb bg2 -255 0 -255
+overlay bg the (o/2)-(w/2) (p/2)-(h/2)
+overlay bg2 bg (a/2)-(o/2) (b/2)-(p/2)
+render bg2
 }
