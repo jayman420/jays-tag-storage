@@ -37,7 +37,7 @@ load https://cdn.discordapp.com/attachments/1124758334805909509/1375602636451221
 magick -background transparent -fill black -font $FILE_1 -pointsize 512 -interline-spacing 50 label:'{get:text}' ./output/jtcg_font.png
 }
 
-{iscripturl:
+{set:image|{iscripturl:
 load FILE_1 the
 get the width w
 get the height h
@@ -52,4 +52,12 @@ hueshiftrgb bg2 -255 0 -255
 overlay bg the (o/2)-(w/2) (p/2)-(h/2)
 overlay bg2 bg (a/2)-(o/2) (b/2)-(p/2)
 render bg2
+}}
+
+{iscript:
+load {get:image} i
+tts a TIKTOK_JP_FEMALE_02 {translate:This question is for {nick}. Unscramble the following letters to make an English word.|japanese}
+create q iw ih 0 0 0
+audioputreplace q a
+concat q i
 }
