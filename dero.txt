@@ -1,0 +1,41 @@
+{set:text|{js:
+const text = `FUCKJAVASCRIPTIHATEITSOFUCKINGMUCH`
+const arr = [];
+
+for (let i = 0; i < text.length; i++) {
+  arr.unshift(text[i])
+}
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function shuffle(array) {
+  let newArr = [];
+  let tempArray = [...array]; // Copy the array to avoid modifying the original
+  let x = 0;
+  for (let i = 0; i < array.length; i++) {
+    x = getRandomInt(0, tempArray.length - 1);
+    newArr.unshift(tempArray[x]);
+    tempArray.splice(x, 1);
+  }
+  return newArr;
+}
+
+const the = (shuffle(arr));
+const delimiter = ` - `
+
+const final = the.join(delimiter);
+
+console.log(final);
+}
+}
+
+{sh:
+load https://cdn.discordapp.com/attachments/1124758334805909509/1375575242390372483/ATTFShinGoProUltra.ttf?ex=68322fc6&is=6830de46&hm=7d5894933f6b480b95dac5065d0e79fa6b318256c89995d14d3705e8d10f2e04&
+magick -background white -fill white -stroke black -strokewidth 40 -font $FILE_1 -pointsize 512 -interline-spacing 50 label:'{get:text}' ./output/jtcg_font.png
+}
+
+{iscript:
+load FILE_1 the
+}
