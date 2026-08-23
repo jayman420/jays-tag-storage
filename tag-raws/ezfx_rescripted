@@ -7,6 +7,10 @@
 		"code": "{eval:{arg:1}}",
 		"args": 1
 	},
+	"pipe": {
+		"code": "{foreach:{js:console.log(discord.variables.__args[1].split(\"; \"))}|{newline}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{traversejson:{get:valuex}.code|{get:data}}\n}}}",
+		"args": 1
+	},
 	"getting faster": {
 		"code": "repeat m 2\nspeed m 2",
 		"args": 0
@@ -228,17 +232,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**1**. normal\n**2**. custom\n**3**. getting faster\n**4**. getting slower\n**5**. confusion\n**6**. g major 77114\n**7**. g minor 77114\n**8**. preview 2\n**9**. respondview 2\n**10**. preview 1280\n**11**. wrong zoom\n**12**. billy gardiners g major 1\n**13**. might confuse you\n**14**. low voice",
+					"value": "**1**. normal\n**2**. custom\n**3**. pipe\n**4**. getting faster\n**5**. getting slower\n**6**. confusion\n**7**. g major 77114\n**8**. g minor 77114\n**9**. preview 2\n**10**. respondview 2\n**11**. preview 1280\n**12**. wrong zoom\n**13**. billy gardiners g major 1\n**14**. might confuse you",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**15**. jays g major 525600\n**16**. gold major\n**17**. g major 125\n**18**. does respond\n**19**. does respond common\n**20**. does not respond\n**21**. does not respond common\n**22**. getting faster split getting slower\n**23**. zoopals effect\n**24**. split zoopals effect\n**25**. g major 305\n**26**. 91 dxi\n**27**. 44 dxi\n**28**. luig group",
+					"value": "**15**. low voice\n**16**. jays g major 525600\n**17**. gold major\n**18**. g major 125\n**19**. does respond\n**20**. does respond common\n**21**. does not respond\n**22**. does not respond common\n**23**. getting faster split getting slower\n**24**. zoopals effect\n**25**. split zoopals effect\n**26**. g major 305\n**27**. 91 dxi\n**28**. 44 dxi",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 1/2 of Effects (48 Total Effects)"
+				"text": "Page 1/2 of Effects (49 Total Effects)"
 			}
 		}
 	},
@@ -249,17 +253,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. mari group\n**30**. half luig group\n**31**. half mari group\n**32**. g major 20\n**33**. g major 74\n**34**. g major 74 original\n**35**. ambers g major 1\n**36**. g major 88\n**37**. freakzingas g major 156\n**38**. klaalk\n**39**. ykssky\n**40**. g major\n**41**. split g major 88\n**42**. split ambers g major 1",
+					"value": "**29**. luig group\n**30**. mari group\n**31**. half luig group\n**32**. half mari group\n**33**. g major 20\n**34**. g major 74\n**35**. g major 74 original\n**36**. ambers g major 1\n**37**. g major 88\n**38**. freakzingas g major 156\n**39**. klaalk\n**40**. ykssky\n**41**. g major\n**42**. split g major 88",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. xs pet fly\n**44**. g major 302\n**45**. double spin\n**46**. weird x\n**47**. opposite weird x\n**48**. the four horsemen of x",
+					"value": "**43**. split ambers g major 1\n**44**. xs pet fly\n**45**. g major 302\n**46**. double spin\n**47**. weird x\n**48**. opposite weird x\n**49**. the four horsemen of x",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/2 of Effects (48 Total Effects)"
+				"text": "Page 2/2 of Effects (49 Total Effects)"
 			}
 		}
 	}
