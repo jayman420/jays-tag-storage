@@ -188,6 +188,7 @@
 		"args": 0
 	}
 }}}
+{if:{argslen}|=|0|then:
 {embedjson:{
 	"color": 255,
 	"title": "**Welcome to EZFX: Rescripted!**",
@@ -196,3 +197,53 @@
 	},
 	"description": "> *\"{choose:HE HID FOR 30 YEARS!|a whar?|we're so back|Hey guys| what did we miss?|nobody uses iscript anymore bro :sob::v:}\"*\n\n```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```"
 }}
+|else:
+{if:{arg:0}|=|help|then:
+{pagejson:[
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"fields": [
+				{
+					"name": "",
+					"value": "1. normal\n2. getting faster\n3. getting slower\n4. confusion\n5. g major 77114\n6. g minor 77114\n7. preview 2\n8. respondview 2\n9. preview 1280\n10. wrong zoom\n11. billy gardiners g major 1\n12. might confuse you\n13. low voice\n14. jays g major 525600",
+					"inline": "true"
+				},
+				{
+					"name": "",
+					"value": "15. gold major\n16. g major 125\n17. does respond\n18. does respond common\n19. does not respond\n20. does not respond common\n21. getting faster split getting slower\n22. zoopals effect\n23. split zoopals effect\n24. g major 305\n25. 91 dxi\n26. 44 dxi\n27. luig group\n28. mari group",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 1/2 of Effects (47 Total Effects)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"fields": [
+				{
+					"name": "",
+					"value": "29. half luig group\n30. half mari group\n31. g major 20\n32. g major 74\n33. g major 74 original\n34. ambers g major 1\n35. g major 88\n36. freakzingas g major 156\n37. klaalk\n38. ykssky\n39. g major\n40. split g major 88\n41. split ambers g major 1\n42. xs pet fly",
+					"inline": "true"
+				},
+				{
+					"name": "",
+					"value": "43. g major 302\n44. double spin\n45. weird x\n46. opposite weird x\n47. the four horsemen of x",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 2/2 of Effects (47 Total Effects)"
+			}
+		}
+	}
+]}
+|else:
+wip
+}
+}
