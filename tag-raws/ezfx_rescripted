@@ -270,15 +270,6 @@
 {js:console.error(`effect doesn't exist lol`);}
 |else:
 {set:shift|{traversejson:{arg:0}.args|{get:data}}}
-{if:{get:shift}|>|0|then:
-{if:{arg:1}|=|raw|then:
-{embedjson:{
-	"color": 255,
-	"title": "**Raw Code**",
-	"description": "```{get:code}```"
-}}
-}
-|else:
 {if:{arg:{math:1+{get:shift}}}|=|raw|then:
 {embedjson:{
 	"color": 255,
@@ -381,6 +372,13 @@ speed ihtx ihtxd/({if:{get:include_original_media}|=|true|then:{math:abs({get:ex
 }
 render ihtx {get:output_file_format}
 }
+|else:
+{if:{arg:1}|=|raw|then:
+{embedjson:{
+	"color": 255,
+	"title": "**Raw Code**",
+	"description": "```{get:code}```"
+}}
 |else:
 {iscriptmaybeurl:
 load {video} m
