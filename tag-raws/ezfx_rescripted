@@ -316,10 +316,13 @@ audioputreplace m maud yes no
 {if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
 {iscriptmaybeurl:
 {set:exports|{type:number|{arg:{math:2+{get:shift}}}|10}}
+{if:{get:exports}|=|0|then:
+{js:console.error(``exports` must be a non-zero integer`);}
+}
 {set:duration|{type:float|{arg:{math:3+{get:shift}}}|0.5}}
 {set:notrim|{arg:{math:4+{get:shift}}}}
-{set:export_file_format|{arg:{math:5+{get:shift}}}}
-{set:output_file_format|{arg:{math:6+{get:shift}}}}
+{set:export_file_format|{or:{arg:{math:5+{get:shift}}}|default}}
+{set:output_file_format|{or:{arg:{math:6+{get:shift}}}|default}}
 {set:include_original_media|{arg:{math:7+{get:shift}}}}
 {set:modifier|{arg:{math:8+{get:shift}}}}
 {set:modifier|{if:{get:modifier}|=|kinemaster|then:
