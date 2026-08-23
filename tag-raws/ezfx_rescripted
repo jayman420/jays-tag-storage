@@ -3,6 +3,10 @@
 		"code": "volume m 1",
 		"args": 0
 	},
+	"custom": {
+		"code": "{or:{arg:1}|}",
+		"args": 1
+	},
 	"getting faster": {
 		"code": "repeat m 2\nspeed m 2",
 		"args": 0
@@ -28,11 +32,11 @@
 		"args": 0
 	},
 	"respondview 2": {
-		"code": "repeatduration m {arg:1}+{arg:2}\nsnip m {arg:1} {arg:1}+{arg:2}\nhueshifthsv m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\ncopy m n\naudiopitch m 2**(-12/12)\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy n ncrop\ncrop ncrop w h*0.66 0 0\nswirl ncrop 60\noverlay n ncrop 0 0\nconcat m n\ncopy m mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m",
+		"code": "repeatduration m {or:{arg:1}|1}+{or:{arg:2}|0.36}\nsnip m {or:{arg:1}|1} {or:{arg:1}|1}+{or:{arg:2}|0.36}\nhueshifthsv m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\ncopy m n\naudiopitch m 2**(-12/12)\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy n ncrop\ncrop ncrop w h*0.66 0 0\nswirl ncrop 60\noverlay n ncrop 0 0\nconcat m n\ncopy m mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m",
 		"args": 2
 	},
 	"preview 1280": {
-		"code": "repeatduration m {arg:1}+{arg:2}\nsnip m {arg:1} {arg:1}+{arg:2}\ncopy m mp\nhueshifthsv mp 50\naudiopitch mp 2**(1/12)\ncopy m mm\nhueshifthsv mm 180\nwaaw mm\nrotate mm 90\nwaves mm mmw/24 mmw/5 mmw/180\nrotate mm -90\ncover mm w h\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m 1.25",
+		"code": "repeatduration m {or:{arg:1}|1.85}+{or:{arg:2}|0.85}\nsnip m {or:{arg:1}|1.85} {or:{arg:1}|1.85}+{or:{arg:2}|0.85}\ncopy m mp\nhueshifthsv mp 50\naudiopitch mp 2**(1/12)\ncopy m mm\nhueshifthsv mm 180\nwaaw mm\nrotate mm 90\nwaves mm mmw/24 mmw/5 mmw/180\nrotate mm -90\ncover mm w h\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m 1.25",
 		"args": 2
 	},
 	"wrong zoom": {
@@ -198,7 +202,7 @@
 	"description": "> *\"{choose:HE HID FOR 30 YEARS!|a whar?|we're so back|Hey guys| what did we miss?|nobody uses iscript anymore bro :sob::v:}\"*\n\n```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```"
 }}
 |else:
-{if:{arg:0}|=|help|then:
+{if:{arg:0}|=|list|then:
 {pagejson:[
 	{
 		"embed": {
@@ -207,17 +211,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**1**. normal\n**2**. getting faster\n**3**. getting slower\n**4**. confusion\n**5**. g major 77114\n**6**. g minor 77114\n**7**. preview 2\n**8**. respondview 2\n**9**. preview 1280\n**10**. wrong zoom\n**11**. billy gardiners g major 1\n**12**. might confuse you\n**13**. low voice\n**14**. jays g major 525600",
+					"value": "**1**. normal\n**2**. custom\n**3**. getting faster\n**4**. getting slower\n**5**. confusion\n**6**. g major 77114\n**7**. g minor 77114\n**8**. preview 2\n**9**. respondview 2\n**10**. preview 1280\n**11**. wrong zoom\n**12**. billy gardiners g major 1\n**13**. might confuse you\n**14**. low voice",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**15**. gold major\n**16**. g major 125\n**17**. does respond\n**18**. does respond common\n**19**. does not respond\n**20**. does not respond common\n**21**. getting faster split getting slower\n**22**. zoopals effect\n**23**. split zoopals effect\n**24**. g major 305\n**25**. 91 dxi\n**26**. 44 dxi\n**27**. luig group\n**28**. mari group",
+					"value": "**15**. jays g major 525600\n**16**. gold major\n**17**. g major 125\n**18**. does respond\n**19**. does respond common\n**20**. does not respond\n**21**. does not respond common\n**22**. getting faster split getting slower\n**23**. zoopals effect\n**24**. split zoopals effect\n**25**. g major 305\n**26**. 91 dxi\n**27**. 44 dxi\n**28**. luig group",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 1/2 of Effects (47 Total Effects)"
+				"text": "Page 1/2 of Effects (48 Total Effects)"
 			}
 		}
 	},
@@ -228,22 +232,44 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. half luig group\n**30**. half mari group\n**31**. g major 20\n**32**. g major 74\n**33**. g major 74 original\n**34**. ambers g major 1\n**35**. g major 88\n**36**. freakzingas g major 156\n**37**. klaalk\n**38**. ykssky\n**39**. g major\n**40**. split g major 88\n**41**. split ambers g major 1\n**42**. xs pet fly",
+					"value": "**29**. mari group\n**30**. half luig group\n**31**. half mari group\n**32**. g major 20\n**33**. g major 74\n**34**. g major 74 original\n**35**. ambers g major 1\n**36**. g major 88\n**37**. freakzingas g major 156\n**38**. klaalk\n**39**. ykssky\n**40**. g major\n**41**. split g major 88\n**42**. split ambers g major 1",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. g major 302\n**44**. double spin\n**45**. weird x\n**46**. opposite weird x\n**47**. the four horsemen of x",
+					"value": "**43**. xs pet fly\n**44**. g major 302\n**45**. double spin\n**46**. weird x\n**47**. opposite weird x\n**48**. the four horsemen of x",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/2 of Effects (47 Total Effects)"
+				"text": "Page 2/2 of Effects (48 Total Effects)"
 			}
 		}
 	}
 ]}
 |else:
-wip
+{set:code|{traversejson:{arg:0}.code|{get:data}}}
+{if:{get:code}|=|0|then:
+{js:console.error(`effect doesn't exist lol`);}
+|else:
+{set:shift|{traversejson:{arg:0}.args|{get:data}}}
+load {video} m
+get m duration d
+get m width w
+get m height h
+get m framecount fc
+set fps (mfc/md)
+{eval:{get:code}}
+copy m maud
+copy m mvid
+convert maud audio/flac
+resize mvid 2 2
+if mvidfc > 1080 {jsonify:
+setfps mvid 1080/mvidd
+}
+convert mvid image/gif
+speed maud maudd/mvidd
+audioputreplace m maud yes no
+}
 }
 }
