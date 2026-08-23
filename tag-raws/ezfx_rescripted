@@ -305,7 +305,7 @@ audioputreplace m maud yes no
 }
 |else:
 {if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
-{code:
+{iscriptmaybeurl:
 {set:exports|{type:number|{arg:{math:2+{get:shift}}}|10}}
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
@@ -344,7 +344,7 @@ get m width w
 get m height h
 get m framecount fc
 set fps (mfc/md)
-copy m ihtx
+copy m x
 foreachframe loop 0 loopfc {jsonify:
 {eval:{get:code}}
 {get:modifier}
@@ -352,10 +352,10 @@ foreachframe loop 0 loopfc {jsonify:
 repeatduration m d
 snip m 0 d
 }
-concat ihtx m
+concat x m
 }
 {if:{get:include_original_media}|!=|true|then:
-snip ihtx d
+snip x d
 }
 copy ihtx ihtxaud
 copy ihtx ihtxvid
@@ -368,9 +368,9 @@ convert ihtxvid image/gif
 speed ihtxaud ihtxaudd/ihtxvidd
 audioputreplace ihtx ihtxaud yes no
 {if:{get:notrim}|!=|true|then:
-speed ihtx ihtxd/({if:{get:include_original_media}|=|true|then:{math:abs({get:exports})+1}|else:{math:abs({get:exports})}}*{if:{get:duration}|=|vidlen|then:d|else:{get:duration}})
+speed x xd/({if:{get:include_original_media}|=|true|then:{math:abs({get:exports})+1}|else:{math:abs({get:exports})}}*{if:{get:duration}|=|vidlen|then:d|else:{get:duration}})
 }
-render ihtx {get:output_file_format}
+render x {get:output_file_format}
 }
 |else:
 {if:{arg:1}|=|raw|then:
