@@ -4,7 +4,7 @@
 		"args": 0
 	},
 	"custom": {
-		"code": "{eval:{arg:1}}",
+		"code": "{eval:{replace:\\u0020#| m|{arg:1}}}",
 		"args": 1
 	},
 	"effect": {
