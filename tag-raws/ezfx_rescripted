@@ -283,7 +283,7 @@ create loop 1 1 0 0 0
 convert loop video/mp4
 setfps loop 25
 repeatduration loop {arg:{math:2+{get:shift}}}/25
-load {video} m
+load {media} m
 get m duration d
 get m width w
 get m height h
@@ -305,7 +305,7 @@ audioputreplace m maud yes no
 }
 |else:
 {if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
-{iscriptmaybeurl:
+{code:
 {set:exports|{type:number|{arg:{math:2+{get:shift}}}|10}}
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
@@ -331,7 +331,7 @@ create loop 1 1 0 0 0
 convert loop video/mp4
 setfps loop 25
 repeatduration loop {math:abs({get:exports})}/25
-load {video} m
+load {media} m
 {if:{get:export_file_format}|!=|default|then:
 convert m {get:export_file_format}
 }
@@ -381,7 +381,7 @@ render ihtx {get:output_file_format}
 }}
 |else:
 {iscriptmaybeurl:
-load {video} m
+load {media} m
 get m duration d
 get m width w
 get m height h
