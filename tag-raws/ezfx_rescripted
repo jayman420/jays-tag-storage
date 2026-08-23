@@ -4,7 +4,7 @@
 		"args": 0
 	},
 	"custom": {
-		"code": "{eval:{or:{arg:1}|}}",
+		"code": "{eval:{arg:1}}",
 		"args": 1
 	},
 	"getting faster": {
