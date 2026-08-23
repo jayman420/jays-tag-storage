@@ -4,7 +4,7 @@
 		"args": 0
 	},
 	"custom": {
-		"code": "{or:{arg:1}|}",
+		"code": "{eval:{or:{arg:1}|}}",
 		"args": 1
 	},
 	"getting faster": {
@@ -199,7 +199,24 @@
 	"thumbnail": {
 		"url": "https://cdn.discordapp.com/attachments/1513251960827019474/1540903912528285816/costume2_4.png?ex=6a8ba619&is=6a8a5499&hm=e6b574984e928b17e4e9c1b542351bc8ea381000fde55106ccea573fb2c6e966&"
 	},
-	"description": "> *\"{choose:HE HID FOR 30 YEARS!|a whar?|we're so back|Hey guys| what did we miss?|nobody uses iscript anymore bro :sob::v:}\"*\n\n```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```"
+	"description": "> *\"{choose:HE HID FOR 30 YEARS!|a whar?|we're so back|Hey guys| what did we miss?|nobody uses iscript anymore bro :sob::v:}\"*\n",
+	"fields": [
+		{
+			"name": "**Normal Usage**",
+			"value": "```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```",
+			"inline": "false"
+		},
+		{
+			"name": "**Subcommand List**",
+			"value": "not yet :(",
+			"inline": "false"
+		},
+		{
+			"name": "**Non-effect Command List**",
+			"value": "`list` - Shows a list of all the effects",
+			"inline": "false"
+		}
+	]
 }}
 |else:
 {if:{arg:0}|=|list|then:
