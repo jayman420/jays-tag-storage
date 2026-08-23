@@ -270,7 +270,7 @@
 ]}
 |else:
 {set:code|{traversejson:{arg:0}.code|{get:data}}}
-{if:{get:code}|=|0|then:
+{if:{get:code}|=||then:
 {js:console.error(`effect doesn't exist lol`);}
 |else:
 {set:shift|{traversejson:{arg:0}.args|{get:data}}}
