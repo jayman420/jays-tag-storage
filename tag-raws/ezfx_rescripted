@@ -302,6 +302,7 @@ setfps mvid 1080/mvidd
 convert mvid image/gif
 speed maud maudd/mvidd
 audioputreplace m maud yes no
+render m
 }
 |else:
 {if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
@@ -398,6 +399,7 @@ setfps mvid 1080/mvidd
 convert mvid image/gif
 speed maud maudd/mvidd
 audioputreplace m maud yes no
+render m
 }
 }
 }
