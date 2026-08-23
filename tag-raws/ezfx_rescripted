@@ -1,5 +1,8 @@
 {embedjson:{
 	"color": 255,
 	"title": "**Welcome to EZFX: Rescripted!**",
+	"thumbnail": {
+		"url": "https://cdn.discordapp.com/attachments/1513251960827019474/1540903912528285816/costume2_4.png?ex=6a8ba619&is=6a8a5499&hm=e6b574984e928b17e4e9c1b542351bc8ea381000fde55106ccea573fb2c6e966&"
+	},
 	"description": "> *\"{choose:HE HID FOR 30 YEARS!|a whar?|we're so back|Hey guys| what did we miss?|nobody uses iscript anymore bro :sob::v:}\"*"
 }}
