@@ -208,7 +208,7 @@
 		},
 		{
 			"name": "**Subcommand List**",
-			"value": "`raw` - Shows the raw MediaScript code of an effect. Do this without the effect arguments to see the true raw code without evaluation\n`multiplier <exports>` - Repeatedly applies an effect onto a singular video",
+			"value": "`raw` - Shows the raw MediaScript code of an effect. Do this without the effect arguments to see the true raw code without evaluation\n`multiplier <exports>` - Repeatedly applies an effect onto a singular video\n`ihtx <exports> <duration> <?no_trim> <export_file_format> <output_file_format> <?include_original_media> <modifier>` - The most complex one, similar to `multiplier`, except each iteration is concatenated to each other",
 			"inline": "false"
 		},
 		{
@@ -313,6 +313,72 @@ speed maud maudd/mvidd
 audioputreplace m maud yes no
 }
 |else:
+{if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
+{iscriptmaybeurl:
+{set:exports|{type:number|{arg:{math:2+{get:shift}}}|10}}
+{set:duration|{type:float|{arg:{math:3+{get:shift}}}|0.5}}
+{set:notrim|{arg:{math:4+{get:shift}}}}
+{set:export_file_format|{arg:{math:5+{get:shift}}}}
+{set:output_file_format|{arg:{math:6+{get:shift}}}}
+{set:include_original_media|{arg:{math:7+{get:shift}}}}
+{set:modifier|{arg:{math:8+{get:shift}}}}
+{set:modifier|{if:{get:modifier}|=|kinemaster|then:
+copy m ma
+fadein ma 0.2
+fadeout ma 0.2
+audioputreplace m ma
+|else:
+{if:{get:modifier}|=|buggy|then:
+repeat m 2
+snip m d*3/4
+}
+}}
+create loop 1 1 0 0 0
+convert loop video/mp4
+setfps loop 25
+repeatduration loop {math:abs({get:exports})}/25
+load {video} m
+{if:{get:export_file_format}|!=|default|then:
+convert m {get:export_file_format}
+}
+{if:{get:duration}|!=|vidlen|then:
+repeatduration m {get:duration}
+snip m 0 {get:duration}
+}
+get m duration d
+get m width w
+get m height h
+get m framecount fc
+set fps (mfc/md)
+copy m ihtx
+foreachframe loop 0 loopfc {jsonify:
+{eval:{get:code}}
+{get:modifier}
+{if:{get:notrim}|!=|true|then:
+repeatduration m d
+snip m 0 d
+}
+concat ihtx m
+}
+{if:{get:include_original_media}|!=|true|then:
+snip ihtx d
+}
+copy ihtx ihtxaud
+copy ihtx ihtxvid
+convert ihtxaud audio/flac
+resize ihtxvid 2 2
+if ihtxvidfc > 1080 {jsonify:
+setfps ihtxvid 1080/ihtxvidd
+}
+convert ihtxvid image/gif
+speed ihtxaud ihtxaudd/ihtxvidd
+audioputreplace ihtx ihtxaud yes no
+{if:{get:notrim}|!=|true|then:
+speed ihtx ihtxd/({if:{get:include_original_media}|=|true|then:{math:abs({get:exports})+1}|else:{math:abs({get:exports})}}*{if:{get:duration}|=|vidlen|then:d|else:{get:duration}})
+}
+render ihtx {get:output_file_format}
+}
+|else:
 {iscriptmaybeurl:
 load {video} m
 get m duration d
@@ -331,6 +397,7 @@ setfps mvid 1080/mvidd
 convert mvid image/gif
 speed maud maudd/mvidd
 audioputreplace m maud yes no
+}
 }
 }
 }
