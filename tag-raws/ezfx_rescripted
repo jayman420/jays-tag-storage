@@ -8,7 +8,7 @@
 		"args": 1
 	},
 	"pipe": {
-		"code": "{foreach:{js:console.log(discord.variables.__args[1].split(\"; \"))}|{newline}\n{get:valuex}}",
+		"code": "{foreach:{replace:'|\"|{js:console.log(discord.variables.__args[1].split(\"; \"))}}|\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{traversejson:{get:valuex}.code|{get:data}}\n}}}",
 		"args": 1
 	},
 	"getting faster": {
