@@ -240,7 +240,7 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**1**. normal\n**2**. custom `<code>`\n**3**. pipe `<effect 1; effect 2; and so on>`\n**4**. split `<effect 1> <effect 2>`\n**5**. x meets `<effect 1> <effect 2>`\n**6**. getting faster\n**7**. getting slower\n**8**. confusion\n**9**. g major 77114\n**10**. g minor 77114\n**11**. preview 2\n**12**. respondview 2 `<start_pos> <duration>`\n**13**. preview 1280 `<start_pos> <duration>`\n**14**. wrong zoom",
+					"value": "**1**. normal\n**2**. custom\n-# `<code>`\n**3**. pipe\n-# `<effect 1; effect 2; and so on>`\n**4**. split\n-# `<effect 1> <effect 2>`\n**5**. x meets\n-# `<effect 1> <effect 2>`\n**6**. getting faster\n**7**. getting slower\n**8**. confusion\n**9**. g major 77114\n**10**. g minor 77114\n**11**. preview 2\n**12**. respondview 2\n-# `<start_pos> <duration>`\n**13**. preview 1280\n-# `<start_pos> <duration>`\n**14**. wrong zoom",
 					"inline": "true"
 				},
 				{
