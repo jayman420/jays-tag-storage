@@ -4,7 +4,7 @@
 		"args": 0
 	},
 	"custom": {
-		"code": "{eval:{or:{arg:1}|}}",
+		"code": "{eval:{type:float|{arg:1}|}}",
 		"args": 1
 	},
 	"getting faster": {
@@ -32,11 +32,11 @@
 		"args": 0
 	},
 	"respondview 2": {
-		"code": "repeatduration m {or:{arg:1}|1}+{or:{arg:2}|0.36}\nsnip m {or:{arg:1}|1} {or:{arg:1}|1}+{or:{arg:2}|0.36}\nhueshifthsv m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\ncopy m n\naudiopitch m 2**(-12/12)\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy n ncrop\ncrop ncrop w h*0.66 0 0\nswirl ncrop 60\noverlay n ncrop 0 0\nconcat m n\ncopy m mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m",
+		"code": "repeatduration m {type:number|{arg:1}|1}+{type:float|{arg:2}|0.36}\nsnip m {type:number|{arg:1}|1} {type:number|{arg:1}|1}+{type:float|{arg:2}|0.36}\nhueshifthsv m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\ncopy m n\naudiopitch m 2**(-12/12)\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy n ncrop\ncrop ncrop w h*0.66 0 0\nswirl ncrop 60\noverlay n ncrop 0 0\nconcat m n\ncopy m mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m",
 		"args": 2
 	},
 	"preview 1280": {
-		"code": "repeatduration m {or:{arg:1}|1.85}+{or:{arg:2}|0.85}\nsnip m {or:{arg:1}|1.85} {or:{arg:1}|1.85}+{or:{arg:2}|0.85}\ncopy m mp\nhueshifthsv mp 50\naudiopitch mp 2**(1/12)\ncopy m mm\nhueshifthsv mm 180\nwaaw mm\nrotate mm 90\nwaves mm mmw/24 mmw/5 mmw/180\nrotate mm -90\ncover mm w h\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m 1.25",
+		"code": "repeatduration m {type:float|{arg:1}|1.85}+{type:float|{arg:2}|0.85}\nsnip m {type:float|{arg:1}|1.85} {type:float|{arg:1}|1.85}+{type:float|{arg:2}|0.85}\ncopy m mp\nhueshifthsv mp 50\naudiopitch mp 2**(1/12)\ncopy m mm\nhueshifthsv mm 180\nwaaw mm\nrotate mm 90\nwaves mm mmw/24 mmw/5 mmw/180\nrotate mm -90\ncover mm w h\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m 1.25",
 		"args": 2
 	},
 	"wrong zoom": {
