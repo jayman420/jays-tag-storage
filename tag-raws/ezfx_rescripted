@@ -15,6 +15,10 @@
 		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}}\ncrop m w/2 h\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}}\ncrop n w/2 h w/2 0\njoin m n\nvolume m",
 		"args": 2
 	},
+	"vertical split": {
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}}\ncrop left w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}}\ncrop right w h/2 0 h/2\njoin m n true\nvolume m",
+		"args": 2
+	},
 	"x meets": {
 		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects that require arguments can not be used in \\`pipe\\``)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}}\njoin m n\nvolume m",
 		"args": 2
@@ -240,17 +244,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**1**. normal\n**2**. custom\n-# `<code>`\n**3**. pipe\n-# `<effect 1; effect 2; and so on>`\n**4**. split\n-# `<effect 1> <effect 2>`\n**5**. x meets\n-# `<effect 1> <effect 2>`\n**6**. getting faster\n**7**. getting slower\n**8**. confusion\n**9**. g major 77114\n**10**. g minor 77114\n**11**. preview 2\n**12**. respondview 2\n-# `<start_pos> <duration>`\n**13**. preview 1280\n-# `<start_pos> <duration>`\n**14**. wrong zoom",
+					"value": "**1**. normal\n**2**. custom\n-# `<code>`\n**3**. pipe\n-# `<effect 1; effect 2; and so on>`\n**4**. split\n-# `<effect 1> <effect 2>`\n**5**. vertical split\n-# `<effect 1> <effect 2>`\n**6**. x meets\n-# `<effect 1> <effect 2>`\n**7**. getting faster\n**8**. getting slower\n**9**. confusion\n**10**. g major 77114\n**11**. g minor 77114\n**12**. preview 2\n**13**. respondview 2\n-# `<start_pos> <duration>`\n**14**. preview 1280\n-# `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**15**. billy gardiners g major 1\n**16**. might confuse you\n**17**. low voice\n**18**. jays g major 525600\n**19**. gold major\n**20**. g major 125\n**21**. does respond\n**22**. does respond common\n**23**. does not respond\n**24**. does not respond common\n**25**. getting faster split getting slower\n**26**. zoopals effect\n**27**. split zoopals effect\n**28**. g major 305",
+					"value": "**15**. wrong zoom\n**16**. billy gardiners g major 1\n**17**. might confuse you\n**18**. low voice\n**19**. jays g major 525600\n**20**. gold major\n**21**. g major 125\n**22**. does respond\n**23**. does respond common\n**24**. does not respond\n**25**. does not respond common\n**26**. getting faster split getting slower\n**27**. zoopals effect\n**28**. split zoopals effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 1/2 of Effects (51 Total Effects)"
+				"text": "Page 1/2 of Effects (52 Total Effects)"
 			}
 		}
 	},
@@ -261,17 +265,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. 91 dxi\n**30**. 44 dxi\n**31**. luig group\n**32**. mari group\n**33**. half luig group\n**34**. half mari group\n**35**. g major 20\n**36**. g major 74\n**37**. g major 74 original\n**38**. ambers g major 1\n**39**. g major 88\n**40**. freakzingas g major 156\n**41**. klaalk\n**42**. ykssky",
+					"value": "**29**. g major 305\n**30**. 91 dxi\n**31**. 44 dxi\n**32**. luig group\n**33**. mari group\n**34**. half luig group\n**35**. half mari group\n**36**. g major 20\n**37**. g major 74\n**38**. g major 74 original\n**39**. ambers g major 1\n**40**. g major 88\n**41**. freakzingas g major 156\n**42**. klaalk",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. g major\n**44**. split g major 88\n**45**. split ambers g major 1\n**46**. xs pet fly\n**47**. g major 302\n**48**. double spin\n**49**. weird x\n**50**. opposite weird x\n**51**. the four horsemen of x",
+					"value": "**43**. ykssky\n**44**. g major\n**45**. split g major 88\n**46**. split ambers g major 1\n**47**. xs pet fly\n**48**. g major 302\n**49**. double spin\n**50**. weird x\n**51**. opposite weird x\n**52**. the four horsemen of x",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/2 of Effects (51 Total Effects)"
+				"text": "Page 2/2 of Effects (52 Total Effects)"
 			}
 		}
 	}
