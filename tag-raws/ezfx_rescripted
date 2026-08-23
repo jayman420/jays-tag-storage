@@ -357,16 +357,16 @@ concat x m
 {if:{get:include_original_media}|!=|true|then:
 snip x d
 }
-copy ihtx ihtxaud
-copy ihtx ihtxvid
-convert ihtxaud audio/flac
-resize ihtxvid 2 2
-if ihtxvidfc > 1080 {jsonify:
-setfps ihtxvid 1080/ihtxvidd
+copy x xaud
+copy x xvid
+convert xaud audio/flac
+resize xvid 2 2
+if xvidfc > 1080 {jsonify:
+setfps xvid 1080/xvidd
 }
-convert ihtxvid image/gif
-speed ihtxaud ihtxaudd/ihtxvidd
-audioputreplace ihtx ihtxaud yes no
+convert xvid image/gif
+speed xaud xaudd/xvidd
+audioputreplace x xaud yes no
 {if:{get:notrim}|!=|true|then:
 speed x xd/({if:{get:include_original_media}|=|true|then:{math:abs({get:exports})+1}|else:{math:abs({get:exports})}}*{if:{get:duration}|=|vidlen|then:d|else:{get:duration}})
 }
