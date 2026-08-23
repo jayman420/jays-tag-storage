@@ -210,6 +210,18 @@
 	"the four horsemen of x": {
 		"code": "scale m 0.5\ncopy m n\ninvert n\nreverse n\njoin m n\ncopy m n\nhueshifthsv n 180\nreverse n\ndobetween n 0 d/2 {jsonify:\nreverse nx\n}\ndobetween n d/2 d {jsonify:\nreverse nx\n}\njoin m n true\nvolume m",
 		"args": 0
+	},
+	"custom major 3": {
+		"code": "haah m\nhueshifthsv m 162\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(0.1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"custom minor 3": {
+		"code": "waaw m\nhueshifthsv m -162\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-0.1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"custom major 333": {
+		"code": "invert m\ndistort m scale_rotate_translate -1\nsharpen m 3\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-0.2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
 	}
 }}}
 {if:{argslen}|=|0|then:
@@ -258,7 +270,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/2 of Effects (53 Total Effects)"
+				"text": "Page 1/2 of Effects (56 Total Effects)"
 			}
 		}
 	},
@@ -274,12 +286,12 @@
 				},
 				{
 					"name": "",
-					"value": "**43**. klaalk\n**44**. ykssky\n**45**. g major\n**46**. split g major 88\n**47**. split ambers g major 1\n**48**. xs pet fly\n**49**. g major 302\n**50**. double spin\n**51**. weird x\n**52**. opposite weird x\n**53**. the four horsemen of x",
+					"value": "**43**. klaalk\n**44**. ykssky\n**45**. g major\n**46**. split g major 88\n**47**. split ambers g major 1\n**48**. xs pet fly\n**49**. g major 302\n**50**. double spin\n**51**. weird x\n**52**. opposite weird x\n**53**. the four horsemen of x\n**54**. custom major 3\n**55**. custom minor 3\n**56**. custom major 333",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/2 of Effects (53 Total Effects)"
+				"text": "Page 2/2 of Effects (56 Total Effects)"
 			}
 		}
 	}
@@ -331,7 +343,7 @@ render m
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
 }
-{set:duration|{type:float|{arg:{math:3+{get:shift}}}|0.5}}
+{set:duration|{type:float|{arg:{math:3+{get:shift}}}|0.4}}
 {set:notrim|{arg:{math:4+{get:shift}}}}
 {set:export_file_format|{or:{arg:{math:5+{get:shift}}}|default}}
 {set:output_file_format|{or:{arg:{math:6+{get:shift}}}|default}}
