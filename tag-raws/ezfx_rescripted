@@ -8,7 +8,7 @@
 		"args": 1
 	},
 	"effects": {
-		"code": "{foreach:{replace:'|\"|{js:\nconst split = discord.variables.__args[1].split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);\n}}|\ncopy m {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m {get:idx}\n}",
+		"code": "copy m n\n{foreach:{replace:'|\"|{js:\nconst split = discord.variables.__args[1].split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);\n}}|\ncopy n {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m {get:idx}\n}",
 		"args": 1
 	},
 	"pipe": {
