@@ -226,6 +226,10 @@
 	"custom major 333": {
 		"code": "invert m\ndistort m scale_rotate_translate -1\nsharpen m 3\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-0.2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
+	},
+	"random": {
+		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|g major 77114|g minor 77114|preview 2|wrong zoom|billy gardiners g major 1|might confuse you|low voice|jays g major 525600|gold major|g major 125|does respond|does respond common|does not respond|does not respond common|getting faster split getting slower|zoopals effect|split zoopals effect|g major 305|22 dxi|91 dxi|44 dxi|luig group|mari group|half luig group|half mari group|g major 20|g major 74|g major 74 original|ambers g major 1|g major 88|freakzingas g major 156|klaalk|ykssky|g major|split g major 88|split ambers g major 1|xs pet fly|g major 302|double spin|weird x|opposite weird x|the four horsemen of x|custom major 3|custom minor 3|custom major 333|random}.code|{get:data}}",
+		"args": 0
 	}
 }}}
 {if:{argslen}|=|0|then:
@@ -274,7 +278,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/3 of Effects (57 Total Effects)"
+				"text": "Page 1/3 of Effects (58 Total Effects)"
 			}
 		}
 	},
@@ -295,7 +299,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/3 of Effects (57 Total Effects)"
+				"text": "Page 2/3 of Effects (58 Total Effects)"
 			}
 		}
 	},
@@ -306,12 +310,12 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**57**. custom major 333",
+					"value": "**57**. custom major 333\n**58**. random",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/3 of Effects (57 Total Effects)"
+				"text": "Page 3/3 of Effects (58 Total Effects)"
 			}
 		}
 	}
