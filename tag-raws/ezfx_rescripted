@@ -391,7 +391,10 @@ render m
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
 }
-{set:duration|{type:float|{arg:{math:3+{get:shift}}}|0.4}}
+{set:duration|{arg:{math:3+{get:shift}}}}
+{if:{get:duration}|!=|vidlen|then:
+{set:duration|{type:float|{get:duration}|0.4}}
+}
 {set:notrim|{arg:{math:4+{get:shift}}}}
 {set:export_file_format|{or:{arg:{math:5+{get:shift}}}|default}}
 {set:output_file_format|{or:{arg:{math:6+{get:shift}}}|default}}
