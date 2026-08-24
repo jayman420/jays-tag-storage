@@ -7,8 +7,8 @@
 		"code": "{eval:{replace:\\u0020#| m|{arg:1}}}",
 		"args": 1
 	},
-	"effect": {
-		"code": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}}",
+	"effects": {
+		"code": "{foreach:{replace:'|\"|{js:\nconst split = discord.variables.__args[1].split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);\n}}|\ncopy m {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m {get:idx}\n}",
 		"args": 1
 	},
 	"pipe": {
@@ -260,7 +260,7 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**1**. normal\n**2**. custom\n-# `<code>`\n**3**. effect\n-# `<effect>`\n**4**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**5**. split\n-# `<effect 1> <effect 2>`\n**6**. vertical split\n-# `<effect 1> <effect 2>`\n**7**. x meets\n-# `<effect 1> <effect 2>`\n**8**. getting faster\n**9**. getting slower\n**10**. confusion\n**11**. g major 77114\n**12**. g minor 77114\n**13**. preview 2\n**14**. respondview 2\n-# `<start_pos> <duration>`",
+					"value": "**1**. normal\n**2**. custom\n-# `<code>`\n**3**. effects\n-# `<effect 1; effect 2; + and so on>`\n**4**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**5**. split\n-# `<effect 1> <effect 2>`\n**6**. vertical split\n-# `<effect 1> <effect 2>`\n**7**. x meets\n-# `<effect 1> <effect 2>`\n**8**. getting faster\n**9**. getting slower\n**10**. confusion\n**11**. g major 77114\n**12**. g minor 77114\n**13**. preview 2\n**14**. respondview 2\n-# `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
