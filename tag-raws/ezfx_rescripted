@@ -119,6 +119,10 @@
 		"code": "hueshifthsv m -119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-7/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"22 dxi": {
+		"code": "swaprgba m bgr\ncontrast m 1.8\nhuecurvergba m all 0 0.2 0.8 1\ncreate bg w h 60 0 0\noverlay bg m 0 0 black 0.1 0.3\noverlay m bg\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-19/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"91 dxi": {
 		"code": "invert m\nhueshifthsv m 72 90 0\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -270,7 +274,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/2 of Effects (56 Total Effects)"
+				"text": "Page 1/3 of Effects (57 Total Effects)"
 			}
 		}
 	},
@@ -281,17 +285,33 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. split zoopals effect\n**30**. g major 305\n**31**. 91 dxi\n**32**. 44 dxi\n**33**. luig group\n**34**. mari group\n**35**. half luig group\n**36**. half mari group\n**37**. g major 20\n**38**. g major 74\n**39**. g major 74 original\n**40**. ambers g major 1\n**41**. g major 88\n**42**. freakzingas g major 156",
+					"value": "**29**. split zoopals effect\n**30**. g major 305\n**31**. 22 dxi\n**32**. 91 dxi\n**33**. 44 dxi\n**34**. luig group\n**35**. mari group\n**36**. half luig group\n**37**. half mari group\n**38**. g major 20\n**39**. g major 74\n**40**. g major 74 original\n**41**. ambers g major 1\n**42**. g major 88",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. klaalk\n**44**. ykssky\n**45**. g major\n**46**. split g major 88\n**47**. split ambers g major 1\n**48**. xs pet fly\n**49**. g major 302\n**50**. double spin\n**51**. weird x\n**52**. opposite weird x\n**53**. the four horsemen of x\n**54**. custom major 3\n**55**. custom minor 3\n**56**. custom major 333",
+					"value": "**43**. freakzingas g major 156\n**44**. klaalk\n**45**. ykssky\n**46**. g major\n**47**. split g major 88\n**48**. split ambers g major 1\n**49**. xs pet fly\n**50**. g major 302\n**51**. double spin\n**52**. weird x\n**53**. opposite weird x\n**54**. the four horsemen of x\n**55**. custom major 3\n**56**. custom minor 3",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/2 of Effects (56 Total Effects)"
+				"text": "Page 2/3 of Effects (57 Total Effects)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"fields": [
+				{
+					"name": "",
+					"value": "**57**. custom major 333",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 3/3 of Effects (57 Total Effects)"
 			}
 		}
 	}
