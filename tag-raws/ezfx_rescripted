@@ -228,28 +228,8 @@
 		"args": 0
 	},
 	"split pitch": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"code": "copy m maud\nconvert maud audio/flac\nset target md\n{foreach:{replace:'|\"|{js:console.log(\"m\".split(\" \"))}}|\ncopy maud m{get:idx}\n{if:{get:valuex}|!=|0|then:\n{set:p|{get:valuex}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m{get:idx} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m{get:idx} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m{get:idx} m{get:idx}d/target\naudiodelay m{get:idx} -0.003\n}\n{if:{get:idx}|>|0|then:\naudioputmix m0 m{get:idx} yes no\nvolume m0\n}\n}\naudioputreplace m m0 yes no",
 		"args": 1
-	},
-	"split 2 pitches": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 2
-	},
-	"split 3 pitches": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 3
-	},
-	"split 4 pitches": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 4
-	},
-	"split 5 pitches": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m4 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m4 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 5
-	},
-	"split 6 pitches": {
-		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m0 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m1 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m2 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m3 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m4 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m4 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\n{set:p|{arg:6}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch m5 {math:2^(min(max({get:p}-({get:idx}*12),0),12)/12)}\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch m5 {math:2^(min(max({get:p}-({get:idx}*-30),-30),0)/12)}\n}\n}\n}\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 6
 	},
 	"random": {
 		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|g major 77114|g minor 77114|preview 2|wrong zoom|billy gardiners g major 1|might confuse you|low voice|jays g major 525600|gold major|g major 125|does respond|does respond common|does not respond|does not respond common|getting faster split getting slower|zoopals effect|split zoopals effect|g major 305|22 dxi|91 dxi|44 dxi|luig group|mari group|half luig group|half mari group|g major 20|g major 74|g major 74 original|ambers g major 1|g major 88|freakzingas g major 156|klaalk|ykssky|g major|split g major 88|split ambers g major 1|xs pet fly|g major 302|double spin|weird x|opposite weird x|the four horsemen of x|custom major 3|custom minor 3|custom major 333|random}.code|{get:data}}",
@@ -302,7 +282,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/3 of Effects (64 Total Effects)"
+				"text": "Page 1/3 of Effects (59 Total Effects)"
 			}
 		}
 	},
@@ -323,7 +303,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/3 of Effects (64 Total Effects)"
+				"text": "Page 2/3 of Effects (59 Total Effects)"
 			}
 		}
 	},
@@ -334,12 +314,12 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**57**. custom major 333\n**58**. split pitch\n-# `<pitch>`\n**59**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**60**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**61**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**62**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**63**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**64**. random",
+					"value": "**57**. custom major 333\n**58**. split pitch\n-# `<pitches separated by spaces>`\n**59**. random",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/3 of Effects (64 Total Effects)"
+				"text": "Page 3/3 of Effects (59 Total Effects)"
 			}
 		}
 	}
