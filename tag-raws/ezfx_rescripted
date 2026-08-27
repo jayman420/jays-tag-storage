@@ -144,6 +144,31 @@
 		"args": 0,
 		"actual_name": "Sad X"
 	},
+	"i killed x": {
+		"code": "hueshifthsv m -134\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-8/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "I KILLED X"
+	},
+	"green lowers": {
+		"code": "swaprgba m bgr\nhueshifthsv m 252\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "Green Lowers"
+	},
+	"green lowers traditional": {
+		"code": "swaprgba m bgr\nhueshifthsv m 275.4\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "Green Lowers (Traditional)"
+	},
+	"green lowers sapphire": {
+		"code": "swaprgba m grb\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "Green Lowers (Sapphire)"
+	},
+	"goo goo gaa gaa": {
+		"code": "swaprgba m bgr\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "Goo Goo Gaa Gaa"
+	},
 	"g major": {
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0,
@@ -435,7 +460,7 @@
 		"actual_name": "Split Opposite Pitches With Zero"
 	},
 	"random": {
-		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|g major|g major 2|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 77114|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|random}.code|{get:data}}",
+		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|g major|g major 2|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 77114|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|random}.code|{get:data}}",
 		"args": 0,
 		"actual_name": "Random"
 	}
@@ -486,7 +511,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/4 of Effects (88 Total Effects)"
+				"text": "Page 1/4 of Effects (93 Total Effects)"
 			}
 		}
 	},
@@ -497,17 +522,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. sad x\n**30**. g major\n**31**. g major 2\n**32**. real g major 4\n**33**. g major 5\n**34**. g major 6\n**35**. g major 7\n**36**. g major 8\n**37**. g major 16\n**38**. g major 16 common\n**39**. g major 16 2.0\n**40**. g major 16 3.0\n**41**. g major 16 4.0\n**42**. g major 20 original",
+					"value": "**29**. sad x\n**30**. i killed x\n**31**. green lowers\n**32**. green lowers traditional\n**33**. green lowers sapphire\n**34**. goo goo gaa gaa\n**35**. g major\n**36**. g major 2\n**37**. real g major 4\n**38**. g major 5\n**39**. g major 6\n**40**. g major 7\n**41**. g major 8\n**42**. g major 16",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. g major 74\n**44**. g major 74 original\n**45**. g major 88\n**46**. g major 125\n**47**. g major 302\n**48**. g major 305\n**49**. g major 591\n**50**. g major 77114\n**51**. g minor 77114\n**52**. custom major 3\n**53**. custom major 333\n**54**. custom minor 3\n**55**. g minor 305\n**56**. 22 dxi",
+					"value": "**43**. g major 16 common\n**44**. g major 16 2.0\n**45**. g major 16 3.0\n**46**. g major 16 4.0\n**47**. g major 20 original\n**48**. g major 74\n**49**. g major 74 original\n**50**. g major 88\n**51**. g major 125\n**52**. g major 302\n**53**. g major 305\n**54**. g major 591\n**55**. g major 77114\n**56**. g minor 77114",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/4 of Effects (88 Total Effects)"
+				"text": "Page 2/4 of Effects (93 Total Effects)"
 			}
 		}
 	},
@@ -518,17 +543,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**57**. 44 dxi\n**58**. 91 dxi\n**59**. jays g major 525600\n**60**. gold major\n**61**. klaalk\n**62**. ykssky\n**63**. xs pet fly\n**64**. double spin\n**65**. the four horsemen of x\n**66**. custom\n-# `<code>`\n**67**. effects\n-# `<effect 1; effect 2; + and so on>`\n**68**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**69**. preview 2\n**70**. respondview 2\n-# `<start_pos> <duration>`",
+					"value": "**57**. custom major 3\n**58**. custom major 333\n**59**. custom minor 3\n**60**. g minor 305\n**61**. 22 dxi\n**62**. 44 dxi\n**63**. 91 dxi\n**64**. jays g major 525600\n**65**. gold major\n**66**. klaalk\n**67**. ykssky\n**68**. xs pet fly\n**69**. double spin\n**70**. the four horsemen of x",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**71**. preview 1280\n-# `<start_pos> <duration>`\n**72**. split\n-# `<effect 1> <effect 2>`\n**73**. vertical split\n-# `<effect 1> <effect 2>`\n**74**. x meets\n-# `<effect 1> <effect 2>`\n**75**. getting faster split getting slower\n**76**. split zoopals effect\n**77**. split g major 88\n**78**. split ambers g major 1\n**79**. split pitch\n-# `<pitch>`\n**80**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**81**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**82**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**83**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**84**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
+					"value": "**71**. custom\n-# `<code>`\n**72**. effects\n-# `<effect 1; effect 2; + and so on>`\n**73**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**74**. preview 2\n**75**. respondview 2\n-# `<start_pos> <duration>`\n**76**. preview 1280\n-# `<start_pos> <duration>`\n**77**. split\n-# `<effect 1> <effect 2>`\n**78**. vertical split\n-# `<effect 1> <effect 2>`\n**79**. x meets\n-# `<effect 1> <effect 2>`\n**80**. getting faster split getting slower\n**81**. split zoopals effect\n**82**. split g major 88\n**83**. split ambers g major 1\n**84**. split pitch\n-# `<pitch>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/4 of Effects (88 Total Effects)"
+				"text": "Page 3/4 of Effects (93 Total Effects)"
 			}
 		}
 	},
@@ -539,12 +564,12 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**85**. split any pitches\n-# `<pitches separated by spaces>`\n**86**. split opposite pitches\n-# `<pitch>`\n**87**. split opposite pitches with zero\n-# `<pitch>`\n**88**. random",
+					"value": "**85**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**86**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**87**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**88**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**89**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**90**. split any pitches\n-# `<pitches separated by spaces>`\n**91**. split opposite pitches\n-# `<pitch>`\n**92**. split opposite pitches with zero\n-# `<pitch>`\n**93**. random",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 4/4 of Effects (88 Total Effects)"
+				"text": "Page 4/4 of Effects (93 Total Effects)"
 			}
 		}
 	}
