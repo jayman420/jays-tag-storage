@@ -174,6 +174,11 @@
 		"args": 0,
 		"actual_name": "Even X Discontinues"
 	},
+	"x committed": {
+		"code": "swaprgba m bgr\nhueshifthsv m 208.79\ninvert m\ncopy m mcrop\ncrop mcrop w*2/3 h*2/3 w/6 h/6\nexplode mcrop 3\noverlay m mcrop w/6 h/6\nimplode m 0.7\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-20/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"args": 0,
+		"actual_name": "X Committed"
+	},
 	"g major": {
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0,
@@ -475,7 +480,7 @@
 		"actual_name": "Split Opposite Pitches With Zero"
 	},
 	"random": {
-		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|g major|g major 2|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 77114|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|random}.code|{get:data}}",
+		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|g major|g major 2|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 77114|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|random}.code|{get:data}}",
 		"args": 0,
 		"actual_name": "Random"
 	}
@@ -526,7 +531,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/4 of Effects (96 Total Effects)"
+				"text": "Page 1/4 of Effects (97 Total Effects)"
 			}
 		}
 	},
@@ -537,17 +542,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**29**. sad x\n**30**. i killed x\n**31**. green lowers\n**32**. green lowers traditional\n**33**. green lowers sapphire\n**34**. goo goo gaa gaa\n**35**. even x discontinues\n**36**. g major\n**37**. g major 2\n**38**. real g major 4\n**39**. g major 5\n**40**. g major 6\n**41**. g major 7\n**42**. g major 8",
+					"value": "**29**. sad x\n**30**. i killed x\n**31**. green lowers\n**32**. green lowers traditional\n**33**. green lowers sapphire\n**34**. goo goo gaa gaa\n**35**. even x discontinues\n**36**. x committed\n**37**. g major\n**38**. g major 2\n**39**. real g major 4\n**40**. g major 5\n**41**. g major 6\n**42**. g major 7",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**43**. g major 16\n**44**. g major 16 common\n**45**. g major 16 2.0\n**46**. g major 16 3.0\n**47**. g major 16 4.0\n**48**. g major 20 original\n**49**. g major 74\n**50**. g major 74 original\n**51**. g major 88\n**52**. g major 125\n**53**. g major 302\n**54**. g major 305\n**55**. g major 591\n**56**. g major 77114",
+					"value": "**43**. g major 8\n**44**. g major 16\n**45**. g major 16 common\n**46**. g major 16 2.0\n**47**. g major 16 3.0\n**48**. g major 16 4.0\n**49**. g major 20 original\n**50**. g major 74\n**51**. g major 74 original\n**52**. g major 88\n**53**. g major 125\n**54**. g major 302\n**55**. g major 305\n**56**. g major 591",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/4 of Effects (96 Total Effects)"
+				"text": "Page 2/4 of Effects (97 Total Effects)"
 			}
 		}
 	},
@@ -558,17 +563,17 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**57**. g minor 77114\n**58**. custom major 3\n**59**. custom major 333\n**60**. custom minor 3\n**61**. g minor 305\n**62**. 22 dxi\n**63**. 44 dxi\n**64**. 91 dxi\n**65**. jays g major 525600\n**66**. gold major\n**67**. klaalk\n**68**. ykssky\n**69**. xs pet fly\n**70**. double spin",
+					"value": "**57**. g major 77114\n**58**. g minor 77114\n**59**. custom major 3\n**60**. custom major 333\n**61**. custom minor 3\n**62**. g minor 305\n**63**. 22 dxi\n**64**. 44 dxi\n**65**. 91 dxi\n**66**. jays g major 525600\n**67**. gold major\n**68**. klaalk\n**69**. ykssky\n**70**. xs pet fly",
 					"inline": "true"
 				},
 				{
 					"name": "",
-					"value": "**71**. the four horsemen of x\n**72**. custom\n-# `<code>`\n**73**. effects\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**74**. multirender\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**75**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**76**. preview 2\n**77**. respondview 2\n-# `<start_pos> <duration>`\n**78**. preview 1280\n-# `<start_pos> <duration>`\n**79**. split\n-# `<effect 1> <effect 2>`\n**80**. vertical split\n-# `<effect 1> <effect 2>`\n**81**. x meets\n-# `<effect 1> <effect 2>`\n**82**. getting faster split getting slower\n**83**. split zoopals effect\n**84**. split g major 88",
+					"value": "**71**. double spin\n**72**. the four horsemen of x\n**73**. custom\n-# `<code>`\n**74**. effects\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**75**. multirender\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**76**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**77**. preview 2\n**78**. respondview 2\n-# `<start_pos> <duration>`\n**79**. preview 1280\n-# `<start_pos> <duration>`\n**80**. split\n-# `<effect 1> <effect 2>`\n**81**. vertical split\n-# `<effect 1> <effect 2>`\n**82**. x meets\n-# `<effect 1> <effect 2>`\n**83**. getting faster split getting slower\n**84**. split zoopals effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/4 of Effects (96 Total Effects)"
+				"text": "Page 3/4 of Effects (97 Total Effects)"
 			}
 		}
 	},
@@ -579,12 +584,12 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**85**. split ambers g major 1\n**86**. confusion + real g major 4\n**87**. split pitch\n-# `<pitch>`\n**88**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**89**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**90**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**91**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**92**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**93**. split any pitches\n-# `<pitches separated by spaces>`\n**94**. split opposite pitches\n-# `<pitch>`\n**95**. split opposite pitches with zero\n-# `<pitch>`\n**96**. random",
+					"value": "**85**. split g major 88\n**86**. split ambers g major 1\n**87**. confusion + real g major 4\n**88**. split pitch\n-# `<pitch>`\n**89**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**90**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**91**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**92**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**93**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**94**. split any pitches\n-# `<pitches separated by spaces>`\n**95**. split opposite pitches\n-# `<pitch>`\n**96**. split opposite pitches with zero\n-# `<pitch>`\n**97**. random",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 4/4 of Effects (96 Total Effects)"
+				"text": "Page 4/4 of Effects (97 Total Effects)"
 			}
 		}
 	}
