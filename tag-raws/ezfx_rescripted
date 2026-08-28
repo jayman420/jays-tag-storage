@@ -355,9 +355,14 @@
 		"actual_name": "Custom"
 	},
 	"effects": {
-		"code": "copy m n\n{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\ncopy n {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m {get:idx}\n}",
-		"args": 1,
+		"code": "copy m n\n{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\ncopy n {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m {get:idx}\n}\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
+		"args": 2,
 		"actual_name": "Effects"
+	},
+	"multirender": {
+		"code": "copy m n\n{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{get:valuex}.code|{get:data}}}\n}}\nconcat m n\n}\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
+		"args": 2,
+		"actual_name": "Multirender"
 	},
 	"pipe": {
 		"code": "{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|>|0|then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{get:valuex}.code|{get:data}}\n}}\n}",
@@ -511,7 +516,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/4 of Effects (93 Total Effects)"
+				"text": "Page 1/4 of Effects (94 Total Effects)"
 			}
 		}
 	},
@@ -532,7 +537,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/4 of Effects (93 Total Effects)"
+				"text": "Page 2/4 of Effects (94 Total Effects)"
 			}
 		}
 	},
@@ -548,12 +553,12 @@
 				},
 				{
 					"name": "",
-					"value": "**71**. custom\n-# `<code>`\n**72**. effects\n-# `<effect 1; effect 2; + and so on>`\n**73**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**74**. preview 2\n**75**. respondview 2\n-# `<start_pos> <duration>`\n**76**. preview 1280\n-# `<start_pos> <duration>`\n**77**. split\n-# `<effect 1> <effect 2>`\n**78**. vertical split\n-# `<effect 1> <effect 2>`\n**79**. x meets\n-# `<effect 1> <effect 2>`\n**80**. getting faster split getting slower\n**81**. split zoopals effect\n**82**. split g major 88\n**83**. split ambers g major 1\n**84**. split pitch\n-# `<pitch>`",
+					"value": "**71**. custom\n-# `<code>`\n**72**. effects\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**73**. multirender\n-# `<effect 1; effect 2; + and so on> <?remove_normal>`\n**74**. pipe\n-# `<effect 1; effect 2; + and so on>`\n**75**. preview 2\n**76**. respondview 2\n-# `<start_pos> <duration>`\n**77**. preview 1280\n-# `<start_pos> <duration>`\n**78**. split\n-# `<effect 1> <effect 2>`\n**79**. vertical split\n-# `<effect 1> <effect 2>`\n**80**. x meets\n-# `<effect 1> <effect 2>`\n**81**. getting faster split getting slower\n**82**. split zoopals effect\n**83**. split g major 88\n**84**. split ambers g major 1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/4 of Effects (93 Total Effects)"
+				"text": "Page 3/4 of Effects (94 Total Effects)"
 			}
 		}
 	},
@@ -564,12 +569,12 @@
 			"fields": [
 				{
 					"name": "",
-					"value": "**85**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**86**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**87**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**88**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**89**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**90**. split any pitches\n-# `<pitches separated by spaces>`\n**91**. split opposite pitches\n-# `<pitch>`\n**92**. split opposite pitches with zero\n-# `<pitch>`\n**93**. random",
+					"value": "**85**. split pitch\n-# `<pitch>`\n**86**. split 2 pitches\n-# `<pitch 1> <pitch 2>`\n**87**. split 3 pitches\n-# `<pitch 1> <pitch 2> <pitch 3>`\n**88**. split 4 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`\n**89**. split 5 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`\n**90**. split 6 pitches\n-# `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`\n**91**. split any pitches\n-# `<pitches separated by spaces>`\n**92**. split opposite pitches\n-# `<pitch>`\n**93**. split opposite pitches with zero\n-# `<pitch>`\n**94**. random",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 4/4 of Effects (93 Total Effects)"
+				"text": "Page 4/4 of Effects (94 Total Effects)"
 			}
 		}
 	}
