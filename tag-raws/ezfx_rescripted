@@ -185,7 +185,7 @@
 		"actual_name": "The Loudest X"
 	},
 	"i accidentally x": {
-		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx 1/(1-(idx/fc))\n}\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-2/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no\naudiodestroy m",
+		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx 1/(1-(idx/fc))\n}\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-4/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no\naudiodestroy m",
 		"args": 0,
 		"actual_name": "I Accidentally X"
 	},
