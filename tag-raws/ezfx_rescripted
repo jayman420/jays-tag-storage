@@ -638,18 +638,7 @@
 					"name": "6. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 1/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "7. Might Confuse You",
 					"value": "Codename: `might confuse you`",
@@ -682,7 +671,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/20 of Effects (115 Total Effects)"
+				"text": "Page 1/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -720,18 +709,7 @@
 					"name": "18. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 3/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "19. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`",
@@ -764,7 +742,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/20 of Effects (115 Total Effects)"
+				"text": "Page 2/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -802,18 +780,7 @@
 					"name": "30. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 5/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "31. Green Lowers",
 					"value": "Codename: `green lowers`",
@@ -846,7 +813,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/20 of Effects (115 Total Effects)"
+				"text": "Page 3/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -884,18 +851,7 @@
 					"name": "42. G-Major",
 					"value": "Codename: `g major`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 7/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "43. G-Major 2",
 					"value": "Codename: `g major 2`",
@@ -928,7 +884,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/20 of Effects (115 Total Effects)"
+				"text": "Page 4/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -966,18 +922,7 @@
 					"name": "54. G-Major 16 4.0",
 					"value": "Codename: `g major 16 4.0`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 9/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "55. G-Major 20 (Original)",
 					"value": "Codename: `g major 20 original`",
@@ -1010,7 +955,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/20 of Effects (115 Total Effects)"
+				"text": "Page 5/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1048,18 +993,7 @@
 					"name": "66. G-Minor 2",
 					"value": "Codename: `g minor 2`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 11/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "67. G-Minor 4",
 					"value": "Codename: `g minor 4`",
@@ -1092,7 +1026,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/20 of Effects (115 Total Effects)"
+				"text": "Page 6/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1130,18 +1064,7 @@
 					"name": "78. Jay's G-Major 525600",
 					"value": "Codename: `jays g major 525600`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 13/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "79. Gold Major",
 					"value": "Codename: `gold major`",
@@ -1174,7 +1097,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/20 of Effects (115 Total Effects)"
+				"text": "Page 7/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1212,18 +1135,7 @@
 					"name": "90. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 15/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "91. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<start_pos> <duration>`",
@@ -1256,7 +1168,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/20 of Effects (115 Total Effects)"
+				"text": "Page 8/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1294,18 +1206,7 @@
 					"name": "102. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 17/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "103. p2funny",
 					"value": "Codename: `p2funny`",
@@ -1338,7 +1239,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 18/20 of Effects (115 Total Effects)"
+				"text": "Page 9/10 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1376,18 +1277,7 @@
 					"name": "114. Split Opposite Pitches With Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 19/20 of Effects (115 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
+				},
 				{
 					"name": "115. Random",
 					"value": "Codename: `random`",
@@ -1395,7 +1285,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 20/20 of Effects (115 Total Effects)"
+				"text": "Page 10/10 of Effects (115 Total Effects)"
 			}
 		}
 	}
