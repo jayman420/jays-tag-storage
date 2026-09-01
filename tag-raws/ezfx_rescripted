@@ -570,33 +570,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Normal",
-					"value": "",
-					"inline": "false"
+					"name": "1. Normal",
+					"value": "Codename: `normal`",
+					"inline": "true"
 				},
 				{
-					"name": "Getting Faster",
-					"value": "",
-					"inline": "false"
+					"name": "2. Getting Faster",
+					"value": "Codename: `getting faster`",
+					"inline": "true"
 				},
 				{
-					"name": "Getting Slower",
-					"value": "",
-					"inline": "false"
+					"name": "3. Getting Slower",
+					"value": "Codename: `getting slower`",
+					"inline": "true"
 				},
 				{
-					"name": "CoNfUsIoN",
-					"value": "",
-					"inline": "false"
+					"name": "4. CoNfUsIoN",
+					"value": "Codename: `confusion`",
+					"inline": "true"
 				},
 				{
-					"name": "Wrong Zoom",
-					"value": "",
-					"inline": "false"
+					"name": "5. Wrong Zoom",
+					"value": "Codename: `wrong zoom`",
+					"inline": "true"
+				},
+				{
+					"name": "6. Billy Gardiner's G-Major 1",
+					"value": "Codename: `billy gardiners g major 1`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 1/22 of Effects (107 Total Effects)"
+				"text": "Page 1/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -606,33 +611,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Billy Gardiner's G-Major 1",
-					"value": "",
-					"inline": "false"
+					"name": "7. Might Confuse You",
+					"value": "Codename: `might confuse you`",
+					"inline": "true"
 				},
 				{
-					"name": "Might Confuse You",
-					"value": "",
-					"inline": "false"
+					"name": "8. Low Voice",
+					"value": "Codename: `low voice`",
+					"inline": "true"
 				},
 				{
-					"name": "Low Voice",
-					"value": "",
-					"inline": "false"
+					"name": "9. Does Respond",
+					"value": "Codename: `does respond`",
+					"inline": "true"
 				},
 				{
-					"name": "Does Respond",
-					"value": "",
-					"inline": "false"
+					"name": "10. Does Respond (Common)",
+					"value": "Codename: `does respond common`",
+					"inline": "true"
 				},
 				{
-					"name": "Does Respond (Common)",
-					"value": "",
-					"inline": "false"
+					"name": "11. Does Not Respond",
+					"value": "Codename: `does not respond`",
+					"inline": "true"
+				},
+				{
+					"name": "12. Does Not Respond (Common)",
+					"value": "Codename: `does not respond common`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 2/22 of Effects (107 Total Effects)"
+				"text": "Page 2/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -642,33 +652,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Does Not Respond",
-					"value": "",
-					"inline": "false"
+					"name": "13. ZooPals Effect",
+					"value": "Codename: `zoopals effect`",
+					"inline": "true"
 				},
 				{
-					"name": "Does Not Respond (Common)",
-					"value": "",
-					"inline": "false"
+					"name": "14. Luig Group",
+					"value": "Codename: `luig group`",
+					"inline": "true"
 				},
 				{
-					"name": "ZooPals Effect",
-					"value": "",
-					"inline": "false"
+					"name": "15. Mari Group",
+					"value": "Codename: `mari group`",
+					"inline": "true"
 				},
 				{
-					"name": "Luig Group",
-					"value": "",
-					"inline": "false"
+					"name": "16. Half Luig Group",
+					"value": "Codename: `half luig group`",
+					"inline": "true"
 				},
 				{
-					"name": "Mari Group",
-					"value": "",
-					"inline": "false"
+					"name": "17. Half Mari Group",
+					"value": "Codename: `half mari group`",
+					"inline": "true"
+				},
+				{
+					"name": "18. Amber's G-Major 1",
+					"value": "Codename: `ambers g major 1`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 3/22 of Effects (107 Total Effects)"
+				"text": "Page 3/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -678,33 +693,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Half Luig Group",
-					"value": "",
-					"inline": "false"
+					"name": "19. Freakzinga's G-Major 156",
+					"value": "Codename: `freakzingas g major 156`",
+					"inline": "true"
 				},
 				{
-					"name": "Half Mari Group",
-					"value": "",
-					"inline": "false"
+					"name": "20. Weird X",
+					"value": "Codename: `weird x`",
+					"inline": "true"
 				},
 				{
-					"name": "Amber's G-Major 1",
-					"value": "",
-					"inline": "false"
+					"name": "21. Opposite Weird X",
+					"value": "Codename: `opposite weird x`",
+					"inline": "true"
 				},
 				{
-					"name": "Freakzinga's G-Major 156",
-					"value": "",
-					"inline": "false"
+					"name": "22. Not Scary",
+					"value": "Codename: `not scary`",
+					"inline": "true"
 				},
 				{
-					"name": "Weird X",
-					"value": "",
-					"inline": "false"
+					"name": "23. Ian's G-Major 74",
+					"value": "Codename: `ians g major 74`",
+					"inline": "true"
+				},
+				{
+					"name": "24. Pika Major",
+					"value": "Codename: `pika major`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 4/22 of Effects (107 Total Effects)"
+				"text": "Page 4/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -714,33 +734,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Opposite Weird X",
-					"value": "",
-					"inline": "false"
+					"name": "25. Rj Kumar's G-Major 9",
+					"value": "Codename: `rj kumars g major 9`",
+					"inline": "true"
 				},
 				{
-					"name": "Not Scary",
-					"value": "",
-					"inline": "false"
+					"name": "26. Rj Kumar's G-Major 9 (Alternate)",
+					"value": "Codename: `rj kumars g major 9 alternate`",
+					"inline": "true"
 				},
 				{
-					"name": "Ian's G-Major 74",
-					"value": "",
-					"inline": "false"
+					"name": "27. Crying X",
+					"value": "Codename: `crying x`",
+					"inline": "true"
 				},
 				{
-					"name": "Pika Major",
-					"value": "",
-					"inline": "false"
+					"name": "28. Crying X (Common)",
+					"value": "Codename: `crying x common`",
+					"inline": "true"
 				},
 				{
-					"name": "Rj Kumar's G-Major 9",
-					"value": "",
-					"inline": "false"
+					"name": "29. Sad X",
+					"value": "Codename: `sad x`",
+					"inline": "true"
+				},
+				{
+					"name": "30. I KILLED X",
+					"value": "Codename: `i killed x`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 5/22 of Effects (107 Total Effects)"
+				"text": "Page 5/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -750,33 +775,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Rj Kumar's G-Major 9 (Alternate)",
-					"value": "",
-					"inline": "false"
+					"name": "31. Green Lowers",
+					"value": "Codename: `green lowers`",
+					"inline": "true"
 				},
 				{
-					"name": "Crying X",
-					"value": "",
-					"inline": "false"
+					"name": "32. Green Lowers (Traditional)",
+					"value": "Codename: `green lowers traditional`",
+					"inline": "true"
 				},
 				{
-					"name": "Crying X (Common)",
-					"value": "",
-					"inline": "false"
+					"name": "33. Green Lowers (Sapphire)",
+					"value": "Codename: `green lowers sapphire`",
+					"inline": "true"
 				},
 				{
-					"name": "Sad X",
-					"value": "",
-					"inline": "false"
+					"name": "34. Goo Goo Gaa Gaa",
+					"value": "Codename: `goo goo gaa gaa`",
+					"inline": "true"
 				},
 				{
-					"name": "I KILLED X",
-					"value": "",
-					"inline": "false"
+					"name": "35. Even X Discontinues",
+					"value": "Codename: `even x discontinues`",
+					"inline": "true"
+				},
+				{
+					"name": "36. X Committed",
+					"value": "Codename: `x committed`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 6/22 of Effects (107 Total Effects)"
+				"text": "Page 6/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -786,33 +816,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Green Lowers",
-					"value": "",
-					"inline": "false"
+					"name": "37. The Loudest X",
+					"value": "Codename: `the loudest x`",
+					"inline": "true"
 				},
 				{
-					"name": "Green Lowers (Traditional)",
-					"value": "",
-					"inline": "false"
+					"name": "38. I Accidentally X",
+					"value": "Codename: `i accidentally x`",
+					"inline": "true"
 				},
 				{
-					"name": "Green Lowers (Sapphire)",
-					"value": "",
-					"inline": "false"
+					"name": "39. Pitch Black",
+					"value": "Codename: `pitch black`",
+					"inline": "true"
 				},
 				{
-					"name": "Goo Goo Gaa Gaa",
-					"value": "",
-					"inline": "false"
+					"name": "40. Pitch White",
+					"value": "Codename: `pitch white`",
+					"inline": "true"
 				},
 				{
-					"name": "Even X Discontinues",
-					"value": "",
-					"inline": "false"
+					"name": "41. Nikita8500HD Major",
+					"value": "Codename: `nikita8500hd major`",
+					"inline": "true"
+				},
+				{
+					"name": "42. G-Major",
+					"value": "Codename: `g major`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 7/22 of Effects (107 Total Effects)"
+				"text": "Page 7/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -822,33 +857,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "X Committed",
-					"value": "",
-					"inline": "false"
+					"name": "43. G-Major 2",
+					"value": "Codename: `g major 2`",
+					"inline": "true"
 				},
 				{
-					"name": "The Loudest X",
-					"value": "",
-					"inline": "false"
+					"name": "44. Real G-Major 4",
+					"value": "Codename: `real g major 4`",
+					"inline": "true"
 				},
 				{
-					"name": "I Accidentally X",
-					"value": "",
-					"inline": "false"
+					"name": "45. G-Major 5",
+					"value": "Codename: `g major 5`",
+					"inline": "true"
 				},
 				{
-					"name": "Pitch Black",
-					"value": "",
-					"inline": "false"
+					"name": "46. G-Major 6",
+					"value": "Codename: `g major 6`",
+					"inline": "true"
 				},
 				{
-					"name": "Pitch White",
-					"value": "",
-					"inline": "false"
+					"name": "47. G-Major 7",
+					"value": "Codename: `g major 7`",
+					"inline": "true"
+				},
+				{
+					"name": "48. G-Major 8",
+					"value": "Codename: `g major 8`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 8/22 of Effects (107 Total Effects)"
+				"text": "Page 8/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -858,33 +898,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Nikita8500HD Major",
-					"value": "",
-					"inline": "false"
+					"name": "49. G-Major 16",
+					"value": "Codename: `g major 16`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major",
-					"value": "",
-					"inline": "false"
+					"name": "50. G-Major 16 (Common)",
+					"value": "Codename: `g major 16 common`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 2",
-					"value": "",
-					"inline": "false"
+					"name": "51. G-Major 16 2.0",
+					"value": "Codename: `g major 16 2.0`",
+					"inline": "true"
 				},
 				{
-					"name": "Real G-Major 4",
-					"value": "",
-					"inline": "false"
+					"name": "52. G-Major 16 3.0",
+					"value": "Codename: `g major 16 3.0`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 5",
-					"value": "",
-					"inline": "false"
+					"name": "53. G-Major 16 4.0",
+					"value": "Codename: `g major 16 4.0`",
+					"inline": "true"
+				},
+				{
+					"name": "54. G-Major 20 (Original)",
+					"value": "Codename: `g major 20 original`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 9/22 of Effects (107 Total Effects)"
+				"text": "Page 9/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -894,33 +939,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "G-Major 6",
-					"value": "",
-					"inline": "false"
+					"name": "55. G-Major 74",
+					"value": "Codename: `g major 74`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 7",
-					"value": "",
-					"inline": "false"
+					"name": "56. G-Major 74 (Original)",
+					"value": "Codename: `g major 74 original`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 8",
-					"value": "",
-					"inline": "false"
+					"name": "57. G-Major 88",
+					"value": "Codename: `g major 88`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 16",
-					"value": "",
-					"inline": "false"
+					"name": "58. G-Major 125",
+					"value": "Codename: `g major 125`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 16 (Common)",
-					"value": "",
-					"inline": "false"
+					"name": "59. G-Major 302",
+					"value": "Codename: `g major 302`",
+					"inline": "true"
+				},
+				{
+					"name": "60. G-Major 305",
+					"value": "Codename: `g major 305`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 10/22 of Effects (107 Total Effects)"
+				"text": "Page 10/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -930,33 +980,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "G-Major 16 2.0",
-					"value": "",
-					"inline": "false"
+					"name": "61. G-Major 591",
+					"value": "Codename: `g major 591`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 16 3.0",
-					"value": "",
-					"inline": "false"
+					"name": "62. G-Major 9000",
+					"value": "Codename: `g major 9000`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 16 4.0",
-					"value": "",
-					"inline": "false"
+					"name": "63. G-Major 77114",
+					"value": "Codename: `g major 77114`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 20 (Original)",
-					"value": "",
-					"inline": "false"
+					"name": "64. G-Minor 77114",
+					"value": "Codename: `g minor 77114`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 74",
-					"value": "",
-					"inline": "false"
+					"name": "65. Custom Major 3",
+					"value": "Codename: `custom major 3`",
+					"inline": "true"
+				},
+				{
+					"name": "66. Custom Major 333",
+					"value": "Codename: `custom major 333`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 11/22 of Effects (107 Total Effects)"
+				"text": "Page 11/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -966,33 +1021,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "G-Major 74 (Original)",
-					"value": "",
-					"inline": "false"
+					"name": "67. Custom Minor 3",
+					"value": "Codename: `custom minor 3`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 88",
-					"value": "",
-					"inline": "false"
+					"name": "68. G-Minor 305",
+					"value": "Codename: `g minor 305`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 125",
-					"value": "",
-					"inline": "false"
+					"name": "69. 22-DXI",
+					"value": "Codename: `22 dxi`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 302",
-					"value": "",
-					"inline": "false"
+					"name": "70. 44-DXI",
+					"value": "Codename: `44 dxi`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 305",
-					"value": "",
-					"inline": "false"
+					"name": "71. 91-DXI",
+					"value": "Codename: `91 dxi`",
+					"inline": "true"
+				},
+				{
+					"name": "72. Jay's G-Major 525600",
+					"value": "Codename: `jays g major 525600`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 12/22 of Effects (107 Total Effects)"
+				"text": "Page 12/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1002,33 +1062,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "G-Major 591",
-					"value": "",
-					"inline": "false"
+					"name": "73. Gold Major",
+					"value": "Codename: `gold major`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 9000",
-					"value": "",
-					"inline": "false"
+					"name": "74. KlaalK",
+					"value": "Codename: `klaalk`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Major 77114",
-					"value": "",
-					"inline": "false"
+					"name": "75. YksskY",
+					"value": "Codename: `ykssky`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Minor 77114",
-					"value": "",
-					"inline": "false"
+					"name": "76. X's Pet Fly",
+					"value": "Codename: `xs pet fly`",
+					"inline": "true"
 				},
 				{
-					"name": "Custom Major 3",
-					"value": "",
-					"inline": "false"
+					"name": "77. Double Spin",
+					"value": "Codename: `double spin`",
+					"inline": "true"
+				},
+				{
+					"name": "78. The Four Horsemen of X",
+					"value": "Codename: `the four horsemen of x`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 13/22 of Effects (107 Total Effects)"
+				"text": "Page 13/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1038,33 +1103,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Custom Major 333",
-					"value": "",
-					"inline": "false"
+					"name": "79. X May Need Assistance",
+					"value": "Codename: `x may need assistance`",
+					"inline": "true"
 				},
 				{
-					"name": "Custom Minor 3",
-					"value": "",
-					"inline": "false"
+					"name": "80. Custom",
+					"value": "Codename: `custom`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "G-Minor 305",
-					"value": "",
-					"inline": "false"
+					"name": "81. Effects",
+					"value": "Codename: `effects`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "22-DXI",
-					"value": "",
-					"inline": "false"
+					"name": "82. Multirender",
+					"value": "Codename: `multirender`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "44-DXI",
-					"value": "",
-					"inline": "false"
+					"name": "83. Pipe",
+					"value": "Codename: `pipe`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
+				},
+				{
+					"name": "84. Preview 2",
+					"value": "Codename: `preview 2`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 14/22 of Effects (107 Total Effects)"
+				"text": "Page 14/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1074,33 +1144,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "91-DXI",
-					"value": "",
-					"inline": "false"
+					"name": "85. Respondview 2",
+					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Jay's G-Major 525600",
-					"value": "",
-					"inline": "false"
+					"name": "86. Preview 1280",
+					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Gold Major",
-					"value": "",
-					"inline": "false"
+					"name": "87. Split",
+					"value": "Codename: `split`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "KlaalK",
-					"value": "",
-					"inline": "false"
+					"name": "88. Vertical Split",
+					"value": "Codename: `vertical split`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "YksskY",
-					"value": "",
-					"inline": "false"
+					"name": "89. X Meets",
+					"value": "Codename: `x meets`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
+				},
+				{
+					"name": "90. Getting Faster Split Getting Slower",
+					"value": "Codename: `getting faster split getting slower`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 15/22 of Effects (107 Total Effects)"
+				"text": "Page 15/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1110,33 +1185,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "X's Pet Fly",
-					"value": "",
-					"inline": "false"
+					"name": "91. Split ZooPals Effect",
+					"value": "Codename: `split zoopals effect`",
+					"inline": "true"
 				},
 				{
-					"name": "Double Spin",
-					"value": "",
-					"inline": "false"
+					"name": "92. Split G-Major 88",
+					"value": "Codename: `split g major 88`",
+					"inline": "true"
 				},
 				{
-					"name": "The Four Horsemen of X",
-					"value": "",
-					"inline": "false"
+					"name": "93. Split Amber's G-Major 1",
+					"value": "Codename: `split ambers g major 1`",
+					"inline": "true"
 				},
 				{
-					"name": "X May Need Assistance",
-					"value": "",
-					"inline": "false"
+					"name": "94. CoNfUsIoN + Real G-Major 4",
+					"value": "Codename: `confusion + real g major 4`",
+					"inline": "true"
 				},
 				{
-					"name": "Custom",
-					"value": "",
-					"inline": "false"
+					"name": "95. p2funny",
+					"value": "Codename: `p2funny`",
+					"inline": "true"
+				},
+				{
+					"name": "96. Kelly Effects",
+					"value": "Codename: `kelly effects`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 16/22 of Effects (107 Total Effects)"
+				"text": "Page 16/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1146,33 +1226,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Effects",
-					"value": "",
-					"inline": "false"
+					"name": "97. 9 Random Effects",
+					"value": "Codename: `9 random effects`",
+					"inline": "true"
 				},
 				{
-					"name": "Multirender",
-					"value": "",
-					"inline": "false"
+					"name": "98. Split Pitch",
+					"value": "Codename: `split pitch`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Pipe",
-					"value": "",
-					"inline": "false"
+					"name": "99. Split 2 Pitches",
+					"value": "Codename: `split 2 pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Preview 2",
-					"value": "",
-					"inline": "false"
+					"name": "100. Split 3 Pitches",
+					"value": "Codename: `split 3 pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Respondview 2",
-					"value": "",
-					"inline": "false"
+					"name": "101. Split 4 Pitches",
+					"value": "Codename: `split 4 pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
+				},
+				{
+					"name": "102. Split 5 Pitches",
+					"value": "Codename: `split 5 pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/22 of Effects (107 Total Effects)"
+				"text": "Page 17/18 of Effects (107 Total Effects)"
 			}
 		}
 	},
@@ -1182,162 +1267,33 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "Preview 1280",
-					"value": "",
-					"inline": "false"
+					"name": "103. Split 6 Pitches",
+					"value": "Codename: `split 6 pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Split",
-					"value": "",
-					"inline": "false"
+					"name": "104. Split Any Pitches",
+					"value": "Codename: `split any pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Vertical Split",
-					"value": "",
-					"inline": "false"
+					"name": "105. Split Opposite Pitches",
+					"value": "Codename: `split opposite pitches`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "X Meets",
-					"value": "",
-					"inline": "false"
+					"name": "106. Split Opposite Pitches With Zero",
+					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
 				},
 				{
-					"name": "Getting Faster Split Getting Slower",
-					"value": "",
-					"inline": "false"
+					"name": "107. Random",
+					"value": "Codename: `random`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/22 of Effects (107 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
-				{
-					"name": "Split ZooPals Effect",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split G-Major 88",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split Amber's G-Major 1",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "CoNfUsIoN + Real G-Major 4",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "p2funny",
-					"value": "",
-					"inline": "false"
-				}
-			],
-			"footer": {
-				"text": "Page 19/22 of Effects (107 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
-				{
-					"name": "Kelly Effects",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "9 Random Effects",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split Pitch",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split 2 Pitches",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split 3 Pitches",
-					"value": "",
-					"inline": "false"
-				}
-			],
-			"footer": {
-				"text": "Page 20/22 of Effects (107 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
-				{
-					"name": "Split 4 Pitches",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split 5 Pitches",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split 6 Pitches",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split Any Pitches",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Split Opposite Pitches",
-					"value": "",
-					"inline": "false"
-				}
-			],
-			"footer": {
-				"text": "Page 21/22 of Effects (107 Total Effects)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"fields": [
-				{
-					"name": "Split Opposite Pitches With Zero",
-					"value": "",
-					"inline": "false"
-				},
-				{
-					"name": "Random",
-					"value": "",
-					"inline": "false"
-				}
-			],
-			"footer": {
-				"text": "Page 22/22 of Effects (107 Total Effects)"
+				"text": "Page 18/18 of Effects (107 Total Effects)"
 			}
 		}
 	}
