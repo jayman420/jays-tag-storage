@@ -190,12 +190,12 @@
 		"actual_name": "I Accidentally X"
 	},
 	"pitch black": {
-		"code": "create bg w h 0 0 0\noverlay bg m 0 0 white 0.2 0.5\noverlay m bg\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-24/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-24/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0,
 		"actual_name": "Pitch Black"
 	},
 	"pitch white": {
-		"code": "create bg w h 255 255 255\noverlay bg m 0 0 black 0.2 0.5\noverlay m bg\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(12/12)\naudiopitch maud 2**(12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
+		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(12/12)\naudiopitch maud 2**(12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0,
 		"actual_name": "Pitch White"
 	},
@@ -213,6 +213,11 @@
 		"code": "invertrgba m 1 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0,
 		"actual_name": "G-Major 2"
+	},
+	"g major 4": {
+		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "G-Major 4"
 	},
 	"real g major 4": {
 		"code": "huecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
@@ -314,6 +319,31 @@
 		"args": 0,
 		"actual_name": "G-Major 77114"
 	},
+	"g minor": {
+		"code": "hueshifthsv m 180\ncontrast m -1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(-4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(-7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(-12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "G-Minor"
+	},
+	"g minor 2": {
+		"code": "invertrgba m 0 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "G-Minor 2"
+	},
+	"g minor 4": {
+		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "G-Minor 4"
+	},
+	"real g minor 4": {
+		"code": "huecurvergba m all 1 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "Real G-Minor 4"
+	},
+	"g minor 5": {
+		"code": "invertrgba m 1 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "G-Minor 5"
+	},
 	"g minor 77114": {
 		"code": "waaw m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0,
@@ -340,7 +370,7 @@
 		"actual_name": "G-Minor 305"
 	},
 	"22 dxi": {
-		"code": "swaprgba m bgr\ncontrast m 1.8\nhuecurvergba m all 0 0.2 0.8 1\ncreate bg w h 60 0 0\noverlay bg m 0 0 black 0.1 0.3\noverlay m bg\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-19/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"code": "swaprgba m bgr\ncontrast m 1.8\nhuecurvergba m all 0 0.2 0.8 1\ncreate bg w h 60 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.3\ncopy bg m\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-19/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0,
 		"actual_name": "22-DXI"
 	},
@@ -490,7 +520,7 @@
 		"actual_name": "Kelly Effects"
 	},
 	"9 random effects": {
-		"code": "{if:{1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhuecurvergba 1 all 0 1 0\ncopy 1 1aud\nconvert 1aud audio/flac\nset target 1d\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(5/12)\nspeed 11 11d/target\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\ninvert 3\ncopy 3 3aud\nconvert 3aud audio/flac\nset target 3d\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(3/12)\nspeed 31 31d/target\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -150\ninvert 4\nflop 4\ncopy 4 4aud\nconvert 4aud audio/flac\nset target 4d\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(-3/12)\nspeed 41 41d/target\naudiodelay 41 -0.003\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\nswaprgba 5 bgr\ncontrast 5 1.8\nhuecurvergba 5 all 0 0.2 0.8 1\ncreate bg w h 60 0 0\noverlay bg 5 0 0 black 0.1 0.3\noverlay 5 bg\nshake 5 0 5h/72 true\ncopy 5 5aud\nconvert 5aud audio/flac\nset target 5d\ncopy 5aud 50\naudiopitch 50 2**(-19/12)\nspeed 50 50d/target\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(12/12)\naudiopitch 51 2**(7/12)\nspeed 51 51d/target\naudiodelay 51 -0.003\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\ncopy n 6\ninvert 6\nhueshifthsv 6 72 90 0\nshake 6 0 6h/72 true\ncopy 6 6aud\nconvert 6aud audio/flac\nset target 6d\ncopy 6aud 60\ncopy 6aud 61\naudiopitch 61 2**(-3.5/12)\nspeed 61 61d/target\naudiodelay 61 -0.003\naudioputmix 60 61 yes no\nvolume 60\naudioputreplace 6 60 yes no\nconcat m 6\ncopy n 7\nhueshifthsv 7 -60\ncopy 7 7crop\ncrop 7crop w h*0.66 0 0\nswirl 7crop -60\noverlay 7 7crop 0 0\ncopy 7 7aud\nconvert 7aud audio/flac\nset target 7d\ncopy 7aud 70\ncopy 7aud 71\naudiopitch 71 2**(-12/12)\nspeed 71 71d/target\naudiodelay 71 -0.003\naudioputmix 70 71 yes no\nvolume 70\naudioputreplace 7 70 yes no\nconcat m 7\ncopy n 8\nhueshifthsv 8 60\ncopy 8 8crop\ncrop 8crop w h*0.66 0 0\nswirl 8crop 60\noverlay 8 8crop 0 0\ncopy 8 8aud\nconvert 8aud audio/flac\nset target 8d\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(12/12)\nspeed 81 81d/target\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8",
+		"code": "{if:{1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhuecurvergba 1 all 0 1 0\ncopy 1 1aud\nconvert 1aud audio/flac\nset target 1d\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(5/12)\nspeed 11 11d/target\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\ninvert 3\ncopy 3 3aud\nconvert 3aud audio/flac\nset target 3d\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(3/12)\nspeed 31 31d/target\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -150\ninvert 4\nflop 4\ncopy 4 4aud\nconvert 4aud audio/flac\nset target 4d\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(-3/12)\nspeed 41 41d/target\naudiodelay 41 -0.003\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\nswaprgba 5 bgr\ncontrast 5 1.8\nhuecurvergba 5 all 0 0.2 0.8 1\ncreate bg w h 60 0 0\nconvert bg video/mp4\nrepeatduration bg 5d\nsetfps bg fps\noverlay bg 5 0 0 black 0.1 0.3\ncopy bg 5\nshake 5 0 5h/72 true\ncopy 5 5aud\nconvert 5aud audio/flac\nset target 5d\ncopy 5aud 50\naudiopitch 50 2**(-19/12)\nspeed 50 50d/target\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(12/12)\naudiopitch 51 2**(7/12)\nspeed 51 51d/target\naudiodelay 51 -0.003\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\ncopy n 6\ninvert 6\nhueshifthsv 6 72 90 0\nshake 6 0 6h/72 true\ncopy 6 6aud\nconvert 6aud audio/flac\nset target 6d\ncopy 6aud 60\ncopy 6aud 61\naudiopitch 61 2**(-3.5/12)\nspeed 61 61d/target\naudiodelay 61 -0.003\naudioputmix 60 61 yes no\nvolume 60\naudioputreplace 6 60 yes no\nconcat m 6\ncopy n 7\nhueshifthsv 7 -60\ncopy 7 7crop\ncrop 7crop w h*0.66 0 0\nswirl 7crop -60\noverlay 7 7crop 0 0\ncopy 7 7aud\nconvert 7aud audio/flac\nset target 7d\ncopy 7aud 70\ncopy 7aud 71\naudiopitch 71 2**(-12/12)\nspeed 71 71d/target\naudiodelay 71 -0.003\naudioputmix 70 71 yes no\nvolume 70\naudioputreplace 7 70 yes no\nconcat m 7\ncopy n 8\nhueshifthsv 8 60\ncopy 8 8crop\ncrop 8crop w h*0.66 0 0\nswirl 8crop 60\noverlay 8 8crop 0 0\ncopy 8 8aud\nconvert 8aud audio/flac\nset target 8d\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(12/12)\nspeed 81 81d/target\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8",
 		"args": 0,
 		"actual_name": "9 Random Effects"
 	},
@@ -540,7 +570,7 @@
 		"actual_name": "Split Opposite Pitches With Zero"
 	},
 	"random": {
-		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|the loudest x|i accidentally x|pitch black|pitch white|nikita8500hd major|g major|g major 2|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|p2funny|kelly effects|9 random effects|random}.code|{get:data}}",
+		"code": "{traversejson:{choose:normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|the loudest x|i accidentally x|pitch black|pitch white|nikita8500hd major|g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 77114|custom major 3|custom major 333|custom minor 3|g minor 305|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|p2funny|kelly effects|9 random effects|random}.code|{get:data}}",
 		"args": 0,
 		"actual_name": "Random"
 	}
@@ -611,7 +641,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/19 of Effects (109 Total Effects)"
+				"text": "Page 1/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -652,7 +682,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/19 of Effects (109 Total Effects)"
+				"text": "Page 2/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -693,7 +723,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/19 of Effects (109 Total Effects)"
+				"text": "Page 3/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -734,7 +764,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/19 of Effects (109 Total Effects)"
+				"text": "Page 4/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -775,7 +805,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/19 of Effects (109 Total Effects)"
+				"text": "Page 5/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -816,7 +846,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/19 of Effects (109 Total Effects)"
+				"text": "Page 6/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -857,7 +887,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/19 of Effects (109 Total Effects)"
+				"text": "Page 7/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -872,33 +902,33 @@
 					"inline": "true"
 				},
 				{
-					"name": "44. Real G-Major 4",
+					"name": "44. G-Major 4",
+					"value": "Codename: `g major 4`",
+					"inline": "true"
+				},
+				{
+					"name": "45. Real G-Major 4",
 					"value": "Codename: `real g major 4`",
 					"inline": "true"
 				},
 				{
-					"name": "45. G-Major 5",
+					"name": "46. G-Major 5",
 					"value": "Codename: `g major 5`",
 					"inline": "true"
 				},
 				{
-					"name": "46. G-Major 6",
+					"name": "47. G-Major 6",
 					"value": "Codename: `g major 6`",
 					"inline": "true"
 				},
 				{
-					"name": "47. G-Major 7",
+					"name": "48. G-Major 7",
 					"value": "Codename: `g major 7`",
-					"inline": "true"
-				},
-				{
-					"name": "48. G-Major 8",
-					"value": "Codename: `g major 8`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 8/19 of Effects (109 Total Effects)"
+				"text": "Page 8/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -908,38 +938,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "49. G-Major 16",
+					"name": "49. G-Major 8",
+					"value": "Codename: `g major 8`",
+					"inline": "true"
+				},
+				{
+					"name": "50. G-Major 16",
 					"value": "Codename: `g major 16`",
 					"inline": "true"
 				},
 				{
-					"name": "50. G-Major 16 (Common)",
+					"name": "51. G-Major 16 (Common)",
 					"value": "Codename: `g major 16 common`",
 					"inline": "true"
 				},
 				{
-					"name": "51. G-Major 16 2.0",
+					"name": "52. G-Major 16 2.0",
 					"value": "Codename: `g major 16 2.0`",
 					"inline": "true"
 				},
 				{
-					"name": "52. G-Major 16 3.0",
+					"name": "53. G-Major 16 3.0",
 					"value": "Codename: `g major 16 3.0`",
 					"inline": "true"
 				},
 				{
-					"name": "53. G-Major 16 4.0",
+					"name": "54. G-Major 16 4.0",
 					"value": "Codename: `g major 16 4.0`",
-					"inline": "true"
-				},
-				{
-					"name": "54. G-Major 20 (Original)",
-					"value": "Codename: `g major 20 original`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 9/19 of Effects (109 Total Effects)"
+				"text": "Page 9/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -949,38 +979,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "55. G-Major 74",
+					"name": "55. G-Major 20 (Original)",
+					"value": "Codename: `g major 20 original`",
+					"inline": "true"
+				},
+				{
+					"name": "56. G-Major 74",
 					"value": "Codename: `g major 74`",
 					"inline": "true"
 				},
 				{
-					"name": "56. G-Major 74 (Original)",
+					"name": "57. G-Major 74 (Original)",
 					"value": "Codename: `g major 74 original`",
 					"inline": "true"
 				},
 				{
-					"name": "57. G-Major 88",
+					"name": "58. G-Major 88",
 					"value": "Codename: `g major 88`",
 					"inline": "true"
 				},
 				{
-					"name": "58. G-Major 125",
+					"name": "59. G-Major 125",
 					"value": "Codename: `g major 125`",
 					"inline": "true"
 				},
 				{
-					"name": "59. G-Major 302",
+					"name": "60. G-Major 302",
 					"value": "Codename: `g major 302`",
-					"inline": "true"
-				},
-				{
-					"name": "60. G-Major 305",
-					"value": "Codename: `g major 305`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 10/19 of Effects (109 Total Effects)"
+				"text": "Page 10/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -990,38 +1020,79 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "61. G-Major 591",
+					"name": "61. G-Major 305",
+					"value": "Codename: `g major 305`",
+					"inline": "true"
+				},
+				{
+					"name": "62. G-Major 591",
 					"value": "Codename: `g major 591`",
 					"inline": "true"
 				},
 				{
-					"name": "62. G-Major 9000",
+					"name": "63. G-Major 9000",
 					"value": "Codename: `g major 9000`",
 					"inline": "true"
 				},
 				{
-					"name": "63. G-Major 77114",
+					"name": "64. G-Major 77114",
 					"value": "Codename: `g major 77114`",
 					"inline": "true"
 				},
 				{
-					"name": "64. G-Minor 77114",
+					"name": "65. G-Minor",
+					"value": "Codename: `g minor`",
+					"inline": "true"
+				},
+				{
+					"name": "66. G-Minor 2",
+					"value": "Codename: `g minor 2`",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 11/20 of Effects (115 Total Effects)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"fields": [
+				{
+					"name": "67. G-Minor 4",
+					"value": "Codename: `g minor 4`",
+					"inline": "true"
+				},
+				{
+					"name": "68. Real G-Minor 4",
+					"value": "Codename: `real g minor 4`",
+					"inline": "true"
+				},
+				{
+					"name": "69. G-Minor 5",
+					"value": "Codename: `g minor 5`",
+					"inline": "true"
+				},
+				{
+					"name": "70. G-Minor 77114",
 					"value": "Codename: `g minor 77114`",
 					"inline": "true"
 				},
 				{
-					"name": "65. Custom Major 3",
+					"name": "71. Custom Major 3",
 					"value": "Codename: `custom major 3`",
 					"inline": "true"
 				},
 				{
-					"name": "66. Custom Major 333",
+					"name": "72. Custom Major 333",
 					"value": "Codename: `custom major 333`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 11/19 of Effects (109 Total Effects)"
+				"text": "Page 12/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1031,38 +1102,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "67. Custom Minor 3",
+					"name": "73. Custom Minor 3",
 					"value": "Codename: `custom minor 3`",
 					"inline": "true"
 				},
 				{
-					"name": "68. G-Minor 305",
+					"name": "74. G-Minor 305",
 					"value": "Codename: `g minor 305`",
 					"inline": "true"
 				},
 				{
-					"name": "69. 22-DXI",
+					"name": "75. 22-DXI",
 					"value": "Codename: `22 dxi`",
 					"inline": "true"
 				},
 				{
-					"name": "70. 44-DXI",
+					"name": "76. 44-DXI",
 					"value": "Codename: `44 dxi`",
 					"inline": "true"
 				},
 				{
-					"name": "71. 91-DXI",
+					"name": "77. 91-DXI",
 					"value": "Codename: `91 dxi`",
 					"inline": "true"
 				},
 				{
-					"name": "72. Jay's G-Major 525600",
+					"name": "78. Jay's G-Major 525600",
 					"value": "Codename: `jays g major 525600`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 12/19 of Effects (109 Total Effects)"
+				"text": "Page 13/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1072,38 +1143,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "73. Gold Major",
+					"name": "79. Gold Major",
 					"value": "Codename: `gold major`",
 					"inline": "true"
 				},
 				{
-					"name": "74. KlaalK",
+					"name": "80. KlaalK",
 					"value": "Codename: `klaalk`",
 					"inline": "true"
 				},
 				{
-					"name": "75. YksskY",
+					"name": "81. YksskY",
 					"value": "Codename: `ykssky`",
 					"inline": "true"
 				},
 				{
-					"name": "76. X's Pet Fly",
+					"name": "82. X's Pet Fly",
 					"value": "Codename: `xs pet fly`",
 					"inline": "true"
 				},
 				{
-					"name": "77. Double Spin",
+					"name": "83. Double Spin",
 					"value": "Codename: `double spin`",
 					"inline": "true"
 				},
 				{
-					"name": "78. The Four Horsemen of X",
+					"name": "84. The Four Horsemen of X",
 					"value": "Codename: `the four horsemen of x`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 13/19 of Effects (109 Total Effects)"
+				"text": "Page 14/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1113,38 +1184,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "79. X May Need Assistance",
+					"name": "85. X May Need Assistance",
 					"value": "Codename: `x may need assistance`",
 					"inline": "true"
 				},
 				{
-					"name": "80. X IS EVIL!!!",
+					"name": "86. X IS EVIL!!!",
 					"value": "Codename: `x is evil`",
 					"inline": "true"
 				},
 				{
-					"name": "81. X IS NICE!!!",
+					"name": "87. X IS NICE!!!",
 					"value": "Codename: `x is nice`",
 					"inline": "true"
 				},
 				{
-					"name": "82. Custom",
+					"name": "88. Custom",
 					"value": "Codename: `custom`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "83. Effects",
+					"name": "89. Effects",
 					"value": "Codename: `effects`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "84. Multirender",
+					"name": "90. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 14/19 of Effects (109 Total Effects)"
+				"text": "Page 15/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1154,38 +1225,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "85. Pipe",
+					"name": "91. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "86. Preview 2",
+					"name": "92. Preview 2",
 					"value": "Codename: `preview 2`",
 					"inline": "true"
 				},
 				{
-					"name": "87. Respondview 2",
+					"name": "93. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "88. Preview 1280",
+					"name": "94. Preview 1280",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "89. Split",
+					"name": "95. Split",
 					"value": "Codename: `split`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "90. Vertical Split",
+					"name": "96. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 15/19 of Effects (109 Total Effects)"
+				"text": "Page 16/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1195,38 +1266,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "91. X Meets",
+					"name": "97. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "92. Getting Faster Split Getting Slower",
+					"name": "98. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "93. Split ZooPals Effect",
+					"name": "99. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "94. Split G-Major 88",
+					"name": "100. Split G-Major 88",
 					"value": "Codename: `split g major 88`",
 					"inline": "true"
 				},
 				{
-					"name": "95. Split Amber's G-Major 1",
+					"name": "101. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`",
 					"inline": "true"
 				},
 				{
-					"name": "96. CoNfUsIoN + Real G-Major 4",
+					"name": "102. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 16/19 of Effects (109 Total Effects)"
+				"text": "Page 17/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1236,38 +1307,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "97. p2funny",
+					"name": "103. p2funny",
 					"value": "Codename: `p2funny`",
 					"inline": "true"
 				},
 				{
-					"name": "98. Kelly Effects",
+					"name": "104. Kelly Effects",
 					"value": "Codename: `kelly effects`",
 					"inline": "true"
 				},
 				{
-					"name": "99. 9 Random Effects",
+					"name": "105. 9 Random Effects",
 					"value": "Codename: `9 random effects`",
 					"inline": "true"
 				},
 				{
-					"name": "100. Split Pitch",
+					"name": "106. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "101. Split 2 Pitches",
+					"name": "107. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "102. Split 3 Pitches",
+					"name": "108. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/19 of Effects (109 Total Effects)"
+				"text": "Page 18/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1277,38 +1348,38 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "103. Split 4 Pitches",
+					"name": "109. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "104. Split 5 Pitches",
+					"name": "110. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "105. Split 6 Pitches",
+					"name": "111. Split 6 Pitches",
 					"value": "Codename: `split 6 pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "106. Split Any Pitches",
+					"name": "112. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "107. Split Opposite Pitches",
+					"name": "113. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "108. Split Opposite Pitches With Zero",
+					"name": "114. Split Opposite Pitches With Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/19 of Effects (109 Total Effects)"
+				"text": "Page 19/20 of Effects (115 Total Effects)"
 			}
 		}
 	},
@@ -1318,13 +1389,13 @@
 			"title": "THE LIST (but better)",
 			"fields": [
 				{
-					"name": "109. Random",
+					"name": "115. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 19/19 of Effects (109 Total Effects)"
+				"text": "Page 20/20 of Effects (115 Total Effects)"
 			}
 		}
 	}
