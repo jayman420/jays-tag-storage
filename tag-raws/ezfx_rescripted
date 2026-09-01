@@ -510,7 +510,7 @@
 		"actual_name": "CoNfUsIoN + Real G-Major 4"
 	},
 	"p2funny": {
-		"code": "{if:{1}|=|true|then:\nspeed m 2*(1+(2**(5/12)))\n}\ncopy m n\nhueshifthsv n 180\ninvert n\nhaah n\naudioreverse n\ncopy m n\ncopy m n\nhaah n\nhueshifthsv n 180\nspeed n 2**(-5/12)\naudiopitch n 2**(-5/12)\ncopy m n\nvolume m",
+		"code": "{if:{1}|=|true|then:\nspeed m 2*(1+(2**(5/12)))\n}\ncopy m n\nhueshifthsv n 180\ninvert n\nhaah n\naudioreverse n\nconcat m n\ncopy m n\nhaah n\nhueshifthsv n 180\nspeed n 2**(-5/12)\naudiopitch n 2**(-5/12)\nconcat m n\nvolume m",
 		"args": 0,
 		"actual_name": "p2funny"
 	},
