@@ -638,34 +638,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "1. G-Major",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major`",
 					"inline": "false"
 				},
 				{
 					"name": "2. G-Major 2",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 2`",
 					"inline": "false"
 				},
 				{
 					"name": "3. G-Major 4",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 4`",
 					"inline": "false"
 				},
 				{
 					"name": "4. Real G-Major 4",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `real g major 4`",
 					"inline": "false"
 				},
 				{
 					"name": "5. G-Major 5",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 5`",
 					"inline": "false"
 				}
@@ -679,34 +675,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "6. G-Major 6",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 6`",
 					"inline": "false"
 				},
 				{
 					"name": "7. G-Major 7",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 7`",
 					"inline": "false"
 				},
 				{
 					"name": "8. G-Major 8",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 8`",
 					"inline": "false"
 				},
 				{
 					"name": "9. G-Major 16",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 16`",
 					"inline": "false"
 				},
 				{
 					"name": "10. G-Major 16 (Common)",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 16 common`",
 					"inline": "false"
 				}
@@ -720,34 +712,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "11. G-Major 16 2.0",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 16 2.0`",
 					"inline": "false"
 				},
 				{
 					"name": "12. G-Major 16 3.0",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 16 3.0`",
 					"inline": "false"
 				},
 				{
 					"name": "13. G-Major 16 4.0",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 16 4.0`",
 					"inline": "false"
 				},
 				{
 					"name": "14. G-Major 20 (Original)",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 20 original`",
 					"inline": "false"
 				},
 				{
 					"name": "15. G-Major 74",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 74`",
 					"inline": "false"
 				}
@@ -761,34 +749,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "16. G-Major 74 (Original)",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 74 original`",
 					"inline": "false"
 				},
 				{
 					"name": "17. G-Major 88",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 88`",
 					"inline": "false"
 				},
 				{
 					"name": "18. G-Major 125",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 125`",
 					"inline": "false"
 				},
 				{
 					"name": "19. G-Major 302",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 302`",
 					"inline": "false"
 				},
 				{
 					"name": "20. G-Major 305",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 305`",
 					"inline": "false"
 				}
@@ -802,22 +786,20 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "21. G-Major 591",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 591`",
 					"inline": "false"
 				},
 				{
 					"name": "22. G-Major 9000",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 9000`",
 					"inline": "false"
 				},
 				{
 					"name": "23. G-Major 77114",
-					"description": "### Category: G-Major Effects",
 					"value": "Codename: `g major 77114`",
 					"inline": "false"
 				}
@@ -831,34 +813,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "24. G-Minor",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor`",
 					"inline": "false"
 				},
 				{
 					"name": "25. G-Minor 2",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor 2`",
 					"inline": "false"
 				},
 				{
 					"name": "26. G-Minor 4",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor 4`",
 					"inline": "false"
 				},
 				{
 					"name": "27. Real G-Minor 4",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `real g minor 4`",
 					"inline": "false"
 				},
 				{
 					"name": "28. G-Minor 5",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor 5`",
 					"inline": "false"
 				}
@@ -872,16 +850,15 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "29. G-Minor 305",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor 305`",
 					"inline": "false"
 				},
 				{
 					"name": "30. G-Minor 77114",
-					"description": "### Category: G-Minor Effects",
 					"value": "Codename: `g minor 77114`",
 					"inline": "false"
 				}
@@ -895,16 +872,15 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Custom Major Effects",
 			"fields": [
 				{
 					"name": "31. Custom Major 3",
-					"description": "### Category: Custom Major Effects",
 					"value": "Codename: `custom major 3`",
 					"inline": "false"
 				},
 				{
 					"name": "32. Custom Major 333",
-					"description": "### Category: Custom Major Effects",
 					"value": "Codename: `custom major 333`",
 					"inline": "false"
 				}
@@ -918,10 +894,10 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Custom Minor Effects",
 			"fields": [
 				{
 					"name": "33. Custom Minor 3",
-					"description": "### Category: Custom Minor Effects",
 					"value": "Codename: `custom minor 3`",
 					"inline": "false"
 				}
@@ -935,22 +911,20 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Degree Xerox Ice (DXI) Effects",
 			"fields": [
 				{
 					"name": "34. 22-DXI",
-					"description": "### Category: Degree Xerox Ice (DXI) Effects",
 					"value": "Codename: `22 dxi`",
 					"inline": "false"
 				},
 				{
 					"name": "35. 44-DXI",
-					"description": "### Category: Degree Xerox Ice (DXI) Effects",
 					"value": "Codename: `44 dxi`",
 					"inline": "false"
 				},
 				{
 					"name": "36. 91-DXI",
-					"description": "### Category: Degree Xerox Ice (DXI) Effects",
 					"value": "Codename: `91 dxi`",
 					"inline": "false"
 				}
@@ -964,10 +938,10 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: My G-Major Effects",
 			"fields": [
 				{
 					"name": "37. Jay's G-Major 525600",
-					"description": "### Category: My G-Major Effects",
 					"value": "Codename: `jays g major 525600`",
 					"inline": "false"
 				}
@@ -981,34 +955,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: My Other Effects",
 			"fields": [
 				{
 					"name": "38. Gold Major",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `gold major`",
 					"inline": "false"
 				},
 				{
 					"name": "39. The Loudest X",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `the loudest x`",
 					"inline": "false"
 				},
 				{
 					"name": "40. KlaalK",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `klaalk`",
 					"inline": "false"
 				},
 				{
 					"name": "41. YksskY",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `ykssky`",
 					"inline": "false"
 				},
 				{
 					"name": "42. X's Pet Fly",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `xs pet fly`",
 					"inline": "false"
 				}
@@ -1022,34 +992,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: My Other Effects",
 			"fields": [
 				{
 					"name": "43. Double Spin",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `double spin`",
 					"inline": "false"
 				},
 				{
 					"name": "44. The Four Horsemen of X",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `the four horsemen of x`",
 					"inline": "false"
 				},
 				{
 					"name": "45. X May Need Assistance",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `x may need assistance`",
 					"inline": "false"
 				},
 				{
 					"name": "46. X IS EVIL!!!",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `x is evil`",
 					"inline": "false"
 				},
 				{
 					"name": "47. X IS NICE!!!",
-					"description": "### Category: My Other Effects",
 					"value": "Codename: `x is nice`",
 					"inline": "false"
 				}
@@ -1063,34 +1029,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
 					"name": "48. Custom",
-					"description": "### Category: Effects with Arguments",
-					"value": "Codename: `custom`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `custom`\nSyntax: `<code>`",
 					"inline": "false"
 				},
 				{
 					"name": "49. Effects",
-					"description": "### Category: Effects with Arguments",
-					"value": "Codename: `effects`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
 					"name": "50. Multirender",
-					"description": "### Category: Effects with Arguments",
-					"value": "Codename: `multirender`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
 					"name": "51. Pipe",
-					"description": "### Category: Effects with Arguments",
-					"value": "Codename: `pipe`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "false"
 				},
 				{
 					"name": "52. Preview 2",
-					"description": "### Category: Effects with Arguments",
 					"value": "Codename: `preview 2`",
 					"inline": "false"
 				}
@@ -1104,16 +1066,15 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
 					"name": "53. Respondview 2",
-					"description": "### Category: Effects with Arguments",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				},
 				{
 					"name": "54. Preview 1280",
-					"description": "### Category: Effects with Arguments",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				}
@@ -1127,34 +1088,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Split Effects",
 			"fields": [
 				{
 					"name": "55. Split",
-					"description": "### Category: Split Effects",
-					"value": "Codename: `split`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
 					"name": "56. Vertical Split",
-					"description": "### Category: Split Effects",
-					"value": "Codename: `vertical split`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
 					"name": "57. X Meets",
-					"description": "### Category: Split Effects",
-					"value": "Codename: `x meets`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
 					"name": "58. Getting Faster Split Getting Slower",
-					"description": "### Category: Split Effects",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "false"
 				},
 				{
 					"name": "59. Split ZooPals Effect",
-					"description": "### Category: Split Effects",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "false"
 				}
@@ -1168,16 +1125,15 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Split Effects",
 			"fields": [
 				{
 					"name": "60. Split G-Major 88",
-					"description": "### Category: Split Effects",
 					"value": "Codename: `split g major 88`",
 					"inline": "false"
 				},
 				{
 					"name": "61. Split Amber's G-Major 1",
-					"description": "### Category: Split Effects",
 					"value": "Codename: `split ambers g major 1`",
 					"inline": "false"
 				}
@@ -1191,10 +1147,10 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Combination Effects",
 			"fields": [
 				{
 					"name": "62. CoNfUsIoN + Real G-Major 4",
-					"description": "### Category: Combination Effects",
 					"value": "Codename: `confusion + real g major 4`",
 					"inline": "false"
 				}
@@ -1208,23 +1164,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Effect Collections",
 			"fields": [
 				{
 					"name": "63. p2funny",
-					"description": "### Category: Effect Collections",
-					"value": "Codename: `p2funny`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
 					"name": "64. Kelly Effects",
-					"description": "### Category: Effect Collections",
-					"value": "Codename: `kelly effects`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
 					"name": "65. 9 Random Effects",
-					"description": "### Category: Effect Collections",
-					"value": "Codename: `9 random effects`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				}
 			],
@@ -1237,35 +1191,31 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
 					"name": "66. Split Pitch",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split pitch`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
 					"name": "67. Split 2 Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 2 pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
 					"name": "68. Split 2 Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
 					"name": "69. Split 3 Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 3 pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				},
 				{
 					"name": "70. Split 3 Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				}
 			],
@@ -1278,35 +1228,31 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
 					"name": "71. Split 4 Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 4 pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
 					"name": "72. Split 4 Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
 					"name": "73. Split 5 Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 5 pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
 					"name": "74. Split 5 Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
 					"name": "75. Split 6 Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 6 pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				}
 			],
@@ -1319,35 +1265,31 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
 					"name": "76. Split 6 Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
 					"name": "77. Split Any Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split any pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
 					"name": "78. Split Any Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split any pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
 					"name": "79. Split Opposite Pitches",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split opposite pitches`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
 					"name": "80. Split Opposite Pitches with Zero",
-					"description": "### Category: The Split Pitch Collection",
-					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<start_pos> <duration>`",
+					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
@@ -1360,34 +1302,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "81. Normal",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `normal`",
 					"inline": "false"
 				},
 				{
 					"name": "82. Getting Faster",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `getting faster`",
 					"inline": "false"
 				},
 				{
 					"name": "83. Getting Slower",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `getting slower`",
 					"inline": "false"
 				},
 				{
 					"name": "84. CoNfUsIoN",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `confusion`",
 					"inline": "false"
 				},
 				{
 					"name": "85. Wrong Zoom",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `wrong zoom`",
 					"inline": "false"
 				}
@@ -1401,34 +1339,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "86. Billy Gardiner's G-Major 1",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `billy gardiners g major 1`",
 					"inline": "false"
 				},
 				{
 					"name": "87. Might Confuse You",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `might confuse you`",
 					"inline": "false"
 				},
 				{
 					"name": "88. Low Voice",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `low voice`",
 					"inline": "false"
 				},
 				{
 					"name": "89. Does Respond",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `does respond`",
 					"inline": "false"
 				},
 				{
 					"name": "90. Does Respond (Common)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `does respond common`",
 					"inline": "false"
 				}
@@ -1442,34 +1376,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "91. Does Not Respond",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `does not respond`",
 					"inline": "false"
 				},
 				{
 					"name": "92. Does Not Respond (Common)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `does not respond common`",
 					"inline": "false"
 				},
 				{
 					"name": "93. ZooPals Effect",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `zoopals effect`",
 					"inline": "false"
 				},
 				{
 					"name": "94. Luig Group",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `luig group`",
 					"inline": "false"
 				},
 				{
 					"name": "95. Mari Group",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `mari group`",
 					"inline": "false"
 				}
@@ -1483,34 +1413,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "96. Half Luig Group",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `half luig group`",
 					"inline": "false"
 				},
 				{
 					"name": "97. Half Mari Group",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `half mari group`",
 					"inline": "false"
 				},
 				{
 					"name": "98. Amber's G-Major 1",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `ambers g major 1`",
 					"inline": "false"
 				},
 				{
 					"name": "99. Freakzinga's G-Major 156",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `freakzingas g major 156`",
 					"inline": "false"
 				},
 				{
 					"name": "100. Weird X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `weird x`",
 					"inline": "false"
 				}
@@ -1524,34 +1450,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "101. Opposite Weird X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `opposite weird x`",
 					"inline": "false"
 				},
 				{
 					"name": "102. Not Scary",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `not scary`",
 					"inline": "false"
 				},
 				{
 					"name": "103. Ian's G-Major 74",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `ians g major 74`",
 					"inline": "false"
 				},
 				{
 					"name": "104. Pika Major",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `pika major`",
 					"inline": "false"
 				},
 				{
 					"name": "105. Rj Kumar's G-Major 9",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `rj kumars g major 9`",
 					"inline": "false"
 				}
@@ -1565,34 +1487,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "106. Rj Kumar's G-Major 9 (Alternate)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `rj kumars g major 9 alternate`",
 					"inline": "false"
 				},
 				{
 					"name": "107. Crying X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `crying x`",
 					"inline": "false"
 				},
 				{
 					"name": "108. Crying X (Common)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `crying x common`",
 					"inline": "false"
 				},
 				{
 					"name": "109. Sad X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `sad x`",
 					"inline": "false"
 				},
 				{
 					"name": "110. I KILLED X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `i killed x`",
 					"inline": "false"
 				}
@@ -1606,34 +1524,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "111. Green Lowers",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `green lowers`",
 					"inline": "false"
 				},
 				{
 					"name": "112. Green Lowers (Traditional)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "false"
 				},
 				{
 					"name": "113. Green Lowers (Sapphire)",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "false"
 				},
 				{
 					"name": "114. Goo Goo Gaa Gaa",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "false"
 				},
 				{
 					"name": "115. Even X Discontinues",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `even x discontinues`",
 					"inline": "false"
 				}
@@ -1647,34 +1561,30 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "116. X Committed",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `x committed`",
 					"inline": "false"
 				},
 				{
 					"name": "117. I Accidentally X",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `i accidentally x`",
 					"inline": "false"
 				},
 				{
 					"name": "118. Pitch Black",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `pitch black`",
 					"inline": "false"
 				},
 				{
 					"name": "119. Pitch White",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `pitch white`",
 					"inline": "false"
 				},
 				{
 					"name": "120. Nikita8500HD Major",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "false"
 				}
@@ -1688,10 +1598,10 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
 			"fields": [
 				{
 					"name": "121. Random",
-					"description": "### Category: Uncategorized",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
