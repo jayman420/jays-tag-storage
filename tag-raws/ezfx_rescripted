@@ -179,6 +179,11 @@
 		"args": 0,
 		"actual_name": "91-DXI"
 	},
+	"opposite 91 dxi": {
+		"code": "invert m\nhueshifthsv m -72 -90 0\nshake m 0 mh/-72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0,
+		"actual_name": "Opposite 91-DXI"
+	},
 	"jays g major 525600": {
 		"code": "swirl m -50\nhaah m\nwoow m\ninvert m\ndeepfry m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\naudiodestroy m",
 		"args": 0,
@@ -600,7 +605,7 @@
 		"actual_name": "Nikita8500HD Major"
 	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major}.code|{get:data}}",
 		"args": 0,
 		"actual_name": "Random"
 	}
@@ -667,7 +672,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/31 of Total Effects (121 Total)\nPage 1/5 of Effects in Category (23 Total)"
+				"text": "Page 1/32 of Total Effects (122 Total)\nPage 1/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -704,7 +709,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/31 of Total Effects (121 Total)\nPage 2/5 of Effects in Category (23 Total)"
+				"text": "Page 2/32 of Total Effects (122 Total)\nPage 2/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -741,7 +746,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/31 of Total Effects (121 Total)\nPage 3/5 of Effects in Category (23 Total)"
+				"text": "Page 3/32 of Total Effects (122 Total)\nPage 3/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -778,7 +783,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/31 of Total Effects (121 Total)\nPage 4/5 of Effects in Category (23 Total)"
+				"text": "Page 4/32 of Total Effects (122 Total)\nPage 4/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -805,7 +810,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/31 of Total Effects (121 Total)\nPage 5/5 of Effects in Category (23 Total)"
+				"text": "Page 5/32 of Total Effects (122 Total)\nPage 5/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -842,7 +847,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/31 of Total Effects (121 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/32 of Total Effects (122 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -864,7 +869,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/31 of Total Effects (121 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/32 of Total Effects (122 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -886,7 +891,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -903,7 +908,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -930,7 +935,24 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (3 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "### Category: Opposite DXI Effects",
+			"fields": [
+				{
+					"name": "37. Opposite 91-DXI",
+					"value": "Codename: `opposite 91 dxi`",
+					"inline": "false"
+				}
+			],
+			"footer": {
+				"text": "Page 11/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -941,13 +963,13 @@
 			"description": "### Category: My G-Major Effects",
 			"fields": [
 				{
-					"name": "37. Jay's G-Major 525600",
+					"name": "38. Jay's G-Major 525600",
 					"value": "Codename: `jays g major 525600`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 11/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 12/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -958,33 +980,33 @@
 			"description": "### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "38. Gold Major",
+					"name": "39. Gold Major",
 					"value": "Codename: `gold major`",
 					"inline": "false"
 				},
 				{
-					"name": "39. The Loudest X",
+					"name": "40. The Loudest X",
 					"value": "Codename: `the loudest x`",
 					"inline": "false"
 				},
 				{
-					"name": "40. KlaalK",
+					"name": "41. KlaalK",
 					"value": "Codename: `klaalk`",
 					"inline": "false"
 				},
 				{
-					"name": "41. YksskY",
+					"name": "42. YksskY",
 					"value": "Codename: `ykssky`",
 					"inline": "false"
 				},
 				{
-					"name": "42. X's Pet Fly",
+					"name": "43. X's Pet Fly",
 					"value": "Codename: `xs pet fly`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 12/31 of Total Effects (121 Total)\nPage 1/2 of Effects in Category (10 Total)"
+				"text": "Page 13/32 of Total Effects (122 Total)\nPage 1/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -995,33 +1017,33 @@
 			"description": "### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "43. Double Spin",
+					"name": "44. Double Spin",
 					"value": "Codename: `double spin`",
 					"inline": "false"
 				},
 				{
-					"name": "44. The Four Horsemen of X",
+					"name": "45. The Four Horsemen of X",
 					"value": "Codename: `the four horsemen of x`",
 					"inline": "false"
 				},
 				{
-					"name": "45. X May Need Assistance",
+					"name": "46. X May Need Assistance",
 					"value": "Codename: `x may need assistance`",
 					"inline": "false"
 				},
 				{
-					"name": "46. X IS EVIL!!!",
+					"name": "47. X IS EVIL!!!",
 					"value": "Codename: `x is evil`",
 					"inline": "false"
 				},
 				{
-					"name": "47. X IS NICE!!!",
+					"name": "48. X IS NICE!!!",
 					"value": "Codename: `x is nice`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 13/31 of Total Effects (121 Total)\nPage 2/2 of Effects in Category (10 Total)"
+				"text": "Page 14/32 of Total Effects (122 Total)\nPage 2/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -1032,33 +1054,33 @@
 			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "48. Custom",
+					"name": "49. Custom",
 					"value": "Codename: `custom`\nSyntax: `<code>`",
 					"inline": "false"
 				},
 				{
-					"name": "49. Effects",
+					"name": "50. Effects",
 					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
-					"name": "50. Multirender",
+					"name": "51. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
-					"name": "51. Pipe",
+					"name": "52. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "false"
 				},
 				{
-					"name": "52. Preview 2",
+					"name": "53. Preview 2",
 					"value": "Codename: `preview 2`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 14/31 of Total Effects (121 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 15/32 of Total Effects (122 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1069,18 +1091,18 @@
 			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "53. Respondview 2",
+					"name": "54. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				},
 				{
-					"name": "54. Preview 1280",
+					"name": "55. Preview 1280",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 15/31 of Total Effects (121 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 16/32 of Total Effects (122 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1091,33 +1113,33 @@
 			"description": "### Category: Split Effects",
 			"fields": [
 				{
-					"name": "55. Split",
+					"name": "56. Split",
 					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "56. Vertical Split",
+					"name": "57. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "57. X Meets",
+					"name": "58. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "58. Getting Faster Split Getting Slower",
+					"name": "59. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "59. Split ZooPals Effect",
+					"name": "60. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 16/31 of Total Effects (121 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 17/32 of Total Effects (122 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1128,18 +1150,18 @@
 			"description": "### Category: Split Effects",
 			"fields": [
 				{
-					"name": "60. Split G-Major 88",
+					"name": "61. Split G-Major 88",
 					"value": "Codename: `split g major 88`",
 					"inline": "false"
 				},
 				{
-					"name": "61. Split Amber's G-Major 1",
+					"name": "62. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 17/31 of Total Effects (121 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 18/32 of Total Effects (122 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1150,13 +1172,13 @@
 			"description": "### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "62. CoNfUsIoN + Real G-Major 4",
+					"name": "63. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 18/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 19/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1167,23 +1189,23 @@
 			"description": "### Category: Effect Collections",
 			"fields": [
 				{
-					"name": "63. p2funny",
+					"name": "64. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
-					"name": "64. Kelly Effects",
+					"name": "65. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
-					"name": "65. 9 Random Effects",
+					"name": "66. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 19/31 of Total Effects (121 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 20/32 of Total Effects (122 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1194,33 +1216,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "66. Split Pitch",
+					"name": "67. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "67. Split 2 Pitches",
+					"name": "68. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "68. Split 2 Pitches with Zero",
+					"name": "69. Split 2 Pitches with Zero",
 					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "69. Split 3 Pitches",
+					"name": "70. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				},
 				{
-					"name": "70. Split 3 Pitches with Zero",
+					"name": "71. Split 3 Pitches with Zero",
 					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 20/31 of Total Effects (121 Total)\nPage 1/3 of Effects in Category (15 Total)"
+				"text": "Page 21/32 of Total Effects (122 Total)\nPage 1/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1231,33 +1253,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "71. Split 4 Pitches",
+					"name": "72. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "72. Split 4 Pitches with Zero",
+					"name": "73. Split 4 Pitches with Zero",
 					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "73. Split 5 Pitches",
+					"name": "74. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "74. Split 5 Pitches with Zero",
+					"name": "75. Split 5 Pitches with Zero",
 					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "75. Split 6 Pitches",
+					"name": "76. Split 6 Pitches",
 					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 21/31 of Total Effects (121 Total)\nPage 2/3 of Effects in Category (15 Total)"
+				"text": "Page 22/32 of Total Effects (122 Total)\nPage 2/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1268,33 +1290,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "76. Split 6 Pitches with Zero",
+					"name": "77. Split 6 Pitches with Zero",
 					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
-					"name": "77. Split Any Pitches",
+					"name": "78. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "78. Split Any Pitches with Zero",
+					"name": "79. Split Any Pitches with Zero",
 					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "79. Split Opposite Pitches",
+					"name": "80. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "80. Split Opposite Pitches with Zero",
+					"name": "81. Split Opposite Pitches with Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 22/31 of Total Effects (121 Total)\nPage 3/3 of Effects in Category (15 Total)"
+				"text": "Page 23/32 of Total Effects (122 Total)\nPage 3/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1305,33 +1327,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "81. Normal",
+					"name": "82. Normal",
 					"value": "Codename: `normal`",
 					"inline": "false"
 				},
 				{
-					"name": "82. Getting Faster",
+					"name": "83. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "false"
 				},
 				{
-					"name": "83. Getting Slower",
+					"name": "84. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "84. CoNfUsIoN",
+					"name": "85. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "false"
 				},
 				{
-					"name": "85. Wrong Zoom",
+					"name": "86. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 23/31 of Total Effects (121 Total)\nPage 1/9 of Effects in Category (41 Total)"
+				"text": "Page 24/32 of Total Effects (122 Total)\nPage 1/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1342,33 +1364,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "86. Billy Gardiner's G-Major 1",
+					"name": "87. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`",
 					"inline": "false"
 				},
 				{
-					"name": "87. Might Confuse You",
+					"name": "88. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "false"
 				},
 				{
-					"name": "88. Low Voice",
+					"name": "89. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "false"
 				},
 				{
-					"name": "89. Does Respond",
+					"name": "90. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "false"
 				},
 				{
-					"name": "90. Does Respond (Common)",
+					"name": "91. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 24/31 of Total Effects (121 Total)\nPage 2/9 of Effects in Category (41 Total)"
+				"text": "Page 25/32 of Total Effects (122 Total)\nPage 2/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1379,33 +1401,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "91. Does Not Respond",
+					"name": "92. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "false"
 				},
 				{
-					"name": "92. Does Not Respond (Common)",
+					"name": "93. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "false"
 				},
 				{
-					"name": "93. ZooPals Effect",
+					"name": "94. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "false"
 				},
 				{
-					"name": "94. Luig Group",
+					"name": "95. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "95. Mari Group",
+					"name": "96. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 25/31 of Total Effects (121 Total)\nPage 3/9 of Effects in Category (41 Total)"
+				"text": "Page 26/32 of Total Effects (122 Total)\nPage 3/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1416,33 +1438,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "96. Half Luig Group",
+					"name": "97. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "97. Half Mari Group",
+					"name": "98. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "false"
 				},
 				{
-					"name": "98. Amber's G-Major 1",
+					"name": "99. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`",
 					"inline": "false"
 				},
 				{
-					"name": "99. Freakzinga's G-Major 156",
+					"name": "100. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`",
 					"inline": "false"
 				},
 				{
-					"name": "100. Weird X",
+					"name": "101. Weird X",
 					"value": "Codename: `weird x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 26/31 of Total Effects (121 Total)\nPage 4/9 of Effects in Category (41 Total)"
+				"text": "Page 27/32 of Total Effects (122 Total)\nPage 4/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1453,33 +1475,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "101. Opposite Weird X",
+					"name": "102. Opposite Weird X",
 					"value": "Codename: `opposite weird x`",
 					"inline": "false"
 				},
 				{
-					"name": "102. Not Scary",
+					"name": "103. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "false"
 				},
 				{
-					"name": "103. Ian's G-Major 74",
+					"name": "104. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`",
 					"inline": "false"
 				},
 				{
-					"name": "104. Pika Major",
+					"name": "105. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "false"
 				},
 				{
-					"name": "105. Rj Kumar's G-Major 9",
+					"name": "106. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 27/31 of Total Effects (121 Total)\nPage 5/9 of Effects in Category (41 Total)"
+				"text": "Page 28/32 of Total Effects (122 Total)\nPage 5/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1490,33 +1512,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "106. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "107. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`",
 					"inline": "false"
 				},
 				{
-					"name": "107. Crying X",
+					"name": "108. Crying X",
 					"value": "Codename: `crying x`",
 					"inline": "false"
 				},
 				{
-					"name": "108. Crying X (Common)",
+					"name": "109. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "false"
 				},
 				{
-					"name": "109. Sad X",
+					"name": "110. Sad X",
 					"value": "Codename: `sad x`",
 					"inline": "false"
 				},
 				{
-					"name": "110. I KILLED X",
+					"name": "111. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 28/31 of Total Effects (121 Total)\nPage 6/9 of Effects in Category (41 Total)"
+				"text": "Page 29/32 of Total Effects (122 Total)\nPage 6/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1527,33 +1549,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "111. Green Lowers",
+					"name": "112. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "false"
 				},
 				{
-					"name": "112. Green Lowers (Traditional)",
+					"name": "113. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "false"
 				},
 				{
-					"name": "113. Green Lowers (Sapphire)",
+					"name": "114. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "false"
 				},
 				{
-					"name": "114. Goo Goo Gaa Gaa",
+					"name": "115. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "false"
 				},
 				{
-					"name": "115. Even X Discontinues",
+					"name": "116. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 29/31 of Total Effects (121 Total)\nPage 7/9 of Effects in Category (41 Total)"
+				"text": "Page 30/32 of Total Effects (122 Total)\nPage 7/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1564,33 +1586,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "116. X Committed",
+					"name": "117. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "false"
 				},
 				{
-					"name": "117. I Accidentally X",
+					"name": "118. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "false"
 				},
 				{
-					"name": "118. Pitch Black",
+					"name": "119. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "false"
 				},
 				{
-					"name": "119. Pitch White",
+					"name": "120. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "false"
 				},
 				{
-					"name": "120. Nikita8500HD Major",
+					"name": "121. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 30/31 of Total Effects (121 Total)\nPage 8/9 of Effects in Category (41 Total)"
+				"text": "Page 31/32 of Total Effects (122 Total)\nPage 8/9 of Effects in Category (41 Total)"
 			}
 		}
 	},
@@ -1601,13 +1623,13 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "121. Random",
+					"name": "122. Random",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 31/31 of Total Effects (121 Total)\nPage 9/9 of Effects in Category (41 Total)"
+				"text": "Page 32/32 of Total Effects (122 Total)\nPage 9/9 of Effects in Category (41 Total)"
 			}
 		}
 	}
