@@ -542,6 +542,22 @@
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"billy's g-major 1": {
+		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"billys g major 1": {
+		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"billy's gm1": {
+		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"billys gm1": {
+		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"might confuse you": {
 		"code": "copy m n\ninvert n\nreverse n\noverlay m n 0 0 none 0.01 1 true 50\nhuecurvergba m all 1 0 1\nvolume m",
 		"args": 0
@@ -726,8 +742,32 @@
 		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(0.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"slc520's g-major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"slc520s g major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"damien's g-major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"damiens g major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"slc's gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"slcs gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520}.code|{get:data}}",
 		"args": 0
 	}
 }}}
@@ -793,7 +833,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/32 of Total Effects (123 Total)\nPage 1/5 of Effects in Category (23 Total)"
+				"text": "Page 1/32 of Total Effects (124 Total)\nPage 1/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -830,7 +870,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/32 of Total Effects (123 Total)\nPage 2/5 of Effects in Category (23 Total)"
+				"text": "Page 2/32 of Total Effects (124 Total)\nPage 2/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -867,7 +907,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/32 of Total Effects (123 Total)\nPage 3/5 of Effects in Category (23 Total)"
+				"text": "Page 3/32 of Total Effects (124 Total)\nPage 3/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -904,7 +944,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/32 of Total Effects (123 Total)\nPage 4/5 of Effects in Category (23 Total)"
+				"text": "Page 4/32 of Total Effects (124 Total)\nPage 4/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -931,7 +971,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/32 of Total Effects (123 Total)\nPage 5/5 of Effects in Category (23 Total)"
+				"text": "Page 5/32 of Total Effects (124 Total)\nPage 5/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -968,7 +1008,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/32 of Total Effects (123 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/32 of Total Effects (124 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -990,7 +1030,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/32 of Total Effects (123 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/32 of Total Effects (124 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1012,7 +1052,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1029,7 +1069,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1056,7 +1096,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1073,7 +1113,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1090,7 +1130,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 12/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1127,7 +1167,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/32 of Total Effects (123 Total)\nPage 1/2 of Effects in Category (10 Total)"
+				"text": "Page 13/32 of Total Effects (124 Total)\nPage 1/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -1164,7 +1204,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/32 of Total Effects (123 Total)\nPage 2/2 of Effects in Category (10 Total)"
+				"text": "Page 14/32 of Total Effects (124 Total)\nPage 2/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -1201,7 +1241,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/32 of Total Effects (123 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 15/32 of Total Effects (124 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1223,7 +1263,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/32 of Total Effects (123 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 16/32 of Total Effects (124 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1260,7 +1300,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 17/32 of Total Effects (123 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 17/32 of Total Effects (124 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1282,7 +1322,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 18/32 of Total Effects (123 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 18/32 of Total Effects (124 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1299,7 +1339,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 19/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 19/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1326,7 +1366,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 20/32 of Total Effects (123 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 20/32 of Total Effects (124 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1363,7 +1403,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 21/32 of Total Effects (123 Total)\nPage 1/3 of Effects in Category (15 Total)"
+				"text": "Page 21/32 of Total Effects (124 Total)\nPage 1/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1400,7 +1440,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 22/32 of Total Effects (123 Total)\nPage 2/3 of Effects in Category (15 Total)"
+				"text": "Page 22/32 of Total Effects (124 Total)\nPage 2/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1437,7 +1477,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 23/32 of Total Effects (123 Total)\nPage 3/3 of Effects in Category (15 Total)"
+				"text": "Page 23/32 of Total Effects (124 Total)\nPage 3/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1474,7 +1514,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 24/32 of Total Effects (123 Total)\nPage 1/9 of Effects in Category (42 Total)"
+				"text": "Page 24/32 of Total Effects (124 Total)\nPage 1/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1486,7 +1526,7 @@
 			"fields": [
 				{
 					"name": "87. Billy Gardiner's G-Major 1",
-					"value": "Codename: `billy gardiners g major 1`",
+					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy's G-Major 1\n- Billy's GM1",
 					"inline": "false"
 				},
 				{
@@ -1511,7 +1551,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 25/32 of Total Effects (123 Total)\nPage 2/9 of Effects in Category (42 Total)"
+				"text": "Page 25/32 of Total Effects (124 Total)\nPage 2/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1548,7 +1588,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 26/32 of Total Effects (123 Total)\nPage 3/9 of Effects in Category (42 Total)"
+				"text": "Page 26/32 of Total Effects (124 Total)\nPage 3/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1585,7 +1625,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 27/32 of Total Effects (123 Total)\nPage 4/9 of Effects in Category (42 Total)"
+				"text": "Page 27/32 of Total Effects (124 Total)\nPage 4/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1622,7 +1662,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 28/32 of Total Effects (123 Total)\nPage 5/9 of Effects in Category (42 Total)"
+				"text": "Page 28/32 of Total Effects (124 Total)\nPage 5/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1659,7 +1699,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 29/32 of Total Effects (123 Total)\nPage 6/9 of Effects in Category (42 Total)"
+				"text": "Page 29/32 of Total Effects (124 Total)\nPage 6/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1696,7 +1736,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 30/32 of Total Effects (123 Total)\nPage 7/9 of Effects in Category (42 Total)"
+				"text": "Page 30/32 of Total Effects (124 Total)\nPage 7/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1733,7 +1773,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 31/32 of Total Effects (123 Total)\nPage 8/9 of Effects in Category (42 Total)"
+				"text": "Page 31/32 of Total Effects (124 Total)\nPage 8/9 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -1749,13 +1789,18 @@
 					"inline": "false"
 				},
 				{
-					"name": "123. Random",
+					"name": "123. SLC520's G-Major 1520",
+					"value": "Codename: `slc520s g major 1520`\nAliases:\n- Damien's G-Major 1520\n- SLC's GM1520",
+					"inline": "false"
+				},
+				{
+					"name": "124. Random",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 32/32 of Total Effects (123 Total)\nPage 9/9 of Effects in Category (42 Total)"
+				"text": "Page 32/32 of Total Effects (124 Total)\nPage 9/9 of Effects in Category (43 Total)"
 			}
 		}
 	}
