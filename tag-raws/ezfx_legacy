@@ -1,0 +1,538 @@
+{if:{argslen}|=|0|then:
+# {upper:{tagname}} (v1.01) #
+# the *slightly good* update #
+```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```
+Note: Put the effect in quotation marks "like this"
+VERY IMPORTANT NOTE: Put all required effect arguments before your subcommand
+## Sub-Command List ##
+-# These are optional and not required
+`raw <medianame> <oldpitchsystem?>` - Shows the raw iscript code for an effect
+`ihtx <powers> <nosnip?> <notrim?> <oldpitchsystem?>` - Does an IHTX with the effect for a set amount of powers, may end up frying Avocado's computer
+`raw ihtx <powers> <nosnip?> <notrim?> <oldpitchsystem?>` - A combination of the previous two
+`multiplier <powers> <oldpitchsystem?>` - Does an effect on the source for a set amount of powers
+`ihtxbuggy` - Adds an offset for each export
+`ihtxold` - Brings back the meme text from the old versions of my ihtx tags
+`ihtxkine` - Adds a Fade In/Out effect, similar to Kinemaster
+`oldpitch` - Adds the old pitch system back without having to use the `ihtx` commands
+## Non-Effect Command List ##
+-# These commands do not work with effects, so just do ".t {tagname} <command>", don't add any effects
+`list` - Shows a BIG list of effects (planning to convert it to an embed)
+`updatelog` - Shows the new update log!
+|else:
+{set:code|}
+{set:array|
+{if:{indexof:"{arg:0}"|["list","updatelog"]}|=|-1|then:
+{if:{arg:0}|=|normal|then:["volume # 2","volume # 2",0]|else:
+{if:{arg:0}|=|confusion|then:["contrast # -1\nmirrorleft #\nreverse #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2","contrast # -1\nmirrorleft #\nreverse #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2",0]|else:
+{if:{arg:0}|=|opposite confusion|then:["mirrorright #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2","mirrorright #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2",0]|else:
+{if:{arg:0}|=|confusion reversed|then:["contrast # -1\nmirrorleft #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2","contrast # -1\nmirrorleft #\ncopy # #copy\nvolume #copy 0\nreverse #copy\noverlay # #copy\nvolume # 2",0]|else:
+{if:{arg:0}|=|getting faster|then:["speed # 2\ncopy # #copy\nconcat # #copy","speed # 2\ncopy # #copy\nconcat # #copy",0]|else:
+{if:{arg:0}|=|getting slower|then:["speed # 0.5\nget # duration d\nsnip # 0 d/2","speed # 0.5\nget # duration d\nsnip # 0 d/2",0]|else:
+{if:{arg:0}|=|0.5|then:["speed # 0.5","speed # 0.5",0]|else:
+{if:{arg:0}|=|0.9|then:["speed # 0.9\nget # duration d\nsnip # 0 d/1.11","speed # 0.9\nget # duration d\nsnip # 0 d/1.11",0]|else:
+{if:{arg:0}|=|distort|then:["distort # arc 50","distort # arc 50",0]|else:
+{if:{arg:0}|=|low pinch|then:["implode # 0.25\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.8909\nrepeatduration #$ #d\naudioputreplace # #$","implode # 0.25\naudiopitch # 0.8909",0]|else:
+{if:{arg:0}|=|g major 74|then:["explode #\ncontrast # -1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 1.12246\naudiopitch #$ 2\naudiopitch #$p 1.68179\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 0.56123\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","explode #\ncontrast # -1\ncopy # #p\ncopy # #q\naudiopitch # 1.12246\naudiopitch # 2\naudiopitch #p 1.68179\naudioputmix # #p\nvolume #\naudiopitch #q 0.56123\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|g major mirror top|then:["invert #\nspeed # 2\nmirrorleft #\nmirrortop #","invert #\nspeed # 2\nmirrorleft #\nmirrortop #",0]|else:
+{if:{arg:0}|=|delay|then:["copy # #copy\nsnip #copy 0.05\noverlay # #copy","copy # #copy\nsnip #copy 0.05\noverlay # #copy",0]|else:
+{if:{arg:0}|=|g major 91|then:["swaprgba # bgr\nhueshifthsv # 180\nhaah #\nskew # 10\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.05946\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\nhueshifthsv # 180\nhaah #\nskew # 10\ncopy # #p\naudiopitch #p 1.05946\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|idk|then:["load https://youtu.be/eLc8mp1-IPc aali\ngrayscale #\ninvert #\nflop #\naudioputreplace # aali","load https://youtu.be/eLc8mp1-IPc aali\ngrayscale #\ninvert #\nflop #\naudioputreplace # aali",0]|else:
+{if:{arg:0}|=|low voice|then:["contrast # -1\ninvert #\nmirrorleft #\nspeed # 0.75\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.74915\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\ninvert #\nmirrorleft #\nspeed # 0.75\naudiopitch # 0.74915",0]|else:
+{if:{arg:0}|=|high voice|then:["contrast # -1\ninvert #\nmirrorright #\nspeed # 1.3333333333333333\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 1.33484\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\ninvert #\nmirrorright #\nspeed # 1.3333333333333333\naudiopitch # 1.33484",0]|else:
+{if:{arg:0}|=|g major 302|then:["contrast # -1\nflip #\nflop #\ncopy # #copy\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.31498\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nflip #\nflop #\ncopy # #copy\ncopy # #p\naudiopitch #p 0.31498\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|respondview 2|then:["hueshifthsv # -50\nrepeatduration # 5\nsnip # 1 1.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\nrepeatduration # 5\nsnip # 1 1.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #p\naudiopitch #p 0.5\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|respondview 2 speed|then:["hueshifthsv # -50\nspeed # 2\nrepeatduration # 5\nsnip # 1 1.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\nspeed # 2\nrepeatduration # 5\nsnip # 1 1.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #p\naudiopitch #p 0.5\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|respondview 2 alt|then:["hueshifthsv # -50\nrepeatduration # 5\nsnip # 0 0.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\nrepeatduration # 5\nsnip # 0 0.35\ncopy # #copy\nswirl # -130\naudiopitch # 0.5\nswirl #copy 130\nconcat # #copy\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus\ncopy # #p\naudiopitch #p 0.5\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|getting faster split getting slower|then:["get # width w\nget # height h\ncopy # #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\nspeed #copy 0.5\nspeed # 2\ncopy # #copy2\nconcat # #copy2\njoin # #copy\nvolume # 2","get # width w\nget # height h\ncopy # #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\nspeed #copy 0.5\nspeed # 2\ncopy # #copy2\nconcat # #copy2\njoin # #copy\nvolume # 2",0]|else:
+{if:{arg:0}|=|low quality|then:["jpeg #\naudiocompress #","jpeg #\naudiocompress #",0]|else:
+{if:{arg:0}|=|the loudest x|then:["deepfry #\naudioboostbass #\naudiodestroy #","deepfry #\naudioboostbass #\naudiodestroy #",0]|else:
+{if:{arg:0}|=|zoopals effect|then:["invert #\ncontrast # -1\nexplode #\nmirrorleft #\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.52973\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncontrast # -1\nexplode #\nmirrorleft #\naudiopitch # 0.52973",0]|else:
+{if:{arg:0}|=|opposite zoopals effect|then:["invert #\ncontrast # -1\nimplode # 0.25\nmirrorright #\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 1.88775\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncontrast # -1\nimplode # 0.25\nmirrorright #\naudiopitch # 1.88775",0]|else:
+{if:{arg:0}|=|g major 16|then:["invert #\nflop #\nhueshifthsv # 180+50\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.8409\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nflop #\nhueshifthsv # 180+50\ncopy # #p\naudiopitch #p 0.8409\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|weird x|then:["invert #\nhueshifthsv # 220\nspeed # 0.5\nspeed # 0.5\nget # width w\nget # height h\nwaves # 2*(h/18) w/(3/2) 1\ncover # w h\nrotate # 90\nwaves # 2*(w/32) h/(3/2) 1\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 220\nspeed # 0.5\nspeed # 0.5\nget # width w\nget # height h\nwaves # 2*(h/18) w/(3/2) 1\ncover # w h\nrotate # 90\nwaves # 2*(w/32) h/(3/2) 1\ncover # h w\nrotate # -90\ncopy # #p\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|simulator v19|then:["invert #\nhueshifthsv # -80\nget # width w\nget # height h\nwave # -2*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # -2*(w/32) h/(4/2)\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.49831\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # -80\nget # width w\nget # height h\nwave # -2*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # -2*(w/32) h/(4/2)\ncover # h w\nrotate # -90\ncopy # #p\ncopy # #q\naudiopitch #p 0.5\naudioputmix # #p\nvolume #\naudiopitch #q 1.49831\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 106|then:["contrast # -1\nflop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.96154\naudiopitch #$p 1.44068\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nflop #\ncopy # #p\naudiopitch # 0.96154\naudiopitch #p 1.44068\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|billy gardiners g major 1|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|billy gardiners g minor 1|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.66742\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\naudiopitch #p 0.66742\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 7|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|rj kumars g major 9|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.8909\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\naudiopitch #p 0.8909\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|weird code|then:["hueshifthsv # 180\nwaaw #\nswirl # -100\naudiovibrato # 12 1\naudiovibrato # 12 1\naudiovibrato # 12 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 180\nwaaw #\nswirl # -100\naudiovibrato # 12 1\naudiovibrato # 12 1\naudiovibrato # 12 1\ncopy # #p\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 88|then:["grayscale #\nhuecurvergba # red 1 0 0\nhuecurvergba # green 0.29411764705882354 0.09803921568627451 0\nhuecurvergba # blue 1 0.29411764705882354 0\nswirl # -50\nmirrorright #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 1.18921\naudiopitch #$p 0.7937\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhuecurvergba # red 1 0 0\nhuecurvergba # green 0.29411764705882354 0.09803921568627451 0\nhuecurvergba # blue 1 0.29411764705882354 0\nswirl # -50\nmirrorright #\ncopy # #p\naudiopitch # 1.18921\naudiopitch #p 0.7937\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|split zoopals effect|then:["get # width w\nget # height h\ncopy # #copy\ninvert #copy\ncontrast #copy -1\nexplode #copy\nmirrorleft #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\njoin # #copy\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.52973\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\ncopy # #copy\ninvert #copy\ncontrast #copy -1\nexplode #copy\nmirrorleft #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\njoin # #copy\ncopy # #p\naudiopitch #p 0.52973\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|split opposite zoopals effect|then:["get # width w\nget # height h\ncopy # #copy\ninvert #copy\ncontrast #copy -1\nimplode #copy 0.25\nmirrorleft #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\njoin # #copy\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.88775\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\ncopy # #copy\ninvert #copy\ncontrast #copy -1\nimplode #copy 0.25\nmirrorleft #copy\ncrop # w/2 h 0 0\ncrop #copy w/2 h w/2 0\njoin # #copy\ncopy # #p\naudiopitch #p 1.88775\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|custom major 333|then:["invert #\ndistort # scale_rotate_translate -1\nsharpen # 3\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.98851\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ndistort # scale_rotate_translate -1\nsharpen # 3\ncopy # #p\naudiopitch #p 0.98851\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|custom major 3|then:["mirrorleft #\nhueshifthsv # 162\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.00579\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","mirrorleft #\nhueshifthsv # 162\ncopy # #p\naudiopitch #p 1.00579\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 3|then:["invert #\nswirl # 5\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.7937\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.00116\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nswirl # 5\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\naudiopitch # 0.7937\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #\ncopy # #p\naudiopitch #p 1.00116\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|amtve major|then:["invert #\ncontrast # -1\nmirrorbottom #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.74915\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncontrast # -1\nmirrorbottom #\ncopy # #p\naudiopitch # 0.74915\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 525600|then:["swirl # -50\nmirrortop #\nmirrorleft #\nreverse #\ninvert #\ndeepfry #\naudiodestroy #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.81696\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swirl # -50\nmirrortop #\nmirrorleft #\nreverse #\ninvert #\ndeepfry #\naudiodestroy #\ncopy # #p\naudiopitch #p 0.81696\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|lebs g major 64|then:["get # width w\nget # height h\nswirl # -50\nresize # w h*2\ncover # w h\nhueshifthsv # 50\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.66742\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\nswirl # -50\nresize # w h*2\ncover # w h\nhueshifthsv # 50\ncopy # #p\naudiopitch # 0.66742\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 137|then:["invert #\ndeepfry #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.66358\naudiopitch #$p 0.99424\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.48968\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ndeepfry #\ncopy # #p\ncopy # #q\naudiopitch # 0.66358\naudiopitch #p 0.99424\naudioputmix # #p\nvolume #\naudiopitch #q 1.48968\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|preview 2|then:["copy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus","copy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus",0]|else:
+{if:{arg:0}|=|preview 2 fast|then:["speed # 4\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus","speed # 4\ncopy # #plus\naudiopitch #plus 1.05946\ncopy # #minus\naudiopitch #minus 0.8909\nconcat # #plus\nconcat # #minus\nconcat # #plus",0]|else:
+{if:{arg:0}|=|luig group|then:["hueshifthsv # -50\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.94387\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\naudiopitch # 0.94387",0]|else:
+{if:{arg:0}|=|mari group|then:["hueshifthsv # 50\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 1.05946\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 50\naudiopitch # 1.05946",0]|else:
+{if:{arg:0}|=|g major 25|then:["hueshifthsv # -50\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.62996\naudiopitch #$p 0.94387\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\ncopy # #p\naudiopitch # 0.62996\naudiopitch #p 0.94387\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|mr krabs major|then:["hueshifthsv # -50\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.70711\naudiopitch #$p 1.05946\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\ncopy # #p\naudiopitch # 0.70711\naudiopitch #p 1.05946\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|t major 25|then:["invert #\nhueshifthsv # 144\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 1.12246\naudiopitch #$p 1.68179\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 144\ncopy # #p\naudiopitch # 1.12246\naudiopitch #p 1.68179\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|does respond|then:["hueshifthsv # -50\nswirl # -130\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -50\nswirl # -130\ncopy # #p\naudiopitch #p 0.5\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|does not respond|then:["hueshifthsv # 50\nswirl # 130\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 2\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 50\nswirl # 130\ncopy # #p\naudiopitch #p 2\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 77114|then:["mirrorleft #\nreverse #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","mirrorleft #\nreverse #\ncopy # #p\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|baarens g major 1|then:["contrast # -1\nswirl # -3\nhaah #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.8409\naudiopitch #$p 1.25992\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nswirl # -3\nhaah #\ncopy # #p\naudiopitch # 0.8409\naudiopitch #p 1.25992\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|pitch|then:["copy # #$\nconvert #$ audio/wav\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$ 2}\n{if:{arg:1}|>|24|then:audiopitch #$ 2}\naudiopitch #$ {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$ {math:2^(({arg:1})/12)}\n}\n}\nrepeatduration #$ #d\naudioputreplace # #$","{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch # 2}\n{if:{arg:1}|>|24|then:audiopitch # 2}\naudiopitch # {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch # {math:2^(({arg:1})/12)}\n}\n}","1"]|else:
+{if:{arg:0}|=|split pitch|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$p 2}\n{if:{arg:1}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({arg:1})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #p 2}\n{if:{arg:1}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({arg:1})/12)}\n}\n}\naudioputmix # #p\nvolume #","1"]|else:
+{if:{arg:0}|=|split opposite pitches|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\n{if:{math:{arg:1}*-1}|!=|0|then:\n{if:{math:{arg:1}*-1}|>|0|then:\n{if:{math:{arg:1}*-1}|>|12|then:audiopitch #$ 2}\n{if:{math:{arg:1}*-1}|>|24|then:audiopitch #$ 2}\naudiopitch #$ {math:2^(({math:(({math:{arg:1}*-1}-1)mod(12))+1})/12)}\n|else:audiopitch #$ {math:2^(({math:{arg:1}*-1})/12)}\n}\n}\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$p 2}\n{if:{arg:1}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({arg:1})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\n{if:{math:{arg:1}*-1}|!=|0|then:\n{if:{math:{arg:1}*-1}|>|0|then:\n{if:{math:{arg:1}*-1}|>|12|then:audiopitch # 2}\n{if:{math:{arg:1}*-1}|>|24|then:audiopitch # 2}\naudiopitch # {math:2^(({math:(({math:{arg:1}*-1}-1)mod(12))+1})/12)}\n|else:audiopitch # {math:2^(({math:{arg:1}*-1})/12)}\n}\n}\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #p 2}\n{if:{arg:1}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({arg:1})/12)}\n}\n}\naudioputmix # #p\nvolume #","1"]|else:
+{if:{arg:0}|=|split 2 pitches|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$ 2}\n{if:{arg:1}|>|24|then:audiopitch #$ 2}\naudiopitch #$ {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$ {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #$p 2}\n{if:{arg:2}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch # 2}\n{if:{arg:1}|>|24|then:audiopitch # 2}\naudiopitch # {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch # {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #p 2}\n{if:{arg:2}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix # #p\nvolume #",2]|else:
+{if:{arg:0}|=|split 3 pitches|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$ 2}\n{if:{arg:1}|>|24|then:audiopitch #$ 2}\naudiopitch #$ {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$ {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #$p 2}\n{if:{arg:2}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\n{if:{arg:3}|!=|0|then:\n{if:{arg:3}|>|0|then:\n{if:{arg:3}|>|12|then:audiopitch #$q 2}\n{if:{arg:3}|>|24|then:audiopitch #$q 2}\naudiopitch #$q {math:2^(({math:(({arg:3}-1)mod(12))+1})/12)}\n|else:audiopitch #$q {math:2^(({arg:3})/12)}\n}\n}\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\ncopy # #q\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch # 2}\n{if:{arg:1}|>|24|then:audiopitch # 2}\naudiopitch # {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch # {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #p 2}\n{if:{arg:2}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix # #p\nvolume #\n{if:{arg:3}|!=|0|then:\n{if:{arg:3}|>|0|then:\n{if:{arg:3}|>|12|then:audiopitch #q 2}\n{if:{arg:3}|>|24|then:audiopitch #q 2}\naudiopitch #q {math:2^(({math:(({arg:3}-1)mod(12))+1})/12)}\n|else:audiopitch #q {math:2^(({arg:3})/12)}\n}\n}\naudioputmix # #q\nvolume #",3]|else:
+{if:{arg:0}|=|split 4 pitches|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\ncopy #$ #$r\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$ 2}\n{if:{arg:1}|>|24|then:audiopitch #$ 2}\naudiopitch #$ {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$ {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #$p 2}\n{if:{arg:2}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\n{if:{arg:3}|!=|0|then:\n{if:{arg:3}|>|0|then:\n{if:{arg:3}|>|12|then:audiopitch #$q 2}\n{if:{arg:3}|>|24|then:audiopitch #$q 2}\naudiopitch #$q {math:2^(({math:(({arg:3}-1)mod(12))+1})/12)}\n|else:audiopitch #$q {math:2^(({arg:3})/12)}\n}\n}\naudioputmix #$ #$q\nvolume #$\n{if:{arg:4}|!=|0|then:\n{if:{arg:4}|>|0|then:\n{if:{arg:4}|>|12|then:audiopitch #$r 2}\n{if:{arg:4}|>|24|then:audiopitch #$r 2}\naudiopitch #$r {math:2^(({math:(({arg:4}-1)mod(12))+1})/12)}\n|else:audiopitch #$r {math:2^(({arg:4})/12)}\n}\n}\naudioputmix #$ #$r\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\ncopy # #q\ncopy # #r\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch # 2}\n{if:{arg:1}|>|24|then:audiopitch # 2}\naudiopitch # {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch # {math:2^(({arg:1})/12)}\n}\n}\n{if:{arg:2}|!=|0|then:\n{if:{arg:2}|>|0|then:\n{if:{arg:2}|>|12|then:audiopitch #p 2}\n{if:{arg:2}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({arg:2}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({arg:2})/12)}\n}\n}\naudioputmix # #p\nvolume #\n{if:{arg:3}|!=|0|then:\n{if:{arg:3}|>|0|then:\n{if:{arg:3}|>|12|then:audiopitch #q 2}\n{if:{arg:3}|>|24|then:audiopitch #q 2}\naudiopitch #q {math:2^(({math:(({arg:3}-1)mod(12))+1})/12)}\n|else:audiopitch #q {math:2^(({arg:3})/12)}\n}\n}\naudioputmix # #q\nvolume #\n{if:{arg:4}|!=|0|then:\n{if:{arg:4}|>|0|then:\n{if:{arg:4}|>|12|then:audiopitch #r 2}\n{if:{arg:4}|>|24|then:audiopitch #r 2}\naudiopitch #r {math:2^(({math:(({arg:4}-1)mod(12))+1})/12)}\n|else:audiopitch #r {math:2^(({arg:4})/12)}\n}\n}\naudioputmix # #r\nvolume #",4]|else:
+{if:{arg:0}|=|split opposite pitches with zero|then:["copy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\n{if:{math:{arg:1}*-1}|!=|0|then:\n{if:{math:{arg:1}*-1}|>|0|then:\n{if:{math:{arg:1}*-1}|>|12|then:audiopitch #$p 2}\n{if:{math:{arg:1}*-1}|>|24|then:audiopitch #$p 2}\naudiopitch #$p {math:2^(({math:(({math:{arg:1}*-1}-1)mod(12))+1})/12)}\n|else:audiopitch #$p {math:2^(({math:{arg:1}*-1})/12)}\n}\n}\naudioputmix #$ #$p\nvolume #$\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #$q 2}\n{if:{arg:1}|>|24|then:audiopitch #$q 2}\naudiopitch #$q {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #$q {math:2^(({arg:1})/12)}\n}\n}\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","copy # #p\ncopy # #q\n{if:{math:{arg:1}*-1}|!=|0|then:\n{if:{math:{arg:1}*-1}|>|0|then:\n{if:{math:{arg:1}*-1}|>|12|then:audiopitch #p 2}\n{if:{math:{arg:1}*-1}|>|24|then:audiopitch #p 2}\naudiopitch #p {math:2^(({math:(({math:{arg:1}*-1}-1)mod(12))+1})/12)}\n|else:audiopitch #p {math:2^(({math:{arg:1}*-1})/12)}\n}\n}\naudioputmix # #p\nvolume #\n{if:{arg:1}|!=|0|then:\n{if:{arg:1}|>|0|then:\n{if:{arg:1}|>|12|then:audiopitch #q 2}\n{if:{arg:1}|>|24|then:audiopitch #q 2}\naudiopitch #q {math:2^(({math:(({arg:1}-1)mod(12))+1})/12)}\n|else:audiopitch #q {math:2^(({arg:1})/12)}\n}\n}\naudioputmix # #q\nvolume #","1"]|else:
+{if:{arg:0}|=|91 dxi|then:["get # height h\nhueshifthsv # 40 25\ninvert #\nshake # 0 10*(h/720) true\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.81696\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # height h\nhueshifthsv # 40 25\ninvert #\nshake # 0 10*(h/720) true\ncopy # #p\naudiopitch #p 0.81696\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|crying x|then:["invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwave # 1*(h/18) w/(9/2)\ncover # w h\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwave # 1*(h/18) w/(9/2)\ncover # w h\ncopy # #p\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|opposite crying x|then:["invert #\nhueshifthsv # -220\nget # width w\nget # height h\nwave # -1*(h/18) w/(9/2)\ncover # w h\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # -220\nget # width w\nget # height h\nwave # -1*(h/18) w/(9/2)\ncover # w h\ncopy # #p\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|i killed x|then:["explode #\nhueshifthsv # -120\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.62996\nrepeatduration #$ #d\naudioputreplace # #$","explode #\nhueshifthsv # -120\naudiopitch # 0.62996",0]|else:
+{if:{arg:0}|=|custom|then:["{jsonify:{replace:#|#|{eval:{arg:1}}}}","{jsonify:{replace:#|#|{eval:{arg:1}}}}","1"]|else:
+{if:{arg:0}|=|jays g major 5|then:["get # height h\nhueshifthsv # 0 0 -50\ninvert #\nshake # 0 10*(h/720) true\nflop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.7937\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.33484\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # height h\nhueshifthsv # 0 0 -50\ninvert #\nshake # 0 10*(h/720) true\nflop #\ncopy # #p\ncopy # #q\naudiopitch # 0.7937\naudioputmix # #p\nvolume #\naudiopitch #q 1.33484\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 5 v2|then:["invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwaves # 2*(h/18) w/(4/2) 2\ncover # w h\nrotate # 90\nwaves # 2*(w/32) h/(4/2) 2\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.7937\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.33484\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.00116\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwaves # 2*(h/18) w/(4/2) 2\ncover # w h\nrotate # 90\nwaves # 2*(w/32) h/(4/2) 2\ncover # h w\nrotate # -90\ncopy # #p\ncopy # #q\naudiopitch # 0.7937\naudioputmix # #p\nvolume #\naudiopitch #q 1.33484\naudioputmix # #q\nvolume #\ncopy # #p\naudiopitch #p 1.00116\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|gold major|then:["gold #\nmirrorleft #\nmirrortop #\nreverse #\naudiodestroy #","gold #\nmirrorleft #\nmirrortop #\nreverse #\naudiodestroy #",0]|else:
+{if:{arg:0}|=|arnold s major|then:["hueshifthsv # 180\ncontrast # -1\ninvert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.56123\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 180\ncontrast # -1\ninvert #\ncopy # #p\naudiopitch #p 0.56123\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 4|then:["get # width w\nget # height h\ncreate bg w h 0 0 0 100\noverlay bg # 0 0 white 0.1 0.4\noverlay # bg\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\ncreate bg w h 0 0 0 100\noverlay bg # 0 0 white 0.1 0.4\noverlay # bg\ncopy # #p\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|real g major 4|then:["huecurvergba # all 0 1 0\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","huecurvergba # all 0 1 0\ncopy # #p\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g minor 4|then:["get # width w\nget # height h\ncreate bg w h 255 255 255 100\noverlay bg # 0 0 black 0.1 0.4\noverlay # bg\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\ncreate bg w h 255 255 255 100\noverlay bg # 0 0 black 0.1 0.4\noverlay # bg\ncopy # #p\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|real g minor 4|then:["huecurvergba # all 1 0 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","huecurvergba # all 1 0 1\ncopy # #p\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|pitch white|then:["get # width w\nget # height h\ncreate bg w h 255 255 255 100\noverlay bg # 0 0 black 0.1 0.4\noverlay # bg\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 2\naudiopitch #$ 2\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\ncreate bg w h 255 255 255 100\noverlay bg # 0 0 black 0.1 0.4\noverlay # bg\naudiopitch # 2\naudiopitch # 2",0]|else:
+{if:{arg:0}|=|betterwave|then:["{if:{arg:3}|=|true|then:\nget # width w\nget # height h\nrotate # 90\nwave # {arg:2}*(w/32) h/({arg:1}/2)\ncover # h w\nrotate # -90\n|else:\nwave # {arg:2}*(h/18) w/({arg:1}/2)\ncover # w h\n}","{if:{arg:3}|=|true|then:\nget # width w\nget # height h\nrotate # 90\nwave # {arg:2}*(w/32) h/({arg:1}/2)\ncover # h w\nrotate # -90\n|else:\nwave # {arg:2}*(h/18) w/({arg:1}/2)\ncover # w h\n}",3]|else:
+{if:{arg:0}|=|jays g major 9|then:["mirrorleft #\nmirrortop #\nswaprgba # grb\nget # width w\nget # height h\nwave # 0.8163265306122449*(h/18) w/(10/2)\ncover # w h\nrotate # 90\nwave # -2*(w/32) h/(-5/2)\ncover # h w\nrotate # -90\nflop #\ncreate bg w h 0 0 0 100\noverlay bg # 0 0 white 0.1 0.4\noverlay # bg\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.8909\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","mirrorleft #\nmirrortop #\nswaprgba # grb\nget # width w\nget # height h\nwave # 0.8163265306122449*(h/18) w/(10/2)\ncover # w h\nrotate # 90\nwave # -2*(w/32) h/(-5/2)\ncover # h w\nrotate # -90\nflop #\ncreate bg w h 0 0 0 100\noverlay bg # 0 0 white 0.1 0.4\noverlay # bg\ncopy # #p\naudiopitch # 0.8909\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|sad x|then:["invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwave # -1*(h/18) w/(5/2)\ncover # w h\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.66742\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 220\nget # width w\nget # height h\nwave # -1*(h/18) w/(5/2)\ncover # w h\ncopy # #p\naudiopitch #p 0.66742\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|opposite sad x|then:["invert #\nhueshifthsv # -220\nget # width w\nget # height h\nwave # 1*(h/18) w/(5/2)\ncover # w h\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # -220\nget # width w\nget # height h\nwave # 1*(h/18) w/(5/2)\ncover # w h\ncopy # #p\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|conga busher|then:["audiovibrato # 2400 0.05\nhueshifthsv # -120\nwaaw #","audiovibrato # 2400 0.05\nhueshifthsv # -120\nwaaw #",0]|else:
+{if:{arg:0}|=|lebs g major 222|then:["swaprgba # bgr\nget # width w\nget # height h\nwave # 1*(h/18) w/(2/2)\ncover # w h\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\nget # width w\nget # height h\nwave # 1*(h/18) w/(2/2)\ncover # w h\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|lebs custom major|then:["swaprgba # rbg\nget # width w\nget # height h\nwave # 1*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # 1*(w/32) h/(4/2)\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.004\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # rbg\nget # width w\nget # height h\nwave # 1*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # 1*(w/32) h/(4/2)\ncover # h w\nrotate # -90\ncopy # #p\naudiopitch #p 1.004\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|purple yellow|then:["swaprgba # rrb\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.5\naudiopitch #$p 2\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # rrb\ncopy # #p\naudiopitch # 0.5\naudiopitch #p 2\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 1|then:["contrast # -1\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 1.5874\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\naudiopitch # 1.5874",0]|else:
+{if:{arg:0}|=|tacoma major|then:["swaprgba # bgr\ncontrast # -1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.25\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\ncontrast # -1\ncopy # #p\naudiopitch #p 0.25\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|pika major|then:["hueshifthsv # 25 100\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.66742\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.49831\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 25 100\ncopy # #p\ncopy # #q\naudiopitch #p 0.66742\naudioputmix # #p\nvolume #\naudiopitch #q 1.49831\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|green lowers|then:["swaprgba # grb\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.5\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # grb\naudiopitch # 0.5",0]|else:
+{if:{arg:0}|=|goo goo gaa gaa|then:["swaprgba # bgr\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 2\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\naudiopitch # 2",0]|else:
+{if:{arg:0}|=|fake g major|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 2\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\ncopy # #q\naudiopitch #p 0.5\naudioputmix # #p\nvolume #\naudiopitch #q 2\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|vegas pros g major 10|then:["swaprgba # grb\nhueshifthsv # 25 100\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.5\naudiopitch #$p 0.33371\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 0.74915\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # grb\nhueshifthsv # 25 100\ncopy # #p\ncopy # #q\naudiopitch # 0.5\naudiopitch #p 0.33371\naudioputmix # #p\nvolume #\naudiopitch #q 0.74915\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 0|then:["contrast # -1\nhueshifthsv # 18 100\nget # width w\nget # height h\nwave # 0.8163265306122449*(h/18) w/(13/2)\ncover # w h\nmirrorleft #\nrotate # 90\nwave # 0.8163265306122449*(w/32) h/(5/2)\ncover # h w\nrotate # -90\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.66358\naudiopitch #$p 1.48968\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nhueshifthsv # 18 100\nget # width w\nget # height h\nwave # 0.8163265306122449*(h/18) w/(13/2)\ncover # w h\nmirrorleft #\nrotate # 90\nwave # 0.8163265306122449*(w/32) h/(5/2)\ncover # h w\nrotate # -90\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\naudiopitch # 0.66358\naudiopitch #p 1.48968\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 1|then:["hueshifthsv # 180 -10\nswirl # 5\nmirrorleft #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.77111\naudiopitch #$p 1.29684\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 180 -10\nswirl # 5\nmirrorleft #\ncopy # #p\naudiopitch # 0.77111\naudiopitch #p 1.29684\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 2|then:["swaprgba # bgr\ninvert #\nmirrorleft #\nget # width w\nget # height h\nrotate # 90\nwaves # -1.0204081632653061*(w/32) h/(10/2) 2\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 1.05946\naudiopitch #$p 1.12246\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\ninvert #\nmirrorleft #\nget # width w\nget # height h\nrotate # 90\nwaves # -1.0204081632653061*(w/32) h/(10/2) 2\ncover # h w\nrotate # -90\ncopy # #p\naudiopitch # 1.05946\naudiopitch #p 1.12246\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 3.14|then:["get # height h\ninvert #\nhueshifthsv # 36\nshake # 0 10*(h/720) true\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.8409\naudiopitch #$p 1.12246\naudiopitch #$p 2\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # height h\ninvert #\nhueshifthsv # 36\nshake # 0 10*(h/720) true\ncopy # #p\naudiopitch # 0.8409\naudiopitch #p 1.12246\naudiopitch #p 2\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 4|then:["flop #\nswaprgba # rbg\nget # width w\nget # height h\nwave # -1.0204081632653061*(h/18) w/(3.2/2)\ncover # w h\nrotate # 90\nwave # -1.0204081632653061*(w/32) h/(3.2/2)\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.66742\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.33484\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","flop #\nswaprgba # rbg\nget # width w\nget # height h\nwave # -1.0204081632653061*(h/18) w/(3.2/2)\ncover # w h\nrotate # 90\nwave # -1.0204081632653061*(w/32) h/(3.2/2)\ncover # h w\nrotate # -90\ncopy # #p\ncopy # #q\naudiopitch #p 0.66742\naudioputmix # #p\nvolume #\naudiopitch #q 1.33484\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 6|then:["invert #\nhueshifthsv # 216 0 -10\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.97153\naudiopitch #$p 0.48577\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.94306\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 216 0 -10\ncopy # #p\ncopy # #q\naudiopitch # 0.97153\naudiopitch #p 0.48577\naudioputmix # #p\nvolume #\naudiopitch #q 1.94306\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 7|then:["get # width w\nget # height h\nwave # 0.6666666666666666*(h/18) w/(3.2/2)\ncover # w h\nrotate # 90\nwave # 2*(w/32) h/(3.2/2)\ncover # h w\nrotate # -90\nswaprgba # gbg\nhueshifthsv # 72 25\nflop #\nflip #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.66742\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.49831\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.99424\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\nwave # 0.6666666666666666*(h/18) w/(3.2/2)\ncover # w h\nrotate # 90\nwave # 2*(w/32) h/(3.2/2)\ncover # h w\nrotate # -90\nswaprgba # gbg\nhueshifthsv # 72 25\nflop #\nflip #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\ncopy # #q\naudiopitch #p 0.66742\naudioputmix # #p\nvolume #\naudiopitch #q 1.49831\naudioputmix # #q\nvolume #\ncopy # #p\naudiopitch #p 0.99424\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 8|then:["swaprgba # bgr\ncontrast # -1\nexplode #\nmirrorleft #\nmirrortop #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.8409\naudiopitch #$p 1.12246\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # bgr\ncontrast # -1\nexplode #\nmirrorleft #\nmirrortop #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\naudiopitch # 0.8409\naudiopitch #p 1.12246\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 10|then:["swaprgba # rrb\nhueshifthsv # 180\nexplode #\nmirrorleft #\nmirrortop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.74915\naudiopitch #$p 1.49831\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","swaprgba # rrb\nhueshifthsv # 180\nexplode #\nmirrorleft #\nmirrortop #\ncopy # #p\naudiopitch # 0.74915\naudiopitch #p 1.49831\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 11|then:["hueshifthsv # 306 10\nmirrorright #\nget # width w\nget # height h\nwaves # 1.1445552986131393*(h/18) w/(10/2) 1\ncover # w h\nrotate # 90\nwaves # 1.1445552986131393*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\ninvert #\nflop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.81696\naudiopitch #$p 1.22405\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 306 10\nmirrorright #\nget # width w\nget # height h\nwaves # 1.1445552986131393*(h/18) w/(10/2) 1\ncover # w h\nrotate # 90\nwaves # 1.1445552986131393*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\ninvert #\nflop #\ncopy # #p\naudiopitch # 0.81696\naudiopitch #p 1.22405\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 12|then:["hueshifthsv # 40\nswaprgba # bgr\nswirl # -30\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.44545\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 40\nswaprgba # bgr\nswirl # -30\ncopy # #p\naudiopitch #p 0.44545\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 14|then:["flop #\nsolarize # 2\nhueshifthsv # 43.20000000000002\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.99424\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","flop #\nsolarize # 2\nhueshifthsv # 43.20000000000002\ncopy # #p\naudiopitch #p 0.99424\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 15|then:["invert #\nmirrorleft #\nmirrorbottom #\nhuecurvergba # all 0 1 0\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.7937\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.7818\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nmirrorleft #\nmirrorbottom #\nhuecurvergba # all 0 1 0\ncopy # #p\ncopy # #q\naudiopitch # 0.7937\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #\naudiopitch #q 1.7818\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 16|then:["hueshifthsv # -120\nget # width w\nget # height h\nrotate # 90\nwaves # 1.1445552986131393*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\nmirrorright #\ndistort # scale_rotate_translate -5\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.44545\naudiopitch #$p 0.8909\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.7818\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -120\nget # width w\nget # height h\nrotate # 90\nwaves # 1.1445552986131393*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\nmirrorright #\ndistort # scale_rotate_translate -5\ncopy # #p\ncopy # #q\naudiopitch # 0.44545\naudiopitch #p 0.8909\naudioputmix # #p\nvolume #\naudiopitch #q 1.7818\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 17|then:["invert #\nswaprgba # grb\nget # width w\nget # height h\nwave # 1.1445552986131393*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # 1.1445552986131393*(w/32) h/(4/2)\ncover # h w\nrotate # -90\nspeed # 0.75\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$ 0.8909\naudiopitch #$p 1.33484\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 2\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nswaprgba # grb\nget # width w\nget # height h\nwave # 1.1445552986131393*(h/18) w/(4/2)\ncover # w h\nrotate # 90\nwave # 1.1445552986131393*(w/32) h/(4/2)\ncover # h w\nrotate # -90\nspeed # 0.75\ncopy # #p\ncopy # #q\naudiopitch # 0.8909\naudiopitch #p 1.33484\naudioputmix # #p\nvolume #\naudiopitch #q 2\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 18|then:["flop #\nflip #\ninvert #\nhueshifthsv # 183.6\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 1.00006\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.49831\naudiopitch #$q 2\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","flop #\nflip #\ninvert #\nhueshifthsv # 183.6\ncopy # #p\ncopy # #q\naudiopitch #p 1.00006\naudioputmix # #p\nvolume #\naudiopitch #q 1.49831\naudiopitch #q 2\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 19|then:["grayscale #\nhuecurvergba # red 0 1 0\nhuecurvergba # green 0 1 0\nhuecurvergba # blue 0\nswirl # -10\nmirrorleft #\nmirrortop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.52973\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.88775\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.00579\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhuecurvergba # red 0 1 0\nhuecurvergba # green 0 1 0\nhuecurvergba # blue 0\nswirl # -10\nmirrorleft #\nmirrortop #\ncopy # #p\ncopy # #q\naudiopitch #p 0.52973\naudioputmix # #p\nvolume #\naudiopitch #q 1.88775\naudioputmix # #q\nvolume #\ncopy # #p\naudiopitch #p 1.00579\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 20|then:["invert #\nhueshifthsv # 320\nget # width w\nget # height h\nwave # -1*(h/18) w/(5/2)\ncover # w h\nmirrorleft #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.12246\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nhueshifthsv # 320\nget # width w\nget # height h\nwave # -1*(h/18) w/(5/2)\ncover # w h\nmirrorleft #\ncopy # #p\ncopy # #q\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #\naudiopitch #q 1.12246\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 36|then:["get # framecount FRAMES\ndetunnel #\nwiggle # right FRAMES/1 FRAMES/10\ntunnel #\nmirrorleft #\nhueshifthsv # 40\nlighten # 30\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.44545\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.12246\naudiopitch #$q 2\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # framecount FRAMES\ndetunnel #\nwiggle # right FRAMES/1 FRAMES/10\ntunnel #\nmirrorleft #\nhueshifthsv # 40\nlighten # 30\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\ncopy # #q\naudiopitch #p 0.44545\naudioputmix # #p\nvolume #\naudiopitch #q 1.12246\naudiopitch #q 2\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 88|then:["invert #\ngrayscale #\nhuecurvergba # red 1\nhuecurvergba # green 0.25098039215686274 1\nhuecurvergba # blue 1\nswirl # -50\nmirrorright #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 1.41421\naudiopitch #$p 0.94387\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ngrayscale #\nhuecurvergba # red 1\nhuecurvergba # green 0.25098039215686274 1\nhuecurvergba # blue 1\nswirl # -50\nmirrorright #\ncopy # #p\naudiopitch # 1.41421\naudiopitch #p 0.94387\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 234|then:["get # width w\nget # height h\nwaves # 0.1*(h/18) w/(10/2) 1\ncover # w h\nrotate # 90\nwaves # 0.1*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\nhueshifthsv # 3.6 6\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.97153\naudiopitch #$p 1.0293\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","get # width w\nget # height h\nwaves # 0.1*(h/18) w/(10/2) 1\ncover # w h\nrotate # 90\nwaves # 0.1*(w/32) h/(10/2) 1\ncover # h w\nrotate # -90\nhueshifthsv # 3.6 6\ncopy # #p\naudiopitch # 0.97153\naudiopitch #p 1.0293\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|jays g major 300|then:["hueshiftrgb # -255 -50 -255\nslide # 1 up\nswirl # -50\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.94387\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshiftrgb # -255 -50 -255\nslide # 1 up\nswirl # -50\ncopy # #p\naudiopitch #p 0.94387\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 2|then:["invertrgba # 1 1 0\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.25992\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invertrgba # 1 1 0\ncopy # #p\ncopy # #q\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #\naudiopitch #q 1.25992\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|g minor 2|then:["invertrgba # 0 0 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.7937\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.33484\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invertrgba # 0 0 1\ncopy # #p\ncopy # #q\naudiopitch #p 0.7937\naudioputmix # #p\nvolume #\naudiopitch #q 1.33484\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|g major 5|then:["invertrgba # 0 1 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.25992\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invertrgba # 0 1 1\ncopy # #p\naudiopitch #p 1.25992\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g minor 5|then:["invertrgba # 1 0 0\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.7937\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invertrgba # 1 0 0\ncopy # #p\naudiopitch #p 0.7937\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 9000|then:["lighten # 30\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.7937\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.18921\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","lighten # 30\ncopy # #p\ncopy # #q\naudiopitch #p 0.7937\naudioputmix # #p\nvolume #\naudiopitch #q 1.18921\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|g major 23|then:["hueshifthsv # -120\nflop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.8409\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.18921\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # -120\nflop #\ncopy # #p\ncopy # #q\naudiopitch #p 0.8409\naudioputmix # #p\nvolume #\naudiopitch #q 1.18921\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|haha major|then:["slide # 1 left\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.917\naudiopitch #$p 1.09051\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","slide # 1 left\ncopy # #p\naudiopitch # 0.917\naudiopitch #p 1.09051\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|haha major 3.0|then:["slide # 1 up\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.81696\naudiopitch #$p 1.22405\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","slide # 1 up\ncopy # #p\naudiopitch # 0.81696\naudiopitch #p 1.22405\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|sponge effect|then:["grayscale #\nhuecurvergba # red 1 1 0 0\nhuecurvergba # green 0.6 1 0.6 1\nhuecurvergba # blue 0 0 1 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 1.68179\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhuecurvergba # red 1 1 0 0\nhuecurvergba # green 0.6 1 0.6 1\nhuecurvergba # blue 0 0 1 1\ncopy # #p\naudiopitch # 1.68179\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|rj kumars g major 9 + confusion|then:["invert #\ncontrast # -1\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\nvolume # 2\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.8909\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncontrast # -1\nmirrorleft #\ncopy # #a\nreverse #a\naudioputreplace # #a\nvolume # 2\ncopy # #p\naudiopitch #p 0.8909\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|villains blast|then:["grayscale #\nhueshiftrgb # 0 -255 -255\nget # width w\nget # height h\nrotate # 90\nwaves # 1*(w/32) h/(10/2) 3\ncover # h w\nrotate # -90\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.5\naudiopitch #$p 0.74915\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhueshiftrgb # 0 -255 -255\nget # width w\nget # height h\nrotate # 90\nwaves # 1*(w/32) h/(10/2) 3\ncover # h w\nrotate # -90\ncopy # #p\naudiopitch # 0.5\naudiopitch #p 0.74915\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|chorded|then:["load https://cdn.discordapp.com/attachments/1124758334805909509/1303382314776006707/snip.mp4?ex=672b8cdf&is=672a3b5f&hm=034cb11850ddd6d645ad2acb6bab67f6a61c3ceb2d8864309e31cd3c74bfe02f& chorded\naudioputreplace # chorded\ngrayscale #\nhuecurvergba # red 1 0 0\nhuecurvergba # green 1 0 1\nhuecurvergba # blue 1 1 1","load https://cdn.discordapp.com/attachments/1124758334805909509/1303382314776006707/snip.mp4?ex=672b8cdf&is=672a3b5f&hm=034cb11850ddd6d645ad2acb6bab67f6a61c3ceb2d8864309e31cd3c74bfe02f& chorded\naudioputreplace # chorded\ngrayscale #\nhuecurvergba # red 1 0 0\nhuecurvergba # green 1 0 1\nhuecurvergba # blue 1 1 1",0]|else:
+{if:{arg:0}|=|g major|then:["invert #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\ncopy #$ #$r\ncopy #$ #$s\ncopy #$ #$t\naudiopitch #$p 0.5\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 0.74915\naudioputmix #$ #$q\nvolume #$\naudiopitch #$r 1.25992\naudioputmix #$ #$r\nvolume #$\naudiopitch #$s 1.49831\naudioputmix #$ #$s\nvolume #$\naudiopitch #$t 2\naudioputmix #$ #$t\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\ncopy # #p\ncopy # #q\ncopy # #r\ncopy # #s\ncopy # #t\naudiopitch #p 0.5\naudioputmix # #p\nvolume #\naudiopitch #q 0.74915\naudioputmix # #q\nvolume #\naudiopitch #r 1.25992\naudioputmix # #r\nvolume #\naudiopitch #s 1.49831\naudioputmix # #s\nvolume #\naudiopitch #t 2\naudioputmix # #t\nvolume #",0]|else:
+{if:{arg:0}|=|x might confuse you|then:["copy # #c\nreverse #c\naudioputmix # #c\ncopy # #a\nconvert # image/gif\nconvert #c image/gif\nopacity #c 50\noverlay # #c\nconvert # video/mp4\naudioputreplace # #a","copy # #c\nreverse #c\naudioputmix # #c\ncopy # #a\nconvert # image/gif\nconvert #c image/gif\nopacity #c 50\noverlay # #c\nconvert # video/mp4\naudioputreplace # #a",0]|else:
+{if:{arg:0}|=|invert hue|then:["hueshifthsv # 180","hueshifthsv # 180",0]|else:
+{if:{arg:0}|=|rgb to bgr|then:["swaprgba # bgr","swaprgba # bgr",0]|else:
+{if:{arg:0}|=|rgb to bgr reversed|then:["swaprgba # bgr\nreverse #","swaprgba # bgr\nreverse #",0]|else:
+{if:{arg:0}|=|reversed|then:["reverse #","reverse #",0]|else:
+{if:{arg:0}|=|dma|then:["invert #\nget # width w\nget # height h\nload https://cdn.discordapp.com/attachments/1124758334805909509/1302921946345902130/convert.png?ex=6729e01f&is=67288e9f&hm=1b846cef55fa57ebd938d740ec80c1e84151a9d347f181f4b1d9adbac6c88b6d& overlay\nresize overlay w h\nopacity overlay 50\noverlay # overlay\nhuecurvergba # all 1 0 1\nhuecurvergba # all 0 0.6 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\ncopy #$ #$r\naudiopitch #$ 1.05946\naudiopitch #$p 0.26487\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 0.52973\naudioputmix #$ #$q\nvolume #$\naudiopitch #$r 1.05946\naudiopitch #$r 2\naudioputmix #$ #$r\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nget # width w\nget # height h\nload https://cdn.discordapp.com/attachments/1124758334805909509/1302921946345902130/convert.png?ex=6729e01f&is=67288e9f&hm=1b846cef55fa57ebd938d740ec80c1e84151a9d347f181f4b1d9adbac6c88b6d& overlay\nresize overlay w h\nopacity overlay 50\noverlay # overlay\nhuecurvergba # all 1 0 1\nhuecurvergba # all 0 0.6 1\ncopy # #p\ncopy # #q\ncopy # #r\naudiopitch # 1.05946\naudiopitch #p 0.26487\naudioputmix # #p\nvolume #\naudiopitch #q 0.52973\naudioputmix # #q\nvolume #\naudiopitch #r 1.05946\naudiopitch #r 2\naudioputmix # #r\nvolume #",0]|else:
+{if:{arg:0}|=|16th preview 2 effect|then:["grayscale #\ninvert #\nreverse #\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 2\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\ninvert #\nreverse #\naudiopitch # 2",0]|else:
+{if:{arg:0}|=|marks g major 46|then:["grayscale #\nhuecurvergba # red 0.4980392156862745 1 0\nhuecurvergba # green 0 1 0\nhuecurvergba # blue 0 1 1\nget # width w\nget # height h\nresize # w*1.5 h*1.5\ndistort # scale_rotate_translate 10\nget # width a\nget # height b\ncrop # w h (w/2)-(a/2)+0 (h/2)-(b/2)+0\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.44545\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.12246\naudiopitch #$q 2\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhuecurvergba # red 0.4980392156862745 1 0\nhuecurvergba # green 0 1 0\nhuecurvergba # blue 0 1 1\nget # width w\nget # height h\nresize # w*1.5 h*1.5\ndistort # scale_rotate_translate 10\nget # width a\nget # height b\ncrop # w h (w/2)-(a/2)+0 (h/2)-(b/2)+0\ncopy # #p\ncopy # #q\naudiopitch #p 0.44545\naudioputmix # #p\nvolume #\naudiopitch #q 1.12246\naudiopitch #q 2\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|electrodynamix|then:["grayscale #\nhuecurvergba # red 1 0 0 0\nhuecurvergba # green 1 1 1 1\nhuecurvergba # blue 1 0 1 1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.74915\naudiopitch #$p 1.12246\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","grayscale #\nhuecurvergba # red 1 0 0 0\nhuecurvergba # green 1 1 1 1\nhuecurvergba # blue 1 0 1 1\ncopy # #p\naudiopitch # 0.74915\naudiopitch #p 1.12246\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|lebs g major 36|then:["flop #\ncontrast # -1\nhueshifthsv # 180\nswaprgba # bgr\ncontrast 0 -1\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.8409\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.99424\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","flop #\ncontrast # -1\nhueshifthsv # 180\nswaprgba # bgr\ncontrast 0 -1\ncopy # #p\naudiopitch #p 0.8409\naudioputmix # #p\nvolume #\ncopy # #p\naudiopitch #p 0.99424\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|braxtons g major 21|then:["contrast 0 -1\ncontrast # -1\nhueshifthsv # 180\nflop #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$ 0.7937\naudiopitch #$p 1.18921\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast 0 -1\ncontrast # -1\nhueshifthsv # 180\nflop #\ncopy # #p\naudiopitch # 0.7937\naudiopitch #p 1.18921\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|marks g major 278|then:["invert #\nswaprgba # grb\nhueshifthsv # 180\nmirrorbottom #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 1.00579\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","invert #\nswaprgba # grb\nhueshifthsv # 180\nmirrorbottom #\ncopy # #a\nreverse #a\naudioputreplace # #a\ncopy # #p\naudiopitch #p 1.00579\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|angry x|then:["contrast # -1\nswaprgba # grb\nmirrorleft #\nimplode # 0.7\naudiodestroy #\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\naudiopitch #$p 0.8909\naudioputmix #$ #$p\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nswaprgba # grb\nmirrorleft #\nimplode # 0.7\naudiodestroy #\ncopy # #p\naudiopitch #p 0.8909\naudioputmix # #p\nvolume #",0]|else:
+{if:{arg:0}|=|g major 105|then:["hueshifthsv # 234\nmirrortop #\ncopy # #$\nconvert #$ audio/wav\naudiopitch #$ 0.8409\nrepeatduration #$ #d\naudioputreplace # #$","hueshifthsv # 234\nmirrortop #\naudiopitch # 0.8409",0]|else:
+{if:{arg:0}|=|g major 41|then:["contrast # -1\nswaprgba # bgr\nhueshifthsv # 180\ncopy # #$\nconvert #$ audio/wav\ncopy #$ #$p\ncopy #$ #$q\naudiopitch #$p 0.8409\naudioputmix #$ #$p\nvolume #$\naudiopitch #$q 1.25992\naudioputmix #$ #$q\nvolume #$\nrepeatduration #$ #d\naudioputreplace # #$","contrast # -1\nswaprgba # bgr\nhueshifthsv # 180\ncopy # #p\ncopy # #q\naudiopitch #p 0.8409\naudioputmix # #p\nvolume #\naudiopitch #q 1.25992\naudioputmix # #q\nvolume #",0]|else:
+{if:{arg:0}|=|placeholder|then:[" #"," #",0]|else:
+{if:{arg:0}|=|wubboxs g major 0|then:["get # width #w\nget # height #h\ncopy # #a\naudiopitch # 1.0594630943592953\naudiopitch #a 1.189207115002721\naudioputmix # #a\nvolume #\nhueshifthsv # 150 25\ninvert #\nwaves # 15 #w/2 5\nwaves # 15 #w/3 5\nwaaw #\ncover # #w #h","get # width #w\nget # height #h\ncopy # #a\naudiopitch # 1.0594630943592953\naudiopitch #a 1.189207115002721\naudioputmix # #a\nvolume #\nhueshifthsv # 150 25\ninvert #\nwaves # 15 #w/2 5\nwaves # 15 #w/3 5\nwaaw #\ncover # #w #h",0]|else:
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}
+|else:["","null","null"]
+}
+{set:code|{traversejson:0|{get:array}}}
+{set:old|{traversejson:1|{get:array}}}
+{set:arg_offset|{traversejson:2|{get:array}}}
+{if:{get:code}|=||then:
+{if:{arg:0}|=|list|then:
+{if:{arg:1}|=||then:```.t easy_effects list <page#>```|else:
+{if:{arg:1}|>|6|then:This page does not exist... yet|else:
+{if:{arg:1}|=|1|then:
+# THE LIST: #
+Page #: `1` of `6`
+
+`normal`
+`confusion`
+`opposite confusion`
+`confusion reversed`
+`getting faster`
+`getting slower`
+`0.5`
+`0.9`
+`distort`
+`low pinch`
+`g major 74`
+`g major mirror top`
+`delay`
+`g major 91`
+`idk`
+`low voice`
+`high voice`
+`g major 302`
+`respondview 2`
+`respondview 2 speed`
+`respondview 2 alt`
+`getting faster split getting slower`
+`low quality`
+`the loudest x`
+`zoopals effect`
+}
+{if:{arg:1}|=|2|then:
+# THE LIST: #
+Page #: `2` of `6`
+
+`opposite zoopals effect`
+`g major 16`
+`weird x`
+`simulator v19`
+`jays g major 106`
+`billy gardiners g major 1`
+`billy gardiners g minor 1`
+`g major 7`
+`rj kumars g major 9`
+`weird code`
+`g major 88`
+`split zoopals effect`
+`split opposite zoopals effect`
+`custom major 333`
+`custom major 3`
+`jays g major 3`
+`amtve major`
+`jays g major 525600`
+`lebs g major 64`
+`jays g major 137`
+`preview 2`
+`preview 2 fast`
+`luig group`
+`mari group`
+`g major 25`
+}
+{if:{arg:1}|=|3|then:
+# THE LIST: #
+Page #: `3` of `6`
+
+`mr krabs major`
+`t major 25`
+`does respond`
+`does not respond`
+`g major 77114`
+`baarens g major 1`
+`pitch`
+`split pitch`
+`split opposite pitches`
+`split 2 pitches`
+`split 3 pitches`
+`split 4 pitches`
+`split opposite pitches with zero`
+`91 dxi`
+`crying x`
+`opposite crying x`
+`i killed x`
+`custom`
+`jays g major 5`
+`jays g major 5 v2`
+`gold major`
+`arnold s major`
+`g major 4`
+`real g major 4`
+`g minor 4`
+}
+{if:{arg:1}|=|4|then:
+# THE LIST: #
+Page #: `4` of `6`
+
+`real g minor 4`
+`pitch white`
+`betterwave`
+`jays g major 9`
+`sad x`
+`opposite sad x`
+`conga busher`
+`lebs g major 222`
+`lebs custom major`
+`purple yellow`
+`g major 1`
+`tacoma major`
+`pika major`
+`green lowers`
+`goo goo gaa gaa`
+`fake g major`
+`vegas pros g major 10`
+`jays g major 0`
+`jays g major 1`
+`jays g major 2`
+`jays g major 3.14`
+`jays g major 4`
+`jays g major 6`
+`jays g major 7`
+`jays g major 8`
+}
+{if:{arg:1}|=|5|then:
+# THE LIST: #
+Page #: `5` of `6`
+
+`jays g major 10`
+`jays g major 11`
+`jays g major 12`
+`jays g major 14`
+`jays g major 15`
+`jays g major 16`
+`jays g major 17`
+`jays g major 18`
+`jays g major 19`
+`jays g major 20`
+`jays g major 36`
+`jays g major 88`
+`jays g major 234`
+`jays g major 300`
+`g major 2`
+`g minor 2`
+`g major 5`
+`g minor 5`
+`g major 9000`
+`g major 23`
+`haha major`
+`haha major 3.0`
+`sponge effect`
+`rj kumars g major 9 + confusion`
+`villains blast`
+}
+{if:{arg:1}|=|6|then:
+# THE LIST: #
+Page #: `6` of `6`
+
+`chorded`
+`g major`
+`x might confuse you`
+`invert hue`
+`rgb to bgr`
+`rgb to bgr reversed`
+`reversed`
+`dma`
+`16th preview 2 effect`
+`marks g major 46`
+`electrodynamix`
+`lebs g major 36`
+`braxtons g major 21`
+`marks g major 278`
+`angry x`
+`g major 105`
+`g major 41`
+`placeholder`
+`wubboxs g major 0`
+}
+}
+}
+|else:
+{if:{arg:0}|=|updatelog|then:
+# OFFICIAL UPDATE LOG #
+## v1.0 ##
+- We're officially entering the "peak" phase of `{tagname}`, so expect some things to come out every 2-3 days{newline}-# May include some VERY needed bug fixes
+- Due to a tiny bug relating to Tagscript: I've updated the code loading script to use Javascript instead
+## v1.01 ##
+- Since the Javascript command caused a bug where the rest of the code following it wouldn't process, I've changed the code loading script back to Tagscript
+|else:
+The effect `{arg:0}` isn't in the list... apparently
+but you CAN ping Jay to request an effect
+To see the list currently, use the command: ```.t easy_effects list <page#>```
+}}
+|else:
+{if:{get:arg_offset}|=||then:{set:arg_offset|0}}
+{choose:do you eat burgers for breakfast?|Please put me out of my f##king misery|THIS IS A FREE COPY OF VEGAS PRO BUT BAD|Sponsored by Raid Shadow Legends|Here's your video|HEY {mention}, COME GET YOUR VIDEO|I need your opinion on HoaiSonVo, please|i'm feeling kinda 𝓯𝓻𝓮𝓪𝓴𝔂 today|OVB 不好，NSB 很好。|عزيزي الله، من فضلك أعطني ديسكورد نيترو|help i'm running out of ideas on what to write|honestly, `.webm` is better|"I HATE KLASKY CSUPO" -OpenVideoBot|blanabba|MORK!!!|{repeat:1000|{mention}}|YOU SHOULD USE `EASY_EFFECTS`{newline}# NOW!!! #|https://cdn.discordapp.com/attachments/1124758334805909509/1317658149460770886/ahCMIufn.png?ex=675f7c47&is=675e2ac7&hm=841bb1080fa9735496b8a976bb7943d4d15a3ecddf49f7dde1352b749a715903&|you're grounded|hey i feel so sprunki|-# you can't even see me|*insert epic beat drop*|Dragon Saigon Group? What the f##k does that even mean!?|no i'm not copying openvideobot, the allegations are false, kill yourself|it was written in parkour|# /\ /\ /\ #{newline}rip michigan|HACKED BY {mention:{randuser}}|concatmultiple is crazy dawg :skull:|You guys should try `easy_effects2`, a mod in development made by YGL2K14!|EEEEE
+E
+EEE
+E
+EEEEE}
+{if:{arg:{math:1+{get:arg_offset}}}|=|raw|then:
+{if:{arg:{math:2+{get:arg_offset}}}|=|ihtx|then:
+{set:code|
+{if:{arg:{math:6+{get:arg_offset}}}|=|true|then:{get:old}|else:{get:code}}
+{if:{indexof:"{arg:{math:0+{get:arg_offset}}}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+{if:{arg:{math:5+{get:arg_offset}}}|!=|true|then:snip # 0 0d}
+|else:
+{if:{arg:{math:5+{get:arg_offset}}}|=|true|then:snip # 0 0d}
+}
+}
+{attachtext:
+load {iv:{args}} 0
+{if:{arg:{math:4+{get:arg_offset}}}|!=|true|then:snip 0 0 0.5}
+copy 0 1
+{set:powers|{or:{arg:{math:3+{get:arg_offset}}}|10}}
+{set:#|0}
+{foreach:{get:powers}|{set:#|{math:{get:#} + 1}}
+{replace:#|{get:#}|{get:code}}
+copy {get:#} {math:{get:#}+1}
+}
+{set:#|0}
+concatmultiple{foreach:{get:powers}|{set:#|{math:{get:#} + 1}} {get:#}}
+render 1}
+|else:
+{if:{arg:{math:3+{get:arg_offset}}}|=|true|then:{set:code|{get:old}}}
+{if:{arg:{math:2+{get:arg_offset}}}|!=||then:
+{code:{replace:#|{arg:{math:2+{get:arg_offset}}}|{get:code}}}
+{newline} .txt file version:
+{attachtext:{replace:#|{arg:{math:2+{get:arg_offset}}}|{get:code}}}
+|else:
+{code:{get:code}}
+{newline} .txt file version:
+{attachtext:{get:code}}
+}
+}
+|else:
+{if:{arg:{math:1+{get:arg_offset}}}|=|ihtx|then:
+{set:code|
+{if:{arg:{math:5+{get:arg_offset}}}|=|true|then:{get:old}|else:{get:code}}
+{if:{indexof:"{arg:{math:0+{get:arg_offset}}}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+{if:{arg:{math:4+{get:arg_offset}}}|!=|true|then:snip # 0 0d}
+|else:
+{if:{arg:{math:4+{get:arg_offset}}}|=|true|then:snip # 0 0d}
+}
+}
+{iscript:
+load {iv:{args}} 0
+{if:{arg:{math:3+{get:arg_offset}}}|!=|true|then:snip 0 0 0.5}
+copy 0 1
+{set:powers|{or:{arg:{math:2+{get:arg_offset}}}|10}}
+{set:#|0}
+{foreach:{get:powers}|{set:#|{math:{get:#} + 1}}
+{replace:#|{get:#}|{get:code}}
+copy {get:#} {math:{get:#}+1}
+}
+{set:#|0}
+concatmultiple{foreach:{get:powers}|{set:#|{math:{get:#} + 1}} {get:#}}
+render 1}
+|else:
+{if:{arg:{math:1+{get:arg_offset}}}|=|ihtxbuggy|then:
+{set:code|
+{if:{arg:{math:5+{get:arg_offset}}}|=|true|then:{get:old}|else:{get:code}}
+copy # #c
+snip # -0.16666666666666666 #d
+snip #c 0 -0.16666666666666666
+concat # #c
+{if:{indexof:"{arg:{math:0+{get:arg_offset}}}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+{if:{arg:{math:4+{get:arg_offset}}}|!=|true|then:snip # 0 0d}
+|else:
+{if:{arg:{math:4+{get:arg_offset}}}|=|true|then:snip # 0 0d}
+}
+}
+{iscript:
+load {iv:{args}} 0
+{if:{arg:{math:3+{get:arg_offset}}}|!=|true|then:snip 0 0 0.5}
+copy 0 1
+{set:powers|{or:{arg:{math:2+{get:arg_offset}}}|10}}
+{set:#|0}
+{foreach:{get:powers}|{set:#|{math:{get:#} + 1}}
+{replace:#|{get:#}|{get:code}}
+copy {get:#} {math:{get:#}+1}
+}
+{set:#|0}
+concatmultiple{foreach:{get:powers}|{set:#|{math:{get:#} + 1}} {get:#}}
+render 1}
+|else:
+{if:{arg:{math:1+{get:arg_offset}}}|=|ihtxold|then:
+{set:code|
+{if:{arg:{math:5+{get:arg_offset}}}|=|true|then:{get:old}|else:{get:code}}
+meme # #
+{if:{indexof:"{arg:{math:0+{get:arg_offset}}}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+{if:{arg:{math:4+{get:arg_offset}}}|!=|true|then:snip # 0 0d}
+|else:
+{if:{arg:{math:4+{get:arg_offset}}}|=|true|then:snip # 0 0d}
+}
+}
+{iscript:
+load {iv:{args}} 0
+{if:{arg:{math:3+{get:arg_offset}}}|!=|true|then:snip 0 0 0.5}
+copy 0 1
+{set:powers|{or:{arg:{math:2+{get:arg_offset}}}|10}}
+{set:#|0}
+{foreach:{get:powers}|{set:#|{math:{get:#} + 1}}
+{replace:#|{get:#}|{get:code}}
+copy {get:#} {math:{get:#}+1}
+}
+{set:#|0}
+concatmultiple{foreach:{get:powers}|{set:#|{math:{get:#} + 1}} {get:#}}
+render 1}
+|else:
+{if:{arg:{math:1+{get:arg_offset}}}|=|ihtxkine|then:
+{set:code|
+{if:{arg:{math:5+{get:arg_offset}}}|=|true|then:{get:old}|else:{get:code}}
+copy # 0a
+fadein 0a 0.2
+fadeout 0a 0.2
+audioputreplace # 0a
+{if:{indexof:"{arg:{math:0+{get:arg_offset}}}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+{if:{arg:{math:4+{get:arg_offset}}}|!=|true|then:snip # 0 0d}
+|else:
+{if:{arg:{math:4+{get:arg_offset}}}|=|true|then:snip # 0 0d}
+}
+}
+{iscript:
+load {iv:{args}} 0
+{if:{arg:{math:3+{get:arg_offset}}}|!=|true|then:snip 0 0 0.5}
+copy 0 1
+{set:powers|{or:{arg:{math:2+{get:arg_offset}}}|10}}
+{set:#|0}
+{foreach:{get:powers}|{set:#|{math:{get:#} + 1}}
+{replace:#|{get:#}|{get:code}}
+copy {get:#} {math:{get:#}+1}
+}
+{set:#|0}
+concatmultiple{foreach:{get:powers}|{set:#|{math:{get:#} + 1}} {get:#}}
+render 1}
+|else:
+{if:{arg:{math:1+{get:arg_offset}}}|=|multiplier|then:
+{iscript:
+load {iv:{args}} 0
+copy 0 1
+{set:powers|{or:{arg:{math:2+{get:arg_offset}}}|1}}
+{if:{arg:{math:3+{get:arg_offset}}}|=|true|then:{set:code|{get:old}}}
+{foreach:{get:powers}|
+{replace:#|1|{get:code}}
+{if:{indexof:"{arg:0}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+snip 1 0 0d
+}
+}
+render 1}
+|else:
+{iscript:
+load {iv:{args}} 0
+copy 0 1
+{if:{arg:{math:1+{get:arg_offset}}}|=|oldpitch|then:{set:code|{get:old}}}
+{replace:#|1|{get:code}}
+{if:{indexof:"{arg:0}"|["0.5","low voice","respondview 2","respondview 2 speed","respondview 2 alt","weird x","preview 2","jays g major 17"]}|=|-1|then:
+snip 1 0 0d
+}
+render 1}
+}}}}}}
+}
+}
