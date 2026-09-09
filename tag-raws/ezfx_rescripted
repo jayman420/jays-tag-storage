@@ -2063,9 +2063,9 @@
 {set:shift|{traversejson:{arg:0}.args|{get:data}}}
 {if:{arg:{math:1+{get:shift}}}|=|raw|then:
 {embedjson:{
-	"color": 255,
-	"title": "**Raw Code**",
-	"description": "```{eval:{get:code}}```"
+"color": 255,
+"title": "**Raw Code**",
+"description": {jsonify:```{eval:{get:code}}```}
 }}
 |else:
 {if:{arg:{math:1+{get:shift}}}|=|multiplier|then:
@@ -2171,9 +2171,9 @@ render x {get:output_file_format}
 |else:
 {if:{arg:1}|=|raw|then:
 {embedjson:{
-	"color": 255,
-	"title": "**Raw Code**",
-	"description": "```{get:code}```"
+"color": 255,
+"title": "**Raw Code**",
+"description": {jsonify:```{get:code}```}
 }}
 |else:
 {iscriptmaybeurl:
