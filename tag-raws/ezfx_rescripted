@@ -2056,6 +2056,10 @@
 	}
 ]}
 |else:
+{if:{arg:0}|=|raw|then:
+Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
+{attachtext:{text:https://raw.githubusercontent.com/jayman420/jays-tag-storage/refs/heads/main/tag-raws/ezfx_rescripted}}
+|else:
 {set:code|{traversejson:{arg:0}.code|{get:data}}}
 {if:{get:code}|=||then:
 {js:console.error(`effect doesn't exist lol`);}
@@ -2195,6 +2199,7 @@ convert mvid image/gif
 speed maud maudd/mvidd
 audioputreplace m maud yes no
 render m
+}
 }
 }
 }
