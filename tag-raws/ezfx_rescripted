@@ -1,1013 +1,1257 @@
 {set:data|{ignore:{
 	"g-major": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 4": {
+		"ffmpeg": false,
 		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 4": {
+		"ffmpeg": false,
 		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm4": {
+		"ffmpeg": false,
 		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real g-major 4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real g major 4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real gm4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 6": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-8/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 6": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-8/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm6": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-8/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 7": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 7": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm7": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 8": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\ninvert m\nhueshifthsv m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 8": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\ninvert m\nhueshifthsv m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm8": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\ninvert m\nhueshifthsv m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 16": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -150\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 16": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -150\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -150\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 16 (common)": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -120\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 16 common": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -120\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 (common)": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -120\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 common": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -120\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 16 2.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 16 2.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 2.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 16 3.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-8/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 16 3.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-8/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 3.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-8/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 16 4.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 16 4.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 4.0": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 20 (original)": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\nhueshifthsv n -50\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 20 original": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\nhueshifthsv n -50\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm20 (original)": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\nhueshifthsv n -50\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm20 original": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\nhueshifthsv n -50\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 74": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 74": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm74": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 74 (original)": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 74 original": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm74 (original)": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm74 original": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-10/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(2/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 88": {
+		"ffmpeg": false,
 		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 88": {
+		"ffmpeg": false,
 		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm88": {
+		"ffmpeg": false,
 		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 125": {
+		"ffmpeg": false,
 		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-14/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 125": {
+		"ffmpeg": false,
 		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-14/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm125": {
+		"ffmpeg": false,
 		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-14/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 302": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nrotate m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-20/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 302": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nrotate m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-20/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm302": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 180\ninvert m\nrotate m 180\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-20/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-7/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-7/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-7/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 591": {
+		"ffmpeg": false,
 		"code": "invert m\nswaprgba m bgr\nhueshifthsv m -144\nswirl m 110\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 591": {
+		"ffmpeg": false,
 		"code": "invert m\nswaprgba m bgr\nhueshifthsv m -144\nswirl m 110\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm591": {
+		"ffmpeg": false,
 		"code": "invert m\nswaprgba m bgr\nhueshifthsv m -144\nswirl m 110\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 9000": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0.2 0.4 0.6 0.8 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 9000": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0.2 0.4 0.6 0.8 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm9000": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 0.2 0.4 0.6 0.8 1 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-major 77114": {
+		"ffmpeg": false,
 		"code": "haah m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g major 77114": {
+		"ffmpeg": false,
 		"code": "haah m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm77114": {
+		"ffmpeg": false,
 		"code": "haah m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ncontrast m -1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(-4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(-7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(-12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ncontrast m -1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(-4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(-7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(-12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ncontrast m -1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(-4/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(-7/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(-12/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor 2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor 2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi2": {
+		"ffmpeg": false,
 		"code": "invertrgba m 0 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-4/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor 4": {
+		"ffmpeg": false,
 		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor 4": {
+		"ffmpeg": false,
 		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi4": {
+		"ffmpeg": false,
 		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real g-minor 4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 1 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real g minor 4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 1 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"real gmi4": {
+		"ffmpeg": false,
 		"code": "huecurvergba m all 1 0 1\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor 5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor 5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi5": {
+		"ffmpeg": false,
 		"code": "invertrgba m 1 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor 305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor 305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi305": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 119\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-12/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g-minor 77114": {
+		"ffmpeg": false,
 		"code": "waaw m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"g minor 77114": {
+		"ffmpeg": false,
 		"code": "waaw m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gmi77114": {
+		"ffmpeg": false,
 		"code": "waaw m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"custom major 3": {
+		"ffmpeg": false,
 		"code": "haah m\nhueshifthsv m 162\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(0.1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"custom major 333": {
+		"ffmpeg": false,
 		"code": "invert m\ndistort m scale_rotate_translate -1\nsharpen m 3\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-0.2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"custom minor 3": {
+		"ffmpeg": false,
 		"code": "waaw m\nhueshifthsv m -162\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-0.1/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"22-dxi": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\ncontrast m 1.8\nhuecurvergba m all 0 0.2 0.8 1\ncreate bg w h 60 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.3\ncopy bg m\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-19/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"22 dxi": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\ncontrast m 1.8\nhuecurvergba m all 0 0.2 0.8 1\ncreate bg w h 60 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.1 0.3\ncopy bg m\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-19/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(12/12)\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"44-dxi": {
+		"ffmpeg": false,
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3.9/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"44 dxi": {
+		"ffmpeg": false,
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3.9/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"91-dxi": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 72 90 0\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"91 dxi": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 72 90 0\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"opposite 91-dxi": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m -72 -90 0\nshake m 0 mh/-72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"opposite 91 dxi": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m -72 -90 0\nshake m 0 mh/-72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"jay's g-major 2800": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 284.04 100\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-20.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-13.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(-6.5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(0.5/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7.5/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\naudiopitch m5 2**(2.5/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\naudiopitch m6 2**(12/12)\naudiopitch m6 2**(9.5/12)\nspeed m6 m6d/target\naudiodelay m6 -0.003\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"jays g major 2800": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 284.04 100\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-20.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-13.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(-6.5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(0.5/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7.5/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\naudiopitch m5 2**(2.5/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\naudiopitch m6 2**(12/12)\naudiopitch m6 2**(9.5/12)\nspeed m6 m6d/target\naudiodelay m6 -0.003\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"jay's gm2800": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 284.04 100\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-20.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-13.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(-6.5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(0.5/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7.5/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\naudiopitch m5 2**(2.5/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\naudiopitch m6 2**(12/12)\naudiopitch m6 2**(9.5/12)\nspeed m6 m6d/target\naudiodelay m6 -0.003\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"jays gm2800": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 284.04 100\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-20.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-13.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(-6.5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(0.5/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7.5/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\naudiopitch m5 2**(2.5/12)\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\naudiopitch m6 2**(12/12)\naudiopitch m6 2**(9.5/12)\nspeed m6 m6d/target\naudiodelay m6 -0.003\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"jay's g-major 525600": {
+		"ffmpeg": false,
 		"code": "swirl m -50\nhaah m\nwoow m\ninvert m\ndeepfry m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\naudiodestroy m",
 		"args": 0
 	},
 	"jays g major 525600": {
+		"ffmpeg": false,
 		"code": "swirl m -50\nhaah m\nwoow m\ninvert m\ndeepfry m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\naudiodestroy m",
 		"args": 0
 	},
 	"jay's gm525600": {
+		"ffmpeg": false,
 		"code": "swirl m -50\nhaah m\nwoow m\ninvert m\ndeepfry m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\naudiodestroy m",
 		"args": 0
 	},
 	"jays gm525600": {
+		"ffmpeg": false,
 		"code": "swirl m -50\nhaah m\nwoow m\ninvert m\ndeepfry m\nreverse m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\naudiodestroy m",
 		"args": 0
 	},
 	"gold major": {
+		"ffmpeg": false,
 		"code": "gold m\nhaah m\nwoow m\nreverse m\naudiodestroy m",
 		"args": 0
 	},
 	"the loudest x": {
+		"ffmpeg": false,
 		"code": "deepfry m\naudioboostbass m\naudiodestroy m",
 		"args": 0
 	},
 	"klaalk": {
+		"ffmpeg": false,
 		"code": "haah m\nsnip m 0 d/2\ncopy m n\nreverse n\nconcat m n",
 		"args": 0
 	},
 	"ykssky": {
+		"ffmpeg": false,
 		"code": "waaw m\nsnip m d/2\nreverse m\ncopy m n\nreverse n\nconcat m n",
 		"args": 0
 	},
 	"x's pet fly": {
+		"ffmpeg": false,
 		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"xs pet fly": {
+		"ffmpeg": false,
 		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"double spin": {
+		"ffmpeg": false,
 		"code": "dobetween m 0 d/2 {jsonify:\nspin mx yes no yes\n}\ndobetween m d/2 d {jsonify:\nspin mx no no yes\n}",
 		"args": 0
 	},
 	"the four horsemen of x": {
+		"ffmpeg": false,
 		"code": "scale m 0.5\ncopy m n\ninvert n\nreverse n\njoin m n\ncopy m n\nhueshifthsv n 180\nreverse n\ndobetween n 0 d/2 {jsonify:\nreverse nx\n}\ndobetween n d/2 d {jsonify:\nreverse nx\n}\njoin m n true\nvolume m",
 		"args": 0
 	},
 	"x may need assistance": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m -50\nhaah m\ncopy m n\ncrop m w/2 h\nwave n nh/12 nw/1\ncover n w h\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"x is evil!!!": {
+		"ffmpeg": false,
 		"code": "gray m\ninvert m\nswaprgba m r00\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(2/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"x is evil": {
+		"ffmpeg": false,
 		"code": "gray m\ninvert m\nswaprgba m r00\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(2/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"x is nice!!!": {
+		"ffmpeg": false,
 		"code": "gray m\ninvert m\nswaprgba m r00\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"x is nice": {
+		"ffmpeg": false,
 		"code": "gray m\ninvert m\nswaprgba m r00\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"sierpinski's triangle": {
+		"ffmpeg": false,
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"args": 0
+	},
+	"sierpinskis triangle": {
+		"ffmpeg": false,
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"args": 0
+	},
+	"sierpinski": {
+		"ffmpeg": false,
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"args": 0
+	},
+	"sierpinski's effect": {
+		"ffmpeg": false,
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"args": 0
+	},
+	"sierpinskis effect": {
+		"ffmpeg": false,
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"args": 0
+	},
 	"custom": {
+		"ffmpeg": false,
 		"code": "{eval:{replace:\\u0020#| m|{arg:1}}}",
-		"args": 1,
-		"syntax": "<code>"
+		"args": 1
 	},
 	"effects": {
+		"ffmpeg": false,
 		"code": "copy m n\n{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\ncopy n {get:idx}\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}\n}\nconcat m {get:idx}\n}\n{if:{arg:2}|=|true|then:\nsnip m d\n}\n{if:{3}|=|true|then:\nspeed m md/d\n}",
-		"args": 2,
-		"syntax": "<effect 1; effect 2; + and so on> <?remove_normal>"
+		"args": 2
 	},
 	"multirender": {
+		"ffmpeg": false,
 		"code": "copy m n\n{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{get:valuex}.code|{get:data}}}\n}\n}\nconcat m n\n}\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
-		"args": 2,
-		"syntax": "<effect 1; effect 2; + and so on> <?remove_normal>"
+		"args": 2
 	},
 	"pipe": {
+		"ffmpeg": false,
 		"code": "{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{get:valuex}.code|{get:data}}\n}\n}\n}",
-		"args": 1,
-		"syntax": "<effect 1; effect 2; + and so on>"
+		"args": 1
 	},
 	"preview 2": {
+		"ffmpeg": false,
 		"code": "copy m mp\nflop mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nspeed m 4\nvolume m",
 		"args": 0
 	},
 	"respondview 2": {
+		"ffmpeg": false,
 		"code": "repeatduration m {type:number|{arg:1}|1}+{type:float|{arg:2}|0.36}\nsnip m {type:number|{arg:1}|1} {type:number|{arg:1}|1}+{type:float|{arg:2}|0.36}\nhueshifthsv m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no\ncopy m n\naudiopitch m 2**(-12/12)\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy n ncrop\ncrop ncrop w h*0.66 0 0\nswirl ncrop 60\noverlay n ncrop 0 0\nconcat m n\ncopy m mp\naudiopitch mp 2**(1/12)\ncopy m mm\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m",
-		"args": 2,
-		"syntax": "<start_pos> <duration>"
+		"args": 2
 	},
 	"preview 1280": {
+		"ffmpeg": false,
 		"code": "repeatduration m {type:float|{arg:1}|1.85}+{type:float|{arg:2}|0.85}\nsnip m {type:float|{arg:1}|1.85} {type:float|{arg:1}|1.85}+{type:float|{arg:2}|0.85}\ncopy m mp\nhueshifthsv mp 50\naudiopitch mp 2**(1/12)\ncopy m mm\nhueshifthsv mm 180\nwaaw mm\nrotate mm 90\nwaves mm mmh/24 mmw/5 mmh/180\nrotate mm -90\ncover mm w h\naudiopitch mm 2**(-2/12)\nconcat mm mp\nconcatmultiple m mp mm\nvolume m 1.25",
-		"args": 2,
-		"syntax": "<start_pos> <duration>"
+		"args": 2
 	},
 	"split": {
+		"ffmpeg": false,
 		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w/2 h\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w/2 h w/2 0\njoin m n\nvolume m",
-		"args": 2,
-		"syntax": "<effect 1> <effect 2>"
+		"args": 2
 	},
 	"vertical split": {
+		"ffmpeg": false,
 		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true\nvolume m",
-		"args": 2,
-		"syntax": "<effect 1> <effect 2>"
+		"args": 2
 	},
 	"x meets": {
+		"ffmpeg": false,
 		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n\nvolume m",
-		"args": 2,
-		"syntax": "<effect 1> <effect 2>"
+		"args": 2
 	},
 	"getting faster split getting slower": {
+		"ffmpeg": false,
 		"code": "copy m n\nrepeat m 2\nspeed m 2\ncrop m w/2 h\nspeed n 0.5\ncrop n w/2 h w/2 0\njoin m n\nvolume m",
 		"args": 0
 	},
 	"split zoopals effect": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\nhueshifthsv n 180\nhaah n\nexplode n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-11/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split g-major 88": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split g major 88": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split gm88": {
+		"ffmpeg": false,
 		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(3/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split amber's g-major 1": {
+		"ffmpeg": false,
 		"code": "copy m n\ninvert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncrop m w/2 h\nvolume n 1\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split ambers g major 1": {
+		"ffmpeg": false,
 		"code": "copy m n\ninvert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncrop m w/2 h\nvolume n 1\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split amber's gm1": {
+		"ffmpeg": false,
 		"code": "copy m n\ninvert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncrop m w/2 h\nvolume n 1\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"split ambers gm1": {
+		"ffmpeg": false,
 		"code": "copy m n\ninvert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncrop m w/2 h\nvolume n 1\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-3/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(4/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"confusion + real g-major 4": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"confusion + real g major 4": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"confusion + real gm4": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"p2funny": {
+		"ffmpeg": false,
 		"code": "{if:{arg:1}|=|true|then:\nspeed m 2*(1+(2**(5/12)))\n}\ncopy m n\nhueshifthsv n 180\ninvert n\nhaah n\naudioreverse n\nconcat m n\ncopy m n\nhaah n\nhueshifthsv n 180\nspeed n 2**(-5/12)\naudiopitch n 2**(-5/12)\nconcat m n\nvolume m",
-		"args": 1,
-		"syntax": "<?speed>"
+		"args": 1
 	},
 	"kelly effects": {
+		"ffmpeg": false,
 		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/flac\nset target 1d\naudiopitch 1aud 2**(-1/12)\nspeed 1aud 1audd/target\naudiodelay 1aud -0.003\naudioputreplace 1 1aud yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/flac\nset target 2d\naudiopitch 2aud 2**(-8/12)\nspeed 2aud 2audd/target\naudiodelay 2aud -0.003\naudioputreplace 2 2aud yes no\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/flac\nset target 3d\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(5/12)\nspeed 31 31d/target\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/flac\nset target 4d\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(3/12)\nspeed 41 41d/target\naudiodelay 41 -0.003\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/flac\nset target 5d\ncopy 5aud 50\ncopy 5aud 51\naudiopitch 51 2**(-3/12)\nspeed 51 51d/target\naudiodelay 51 -0.003\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/flac\nset target 6d\ncopy 6aud 60\naudiopitch 60 2**(-5/12)\nspeed 60 60d/target\naudiodelay 60 -0.003\ncopy 6aud 61\naudioputmix 60 61 yes no\nvolume 60\ncopy 6aud 62\naudiopitch 62 2**(4/12)\nspeed 62 62d/target\naudiodelay 62 -0.003\naudioputmix 60 62 yes no\nvolume 60\naudioputreplace 6 60 yes no\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/flac\nset target 7d\ncopy 7aud 70\ncopy 7aud 71\naudiopitch 71 2**(4/12)\nspeed 71 71d/target\naudiodelay 71 -0.003\naudioputmix 70 71 yes no\nvolume 70\naudioputreplace 7 70 yes no\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/flac\nset target 8d\naudiopitch 8aud 2**(-12/12)\nspeed 8aud 8audd/target\naudiodelay 8aud -0.003\naudioputreplace 8 8aud yes no\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/flac\nset target 9d\naudiopitch 9aud 2**(12/12)\nspeed 9aud 9audd/target\naudiodelay 9aud -0.003\naudioputreplace 9 9aud yes no\nconcat m 9",
-		"args": 1,
-		"syntax": "<?speed>"
+		"args": 1
 	},
 	"9 random effects": {
+		"ffmpeg": false,
 		"code": "{if:{arg:1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhuecurvergba 1 all 0 1 0\ncopy 1 1aud\nconvert 1aud audio/flac\nset target 1d\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(5/12)\nspeed 11 11d/target\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\ninvert 3\ncopy 3 3aud\nconvert 3aud audio/flac\nset target 3d\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(3/12)\nspeed 31 31d/target\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -150\ninvert 4\nflop 4\ncopy 4 4aud\nconvert 4aud audio/flac\nset target 4d\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(-3/12)\nspeed 41 41d/target\naudiodelay 41 -0.003\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\nswaprgba 5 bgr\ncontrast 5 1.8\nhuecurvergba 5 all 0 0.2 0.8 1\ncreate bg w h 60 0 0\nconvert bg video/mp4\nrepeatduration bg 5d\nsetfps bg fps\noverlay bg 5 0 0 black 0.1 0.3\ncopy bg 5\nshake 5 0 5h/72 true\ncopy 5 5aud\nconvert 5aud audio/flac\nset target 5d\ncopy 5aud 50\naudiopitch 50 2**(-19/12)\nspeed 50 50d/target\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(12/12)\naudiopitch 51 2**(7/12)\nspeed 51 51d/target\naudiodelay 51 -0.003\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\ncopy n 6\ninvert 6\nhueshifthsv 6 72 90 0\nshake 6 0 6h/72 true\ncopy 6 6aud\nconvert 6aud audio/flac\nset target 6d\ncopy 6aud 60\ncopy 6aud 61\naudiopitch 61 2**(-3.5/12)\nspeed 61 61d/target\naudiodelay 61 -0.003\naudioputmix 60 61 yes no\nvolume 60\naudioputreplace 6 60 yes no\nconcat m 6\ncopy n 7\nhueshifthsv 7 -60\ncopy 7 7crop\ncrop 7crop w h*0.66 0 0\nswirl 7crop -60\noverlay 7 7crop 0 0\ncopy 7 7aud\nconvert 7aud audio/flac\nset target 7d\ncopy 7aud 70\ncopy 7aud 71\naudiopitch 71 2**(-12/12)\nspeed 71 71d/target\naudiodelay 71 -0.003\naudioputmix 70 71 yes no\nvolume 70\naudioputreplace 7 70 yes no\nconcat m 7\ncopy n 8\nhueshifthsv 8 60\ncopy 8 8crop\ncrop 8crop w h*0.66 0 0\nswirl 8crop 60\noverlay 8 8crop 0 0\ncopy 8 8aud\nconvert 8aud audio/flac\nset target 8d\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(12/12)\nspeed 81 81d/target\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8",
-		"args": 1,
-		"syntax": "<?speed>"
+		"args": 1
 	},
 	"split pitch": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 1,
-		"syntax": "<pitch>"
+		"args": 1
 	},
 	"split 2 pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 2,
-		"syntax": "<pitch 1> <pitch 2>"
+		"args": 2
 	},
 	"split 2 pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 2,
-		"syntax": "<pitch 1> <pitch 2>"
+		"args": 2
 	},
 	"split 3 pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 3,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3>"
+		"args": 3
 	},
 	"split 3 pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 3,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3>"
+		"args": 3
 	},
 	"split 4 pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 4,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4>"
+		"args": 4
 	},
 	"split 4 pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:m|m4}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 4,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4>"
+		"args": 4
 	},
 	"split 5 pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:m|m4}\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 5,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>"
+		"args": 5
 	},
 	"split 5 pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:m|m4}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\n{set:m|m5}\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 5,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>"
+		"args": 5
 	},
 	"split 6 pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:m|m4}\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\n{set:m|m5}\n{set:p|{arg:6}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 6,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>"
+		"args": 6
 	},
 	"split 6 pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:2}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\n{set:m|m3}\n{set:p|{arg:3}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\n{set:m|m4}\n{set:p|{arg:4}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\n{set:m|m5}\n{set:p|{arg:5}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m5 m5d/target\naudiodelay m5 -0.003\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\n{set:m|m6}\n{set:p|{arg:6}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m6 m6d/target\naudiodelay m6 -0.003\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 6,
-		"syntax": "<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>"
+		"args": 6
 	},
 	"split any pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\n{foreach:{replace:'|\"|{js:console.log(\"{arg:1}\".split(\" \"))}}|\ncopy maud m{get:idx}\n{if:{get:valuex}|!=|0|then:\n{set:m|m{get:idx}}\n{set:p|{get:valuex}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m{get:idx} m{get:idx}d/target\naudiodelay m{get:idx} -0.003\n}\n{if:{get:idx}|>|0|then:\naudioputmix m0 m{get:idx} yes no\nvolume m0\n}\n}\naudioputreplace m m0 yes no",
-		"args": 1,
-		"syntax": "<pitches separated by spaces>"
+		"args": 1
 	},
 	"split any pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\n{foreach:{replace:'|\"|{js:console.log(\"0 {arg:1}\".split(\" \"))}}|\ncopy maud m{get:idx}\n{if:{get:valuex}|!=|0|then:\n{set:m|m{get:idx}}\n{set:p|{get:valuex}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m{get:idx} m{get:idx}d/target\naudiodelay m{get:idx} -0.003\n}\n{if:{get:idx}|>|0|then:\naudioputmix m0 m{get:idx} yes no\nvolume m0\n}\n}\naudioputreplace m m0 yes no",
-		"args": 1,
-		"syntax": "<pitches separated by spaces>"
+		"args": 1
 	},
 	"split opposite pitches": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{math:{arg:1}*-1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 1,
-		"syntax": "<pitch>"
+		"args": 1
 	},
 	"split opposite pitches with zero": {
+		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\n{set:m|m0}\n{set:p|{math:{arg:1}*-1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\n{set:m|m2}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
-		"args": 1,
-		"syntax": "<pitch>"
+		"args": 1
 	},
 	"normal": {
+		"ffmpeg": false,
 		"code": "volume m 1",
 		"args": 0
 	},
 	"getting faster": {
+		"ffmpeg": false,
 		"code": "repeat m 2\nspeed m 2",
 		"args": 0
 	},
 	"getting slower": {
+		"ffmpeg": false,
 		"code": "speed m 0.5",
 		"args": 0
 	},
 	"confusion": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m",
 		"args": 0
 	},
 	"wrong zoom": {
+		"ffmpeg": false,
 		"code": "copy m n\nscale n 0.66\nspeed n 2**(-1/12)\naudiopitch n 2**(-1/12)\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nvolume m",
 		"args": 0
 	},
 	"billy gardiner's g-major 1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billy gardiners g major 1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billy gardiner's gm1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billy gardiners gm1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billy's g-major 1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billys g major 1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billy's gm1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"billys gm1": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"might confuse you": {
+		"ffmpeg": false,
 		"code": "copy m n\ninvert n\nreverse n\noverlay m n 0 0 none 0.01 1 true 50\nhuecurvergba m all 1 0 1\nvolume m",
 		"args": 0
 	},
 	"low voice": {
+		"ffmpeg": false,
 		"code": "haah m\nhueshifthsv m 180\nspeed m 2**(-5/12)\naudiopitch m 2**(-5/12)",
 		"args": 0
 	},
 	"does respond": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -60\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop -60\noverlay m mcrop 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"does respond (common)": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -60\nswirl m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"does respond common": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -60\nswirl m -60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"does not respond": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 60\ncopy m mcrop\ncrop mcrop w h*0.66 0 0\nswirl mcrop 60\noverlay m mcrop 0 0\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"does not respond (common)": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 60\nswirl m 60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"does not respond common": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 60\nswirl m 60\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"zoopals effect": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\nhaah m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-11/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"luig group": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -50\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-1/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"mari group": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 50\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(1/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"half luig group": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -25\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-0.5/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"half mari group": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 25\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(0.5/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"amber's g-major 1": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ambers g major 1": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"amber's gm1": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ambers gm1": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(4/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"freakzinga's g-major 156": {
+		"ffmpeg": false,
 		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(-0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(-4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}",
 		"args": 0
 	},
 	"freakzingas g major 156": {
+		"ffmpeg": false,
 		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(-0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(-4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}",
 		"args": 0
 	},
 	"freakzinga's gm156": {
+		"ffmpeg": false,
 		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(-0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(-4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}",
 		"args": 0
 	},
 	"freakzingas gm156": {
+		"ffmpeg": false,
 		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nset target mxd\ncopy mxaud mx0\naudiopitch mx0 2**(-0.5/12)\nspeed mx0 mx0d/target\naudiodelay mx0 -0.003\ncopy mxaud mx1\naudiopitch mx1 2**(-4.5/12)\nspeed mx1 mx1d/target\naudiodelay mx1 -0.003\naudioputmix mx0 mx1 yes no\nvolume mx0\naudioputreplace mx mx0 yes no\n}",
 		"args": 0
 	},
 	"weird x": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"opposite weird x": {
+		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m -194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 4\nwaves m mh/-24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/-24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"not scary": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 180\nwaaw m\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-2.5/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"ian's g-major 74": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 120\nswaprgba m bgr\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-14/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ians g major 74": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 120\nswaprgba m bgr\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-14/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ian's gm74": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 120\nswaprgba m bgr\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-14/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ians gm74": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 120\nswaprgba m bgr\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-14/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(10/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudiopitch m2 2**(5/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"pika major": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 24.69\nhueshifthsv m 0 200\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-7/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(7/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumar's g-major 9": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumars g major 9": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumar's gm9": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumars gm9": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-2/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumar's g-major 9 (alternate)": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumars g major 9 alternate": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumar's gm9 (alternate)": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"rj kumars gm9 alternate": {
+		"ffmpeg": false,
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-9/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"crying x": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"crying x (common)": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"crying x common": {
+		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"sad x": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-12 mw/2.5\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"i killed x": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -134\nexplode m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-8/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"green lowers": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\nhueshifthsv m 252\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"green lowers (traditional)": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\nhueshifthsv m 275.4\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"green lowers traditional": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\nhueshifthsv m 275.4\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"green lowers (sapphire)": {
+		"ffmpeg": false,
 		"code": "swaprgba m grb\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"green lowers sapphire": {
+		"ffmpeg": false,
 		"code": "swaprgba m grb\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"goo goo gaa gaa": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"even x discontinues": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m -50\nswirl m 120\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\nswirl m -120\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-7.5/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"x committed": {
+		"ffmpeg": false,
 		"code": "swaprgba m bgr\nhueshifthsv m 208.79\ninvert m\ncopy m mcrop\ncrop mcrop w*2/3 h*2/3 w/6 h/6\nexplode mcrop 3\noverlay m mcrop w/6 h/6\nimplode m 0.7",
 		"args": 0
 	},
 	"i accidentally x": {
+		"ffmpeg": false,
 		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-4/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no\naudiodestroy m",
 		"args": 0
 	},
 	"pitch black": {
+		"ffmpeg": false,
 		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(-24/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"pitch white": {
+		"ffmpeg": false,
 		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/flac\nset target md\naudiopitch maud 2**(12/12)\naudiopitch maud 2**(12/12)\nspeed maud maudd/target\naudiodelay maud -0.003\naudioputreplace m maud yes no",
 		"args": 0
 	},
 	"nikita8500hd major": {
+		"ffmpeg": false,
 		"code": "gray m\nhuecurvergba m red 0.114 0 0.529 1 1\nhuecurvergba m green 1 0.055 0.133 0.125 0.937\nhuecurvergba m blue 0 1 0 0 0.059\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-3/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"amber's g-major 1583": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(0.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ambers g major 1583": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(0.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"amber's gm1583": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(0.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"ambers gm1583": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(0.5/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(7.5/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"slc520's g-major 1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"slc520s g major 1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"slc520's gm1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"slc520s gm1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"damien's g-major 1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"damiens g major 1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"damien's gm1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"damiens gm1520": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\naudiopitch m0 2**(-13.48/12)\nspeed m0 m0d/target\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-6.48/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(0.52/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(7.52/12)\nspeed m3 m3d/target\naudiodelay m3 -0.003\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(12/12)\naudiopitch m4 2**(2.5199999999999996/12)\nspeed m4 m4d/target\naudiodelay m4 -0.003\naudioputmix m0 m4 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"simulator v19": {
+		"ffmpeg": false,
 		"code": "hueshifthsv m 284.04\ninvert m\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\nset target md\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-12/12)\nspeed m1 m1d/target\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(7/12)\nspeed m2 m2d/target\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 2800|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19}.code|{get:data}}",
+		"ffmpeg": false,
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 2800|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19}.code|{get:data}}",
 		"args": 0
 	}
 }}}
@@ -1032,7 +1276,7 @@
 		},
 		{
 			"name": "**Non-effect Command List**",
-			"value": "`list` - Shows a list of all the effects",
+			"value": "`list` - Shows a list of all the effects\n`raw` - Shows the whole source code for this tag\n`log` - Shows the update log",
 			"inline": "false"
 		}
 	]
@@ -1073,7 +1317,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/32 of Total Effects (126 Total)\nPage 1/5 of Effects in Category (23 Total)"
+				"text": "Page 1/33 of Total Effects (127 Total)\nPage 1/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1110,7 +1354,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/32 of Total Effects (126 Total)\nPage 2/5 of Effects in Category (23 Total)"
+				"text": "Page 2/33 of Total Effects (127 Total)\nPage 2/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1147,7 +1391,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/32 of Total Effects (126 Total)\nPage 3/5 of Effects in Category (23 Total)"
+				"text": "Page 3/33 of Total Effects (127 Total)\nPage 3/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1184,7 +1428,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/32 of Total Effects (126 Total)\nPage 4/5 of Effects in Category (23 Total)"
+				"text": "Page 4/33 of Total Effects (127 Total)\nPage 4/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1211,7 +1455,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/32 of Total Effects (126 Total)\nPage 5/5 of Effects in Category (23 Total)"
+				"text": "Page 5/33 of Total Effects (127 Total)\nPage 5/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1248,7 +1492,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/32 of Total Effects (126 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/33 of Total Effects (127 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1270,7 +1514,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/32 of Total Effects (126 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/33 of Total Effects (127 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1292,7 +1536,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1309,7 +1553,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1336,7 +1580,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1353,7 +1597,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1375,7 +1619,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 12/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1412,7 +1656,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/32 of Total Effects (126 Total)\nPage 1/2 of Effects in Category (10 Total)"
+				"text": "Page 13/33 of Total Effects (127 Total)\nPage 1/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1449,7 +1693,24 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/32 of Total Effects (126 Total)\nPage 2/2 of Effects in Category (10 Total)"
+				"text": "Page 14/33 of Total Effects (127 Total)\nPage 2/3 of Effects in Category (11 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "### Category: My Other Effects",
+			"fields": [
+				{
+					"name": "50. Sierpinski's Triangle",
+					"value": "Codename: `sierpinskis triangle`\nAliases:\n- Sierpinski\n- Sierpinski's Effect",
+					"inline": "false"
+				}
+			],
+			"footer": {
+				"text": "Page 15/33 of Total Effects (127 Total)\nPage 3/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1460,33 +1721,33 @@
 			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "50. Custom",
+					"name": "51. Custom",
 					"value": "Codename: `custom`\nSyntax: `<code>`",
 					"inline": "false"
 				},
 				{
-					"name": "51. Effects",
+					"name": "52. Effects",
 					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
-					"name": "52. Multirender",
+					"name": "53. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "false"
 				},
 				{
-					"name": "53. Pipe",
+					"name": "54. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "false"
 				},
 				{
-					"name": "54. Preview 2",
+					"name": "55. Preview 2",
 					"value": "Codename: `preview 2`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 15/32 of Total Effects (126 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 16/33 of Total Effects (127 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1497,18 +1758,18 @@
 			"description": "### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "55. Respondview 2",
+					"name": "56. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				},
 				{
-					"name": "56. Preview 1280",
+					"name": "57. Preview 1280",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 16/32 of Total Effects (126 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 17/33 of Total Effects (127 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1519,33 +1780,33 @@
 			"description": "### Category: Split Effects",
 			"fields": [
 				{
-					"name": "57. Split",
+					"name": "58. Split",
 					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "58. Vertical Split",
+					"name": "59. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "59. X Meets",
+					"name": "60. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "60. Getting Faster Split Getting Slower",
+					"name": "61. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "61. Split ZooPals Effect",
+					"name": "62. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 17/32 of Total Effects (126 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 18/33 of Total Effects (127 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1556,18 +1817,18 @@
 			"description": "### Category: Split Effects",
 			"fields": [
 				{
-					"name": "62. Split G-Major 88",
+					"name": "63. Split G-Major 88",
 					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
 					"inline": "false"
 				},
 				{
-					"name": "63. Split Amber's G-Major 1",
+					"name": "64. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 18/32 of Total Effects (126 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 19/33 of Total Effects (127 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1578,13 +1839,13 @@
 			"description": "### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "64. CoNfUsIoN + Real G-Major 4",
+					"name": "65. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`\nAliases:\n- CoNfUsIoN + Real GM4",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 19/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 20/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1595,23 +1856,23 @@
 			"description": "### Category: Effect Collections",
 			"fields": [
 				{
-					"name": "65. p2funny",
+					"name": "66. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
-					"name": "66. Kelly Effects",
+					"name": "67. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				},
 				{
-					"name": "67. 9 Random Effects",
+					"name": "68. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 20/32 of Total Effects (126 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 21/33 of Total Effects (127 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1622,33 +1883,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "68. Split Pitch",
+					"name": "69. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "69. Split 2 Pitches",
+					"name": "70. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "70. Split 2 Pitches with Zero",
+					"name": "71. Split 2 Pitches with Zero",
 					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "71. Split 3 Pitches",
+					"name": "72. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				},
 				{
-					"name": "72. Split 3 Pitches with Zero",
+					"name": "73. Split 3 Pitches with Zero",
 					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 21/32 of Total Effects (126 Total)\nPage 1/3 of Effects in Category (15 Total)"
+				"text": "Page 22/33 of Total Effects (127 Total)\nPage 1/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1659,33 +1920,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "73. Split 4 Pitches",
+					"name": "74. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "74. Split 4 Pitches with Zero",
+					"name": "75. Split 4 Pitches with Zero",
 					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "75. Split 5 Pitches",
+					"name": "76. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "76. Split 5 Pitches with Zero",
+					"name": "77. Split 5 Pitches with Zero",
 					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "77. Split 6 Pitches",
+					"name": "78. Split 6 Pitches",
 					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 22/32 of Total Effects (126 Total)\nPage 2/3 of Effects in Category (15 Total)"
+				"text": "Page 23/33 of Total Effects (127 Total)\nPage 2/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1696,33 +1957,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "78. Split 6 Pitches with Zero",
+					"name": "79. Split 6 Pitches with Zero",
 					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
-					"name": "79. Split Any Pitches",
+					"name": "80. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "80. Split Any Pitches with Zero",
+					"name": "81. Split Any Pitches with Zero",
 					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "81. Split Opposite Pitches",
+					"name": "82. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "82. Split Opposite Pitches with Zero",
+					"name": "83. Split Opposite Pitches with Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 23/32 of Total Effects (126 Total)\nPage 3/3 of Effects in Category (15 Total)"
+				"text": "Page 24/33 of Total Effects (127 Total)\nPage 3/3 of Effects in Category (15 Total)"
 			}
 		}
 	},
@@ -1733,33 +1994,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "83. Normal",
+					"name": "84. Normal",
 					"value": "Codename: `normal`",
 					"inline": "false"
 				},
 				{
-					"name": "84. Getting Faster",
+					"name": "85. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "false"
 				},
 				{
-					"name": "85. Getting Slower",
+					"name": "86. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "86. CoNfUsIoN",
+					"name": "87. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "false"
 				},
 				{
-					"name": "87. Wrong Zoom",
+					"name": "88. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 24/32 of Total Effects (126 Total)\nPage 1/9 of Effects in Category (44 Total)"
+				"text": "Page 25/33 of Total Effects (127 Total)\nPage 1/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1770,33 +2031,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "88. Billy Gardiner's G-Major 1",
+					"name": "89. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1",
 					"inline": "false"
 				},
 				{
-					"name": "89. Might Confuse You",
+					"name": "90. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "false"
 				},
 				{
-					"name": "90. Low Voice",
+					"name": "91. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "false"
 				},
 				{
-					"name": "91. Does Respond",
+					"name": "92. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "false"
 				},
 				{
-					"name": "92. Does Respond (Common)",
+					"name": "93. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 25/32 of Total Effects (126 Total)\nPage 2/9 of Effects in Category (44 Total)"
+				"text": "Page 26/33 of Total Effects (127 Total)\nPage 2/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1807,33 +2068,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "93. Does Not Respond",
+					"name": "94. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "false"
 				},
 				{
-					"name": "94. Does Not Respond (Common)",
+					"name": "95. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "false"
 				},
 				{
-					"name": "95. ZooPals Effect",
+					"name": "96. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "false"
 				},
 				{
-					"name": "96. Luig Group",
+					"name": "97. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "97. Mari Group",
+					"name": "98. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 26/32 of Total Effects (126 Total)\nPage 3/9 of Effects in Category (44 Total)"
+				"text": "Page 27/33 of Total Effects (127 Total)\nPage 3/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1844,33 +2105,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "98. Half Luig Group",
+					"name": "99. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "99. Half Mari Group",
+					"name": "100. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "false"
 				},
 				{
-					"name": "100. Amber's G-Major 1",
+					"name": "101. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "false"
 				},
 				{
-					"name": "101. Freakzinga's G-Major 156",
+					"name": "102. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "false"
 				},
 				{
-					"name": "102. Weird X",
+					"name": "103. Weird X",
 					"value": "Codename: `weird x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 27/32 of Total Effects (126 Total)\nPage 4/9 of Effects in Category (44 Total)"
+				"text": "Page 28/33 of Total Effects (127 Total)\nPage 4/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1881,33 +2142,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "103. Opposite Weird X",
+					"name": "104. Opposite Weird X",
 					"value": "Codename: `opposite weird x`",
 					"inline": "false"
 				},
 				{
-					"name": "104. Not Scary",
+					"name": "105. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "false"
 				},
 				{
-					"name": "105. Ian's G-Major 74",
+					"name": "106. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "false"
 				},
 				{
-					"name": "106. Pika Major",
+					"name": "107. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "false"
 				},
 				{
-					"name": "107. Rj Kumar's G-Major 9",
+					"name": "108. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 28/32 of Total Effects (126 Total)\nPage 5/9 of Effects in Category (44 Total)"
+				"text": "Page 29/33 of Total Effects (127 Total)\nPage 5/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1918,33 +2179,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "108. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "109. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "false"
 				},
 				{
-					"name": "109. Crying X",
+					"name": "110. Crying X",
 					"value": "Codename: `crying x`",
 					"inline": "false"
 				},
 				{
-					"name": "110. Crying X (Common)",
+					"name": "111. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "false"
 				},
 				{
-					"name": "111. Sad X",
+					"name": "112. Sad X",
 					"value": "Codename: `sad x`",
 					"inline": "false"
 				},
 				{
-					"name": "112. I KILLED X",
+					"name": "113. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 29/32 of Total Effects (126 Total)\nPage 6/9 of Effects in Category (44 Total)"
+				"text": "Page 30/33 of Total Effects (127 Total)\nPage 6/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1955,33 +2216,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "113. Green Lowers",
+					"name": "114. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "false"
 				},
 				{
-					"name": "114. Green Lowers (Traditional)",
+					"name": "115. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "false"
 				},
 				{
-					"name": "115. Green Lowers (Sapphire)",
+					"name": "116. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "false"
 				},
 				{
-					"name": "116. Goo Goo Gaa Gaa",
+					"name": "117. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "false"
 				},
 				{
-					"name": "117. Even X Discontinues",
+					"name": "118. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 30/32 of Total Effects (126 Total)\nPage 7/9 of Effects in Category (44 Total)"
+				"text": "Page 31/33 of Total Effects (127 Total)\nPage 7/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -1992,33 +2253,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "118. X Committed",
+					"name": "119. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "false"
 				},
 				{
-					"name": "119. I Accidentally X",
+					"name": "120. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "false"
 				},
 				{
-					"name": "120. Pitch Black",
+					"name": "121. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "false"
 				},
 				{
-					"name": "121. Pitch White",
+					"name": "122. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "false"
 				},
 				{
-					"name": "122. Nikita8500HD Major",
+					"name": "123. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 31/32 of Total Effects (126 Total)\nPage 8/9 of Effects in Category (44 Total)"
+				"text": "Page 32/33 of Total Effects (127 Total)\nPage 8/9 of Effects in Category (44 Total)"
 			}
 		}
 	},
@@ -2029,28 +2290,28 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "123. Amber's G-Major 1583",
+					"name": "124. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "false"
 				},
 				{
-					"name": "124. SLC520's G-Major 1520",
+					"name": "125. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "false"
 				},
 				{
-					"name": "125. Simulator V19",
+					"name": "126. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "false"
 				},
 				{
-					"name": "126. Random",
+					"name": "127. Random",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 32/32 of Total Effects (126 Total)\nPage 9/9 of Effects in Category (44 Total)"
+				"text": "Page 33/33 of Total Effects (127 Total)\nPage 9/9 of Effects in Category (44 Total)"
 			}
 		}
 	}
@@ -2064,6 +2325,7 @@ Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 {if:{get:code}|=||then:
 {js:console.error(`effect doesn't exist lol`);}
 |else:
+{set:ffmpeg?|{traversejson:{arg:0}.ffmpeg|{get:data}}}
 {set:shift|{traversejson:{arg:0}.args|{get:data}}}
 {if:{arg:{math:1+{get:shift}}}|=|raw|then:
 {embedjson:{
