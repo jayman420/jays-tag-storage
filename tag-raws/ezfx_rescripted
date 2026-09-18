@@ -924,6 +924,11 @@
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"bggm1": {
+		"ffmpeg": false,
+		"code": "invert m\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"might confuse you": {
 		"ffmpeg": false,
 		"code": "copy m n\ninvert n\nreverse n\noverlay m n 0 0 none 0.01 1 true 50\nhuecurvergba m all 1 0 1\nvolume m",
@@ -1034,7 +1039,27 @@
 		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"weird": {
+		"ffmpeg": false,
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"weird effect": {
+		"ffmpeg": false,
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(7/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"opposite weird x": {
+		"ffmpeg": false,
+		"code": "invert m\nhueshifthsv m -194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 4\nwaves m mh/-24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/-24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"opposite weird": {
+		"ffmpeg": false,
+		"code": "invert m\nhueshifthsv m -194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 4\nwaves m mh/-24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/-24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"opposite weird effect": {
 		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m -194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 4\nwaves m mh/-24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/-24 mw/1 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -1114,6 +1139,16 @@
 		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"crying": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"crying effect": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"crying x (common)": {
 		"ffmpeg": false,
 		"code": "hueshifthsvffmpeg m 240\ninvert m\nwave m mh/-24 mw/5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
@@ -1125,6 +1160,16 @@
 		"args": 0
 	},
 	"sad x": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-12 mw/2.5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"sad": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-12 mw/2.5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"sad effect": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 221.4\ninvert m\nwave m mh/-12 mw/2.5\ncover m w h\ncopy m maud\nconvert maud audio/flac\ncopy maud m0\ncopy maud m1\naudiopitch m1 2**(-7/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -2047,7 +2092,7 @@
 			"fields": [
 				{
 					"name": "90. Billy Gardiner's G-Major 1",
-					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1",
+					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "false"
 				},
 				{
@@ -2141,7 +2186,7 @@
 				},
 				{
 					"name": "104. Weird X",
-					"value": "Codename: `weird x`",
+					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "false"
 				}
 			],
@@ -2158,7 +2203,7 @@
 			"fields": [
 				{
 					"name": "105. Opposite Weird X",
-					"value": "Codename: `opposite weird x`",
+					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "false"
 				},
 				{
@@ -2200,7 +2245,7 @@
 				},
 				{
 					"name": "111. Crying X",
-					"value": "Codename: `crying x`",
+					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "false"
 				},
 				{
@@ -2210,7 +2255,7 @@
 				},
 				{
 					"name": "113. Sad X",
-					"value": "Codename: `sad x`",
+					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "false"
 				},
 				{
@@ -2366,7 +2411,7 @@ foreachframe loop 0 loopfc {jsonify:
 }
 copy m maud
 copy m mvid
-convert maud audio/flac
+convert maud audio/wav
 resize mvid 2 2
 if mvidfc > 1080 {jsonify:
 setfps mvid 1080/mvidd
@@ -2435,7 +2480,7 @@ snip x d
 }
 copy x xaud
 copy x xvid
-convert xaud audio/flac
+convert xaud audio/wav
 resize xvid 2 2
 if xvidfc > 1080 {jsonify:
 setfps xvid 1080/xvidd
@@ -2467,7 +2512,7 @@ set fps (mfc/md)
 {eval:{get:code}}
 copy m maud
 copy m mvid
-convert maud audio/flac
+convert maud audio/wav
 resize mvid 2 2
 if mvidfc > 1080 {jsonify:
 setfps mvid 1080/mvidd
