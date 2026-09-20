@@ -799,6 +799,11 @@
 		"code": "{if:{arg:1}|=|true|then:\n{if:{arg:2}|=|true|then:\nspeed m 5\n|else:\nspeed m 6\n}\n}\ncopy m n\ncopy n 1\ninvertrgba 1 1 1 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\naudiopitch 10 2**(-5/12)\naudiodelay 10 -0.003\ncopy 1aud 11\naudioputmix 10 11 yes no\nvolume 10\ncopy 1aud 12\naudiopitch 12 2**(4/12)\naudioputmix 10 12 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 119\ncopy 2 2aud\nconvert 2aud audio/wav\ncopy 2aud 20\naudiopitch 20 2**(-12/12)\naudiodelay 20 -0.003\ncopy 2aud 21\naudiopitch 21 2**(7/12)\naudioputmix 20 21 yes no\nvolume 20\naudioputreplace 2 20 yes no\nconcat m 2\ncopy n 3\nhueshifthsv 3 221.4\ninvert 3\nwave 3 3h/-24 3w/5\ncover 3 w h\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-5/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\ninvert 4\nswaprgba 4 bgr\nhueshifthsv 4 -144\nswirl 4 110\ncopy 4 4aud\nconvert 4aud audio/wav\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(2/12)\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\ninvert 5\nhueshifthsv 5 180\nswirl 5 -5\nhaah 5\ncopy 5 5aud\nconvert 5aud audio/wav\ncopy 5aud 50\naudiopitch 50 2**(-3/12)\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(4/12)\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
 		"args": 2
 	},
+	"pitch": {
+		"ffmpeg": false,
+		"code": "copy m maud\nconvert maud audio/wav\n{set:m|maud}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\naudioputreplace m maud yes no",
+		"args": 1
+	},
 	"split pitch": {
 		"ffmpeg": false,
 		"code": "copy m maud\nconvert maud audio/wav\ncopy maud m0\ncopy maud m1\n{set:m|m1}\n{set:p|{arg:1}}\n{if:{get:p}|>|0|then:\n{foreach:{math:ceil({get:p}/12)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*12),0),12)}/12)\n}\n|else:\n{if:{get:p}|<|0|then:\n{foreach:{math:ceil({get:p}/-30)}|\naudiopitch {get:m} 2**({math:min(max({get:p}-({get:idx}*-30),-30),0)}/12)\n}\n}\n}\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
@@ -1467,7 +1472,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/33 of Total Effects (129 Total)\nPage 1/5 of Effects in Category (23 Total)"
+				"text": "Page 1/34 of Total Effects (130 Total)\nPage 1/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1504,7 +1509,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/33 of Total Effects (129 Total)\nPage 2/5 of Effects in Category (23 Total)"
+				"text": "Page 2/34 of Total Effects (130 Total)\nPage 2/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1541,7 +1546,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/33 of Total Effects (129 Total)\nPage 3/5 of Effects in Category (23 Total)"
+				"text": "Page 3/34 of Total Effects (130 Total)\nPage 3/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1578,7 +1583,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/33 of Total Effects (129 Total)\nPage 4/5 of Effects in Category (23 Total)"
+				"text": "Page 4/34 of Total Effects (130 Total)\nPage 4/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1605,7 +1610,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/33 of Total Effects (129 Total)\nPage 5/5 of Effects in Category (23 Total)"
+				"text": "Page 5/34 of Total Effects (130 Total)\nPage 5/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1642,7 +1647,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/33 of Total Effects (129 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/34 of Total Effects (130 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1664,7 +1669,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/33 of Total Effects (129 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/34 of Total Effects (130 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1686,7 +1691,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1703,7 +1708,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1730,7 +1735,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1747,7 +1752,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1769,7 +1774,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 12/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1806,7 +1811,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/33 of Total Effects (129 Total)\nPage 1/3 of Effects in Category (11 Total)"
+				"text": "Page 13/34 of Total Effects (130 Total)\nPage 1/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1843,7 +1848,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/33 of Total Effects (129 Total)\nPage 2/3 of Effects in Category (11 Total)"
+				"text": "Page 14/34 of Total Effects (130 Total)\nPage 2/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1860,7 +1865,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/33 of Total Effects (129 Total)\nPage 3/3 of Effects in Category (11 Total)"
+				"text": "Page 15/34 of Total Effects (130 Total)\nPage 3/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1897,7 +1902,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/33 of Total Effects (129 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 16/34 of Total Effects (130 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1919,7 +1924,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 17/33 of Total Effects (129 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 17/34 of Total Effects (130 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1956,7 +1961,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 18/33 of Total Effects (129 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 18/34 of Total Effects (130 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1978,7 +1983,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 19/33 of Total Effects (129 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 19/34 of Total Effects (130 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1995,7 +2000,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 20/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 20/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -2027,7 +2032,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 21/33 of Total Effects (129 Total)\nPage 1/1 of Effects in Category (4 Total)"
+				"text": "Page 21/34 of Total Effects (130 Total)\nPage 1/1 of Effects in Category (4 Total)"
 			}
 		}
 	},
@@ -2038,33 +2043,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "70. Split Pitch",
+					"name": "70. Pitch",
+					"value": "Codename: `pitch`\nSyntax: `<pitch>`",
+					"inline": "false"
+				},
+				{
+					"name": "71. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "71. Split 2 Pitches",
+					"name": "72. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "72. Split 2 Pitches with Zero",
+					"name": "73. Split 2 Pitches with Zero",
 					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "73. Split 3 Pitches",
+					"name": "74. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
-					"inline": "false"
-				},
-				{
-					"name": "74. Split 3 Pitches with Zero",
-					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 22/33 of Total Effects (129 Total)\nPage 1/3 of Effects in Category (15 Total)"
+				"text": "Page 22/34 of Total Effects (130 Total)\nPage 1/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2075,33 +2080,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "75. Split 4 Pitches",
+					"name": "75. Split 3 Pitches with Zero",
+					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
+					"inline": "false"
+				},
+				{
+					"name": "76. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "76. Split 4 Pitches with Zero",
+					"name": "77. Split 4 Pitches with Zero",
 					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "77. Split 5 Pitches",
+					"name": "78. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "78. Split 5 Pitches with Zero",
+					"name": "79. Split 5 Pitches with Zero",
 					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
-					"inline": "false"
-				},
-				{
-					"name": "79. Split 6 Pitches",
-					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 23/33 of Total Effects (129 Total)\nPage 2/3 of Effects in Category (15 Total)"
+				"text": "Page 23/34 of Total Effects (130 Total)\nPage 2/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2112,33 +2117,50 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "80. Split 6 Pitches with Zero",
+					"name": "80. Split 6 Pitches",
+					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
+					"inline": "false"
+				},
+				{
+					"name": "81. Split 6 Pitches with Zero",
 					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
-					"name": "81. Split Any Pitches",
+					"name": "82. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "82. Split Any Pitches with Zero",
+					"name": "83. Split Any Pitches with Zero",
 					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "83. Split Opposite Pitches",
+					"name": "84. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "false"
-				},
+				}
+			],
+			"footer": {
+				"text": "Page 24/34 of Total Effects (130 Total)\nPage 3/4 of Effects in Category (16 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "### Category: The Split Pitch Collection",
+			"fields": [
 				{
-					"name": "84. Split Opposite Pitches with Zero",
+					"name": "85. Split Opposite Pitches with Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 24/33 of Total Effects (129 Total)\nPage 3/3 of Effects in Category (15 Total)"
+				"text": "Page 25/34 of Total Effects (130 Total)\nPage 4/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2149,33 +2171,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "85. Normal",
+					"name": "86. Normal",
 					"value": "Codename: `normal`",
 					"inline": "false"
 				},
 				{
-					"name": "86. Getting Faster",
+					"name": "87. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "false"
 				},
 				{
-					"name": "87. Getting Slower",
+					"name": "88. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "88. CoNfUsIoN",
+					"name": "89. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "false"
 				},
 				{
-					"name": "89. Wrong Zoom",
+					"name": "90. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 25/33 of Total Effects (129 Total)\nPage 1/9 of Effects in Category (45 Total)"
+				"text": "Page 26/34 of Total Effects (130 Total)\nPage 1/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2186,33 +2208,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "90. Billy Gardiner's G-Major 1",
+					"name": "91. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "false"
 				},
 				{
-					"name": "91. Might Confuse You",
+					"name": "92. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "false"
 				},
 				{
-					"name": "92. Low Voice",
+					"name": "93. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "false"
 				},
 				{
-					"name": "93. Does Respond",
+					"name": "94. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "false"
 				},
 				{
-					"name": "94. Does Respond (Common)",
+					"name": "95. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 26/33 of Total Effects (129 Total)\nPage 2/9 of Effects in Category (45 Total)"
+				"text": "Page 27/34 of Total Effects (130 Total)\nPage 2/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2223,33 +2245,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "95. Does Not Respond",
+					"name": "96. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "false"
 				},
 				{
-					"name": "96. Does Not Respond (Common)",
+					"name": "97. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "false"
 				},
 				{
-					"name": "97. ZooPals Effect",
+					"name": "98. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "false"
 				},
 				{
-					"name": "98. Luig Group",
+					"name": "99. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "99. Mari Group",
+					"name": "100. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 27/33 of Total Effects (129 Total)\nPage 3/9 of Effects in Category (45 Total)"
+				"text": "Page 28/34 of Total Effects (130 Total)\nPage 3/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2260,33 +2282,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "100. Half Luig Group",
+					"name": "101. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "101. Half Mari Group",
+					"name": "102. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "false"
 				},
 				{
-					"name": "102. Amber's G-Major 1",
+					"name": "103. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "false"
 				},
 				{
-					"name": "103. Freakzinga's G-Major 156",
+					"name": "104. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "false"
 				},
 				{
-					"name": "104. Weird X",
+					"name": "105. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 28/33 of Total Effects (129 Total)\nPage 4/9 of Effects in Category (45 Total)"
+				"text": "Page 29/34 of Total Effects (130 Total)\nPage 4/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2297,33 +2319,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "105. Opposite Weird X",
+					"name": "106. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "false"
 				},
 				{
-					"name": "106. Not Scary",
+					"name": "107. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "false"
 				},
 				{
-					"name": "107. Ian's G-Major 74",
+					"name": "108. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "false"
 				},
 				{
-					"name": "108. Pika Major",
+					"name": "109. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "false"
 				},
 				{
-					"name": "109. Rj Kumar's G-Major 9",
+					"name": "110. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 29/33 of Total Effects (129 Total)\nPage 5/9 of Effects in Category (45 Total)"
+				"text": "Page 30/34 of Total Effects (130 Total)\nPage 5/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2334,33 +2356,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "110. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "111. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "false"
 				},
 				{
-					"name": "111. Crying X",
+					"name": "112. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "false"
 				},
 				{
-					"name": "112. Crying X (Common)",
+					"name": "113. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "false"
 				},
 				{
-					"name": "113. Sad X",
+					"name": "114. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "false"
 				},
 				{
-					"name": "114. I KILLED X",
+					"name": "115. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 30/33 of Total Effects (129 Total)\nPage 6/9 of Effects in Category (45 Total)"
+				"text": "Page 31/34 of Total Effects (130 Total)\nPage 6/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2371,33 +2393,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "115. Green Lowers",
+					"name": "116. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "false"
 				},
 				{
-					"name": "116. Green Lowers (Traditional)",
+					"name": "117. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "false"
 				},
 				{
-					"name": "117. Green Lowers (Sapphire)",
+					"name": "118. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "false"
 				},
 				{
-					"name": "118. Goo Goo Gaa Gaa",
+					"name": "119. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "false"
 				},
 				{
-					"name": "119. Even X Discontinues",
+					"name": "120. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 31/33 of Total Effects (129 Total)\nPage 7/9 of Effects in Category (45 Total)"
+				"text": "Page 32/34 of Total Effects (130 Total)\nPage 7/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2408,33 +2430,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "120. X Committed",
+					"name": "121. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "false"
 				},
 				{
-					"name": "121. I Accidentally X",
+					"name": "122. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "false"
 				},
 				{
-					"name": "122. Pitch Black",
+					"name": "123. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "false"
 				},
 				{
-					"name": "123. Pitch White",
+					"name": "124. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "false"
 				},
 				{
-					"name": "124. Nikita8500HD Major",
+					"name": "125. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 32/33 of Total Effects (129 Total)\nPage 8/9 of Effects in Category (45 Total)"
+				"text": "Page 33/34 of Total Effects (130 Total)\nPage 8/9 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -2445,33 +2467,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "125. Amber's G-Major 1583",
+					"name": "126. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "false"
 				},
 				{
-					"name": "126. SLC520's G-Major 1520",
+					"name": "127. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "false"
 				},
 				{
-					"name": "127. Simulator V19",
+					"name": "128. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "false"
 				},
 				{
-					"name": "128. SLC520's G-Major 305",
+					"name": "129. SLC520's G-Major 305",
 					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
 					"inline": "false"
 				},
 				{
-					"name": "129. Random",
+					"name": "130. Random",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 33/33 of Total Effects (129 Total)\nPage 9/9 of Effects in Category (45 Total)"
+				"text": "Page 34/34 of Total Effects (130 Total)\nPage 9/9 of Effects in Category (45 Total)"
 			}
 		}
 	}
@@ -2523,7 +2545,6 @@ render m
 }
 |else:
 {if:{arg:{math:1+{get:shift}}}|=|ihtx|then:
-{iscriptmaybeurl:
 {set:exports|{type:number|{arg:{math:2+{get:shift}}}|10}}
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
@@ -2548,10 +2569,7 @@ repeat m 2
 snip m d*3/4
 }
 }}
-create loop 1 1 0 0 0
-convert loop video/mp4
-setfps loop 25
-repeatduration loop {math:abs({get:exports})}/25
+{iscriptmaybeurl:
 load {media} m
 {if:{get:export_file_format}|!=|default|then:
 convert m {get:export_file_format}
@@ -2566,6 +2584,10 @@ get m height h
 get m framecount fc
 set fps (mfc/md)
 copy m x
+create loop 1 1 0 0 0
+convert loop video/mp4
+setfps loop 25
+repeatduration loop {math:abs({get:exports})}/25
 foreachframe loop 0 loopfc {jsonify:
 {eval:{get:code}}
 {get:modifier}
