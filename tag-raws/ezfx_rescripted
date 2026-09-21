@@ -159,7 +159,7 @@
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
-	"g major 16 2.0": {
+	"g major 16 2,0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -169,12 +169,17 @@
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"gm16 2,0": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-4.5/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-10.5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"g-major 16 3.0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-8/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
-	"g major 16 3.0": {
+	"g major 16 3,0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-8/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -184,17 +189,27 @@
 		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-8/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
+	"gm16 3,0": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 144 20\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-8/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"g-major 16 4.0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-3/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
-	"g major 16 4.0": {
+	"g major 16 4,0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-3/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
 	},
 	"gm16 4.0": {
+		"ffmpeg": false,
+		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-3/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"gm16 4,0": {
 		"ffmpeg": false,
 		"code": "hueshifthsv m 93.6\ninvert m\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-3/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-9/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
 		"args": 0
@@ -641,27 +656,27 @@
 	},
 	"sierpinski's triangle": {
 		"ffmpeg": false,
-		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\njoin l r\ncontain m lw lh\njoin m l true",
 		"args": 0
 	},
 	"sierpinskis triangle": {
 		"ffmpeg": false,
-		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\njoin l r\ncontain m lw lh\njoin m l true",
 		"args": 0
 	},
 	"sierpinski": {
 		"ffmpeg": false,
-		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\njoin l r\ncontain m lw lh\njoin m l true",
 		"args": 0
 	},
 	"sierpinski's effect": {
 		"ffmpeg": false,
-		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\njoin l r\ncontain m lw lh\njoin m l true",
 		"args": 0
 	},
 	"sierpinskis effect": {
 		"ffmpeg": false,
-		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\njoin l r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\ncontain m lw lh\njoin m l true",
+		"code": "scale m 0.5\ncopy m l\nspeed l 2**(-12/12)\naudiopitch l 2**(-12/12)\nsnip l d\ncopy m r\ncopy r r2\ninvert r2\nconcat r r2\naudiopitch r 2**(12/12)\nspeed r 2**(12/12)\njoin l r\ncontain m lw lh\njoin m l true",
 		"args": 0
 	},
 	"custom": {
@@ -803,6 +818,31 @@
 		"ffmpeg": false,
 		"code": "{if:{arg:1}|=|true|then:\n{if:{arg:2}|=|true|then:\nspeed m 5\n|else:\nspeed m 6\n}\n}\ncopy m n\ncopy n 1\ninvertrgba 1 1 1 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\naudiopitch 10 2**(-5/12)\naudiodelay 10 -0.003\ncopy 1aud 11\naudioputmix 10 11 yes no\nvolume 10\ncopy 1aud 12\naudiopitch 12 2**(4/12)\naudioputmix 10 12 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 119\ncopy 2 2aud\nconvert 2aud audio/wav\ncopy 2aud 20\naudiopitch 20 2**(-12/12)\naudiodelay 20 -0.003\ncopy 2aud 21\naudiopitch 21 2**(7/12)\naudioputmix 20 21 yes no\nvolume 20\naudioputreplace 2 20 yes no\nconcat m 2\ncopy n 3\nhueshifthsv 3 221.4\ninvert 3\nwave 3 3h/-24 3w/5\ncover 3 w h\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-5/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\ninvert 4\nswaprgba 4 bgr\nhueshifthsv 4 -144\nswirl 4 110\ncopy 4 4aud\nconvert 4aud audio/wav\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(2/12)\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\ninvert 5\nhueshifthsv 5 180\nswirl 5 -5\nhaah 5\ncopy 5 5aud\nconvert 5aud audio/wav\ncopy 5aud 50\naudiopitch 50 2**(-3/12)\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(4/12)\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
 		"args": 2
+	},
+	"pitch funny effects": {
+		"ffmpeg": false,
+		"code": "{if:{arg:1}|=|true|then:\n{if:{arg:2}|=|true|then:\nspeed m 5\n|else:\nspeed m 6\n}\n}\ncopy m n\ncopy n 1\ninvertrgba 1 1 1 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\naudiopitch 10 2**(-5/12)\naudiodelay 10 -0.003\ncopy 1aud 11\naudioputmix 10 11 yes no\nvolume 10\ncopy 1aud 12\naudiopitch 12 2**(4/12)\naudioputmix 10 12 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nhueshifthsv 2 119\ncopy 2 2aud\nconvert 2aud audio/wav\ncopy 2aud 20\naudiopitch 20 2**(-12/12)\naudiodelay 20 -0.003\ncopy 2aud 21\naudiopitch 21 2**(7/12)\naudioputmix 20 21 yes no\nvolume 20\naudioputreplace 2 20 yes no\nconcat m 2\ncopy n 3\nhueshifthsv 3 221.4\ninvert 3\nwave 3 3h/-24 3w/5\ncover 3 w h\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-5/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\ninvert 4\nswaprgba 4 bgr\nhueshifthsv 4 -144\nswirl 4 110\ncopy 4 4aud\nconvert 4aud audio/wav\ncopy 4aud 40\ncopy 4aud 41\naudiopitch 41 2**(2/12)\naudioputmix 40 41 yes no\nvolume 40\naudioputreplace 4 40 yes no\nconcat m 4\ncopy n 5\ninvert 5\nhueshifthsv 5 180\nswirl 5 -5\nhaah 5\ncopy 5 5aud\nconvert 5aud audio/wav\ncopy 5aud 50\naudiopitch 50 2**(-3/12)\naudiodelay 50 -0.003\ncopy 5aud 51\naudiopitch 51 2**(4/12)\naudioputmix 50 51 yes no\nvolume 50\naudioputreplace 5 50 yes no\nconcat m 5\n{if:{arg:2}|=|true|then:\nsnip m d\n}",
+		"args": 2
+	},
+	"jay's klasky csupo effects": {
+		"ffmpeg": false,
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(-12/12)\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nreverse 2\nconcat m 2\ncopy n 3\nreverse 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-12/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\naudiopitch 4aud 2**(-1/12)\naudiodelay 4aud -0.003\naudioputreplace 4 4aud yes no\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\naudiopitch 5aud 2**(-8/12)\naudiodelay 5aud -0.003\naudioputreplace 5 5aud yes no\nconcat m 5\ncopy n 6\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 6|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 6\ncopy n 7\nreverse 7\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 7|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nwave 8 8h/-24 8w/5\ncover 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(-5/12)\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nwave 9 9h/-12 9w/2.5\ncover 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\ncopy 9aud 90\ncopy 9aud 91\naudiopitch 91 2**(-7/12)\naudiodelay 91 -0.003\naudioputmix 90 91 yes no\nvolume 90\naudioputreplace 9 90 yes no\nconcat m 9",
+		"args": 1
+	},
+	"jays klasky csupo effects": {
+		"ffmpeg": false,
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(-12/12)\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nreverse 2\nconcat m 2\ncopy n 3\nreverse 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-12/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\naudiopitch 4aud 2**(-1/12)\naudiodelay 4aud -0.003\naudioputreplace 4 4aud yes no\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\naudiopitch 5aud 2**(-8/12)\naudiodelay 5aud -0.003\naudioputreplace 5 5aud yes no\nconcat m 5\ncopy n 6\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 6|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 6\ncopy n 7\nreverse 7\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 7|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nwave 8 8h/-24 8w/5\ncover 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(-5/12)\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nwave 9 9h/-12 9w/2.5\ncover 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\ncopy 9aud 90\ncopy 9aud 91\naudiopitch 91 2**(-7/12)\naudiodelay 91 -0.003\naudioputmix 90 91 yes no\nvolume 90\naudioputreplace 9 90 yes no\nconcat m 9",
+		"args": 1
+	},
+	"jay's kc effects": {
+		"ffmpeg": false,
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(-12/12)\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nreverse 2\nconcat m 2\ncopy n 3\nreverse 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-12/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\naudiopitch 4aud 2**(-1/12)\naudiodelay 4aud -0.003\naudioputreplace 4 4aud yes no\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\naudiopitch 5aud 2**(-8/12)\naudiodelay 5aud -0.003\naudioputreplace 5 5aud yes no\nconcat m 5\ncopy n 6\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 6|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 6\ncopy n 7\nreverse 7\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 7|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nwave 8 8h/-24 8w/5\ncover 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(-5/12)\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nwave 9 9h/-12 9w/2.5\ncover 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\ncopy 9aud 90\ncopy 9aud 91\naudiopitch 91 2**(-7/12)\naudiodelay 91 -0.003\naudioputmix 90 91 yes no\nvolume 90\naudioputreplace 9 90 yes no\nconcat m 9",
+		"args": 1
+	},
+	"jays kc effects": {
+		"ffmpeg": false,
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 9\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\ncopy 1aud 10\ncopy 1aud 11\naudiopitch 11 2**(-12/12)\naudiodelay 11 -0.003\naudioputmix 10 11 yes no\nvolume 10\naudioputreplace 1 10 yes no\nconcat m 1\ncopy n 2\nreverse 2\nconcat m 2\ncopy n 3\nreverse 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\ncopy 3aud 30\ncopy 3aud 31\naudiopitch 31 2**(-12/12)\naudiodelay 31 -0.003\naudioputmix 30 31 yes no\nvolume 30\naudioputreplace 3 30 yes no\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\naudiopitch 4aud 2**(-1/12)\naudiodelay 4aud -0.003\naudioputreplace 4 4aud yes no\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\naudiopitch 5aud 2**(-8/12)\naudiodelay 5aud -0.003\naudioputreplace 5 5aud yes no\nconcat m 5\ncopy n 6\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 6|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 6\ncopy n 7\nreverse 7\n{if:{traversejson:Jay's Old G-Major 4.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:Jay's Old G-Major 4.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| 7|{traversejson:Jay's Old G-Major 4.code|{get:data}}}\n}\n}\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nwave 8 8h/-24 8w/5\ncover 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\ncopy 8aud 80\ncopy 8aud 81\naudiopitch 81 2**(-5/12)\naudiodelay 81 -0.003\naudioputmix 80 81 yes no\nvolume 80\naudioputreplace 8 80 yes no\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nwave 9 9h/-12 9w/2.5\ncover 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\ncopy 9aud 90\ncopy 9aud 91\naudiopitch 91 2**(-7/12)\naudiodelay 91 -0.003\naudioputmix 90 91 yes no\nvolume 90\naudioputreplace 9 90 yes no\nconcat m 9",
+		"args": 1
 	},
 	"pitch": {
 		"ffmpeg": false,
@@ -1409,9 +1449,34 @@
 		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\naudiopitch ma 2**(12/12)\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\naudiopitch mb 2**(-7/12)\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
 		"args": 0
 	},
+	"reverse": {
+		"ffmpeg": false,
+		"code": "reverse m",
+		"args": 0
+	},
+	"reversed": {
+		"ffmpeg": false,
+		"code": "reverse m",
+		"args": 0
+	},
+	"audio reverse": {
+		"ffmpeg": false,
+		"code": "audioreverse m",
+		"args": 0
+	},
+	"areverse": {
+		"ffmpeg": false,
+		"code": "audioreverse m\nreverse m",
+		"args": 0
+	},
+	"video reverse": {
+		"ffmpeg": false,
+		"code": "audioreverse m\nreverse m",
+		"args": 0
+	},
 	"random": {
 		"ffmpeg": false,
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2.0|g major 16 3.0|g major 16 4.0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 2800|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays g major 2800|jays g major 525600|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
 		"args": 0
 	}
 }}}
@@ -1477,7 +1542,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/34 of Total Effects (131 Total)\nPage 1/5 of Effects in Category (23 Total)"
+				"text": "Page 1/35 of Total Effects (135 Total)\nPage 1/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1514,7 +1579,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/34 of Total Effects (131 Total)\nPage 2/5 of Effects in Category (23 Total)"
+				"text": "Page 2/35 of Total Effects (135 Total)\nPage 2/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1526,17 +1591,17 @@
 			"fields": [
 				{
 					"name": "11. G-Major 16 2.0",
-					"value": "Codename: `g major 16 2.0`\nAliases:\n- GM16 2.0",
+					"value": "Codename: `g major 16 2,0`\nAliases:\n- GM16 2.0",
 					"inline": "false"
 				},
 				{
 					"name": "12. G-Major 16 3.0",
-					"value": "Codename: `g major 16 3.0`\nAliases:\n- GM16 3.0",
+					"value": "Codename: `g major 16 3,0`\nAliases:\n- GM16 3.0",
 					"inline": "false"
 				},
 				{
 					"name": "13. G-Major 16 4.0",
-					"value": "Codename: `g major 16 4.0`\nAliases:\n- GM16 4.0",
+					"value": "Codename: `g major 16 4,0`\nAliases:\n- GM16 4.0",
 					"inline": "false"
 				},
 				{
@@ -1551,7 +1616,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/34 of Total Effects (131 Total)\nPage 3/5 of Effects in Category (23 Total)"
+				"text": "Page 3/35 of Total Effects (135 Total)\nPage 3/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1588,7 +1653,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/34 of Total Effects (131 Total)\nPage 4/5 of Effects in Category (23 Total)"
+				"text": "Page 4/35 of Total Effects (135 Total)\nPage 4/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1615,7 +1680,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/34 of Total Effects (131 Total)\nPage 5/5 of Effects in Category (23 Total)"
+				"text": "Page 5/35 of Total Effects (135 Total)\nPage 5/5 of Effects in Category (23 Total)"
 			}
 		}
 	},
@@ -1652,7 +1717,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/34 of Total Effects (131 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/35 of Total Effects (135 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1674,7 +1739,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/34 of Total Effects (131 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/35 of Total Effects (135 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1696,7 +1761,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1713,7 +1778,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1740,7 +1805,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1757,7 +1822,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1779,7 +1844,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 12/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1816,7 +1881,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/34 of Total Effects (131 Total)\nPage 1/3 of Effects in Category (11 Total)"
+				"text": "Page 13/35 of Total Effects (135 Total)\nPage 1/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1853,7 +1918,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/34 of Total Effects (131 Total)\nPage 2/3 of Effects in Category (11 Total)"
+				"text": "Page 14/35 of Total Effects (135 Total)\nPage 2/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1870,7 +1935,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/34 of Total Effects (131 Total)\nPage 3/3 of Effects in Category (11 Total)"
+				"text": "Page 15/35 of Total Effects (135 Total)\nPage 3/3 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -1907,7 +1972,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/34 of Total Effects (131 Total)\nPage 1/2 of Effects in Category (8 Total)"
+				"text": "Page 16/35 of Total Effects (135 Total)\nPage 1/2 of Effects in Category (8 Total)"
 			}
 		}
 	},
@@ -1934,7 +1999,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 17/34 of Total Effects (131 Total)\nPage 2/2 of Effects in Category (8 Total)"
+				"text": "Page 17/35 of Total Effects (135 Total)\nPage 2/2 of Effects in Category (8 Total)"
 			}
 		}
 	},
@@ -1971,7 +2036,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 18/34 of Total Effects (131 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 18/35 of Total Effects (135 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1993,7 +2058,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 19/34 of Total Effects (131 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 19/35 of Total Effects (135 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -2010,7 +2075,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 20/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 20/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -2037,12 +2102,17 @@
 				},
 				{
 					"name": "70. We Become We Effects",
-					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects",
+					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects\n- Pitch Funny Effects",
+					"inline": "false"
+				},
+				{
+					"name": "71. Jay's Klasky Csupo Effects",
+					"value": "Codename: `jays klasky csupo effects`\nSyntax: `<?speed>`\nAliases:\n- Jay's KC Effects",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 21/34 of Total Effects (131 Total)\nPage 1/1 of Effects in Category (4 Total)"
+				"text": "Page 21/35 of Total Effects (135 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -2053,33 +2123,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "71. Pitch",
+					"name": "72. Pitch",
 					"value": "Codename: `pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "72. Split Pitch",
+					"name": "73. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "false"
 				},
 				{
-					"name": "73. Split 2 Pitches",
+					"name": "74. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "74. Split 2 Pitches with Zero",
+					"name": "75. Split 2 Pitches with Zero",
 					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "false"
 				},
 				{
-					"name": "75. Split 3 Pitches",
+					"name": "76. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 22/34 of Total Effects (131 Total)\nPage 1/4 of Effects in Category (16 Total)"
+				"text": "Page 22/35 of Total Effects (135 Total)\nPage 1/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2090,33 +2160,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "76. Split 3 Pitches with Zero",
+					"name": "77. Split 3 Pitches with Zero",
 					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "false"
 				},
 				{
-					"name": "77. Split 4 Pitches",
+					"name": "78. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "78. Split 4 Pitches with Zero",
+					"name": "79. Split 4 Pitches with Zero",
 					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "false"
 				},
 				{
-					"name": "79. Split 5 Pitches",
+					"name": "80. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				},
 				{
-					"name": "80. Split 5 Pitches with Zero",
+					"name": "81. Split 5 Pitches with Zero",
 					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 23/34 of Total Effects (131 Total)\nPage 2/4 of Effects in Category (16 Total)"
+				"text": "Page 23/35 of Total Effects (135 Total)\nPage 2/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2127,33 +2197,33 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "81. Split 6 Pitches",
+					"name": "82. Split 6 Pitches",
 					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
-					"name": "82. Split 6 Pitches with Zero",
+					"name": "83. Split 6 Pitches with Zero",
 					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "false"
 				},
 				{
-					"name": "83. Split Any Pitches",
+					"name": "84. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "84. Split Any Pitches with Zero",
+					"name": "85. Split Any Pitches with Zero",
 					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "false"
 				},
 				{
-					"name": "85. Split Opposite Pitches",
+					"name": "86. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 24/34 of Total Effects (131 Total)\nPage 3/4 of Effects in Category (16 Total)"
+				"text": "Page 24/35 of Total Effects (135 Total)\nPage 3/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2164,13 +2234,13 @@
 			"description": "### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "86. Split Opposite Pitches with Zero",
+					"name": "87. Split Opposite Pitches with Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 25/34 of Total Effects (131 Total)\nPage 4/4 of Effects in Category (16 Total)"
+				"text": "Page 25/35 of Total Effects (135 Total)\nPage 4/4 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2181,33 +2251,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "87. Normal",
+					"name": "88. Normal",
 					"value": "Codename: `normal`",
 					"inline": "false"
 				},
 				{
-					"name": "88. Getting Faster",
+					"name": "89. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "false"
 				},
 				{
-					"name": "89. Getting Slower",
+					"name": "90. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "false"
 				},
 				{
-					"name": "90. CoNfUsIoN",
+					"name": "91. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "false"
 				},
 				{
-					"name": "91. Wrong Zoom",
+					"name": "92. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 26/34 of Total Effects (131 Total)\nPage 1/9 of Effects in Category (45 Total)"
+				"text": "Page 26/35 of Total Effects (135 Total)\nPage 1/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2218,33 +2288,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "92. Billy Gardiner's G-Major 1",
+					"name": "93. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "false"
 				},
 				{
-					"name": "93. Might Confuse You",
+					"name": "94. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "false"
 				},
 				{
-					"name": "94. Low Voice",
+					"name": "95. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "false"
 				},
 				{
-					"name": "95. Does Respond",
+					"name": "96. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "false"
 				},
 				{
-					"name": "96. Does Respond (Common)",
+					"name": "97. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 27/34 of Total Effects (131 Total)\nPage 2/9 of Effects in Category (45 Total)"
+				"text": "Page 27/35 of Total Effects (135 Total)\nPage 2/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2255,33 +2325,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "97. Does Not Respond",
+					"name": "98. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "false"
 				},
 				{
-					"name": "98. Does Not Respond (Common)",
+					"name": "99. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "false"
 				},
 				{
-					"name": "99. ZooPals Effect",
+					"name": "100. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "false"
 				},
 				{
-					"name": "100. Luig Group",
+					"name": "101. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "101. Mari Group",
+					"name": "102. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 28/34 of Total Effects (131 Total)\nPage 3/9 of Effects in Category (45 Total)"
+				"text": "Page 28/35 of Total Effects (135 Total)\nPage 3/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2292,33 +2362,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "102. Half Luig Group",
+					"name": "103. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "false"
 				},
 				{
-					"name": "103. Half Mari Group",
+					"name": "104. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "false"
 				},
 				{
-					"name": "104. Amber's G-Major 1",
+					"name": "105. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "false"
 				},
 				{
-					"name": "105. Freakzinga's G-Major 156",
+					"name": "106. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "false"
 				},
 				{
-					"name": "106. Weird X",
+					"name": "107. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 29/34 of Total Effects (131 Total)\nPage 4/9 of Effects in Category (45 Total)"
+				"text": "Page 29/35 of Total Effects (135 Total)\nPage 4/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2329,33 +2399,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "107. Opposite Weird X",
+					"name": "108. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "false"
 				},
 				{
-					"name": "108. Not Scary",
+					"name": "109. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "false"
 				},
 				{
-					"name": "109. Ian's G-Major 74",
+					"name": "110. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "false"
 				},
 				{
-					"name": "110. Pika Major",
+					"name": "111. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "false"
 				},
 				{
-					"name": "111. Rj Kumar's G-Major 9",
+					"name": "112. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 30/34 of Total Effects (131 Total)\nPage 5/9 of Effects in Category (45 Total)"
+				"text": "Page 30/35 of Total Effects (135 Total)\nPage 5/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2366,33 +2436,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "112. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "113. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "false"
 				},
 				{
-					"name": "113. Crying X",
+					"name": "114. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "false"
 				},
 				{
-					"name": "114. Crying X (Common)",
+					"name": "115. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "false"
 				},
 				{
-					"name": "115. Sad X",
+					"name": "116. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "false"
 				},
 				{
-					"name": "116. I KILLED X",
+					"name": "117. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 31/34 of Total Effects (131 Total)\nPage 6/9 of Effects in Category (45 Total)"
+				"text": "Page 31/35 of Total Effects (135 Total)\nPage 6/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2403,33 +2473,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "117. Green Lowers",
+					"name": "118. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "false"
 				},
 				{
-					"name": "118. Green Lowers (Traditional)",
+					"name": "119. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "false"
 				},
 				{
-					"name": "119. Green Lowers (Sapphire)",
+					"name": "120. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "false"
 				},
 				{
-					"name": "120. Goo Goo Gaa Gaa",
+					"name": "121. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "false"
 				},
 				{
-					"name": "121. Even X Discontinues",
+					"name": "122. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 32/34 of Total Effects (131 Total)\nPage 7/9 of Effects in Category (45 Total)"
+				"text": "Page 32/35 of Total Effects (135 Total)\nPage 7/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2440,33 +2510,33 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "122. X Committed",
+					"name": "123. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "false"
 				},
 				{
-					"name": "123. I Accidentally X",
+					"name": "124. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "false"
 				},
 				{
-					"name": "124. Pitch Black",
+					"name": "125. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "false"
 				},
 				{
-					"name": "125. Pitch White",
+					"name": "126. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "false"
 				},
 				{
-					"name": "126. Nikita8500HD Major",
+					"name": "127. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 33/34 of Total Effects (131 Total)\nPage 8/9 of Effects in Category (45 Total)"
+				"text": "Page 33/35 of Total Effects (135 Total)\nPage 8/10 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2477,33 +2547,60 @@
 			"description": "### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "127. Amber's G-Major 1583",
+					"name": "128. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "false"
 				},
 				{
-					"name": "128. SLC520's G-Major 1520",
+					"name": "129. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "false"
 				},
 				{
-					"name": "129. Simulator V19",
+					"name": "130. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "false"
 				},
 				{
-					"name": "130. SLC520's G-Major 305",
+					"name": "131. SLC520's G-Major 305",
 					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
 					"inline": "false"
 				},
 				{
-					"name": "131. Random",
+					"name": "132. Reverse",
+					"value": "Codename: `reverse`\nAliases:\n- Reversed",
+					"inline": "false"
+				}
+			],
+			"footer": {
+				"text": "Page 34/35 of Total Effects (135 Total)\nPage 9/10 of Effects in Category (48 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "### Category: Uncategorized",
+			"fields": [
+				{
+					"name": "133. Audio Reverse",
+					"value": "Codename: `audio reverse`\nAliases:\n- areverse",
+					"inline": "false"
+				},
+				{
+					"name": "134. Video Reverse",
+					"value": "Codename: `video reverse`\nAliases:\n- areverse",
+					"inline": "false"
+				},
+				{
+					"name": "135. Random",
 					"value": "Codename: `random`",
 					"inline": "false"
 				}
 			],
 			"footer": {
-				"text": "Page 34/34 of Total Effects (131 Total)\nPage 9/9 of Effects in Category (45 Total)"
+				"text": "Page 35/35 of Total Effects (135 Total)\nPage 10/10 of Effects in Category (48 Total)"
 			}
 		}
 	}
