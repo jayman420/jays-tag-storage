@@ -591,22 +591,22 @@
 	},
 	"jay's g-major 17": {
 		"ffmpeg": false,
-		"code": "invert m\nswaprgba m grb\nwave m mh/24 mw/2\ncover m w h\nrotate m 90\nwave m mh/24 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
+		"code": "invert m\nswaprgba m grb\nwaves m mh/24 mw/2 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/2 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
 		"args": 0
 	},
 	"jays g major 17": {
 		"ffmpeg": false,
-		"code": "invert m\nswaprgba m grb\nwave m mh/24 mw/2\ncover m w h\nrotate m 90\nwave m mh/24 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
+		"code": "invert m\nswaprgba m grb\nwaves m mh/24 mw/2 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/2 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
 		"args": 0
 	},
 	"jay's gm17": {
 		"ffmpeg": false,
-		"code": "invert m\nswaprgba m grb\nwave m mh/24 mw/2\ncover m w h\nrotate m 90\nwave m mh/24 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
+		"code": "invert m\nswaprgba m grb\nwaves m mh/24 mw/2 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/2 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
 		"args": 0
 	},
 	"jays gm17": {
 		"ffmpeg": false,
-		"code": "invert m\nswaprgba m grb\nwave m mh/24 mw/2\ncover m w h\nrotate m 90\nwave m mh/24 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
+		"code": "invert m\nswaprgba m grb\nwaves m mh/24 mw/2 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/2 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
 		"args": 0
 	},
 	"jay's g-major 2800": {
