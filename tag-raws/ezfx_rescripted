@@ -681,7 +681,7 @@
 	},
 	"effect crossing": {
 		"ffmpeg": false,
-		"code": "{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\ncopy m n\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| {get:idx}|{traversejson:{get:valuex}.code|{get:data}}}\n}\n}\nconcat m n\n}\n{if:{arg:2}|=|true|then:\nspeed m md/d\n}",
+		"code": "{foreach:{replace:'|\"|{js:const split = \"{arg:1}\".split(\";\");\nconst trimmed = split.map(str => str.trim());\nconsole.log(trimmed);}}|\ncopy m n\n{if:{traversejson:{get:valuex}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{get:valuex}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{get:valuex}.code|{get:data}}}\n}\n}\nconcat m n\n}\n{if:{arg:2}|=|true|then:\nspeed m md/d\n}",
 		"args": 2
 	},
 	"pipe": {
