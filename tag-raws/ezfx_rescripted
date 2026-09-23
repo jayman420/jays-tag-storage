@@ -669,6 +669,26 @@
 		"code": "invert m\nswaprgba m grb\nwaves m mh/24 mw/2 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/2 mh/360\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-2/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(5/12)\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(12/12)\naudioputmix m0 m2 yes no\nvolume m0\naudioputreplace m m0 yes no\nspeed m 0.75",
 		"args": 0
 	},
+	"jay's g-major 106": {
+		"ffmpeg": false,
+		"code": "contrast m -1\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-0.08/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(6.92/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"jays g major 106": {
+		"ffmpeg": false,
+		"code": "contrast m -1\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-0.08/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(6.92/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"jay's gm106": {
+		"ffmpeg": false,
+		"code": "contrast m -1\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-0.08/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(6.92/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
+	"jays gm106": {
+		"ffmpeg": false,
+		"code": "contrast m -1\nflop m\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-0.08/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(6.92/12)\naudioputmix m0 m1 yes no\nvolume m0\naudioputreplace m m0 yes no",
+		"args": 0
+	},
 	"jay's g-major 2800": {
 		"ffmpeg": false,
 		"code": "invert m\nhueshifthsv m 284.04 100\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\nshake m 0 mh/72 true\ncopy m maud\nconvert maud audio/wav\ncopy maud m0\naudiopitch m0 2**(-20.5/12)\naudiodelay m0 -0.003\ncopy maud m1\naudiopitch m1 2**(-13.5/12)\naudiodelay m1 -0.003\naudioputmix m0 m1 yes no\nvolume m0\ncopy maud m2\naudiopitch m2 2**(-6.5/12)\naudiodelay m2 -0.003\naudioputmix m0 m2 yes no\nvolume m0\ncopy maud m3\naudiopitch m3 2**(0.5/12)\naudioputmix m0 m3 yes no\nvolume m0\ncopy maud m4\naudiopitch m4 2**(7.5/12)\naudioputmix m0 m4 yes no\nvolume m0\ncopy maud m5\naudiopitch m5 2**(12/12)\naudiopitch m5 2**(2.5/12)\naudioputmix m0 m5 yes no\nvolume m0\ncopy maud m6\naudiopitch m6 2**(12/12)\naudiopitch m6 2**(9.5/12)\naudioputmix m0 m6 yes no\nvolume m0\naudioputreplace m m0 yes no",
@@ -1636,7 +1656,7 @@
 	},
 	"random": {
 		"ffmpeg": false,
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 2800|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 106|jays g major 2800|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
 		"args": 0
 	}
 }}}
@@ -1673,7 +1693,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "1. G-Major",
@@ -1707,7 +1727,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/32 of Total Effects (143 Total)\nPage 1/5 of Effects in Category (25 Total)"
+				"text": "Page 1/33 of Total Effects (144 Total)\nPage 1/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -1715,7 +1735,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "7. G-Major 5",
@@ -1749,7 +1769,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/32 of Total Effects (143 Total)\nPage 2/5 of Effects in Category (25 Total)"
+				"text": "Page 2/33 of Total Effects (144 Total)\nPage 2/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -1757,7 +1777,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "13. G-Major 16 2.0",
@@ -1791,7 +1811,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/32 of Total Effects (143 Total)\nPage 3/5 of Effects in Category (25 Total)"
+				"text": "Page 3/33 of Total Effects (144 Total)\nPage 3/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -1799,7 +1819,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "19. G-Major 88",
@@ -1833,7 +1853,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/32 of Total Effects (143 Total)\nPage 4/5 of Effects in Category (25 Total)"
+				"text": "Page 4/33 of Total Effects (144 Total)\nPage 4/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -1841,7 +1861,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "25. G-Major 77114",
@@ -1850,7 +1870,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/32 of Total Effects (143 Total)\nPage 5/5 of Effects in Category (25 Total)"
+				"text": "Page 5/33 of Total Effects (144 Total)\nPage 5/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -1858,7 +1878,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "26. G-Minor",
@@ -1892,7 +1912,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/32 of Total Effects (143 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/33 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1900,7 +1920,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "32. G-Minor 77114",
@@ -1909,7 +1929,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/32 of Total Effects (143 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/33 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -1917,7 +1937,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Custom Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Custom Major Effects",
 			"fields": [
 				{
 					"name": "33. Custom Major 3",
@@ -1931,7 +1951,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -1939,7 +1959,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Custom Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Custom Minor Effects",
 			"fields": [
 				{
 					"name": "35. Custom Minor 3",
@@ -1948,7 +1968,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -1956,7 +1976,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
 			"fields": [
 				{
 					"name": "36. 22-DXI",
@@ -1975,7 +1995,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -1983,7 +2003,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Opposite DXI Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Opposite DXI Effects",
 			"fields": [
 				{
 					"name": "39. Opposite 91-DXI",
@@ -1992,7 +2012,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -2000,7 +2020,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: My G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: My G-Major Effects",
 			"fields": [
 				{
 					"name": "40. Jay's Old G-Major 4",
@@ -2023,18 +2043,35 @@
 					"inline": "true"
 				},
 				{
-					"name": "44. Jay's G-Major 2800",
-					"value": "Codename: `jays g major 2800`\nAliases:\n- Jay's GM2800",
+					"name": "44. Jay's G-Major 106",
+					"value": "Codename: `jays g major 106`\nAliases:\n- Jay's GM106",
 					"inline": "true"
 				},
 				{
-					"name": "45. Jay's G-Major 525600",
+					"name": "45. Jay's G-Major 2800",
+					"value": "Codename: `jays g major 2800`\nAliases:\n- Jay's GM2800",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 12/33 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: My G-Major Effects",
+			"fields": [
+				{
+					"name": "46. Jay's G-Major 525600",
 					"value": "Codename: `jays g major 525600`\nAliases:\n- Jay's GM525600",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 12/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (6 Total)"
+				"text": "Page 13/33 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -2042,21 +2079,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: My G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: My G-Minor Effects",
 			"fields": [
 				{
-					"name": "46. Jay's Old G-Minor 4",
+					"name": "47. Jay's Old G-Minor 4",
 					"value": "Codename: `jays old g minor 4`\nAliases:\n- Jay's Old GMi4",
 					"inline": "true"
 				},
 				{
-					"name": "47. Jay's G-Minor 15",
+					"name": "48. Jay's G-Minor 15",
 					"value": "Codename: `jays g minor 15`\nAliases:\n- Jay's GMi15",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 13/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 14/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -2064,41 +2101,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "48. Gold Major",
+					"name": "49. Gold Major",
 					"value": "Codename: `gold major`",
 					"inline": "true"
 				},
 				{
-					"name": "49. The Loudest X",
+					"name": "50. The Loudest X",
 					"value": "Codename: `the loudest x`",
 					"inline": "true"
 				},
 				{
-					"name": "50. KlaalK",
+					"name": "51. KlaalK",
 					"value": "Codename: `klaalk`",
 					"inline": "true"
 				},
 				{
-					"name": "51. YksskY",
+					"name": "52. YksskY",
 					"value": "Codename: `ykssky`",
 					"inline": "true"
 				},
 				{
-					"name": "52. X's Pet Fly",
+					"name": "53. X's Pet Fly",
 					"value": "Codename: `xs pet fly`",
 					"inline": "true"
 				},
 				{
-					"name": "53. Double Spin",
+					"name": "54. Double Spin",
 					"value": "Codename: `double spin`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 14/32 of Total Effects (143 Total)\nPage 1/2 of Effects in Category (11 Total)"
+				"text": "Page 15/33 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -2106,36 +2143,36 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "54. The Four Horsemen of X",
+					"name": "55. The Four Horsemen of X",
 					"value": "Codename: `the four horsemen of x`",
 					"inline": "true"
 				},
 				{
-					"name": "55. X May Need Assistance",
+					"name": "56. X May Need Assistance",
 					"value": "Codename: `x may need assistance`",
 					"inline": "true"
 				},
 				{
-					"name": "56. X IS EVIL!!!",
+					"name": "57. X IS EVIL!!!",
 					"value": "Codename: `x is evil`",
 					"inline": "true"
 				},
 				{
-					"name": "57. X IS NICE!!!",
+					"name": "58. X IS NICE!!!",
 					"value": "Codename: `x is nice`",
 					"inline": "true"
 				},
 				{
-					"name": "58. Sierpinski's Triangle",
+					"name": "59. Sierpinski's Triangle",
 					"value": "Codename: `sierpinskis triangle`\nAliases:\n- Sierpinski\n- Sierpinski's Effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 15/32 of Total Effects (143 Total)\nPage 2/2 of Effects in Category (11 Total)"
+				"text": "Page 16/33 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -2143,41 +2180,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "59. Custom",
+					"name": "60. Custom",
 					"value": "Codename: `custom`\nSyntax: `<code>`",
 					"inline": "true"
 				},
 				{
-					"name": "60. Effects",
+					"name": "61. Effects",
 					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "61. Multirender",
+					"name": "62. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "62. Effect Crossing",
+					"name": "63. Effect Crossing",
 					"value": "Codename: `effect crossing`\nSyntax: `<effect 1; effect 2; + and so on> <?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "63. Pipe",
+					"name": "64. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "true"
 				},
 				{
-					"name": "64. Preview 2",
+					"name": "65. Preview 2",
 					"value": "Codename: `preview 2`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 16/32 of Total Effects (143 Total)\nPage 1/2 of Effects in Category (8 Total)"
+				"text": "Page 17/33 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (8 Total)"
 			}
 		}
 	},
@@ -2185,21 +2222,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "65. Respondview 2",
+					"name": "66. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "66. Preview 1280",
+					"name": "67. Preview 1280",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/32 of Total Effects (143 Total)\nPage 2/2 of Effects in Category (8 Total)"
+				"text": "Page 18/33 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (8 Total)"
 			}
 		}
 	},
@@ -2207,41 +2244,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Split Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "67. Split",
+					"name": "68. Split",
 					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "68. Vertical Split",
+					"name": "69. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "69. X Meets",
+					"name": "70. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "70. Getting Faster Split Getting Slower",
+					"name": "71. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "71. Split ZooPals Effect",
+					"name": "72. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "72. Split G-Major 88",
+					"name": "73. Split G-Major 88",
 					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/32 of Total Effects (143 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 19/33 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -2249,16 +2286,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Split Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "73. Split Amber's G-Major 1",
+					"name": "74. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 19/32 of Total Effects (143 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 20/33 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -2266,16 +2303,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Combination Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "74. CoNfUsIoN + Real G-Major 4",
+					"name": "75. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`\nAliases:\n- CoNfUsIoN + Real GM4",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 20/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 21/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -2283,36 +2320,36 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Effect Collections",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Effect Collections",
 			"fields": [
 				{
-					"name": "75. p2funny",
+					"name": "76. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "76. Kelly Effects",
+					"name": "77. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "77. 9 Random Effects",
+					"name": "78. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "78. We Become We Effects",
+					"name": "79. We Become We Effects",
 					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects\n- Pitch Funny Effects",
 					"inline": "true"
 				},
 				{
-					"name": "79. Jay's Klasky Csupo Effects",
+					"name": "80. Jay's Klasky Csupo Effects",
 					"value": "Codename: `jays klasky csupo effects`\nSyntax: `<?speed>`\nAliases:\n- Jay's KC Effects",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 21/32 of Total Effects (143 Total)\nPage 1/1 of Effects in Category (5 Total)"
+				"text": "Page 22/33 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -2320,41 +2357,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: The Split Pitch Collection",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "80. Pitch",
+					"name": "81. Pitch",
 					"value": "Codename: `pitch`\nSyntax: `<pitch>`",
 					"inline": "true"
 				},
 				{
-					"name": "81. Split Pitch",
+					"name": "82. Split Pitch",
 					"value": "Codename: `split pitch`\nSyntax: `<pitch>`",
 					"inline": "true"
 				},
 				{
-					"name": "82. Split 2 Pitches",
+					"name": "83. Split 2 Pitches",
 					"value": "Codename: `split 2 pitches`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "83. Split 2 Pitches with Zero",
+					"name": "84. Split 2 Pitches with Zero",
 					"value": "Codename: `split 2 pitches with zero`\nSyntax: `<pitch 1> <pitch 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "84. Split 3 Pitches",
+					"name": "85. Split 3 Pitches",
 					"value": "Codename: `split 3 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "true"
 				},
 				{
-					"name": "85. Split 3 Pitches with Zero",
+					"name": "86. Split 3 Pitches with Zero",
 					"value": "Codename: `split 3 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 22/32 of Total Effects (143 Total)\nPage 1/3 of Effects in Category (16 Total)"
+				"text": "Page 23/33 of Total Effects (144 Total)\nPage 1/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2362,41 +2399,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: The Split Pitch Collection",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "86. Split 4 Pitches",
+					"name": "87. Split 4 Pitches",
 					"value": "Codename: `split 4 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "true"
 				},
 				{
-					"name": "87. Split 4 Pitches with Zero",
+					"name": "88. Split 4 Pitches with Zero",
 					"value": "Codename: `split 4 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4>`",
 					"inline": "true"
 				},
 				{
-					"name": "88. Split 5 Pitches",
+					"name": "89. Split 5 Pitches",
 					"value": "Codename: `split 5 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "true"
 				},
 				{
-					"name": "89. Split 5 Pitches with Zero",
+					"name": "90. Split 5 Pitches with Zero",
 					"value": "Codename: `split 5 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5>`",
 					"inline": "true"
 				},
 				{
-					"name": "90. Split 6 Pitches",
+					"name": "91. Split 6 Pitches",
 					"value": "Codename: `split 6 pitches`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "true"
 				},
 				{
-					"name": "91. Split 6 Pitches with Zero",
+					"name": "92. Split 6 Pitches with Zero",
 					"value": "Codename: `split 6 pitches with zero`\nSyntax: `<pitch 1> <pitch 2> <pitch 3> <pitch 4> <pitch 5> <pitch 6>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 23/32 of Total Effects (143 Total)\nPage 2/3 of Effects in Category (16 Total)"
+				"text": "Page 24/33 of Total Effects (144 Total)\nPage 2/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2404,31 +2441,31 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: The Split Pitch Collection",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: The Split Pitch Collection",
 			"fields": [
 				{
-					"name": "92. Split Any Pitches",
+					"name": "93. Split Any Pitches",
 					"value": "Codename: `split any pitches`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "true"
 				},
 				{
-					"name": "93. Split Any Pitches with Zero",
+					"name": "94. Split Any Pitches with Zero",
 					"value": "Codename: `split any pitches with zero`\nSyntax: `<pitches separated by spaces>`",
 					"inline": "true"
 				},
 				{
-					"name": "94. Split Opposite Pitches",
+					"name": "95. Split Opposite Pitches",
 					"value": "Codename: `split opposite pitches`\nSyntax: `<pitch>`",
 					"inline": "true"
 				},
 				{
-					"name": "95. Split Opposite Pitches with Zero",
+					"name": "96. Split Opposite Pitches with Zero",
 					"value": "Codename: `split opposite pitches with zero`\nSyntax: `<pitch>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 24/32 of Total Effects (143 Total)\nPage 3/3 of Effects in Category (16 Total)"
+				"text": "Page 25/33 of Total Effects (144 Total)\nPage 3/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -2436,41 +2473,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "96. Normal",
+					"name": "97. Normal",
 					"value": "Codename: `normal`",
 					"inline": "true"
 				},
 				{
-					"name": "97. Getting Faster",
+					"name": "98. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "true"
 				},
 				{
-					"name": "98. Getting Slower",
+					"name": "99. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "99. CoNfUsIoN",
+					"name": "100. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "true"
 				},
 				{
-					"name": "100. Wrong Zoom",
+					"name": "101. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "true"
 				},
 				{
-					"name": "101. Billy Gardiner's G-Major 1",
+					"name": "102. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 25/32 of Total Effects (143 Total)\nPage 1/8 of Effects in Category (48 Total)"
+				"text": "Page 26/33 of Total Effects (144 Total)\nPage 1/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2478,41 +2515,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "102. Might Confuse You",
+					"name": "103. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "true"
 				},
 				{
-					"name": "103. Low Voice",
+					"name": "104. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "true"
 				},
 				{
-					"name": "104. Does Respond",
+					"name": "105. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "true"
 				},
 				{
-					"name": "105. Does Respond (Common)",
+					"name": "106. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "true"
 				},
 				{
-					"name": "106. Does Not Respond",
+					"name": "107. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "true"
 				},
 				{
-					"name": "107. Does Not Respond (Common)",
+					"name": "108. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 26/32 of Total Effects (143 Total)\nPage 2/8 of Effects in Category (48 Total)"
+				"text": "Page 27/33 of Total Effects (144 Total)\nPage 2/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2520,41 +2557,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "108. ZooPals Effect",
+					"name": "109. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "109. Luig Group",
+					"name": "110. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "110. Mari Group",
+					"name": "111. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "111. Half Luig Group",
+					"name": "112. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "112. Half Mari Group",
+					"name": "113. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "113. Amber's G-Major 1",
+					"name": "114. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 27/32 of Total Effects (143 Total)\nPage 3/8 of Effects in Category (48 Total)"
+				"text": "Page 28/33 of Total Effects (144 Total)\nPage 3/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2562,41 +2599,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "114. Freakzinga's G-Major 156",
+					"name": "115. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "true"
 				},
 				{
-					"name": "115. Weird X",
+					"name": "116. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "116. Opposite Weird X",
+					"name": "117. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "117. Not Scary",
+					"name": "118. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "true"
 				},
 				{
-					"name": "118. Ian's G-Major 74",
+					"name": "119. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "true"
 				},
 				{
-					"name": "119. Pika Major",
+					"name": "120. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 28/32 of Total Effects (143 Total)\nPage 4/8 of Effects in Category (48 Total)"
+				"text": "Page 29/33 of Total Effects (144 Total)\nPage 4/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2604,41 +2641,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "120. Rj Kumar's G-Major 9",
+					"name": "121. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "true"
 				},
 				{
-					"name": "121. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "122. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "true"
 				},
 				{
-					"name": "122. Crying X",
+					"name": "123. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "true"
 				},
 				{
-					"name": "123. Crying X (Common)",
+					"name": "124. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "true"
 				},
 				{
-					"name": "124. Sad X",
+					"name": "125. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "true"
 				},
 				{
-					"name": "125. I KILLED X",
+					"name": "126. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 29/32 of Total Effects (143 Total)\nPage 5/8 of Effects in Category (48 Total)"
+				"text": "Page 30/33 of Total Effects (144 Total)\nPage 5/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2646,41 +2683,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "126. Green Lowers",
+					"name": "127. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "true"
 				},
 				{
-					"name": "127. Green Lowers (Traditional)",
+					"name": "128. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "128. Green Lowers (Sapphire)",
+					"name": "129. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "true"
 				},
 				{
-					"name": "129. Goo Goo Gaa Gaa",
+					"name": "130. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "true"
 				},
 				{
-					"name": "130. Even X Discontinues",
+					"name": "131. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "true"
 				},
 				{
-					"name": "131. X Committed",
+					"name": "132. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 30/32 of Total Effects (143 Total)\nPage 6/8 of Effects in Category (48 Total)"
+				"text": "Page 31/33 of Total Effects (144 Total)\nPage 6/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2688,41 +2725,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "132. I Accidentally X",
+					"name": "133. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "true"
 				},
 				{
-					"name": "133. Pitch Black",
+					"name": "134. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "true"
 				},
 				{
-					"name": "134. Pitch White",
+					"name": "135. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "true"
 				},
 				{
-					"name": "135. Nikita8500HD Major",
+					"name": "136. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "true"
 				},
 				{
-					"name": "136. Amber's G-Major 1583",
+					"name": "137. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "true"
 				},
 				{
-					"name": "137. SLC520's G-Major 1520",
+					"name": "138. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 31/32 of Total Effects (143 Total)\nPage 7/8 of Effects in Category (48 Total)"
+				"text": "Page 32/33 of Total Effects (144 Total)\nPage 7/8 of Effects in Category (48 Total)"
 			}
 		}
 	},
@@ -2730,41 +2767,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**13**. My G-Minor Effects\n**14**. My Other Effects\n**16**. Effects with Arguments\n**18**. Split Effects\n**20**. Combination Effects\n**21**. Effect Collections\n**22**. The Split Pitch Collection\n**25**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "138. Simulator V19",
+					"name": "139. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "true"
 				},
 				{
-					"name": "139. SLC520's G-Major 305",
+					"name": "140. SLC520's G-Major 305",
 					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
 					"inline": "true"
 				},
 				{
-					"name": "140. Reverse",
+					"name": "141. Reverse",
 					"value": "Codename: `reverse`\nAliases:\n- Reversed",
 					"inline": "true"
 				},
 				{
-					"name": "141. Audio Reverse",
+					"name": "142. Audio Reverse",
 					"value": "Codename: `audio reverse`\nAliases:\n- areverse",
 					"inline": "true"
 				},
 				{
-					"name": "142. Video Reverse",
+					"name": "143. Video Reverse",
 					"value": "Codename: `video reverse`\nAliases:\n- areverse",
 					"inline": "true"
 				},
 				{
-					"name": "143. Random",
+					"name": "144. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 32/32 of Total Effects (143 Total)\nPage 8/8 of Effects in Category (48 Total)"
+				"text": "Page 33/33 of Total Effects (144 Total)\nPage 8/8 of Effects in Category (48 Total)"
 			}
 		}
 	}
