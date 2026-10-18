@@ -4595,47 +4595,47 @@
 		"args": 0
 	},
 	"weird x": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weirdx": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird-x": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird_x": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird effect": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weirdeffect": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird-effect": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"weird_effect": {
-		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nspeed m 0.5\nspeed m 0.5\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "invert m\nhueshifthsv m 194.4\ncopy m n\nscale n 0.5\noverlay m n (w/2)-(nw/2) ((h/2)-(nh/2))\nffmpeg m -vf setpts=1/0.25*PTS,fps=$fps -af rubberband=formant=712923000:tempo=0.25\nsetfps m fps\nwaves m mh/24 mw/1 mh/360\ncover m w h\nrotate m 90\nwaves m mh/24 mw/1 mh/360\nrotate m -90\ncover m w h\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(7/12)[o2];[p1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
