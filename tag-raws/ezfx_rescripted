@@ -6026,7 +6026,7 @@
 		},
 		{
 			"name": "**Subcommand List**",
-			"value": "`raw` - Shows the raw MediaScript code of an effect. Do this without the effect arguments to see the true raw code without evaluation\n`multiplier <exports>` - Repeatedly applies an effect onto a singular video\n`ihtx <exports> <duration> <export_file_format> <output_file_format> <?include_original_media> <modifier>` - The most complex one, similar to `multiplier`, except each iteration is concatenated to each other",
+			"value": "`raw` - Shows the raw MediaScript code of an effect. Do this without the effect arguments to see the true raw code without evaluation\n`multiplier <exports>` - Repeatedly applies an effect onto a singular video\n`ihtx <exports> <duration> <?no_snip> <export_file_format> <output_file_format> <?include_original_media> <modifier>` - The most complex one, similar to `multiplier`, except each iteration is concatenated to each other",
 			"inline": "false"
 		},
 		{
@@ -7240,10 +7240,11 @@ render m
 {if:{get:duration}|!=|vidlen|then:
 {set:duration|{type:float|{get:duration}|0.4}}
 }
-{set:export_file_format|{or:{arg:{math:4+{get:shift}}}|video/quicktime}}
-{set:output_file_format|{or:{arg:{math:5+{get:shift}}}|default}}
-{set:include_original_media|{arg:{math:6+{get:shift}}}}
-{set:modifier|{arg:{math:7+{get:shift}}}}
+{set:?no_snip|{arg:{math:4+{get:shift}}}}
+{set:export_file_format|{or:{arg:{math:5+{get:shift}}}|video/quicktime}}
+{set:output_file_format|{or:{arg:{math:6+{get:shift}}}|default}}
+{set:include_original_media|{arg:{math:7+{get:shift}}}}
+{set:modifier|{arg:{math:8+{get:shift}}}}
 {set:modifier|{if:{get:modifier}|=|kinemaster|then:
 copy m ma
 fadein ma 0.2
@@ -7271,7 +7272,7 @@ get m framecount fc
 set fps (mfc/md)
 {eval:{get:preload}}
 copy m x
-reexport m {get:exports} {if:{get:duration}|=|vidlen|then:d|else:{get:duration}} {jsonify:{replace:\u0020m| mx|{eval:{get:code}}
+reexport m {get:exports} {if:{get:duration}|=|vidlen|then:d|else:{get:duration}} NO_TRIM={if:{get:?no_snip}|=|true|then:true|else:false} {jsonify:{replace:\u0020m| mx|{eval:{get:code}}
 {get:modifier}}}
 concat x m
 {if:{get:include_original_media}|!=|true|then:
