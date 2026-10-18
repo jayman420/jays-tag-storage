@@ -6161,7 +6161,7 @@
 		},
 		{
 			"name": "**Non-effect Command List**",
-			"value": "`list` - Shows a list of all the effects\n`raw` - Shows the whole source code for this tag\n`log` - Shows the update log\n`ihtx_custom <exports> <duration> <?no_snip> <export_file_format> <output_file_format> <?include_original_media> <modifier> <...code>` - Same as the sub-command but you can use any custom MediaScript code!",
+			"value": "`list` - Shows a list of all the effects\n`raw` - Shows the whole source code for this tag\n`log` - Shows the update log\n`ihtx_custom <exports> <duration> <?no_snip> <export_file_format> <output_file_format> <?include_original_media> <...code>` - Same as the sub-command but you can use any custom MediaScript code!",
 			"inline": "false"
 		}
 	]
@@ -7323,7 +7323,7 @@
 Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 {attachtext:{text:https://raw.githubusercontent.com/jayman420/jays-tag-storage/refs/heads/main/tag-raws/ezfx_rescripted}}
 |else:
-{if:{arg:0}|=|ihtx|then:
+{if:{arg:0}|=|ihtx_custom|then:
 {set:exports|{type:number|{arg:1}|10}}
 {if:{get:exports}|=|0|then:
 {js:console.error(``exports` must be a non-zero integer`);}
@@ -7336,19 +7336,7 @@ Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 {set:export_file_format|{or:{arg:4}|video/quicktime}}
 {set:output_file_format|{or:{arg:5}|default}}
 {set:include_original_media|{arg:6}}
-{set:modifier|{arg:7}}
-{set:modifier|{if:{get:modifier}|=|kinemaster|then:
-copy m ma
-fadein ma 0.2
-fadeout ma 0.2
-audioputreplace m ma
-|else:
-{if:{get:modifier}|=|buggy|then:
-repeat m 2
-snip m d*2/3
-}
-}}
-{set:code|{substring:{args}|{indexof:{arg:8}|{args}}}}
+{set:code|{substring:{args}|{indexof:{arg:7}|{args}}}}
 {iscriptmaybeurl:
 load {media} m
 {if:{get:export_file_format}|!=|default|then:
