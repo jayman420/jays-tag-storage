@@ -7226,7 +7226,7 @@ if mvidfc > 1080 {jsonify:
 setfps mvid 1080/mvidd
 }
 convert mvid image/gif
-speed maud maudd/mvidd
+speed mvid mvidd/maudd
 audioputreplace m maud yes no
 render m
 }
@@ -7308,7 +7308,7 @@ if mvidfc > 1080 {jsonify:
 setfps mvid 1080/mvidd
 }
 convert mvid image/gif
-speed maud maudd/mvidd
+speed mvid mvidd/maudd
 audioputreplace m maud yes no
 render m
 }
