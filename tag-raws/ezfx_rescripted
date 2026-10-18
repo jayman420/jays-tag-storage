@@ -2090,82 +2090,82 @@
 		"args": 0
 	},
 	"jay's g-major 21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay'sg-major21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay's-g-major-21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay's_g-major_21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays g major 21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jaysgmajor21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays-g-major-21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays_g_major_21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay's gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay'sgm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay's-gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jay's_gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jaysgm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays-gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
 	"jays_gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.8\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"code": "hueshifthsv m -120\nwaaw m\ntvsimulator m 0.9\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
