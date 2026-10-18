@@ -5980,8 +5980,8 @@
 		"args": 0
 	},
 	"areverse": {
-		"code": "audioreverse m\nreverse m",
-		"preload": "",
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
 		"args": 0
 	},
 	"video reverse": {
@@ -6004,8 +6004,88 @@
 		"preload": "",
 		"args": 0
 	},
+	"braxton's g-major 21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton'sg-major21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's-g-major-21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's_g-major_21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons g major 21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtonsgmajor21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons-g-major-21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons_g_major_21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton'sgm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's-gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's_gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtonsgm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons-gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons_gm21": {
+		"code": "applylut m brax21\nflop m\nffmpeg m -filter_complex \"[0:a]asplit=1[p1];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4,3/12)[o1];[o1]amix=1:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 106|jays g major 106 original|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 106|jays g major 106 original|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse|braxtons g major 21}.code|{get:data}}",
 		"preload": "",
 		"args": 0
 	}
@@ -6077,7 +6157,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/33 of Total Effects (149 Total)\nPage 1/5 of Effects in Category (25 Total)"
+				"text": "Page 1/34 of Total Effects (150 Total)\nPage 1/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -6119,7 +6199,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/33 of Total Effects (149 Total)\nPage 2/5 of Effects in Category (25 Total)"
+				"text": "Page 2/34 of Total Effects (150 Total)\nPage 2/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -6161,7 +6241,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/33 of Total Effects (149 Total)\nPage 3/5 of Effects in Category (25 Total)"
+				"text": "Page 3/34 of Total Effects (150 Total)\nPage 3/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -6203,7 +6283,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/33 of Total Effects (149 Total)\nPage 4/5 of Effects in Category (25 Total)"
+				"text": "Page 4/34 of Total Effects (150 Total)\nPage 4/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -6220,7 +6300,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/33 of Total Effects (149 Total)\nPage 5/5 of Effects in Category (25 Total)"
+				"text": "Page 5/34 of Total Effects (150 Total)\nPage 5/5 of Effects in Category (25 Total)"
 			}
 		}
 	},
@@ -6262,7 +6342,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/33 of Total Effects (149 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/34 of Total Effects (150 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6279,7 +6359,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/33 of Total Effects (149 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/34 of Total Effects (150 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6301,7 +6381,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -6318,7 +6398,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6345,7 +6425,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -6362,7 +6442,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6404,7 +6484,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/33 of Total Effects (149 Total)\nPage 1/2 of Effects in Category (10 Total)"
+				"text": "Page 12/34 of Total Effects (150 Total)\nPage 1/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -6436,7 +6516,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/33 of Total Effects (149 Total)\nPage 2/2 of Effects in Category (10 Total)"
+				"text": "Page 13/34 of Total Effects (150 Total)\nPage 2/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -6458,7 +6538,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 14/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -6500,7 +6580,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/33 of Total Effects (149 Total)\nPage 1/2 of Effects in Category (11 Total)"
+				"text": "Page 15/34 of Total Effects (150 Total)\nPage 1/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -6537,7 +6617,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/33 of Total Effects (149 Total)\nPage 2/2 of Effects in Category (11 Total)"
+				"text": "Page 16/34 of Total Effects (150 Total)\nPage 2/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -6579,7 +6659,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 17/33 of Total Effects (149 Total)\nPage 1/2 of Effects in Category (10 Total)"
+				"text": "Page 17/34 of Total Effects (150 Total)\nPage 1/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -6611,7 +6691,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 18/33 of Total Effects (149 Total)\nPage 2/2 of Effects in Category (10 Total)"
+				"text": "Page 18/34 of Total Effects (150 Total)\nPage 2/2 of Effects in Category (10 Total)"
 			}
 		}
 	},
@@ -6653,7 +6733,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 19/33 of Total Effects (149 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 19/34 of Total Effects (150 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6670,7 +6750,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 20/33 of Total Effects (149 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 20/34 of Total Effects (150 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6687,7 +6767,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 21/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 21/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6724,7 +6804,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 22/33 of Total Effects (149 Total)\nPage 1/1 of Effects in Category (5 Total)"
+				"text": "Page 22/34 of Total Effects (150 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -6766,7 +6846,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 23/33 of Total Effects (149 Total)\nPage 1/3 of Effects in Category (16 Total)"
+				"text": "Page 23/34 of Total Effects (150 Total)\nPage 1/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -6808,7 +6888,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 24/33 of Total Effects (149 Total)\nPage 2/3 of Effects in Category (16 Total)"
+				"text": "Page 24/34 of Total Effects (150 Total)\nPage 2/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -6840,7 +6920,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 25/33 of Total Effects (149 Total)\nPage 3/3 of Effects in Category (16 Total)"
+				"text": "Page 25/34 of Total Effects (150 Total)\nPage 3/3 of Effects in Category (16 Total)"
 			}
 		}
 	},
@@ -6882,7 +6962,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 26/33 of Total Effects (149 Total)\nPage 1/8 of Effects in Category (48 Total)"
+				"text": "Page 26/34 of Total Effects (150 Total)\nPage 1/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -6924,7 +7004,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 27/33 of Total Effects (149 Total)\nPage 2/8 of Effects in Category (48 Total)"
+				"text": "Page 27/34 of Total Effects (150 Total)\nPage 2/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -6966,7 +7046,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 28/33 of Total Effects (149 Total)\nPage 3/8 of Effects in Category (48 Total)"
+				"text": "Page 28/34 of Total Effects (150 Total)\nPage 3/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -7008,7 +7088,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 29/33 of Total Effects (149 Total)\nPage 4/8 of Effects in Category (48 Total)"
+				"text": "Page 29/34 of Total Effects (150 Total)\nPage 4/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -7050,7 +7130,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 30/33 of Total Effects (149 Total)\nPage 5/8 of Effects in Category (48 Total)"
+				"text": "Page 30/34 of Total Effects (150 Total)\nPage 5/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -7092,7 +7172,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 31/33 of Total Effects (149 Total)\nPage 6/8 of Effects in Category (48 Total)"
+				"text": "Page 31/34 of Total Effects (150 Total)\nPage 6/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -7134,7 +7214,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 32/33 of Total Effects (149 Total)\nPage 7/8 of Effects in Category (48 Total)"
+				"text": "Page 32/34 of Total Effects (150 Total)\nPage 7/9 of Effects in Category (49 Total)"
 			}
 		}
 	},
@@ -7170,13 +7250,30 @@
 					"inline": "true"
 				},
 				{
-					"name": "149. Random",
+					"name": "149. Braxton's G-Major 21",
+					"value": "Codename: `braxtons g major 21`\nAliases:\n- Braxton's GM21\n- areverse",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 33/34 of Total Effects (150 Total)\nPage 8/9 of Effects in Category (49 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Effects with Arguments\n**19**. Split Effects\n**21**. Combination Effects\n**22**. Effect Collections\n**23**. The Split Pitch Collection\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"fields": [
+				{
+					"name": "150. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 33/33 of Total Effects (149 Total)\nPage 8/8 of Effects in Category (48 Total)"
+				"text": "Page 34/34 of Total Effects (150 Total)\nPage 9/9 of Effects in Category (49 Total)"
 			}
 		}
 	}
