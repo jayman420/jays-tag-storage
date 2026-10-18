@@ -1694,22 +1694,22 @@
 		"preload": "",
 		"args": 0
 	},
-	"44-dxi": {
+	"43-dxi": {
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-3.9/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(10/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
-	"44 dxi": {
+	"43 dxi": {
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-3.9/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(10/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
-	"44dxi": {
+	"43dxi": {
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-3.9/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(10/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
 	},
-	"44_dxi": {
+	"43_dxi": {
 		"code": "invert m\ncontrast m -1\nhueshifthsv m 180\ncontrast m -1\nhueshifthsv m 279 200\nshake m 0 mh/72 true\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-3.9/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(10/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
 		"preload": "",
 		"args": 0
@@ -2090,83 +2090,83 @@
 		"args": 0
 	},
 	"jay's g-major 21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay'sg-major21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's-g-major-21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's_g-major_21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays g major 21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jaysgmajor21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays-g-major-21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays_g_major_21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay'sgm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's-gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's_gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jaysgm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays-gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jays_gm21": {
-		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m heh heh\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
-		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim mh mh\ncreate gray mw mh 127.5 127.5 127.5",
+		"code": "hueshifthsv m -120\nwaaw m\nget m width wiw\nget m height heh\nresize m 2160 2160\nffmpeg m -i tvsim -i gray -filter_complex \"[0:v]format=bgr32[00];[1:v]eq=contrast=0.125:eval=frame,format=bgr32[x];[2:v]format=bgr32[y];[00][x][y]displace=edge=wrap\"\nresize m wiw heh\nffmpeg m -filter_complex \"[0:a]asplit=2[p1][p2];[p1]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(-4/12)[o1];[p2]rubberband=window=short:transients=crisp:detector=2.14748e+09/4.9:pitchq=consistency:pitch=2^(3/12)[o2];[o1][o2]amix=2:normalize=0[out]\" -map 0:v -map [out] -c:v ffv1 -c:a pcm_s16le",
+		"preload": "load https://file.garden/aX9mS1junENdw7e-/Project%20Name%209.mp4 tvsim\nsnip tvsim md\nresize tvsim 2160 2160\ncreate gray 2160 2160 127.5 127.5 127.5",
 		"args": 0
 	},
 	"jay's g-major 106": {
@@ -6005,7 +6005,7 @@
 		"args": 0
 	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|44 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 106|jays g major 106 original|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 2|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 106|jays g major 106 original|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|preview 2|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|ians g major 74|pika major|rj kumars g major 9|rj kumars g major 9 alternate|crying x|crying x common|sad x|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse}.code|{get:data}}",
 		"preload": "",
 		"args": 0
 	}
@@ -6334,8 +6334,8 @@
 					"inline": "true"
 				},
 				{
-					"name": "37. 44-DXI",
-					"value": "Codename: `44 dxi`",
+					"name": "37. 43-DXI",
+					"value": "Codename: `43 dxi`",
 					"inline": "true"
 				},
 				{
