@@ -1,4 +1,4 @@
-.t add easy_effects {set:data|{ignore:{
+{set:data|{ignore:{
 	"g-major": {
 		"code": "invert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -12,-5,0,4,7,12\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -3444,6 +3444,246 @@
 		"preload": "",
 		"args": 0
 	},
+	"amber's g-major 1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber'sg-major1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's-g-major-1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's_g-major_1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers g major 1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambersgmajor1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers-g-major-1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers_g_major_1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber'sgm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's-gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's_gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambersgm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers-gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers_gm1": {
+		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's g-major 1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber'sg-major1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's-g-major-1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's_g-major_1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers g major 1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambersgmajor1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers-g-major-1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers_g_major_1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber'sgm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's-gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"amber's_gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambersgm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers-gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"ambers_gm1583": {
+		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"braxton's g-major 21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton'sg-major21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's-g-major-21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's_g-major_21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons g major 21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtonsgmajor21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons-g-major-21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons_g_major_21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton'sgm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's-gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxton's_gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtonsgm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons-gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
+	"braxtons_gm21": {
+		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
+		"args": 0
+	},
 	"ian's g-major 74": {
 		"code": "hueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 240\nswaprgba m bgr\nhueshifthsvffmpeg m 120\nswaprgba m bgr\ninvert m\nexplode m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -14,10,17\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -3844,6 +4084,486 @@
 		"preload": "",
 		"args": 0
 	},
+	"slc520's g-major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520'sg-major305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's_g-major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s g major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520sgmajor305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s_g_major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520'sgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520sgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's g-major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc'sg-major305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's_g-major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs g major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcsgmajor305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs_g_major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc'sgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc's_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcsgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slcs_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's g-major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien'sg-major305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's_g-major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens g major 305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiensgmajor305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens-g-major-305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens_g_major_305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien'sgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damien's_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiensgm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens-gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"damiens_gm305": {
+		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's g-major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520'sg-major1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's_g-major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s g major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520sgmajor1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s_g_major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520'sgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520's_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520sgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc520s_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's g-major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc'sg-major1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's_g-major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs g major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcsgmajor1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs_g_major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc'sgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slc's_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcsgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"slcs_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's g-major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien'sg-major1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's_g-major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens g major 1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiensgmajor1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens-g-major-1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens_g_major_1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien'sgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damien's_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiensgm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens-gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"damiens_gm1520": {
+		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
 	"crying x": {
 		"code": "hueshifthsv m 221.4\ninvert m\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -3971,6 +4691,66 @@
 	},
 	"sad_effect": {
 		"code": "hueshifthsv m 221.4\ninvert m\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"electrodynamix": {
+		"code": "hueshifthsv m 180\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -2\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion + real g-major 4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion+realg-major4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion-+-real-g-major-4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion_+_real_g-major_4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion + real g major 4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion+realgmajor4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion_+_real_g_major_4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion + real gm4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion+realgm4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion-+-real-gm4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"confusion_+_real_gm4": {
+		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -4271,61 +5051,6 @@
 	},
 	"split_ambers_gm1": {
 		"code": "copy m n\ninvert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncrop m w/2 h\nvolume n 1\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion + real g-major 4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion+realg-major4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion-+-real-g-major-4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion_+_real_g-major_4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion + real g major 4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion+realgmajor4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion_+_real_g_major_4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion + real gm4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion+realgm4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion-+-real-gm4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"confusion_+_real_gm4": {
-		"code": "hueshifthsv m 180\ninvert m\nhaah m\naudioreverse m\nhuecurvergba m all 0 1 0\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -5014,86 +5739,6 @@
 		"preload": "",
 		"args": 0
 	},
-	"amber's g-major 1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber'sg-major1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's-g-major-1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's_g-major_1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers g major 1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambersgmajor1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers-g-major-1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers_g_major_1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber'sgm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's-gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's_gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambersgm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers-gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers_gm1": {
-		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
 	"freakzinga's g-major 156": {
 		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/wav\nmultipitch mxaud 0.5,4.5\nffmpeg mxaud -af bass=f=200:g=1.2:transform=5\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/wav\nmultipitch mxaud -0.5,-4.5\nffmpeg mxaud -af bass=f=200:g=1.2:transform=5\naudioputreplace mx mxaud\n}",
 		"preload": "",
@@ -5739,326 +6384,6 @@
 		"preload": "",
 		"args": 0
 	},
-	"amber's g-major 1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber'sg-major1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's-g-major-1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's_g-major_1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers g major 1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambersgmajor1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers-g-major-1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers_g_major_1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber'sgm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's-gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"amber's_gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambersgm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers-gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"ambers_gm1583": {
-		"code": "hueshifthsv m 18\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5,7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's g-major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520'sg-major1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's_g-major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s g major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520sgmajor1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s_g_major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520'sgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520sgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's g-major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc'sg-major1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's_g-major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs g major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcsgmajor1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs_g_major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc'sgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc's_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcsgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slcs_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's g-major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien'sg-major1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's_g-major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens g major 1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiensgmajor1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens-g-major-1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens_g_major_1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien'sgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damien's_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiensgm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens-gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"damiens_gm1520": {
-		"code": "hueshifthsv m 187.2\ninvert m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -13.48,-6.48,0.52,7.52,14.52\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
 	"simulator v19": {
 		"code": "hueshifthsv m 284.04\ninvert m\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-12,7\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -6076,246 +6401,6 @@
 	},
 	"simulator_v19": {
 		"code": "hueshifthsv m 284.04\ninvert m\nwave m mh/-12 mw/2\ncover m w h\nrotate m 90\nwave m mh/12 mw/2\nrotate m -90\ncover m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-12,7\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's g-major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520'sg-major305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's_g-major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s g major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520sgmajor305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s_g_major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520'sgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520's_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520sgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc520s_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's g-major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc'sg-major305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's_g-major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs g major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcsgmajor305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs_g_major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc'sgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slc's_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcsgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"slcs_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's g-major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien'sg-major305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's_g-major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens g major 305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiensgmajor305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens-g-major-305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens_g_major_305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien'sgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damien's_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiensgm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens-gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
-		"preload": "",
-		"args": 0
-	},
-	"damiens_gm305": {
-		"code": "hueshifthsvffmpeg m -119\ncopy m ma\nconvert ma audio/wav\ncopy ma mb\nmultipitch ma 12\nrepeat ma 2\nspeed ma 2**(12/12)\nspeed mb 2/3\nmultipitch mb -7\naudioputmix ma mb yes no\naudioputreplace m ma yes no\nvolume m",
 		"preload": "",
 		"args": 0
 	},
@@ -6379,86 +6464,6 @@
 		"preload": "",
 		"args": 0
 	},
-	"braxton's g-major 21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton'sg-major21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton's-g-major-21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton's_g-major_21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons g major 21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtonsgmajor21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons-g-major-21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons_g_major_21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton's gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton'sgm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton's-gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxton's_gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtonsgm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons-gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
-	"braxtons_gm21": {
-		"code": "applylut m brax21\nflop m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
-		"preload": "loadcube https://cdn.discordapp.com/attachments/1508784841800421436/1516954270585454632/lut_1781740468892.cube?ex=6ad60501&is=6ad4b381&hm=7e766a015ef2d6d18e27cf362f295478b26fe6b67a9ba0ce8882a720ff7e3d8a& brax21",
-		"args": 0
-	},
 	"not scary (rounded pitches)": {
 		"code": "hueshifthsv m 180\nwaaw m\ntvsimulator m 0.75\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -2\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -6499,8 +6504,28 @@
 		"preload": "",
 		"args": 0
 	},
+	"preview 2 fast": {
+		"code": "copy m mp\nflop mp\nmultipitch mp 1\ncopy m mm\nmultipitch mm -2\nconcat mm mp\nconcatmultiple m mp mm\nspeed m 4\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"preview2fast": {
+		"code": "copy m mp\nflop mp\nmultipitch mp 1\ncopy m mm\nmultipitch mm -2\nconcat mm mp\nconcatmultiple m mp mm\nspeed m 4\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"preview-2-fast": {
+		"code": "copy m mp\nflop mp\nmultipitch mp 1\ncopy m mm\nmultipitch mm -2\nconcat mm mp\nconcatmultiple m mp mm\nspeed m 4\nvolume m",
+		"preload": "",
+		"args": 0
+	},
+	"preview_2_fast": {
+		"code": "copy m mp\nflop mp\nmultipitch mp 1\ncopy m mm\nmultipitch mm -2\nconcat mm mp\nconcatmultiple m mp mm\nspeed m 4\nvolume m",
+		"preload": "",
+		"args": 0
+	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|crying x|crying x common|sad x|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|confusion + real g major 4|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|ambers g major 1|freakzingas g major 156|weird x|opposite weird x|not scary|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|ambers g major 1583|slc520s g major 1520|simulator v19|slc520s g major 305|reverse|audio reverse|video reverse|braxtons g major 21|not scary rounded pitches}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|ambers g major 1|ambers g major 1583|braxtons g major 21|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|slc520s g major 305|slc520s g major 1520|crying x|crying x common|sad x|electrodynamix|confusion + real g major 4|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|freakzingas g major 156|weird x|opposite weird x|not scary|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|simulator v19|reverse|audio reverse|video reverse|not scary rounded pitches|preview 2 fast}.code|{get:data}}",
 		"preload": "",
 		"args": 0
 	}
@@ -6538,7 +6563,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "1. G-Major",
@@ -6572,7 +6597,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/33 of Total Effects (142 Total)\nPage 1/5 of Effects in Category (29 Total)"
+				"text": "Page 1/37 of Total Effects (144 Total)\nPage 1/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6580,7 +6605,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "7. G-Major 4",
@@ -6614,7 +6639,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/33 of Total Effects (142 Total)\nPage 2/5 of Effects in Category (29 Total)"
+				"text": "Page 2/37 of Total Effects (144 Total)\nPage 2/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6622,7 +6647,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "13. G-Major 7",
@@ -6656,7 +6681,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/33 of Total Effects (142 Total)\nPage 3/5 of Effects in Category (29 Total)"
+				"text": "Page 3/37 of Total Effects (144 Total)\nPage 3/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6664,7 +6689,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "19. G-Major 16 4.0",
@@ -6698,7 +6723,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/33 of Total Effects (142 Total)\nPage 4/5 of Effects in Category (29 Total)"
+				"text": "Page 4/37 of Total Effects (144 Total)\nPage 4/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6706,7 +6731,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "25. G-Major 302",
@@ -6735,7 +6760,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/33 of Total Effects (142 Total)\nPage 5/5 of Effects in Category (29 Total)"
+				"text": "Page 5/37 of Total Effects (144 Total)\nPage 5/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6743,7 +6768,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "30. G-Minor",
@@ -6777,7 +6802,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/33 of Total Effects (142 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6785,7 +6810,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "36. G-Minor 77114",
@@ -6794,7 +6819,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/33 of Total Effects (142 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6802,7 +6827,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Custom Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Custom Major Effects",
 			"fields": [
 				{
 					"name": "37. Custom Major 3",
@@ -6816,7 +6841,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -6824,7 +6849,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Custom Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Custom Minor Effects",
 			"fields": [
 				{
 					"name": "39. Custom Minor 3",
@@ -6833,7 +6858,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6841,7 +6866,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
 			"fields": [
 				{
 					"name": "40. 22-DXI",
@@ -6860,7 +6885,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -6868,7 +6893,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Opposite DXI Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Opposite DXI Effects",
 			"fields": [
 				{
 					"name": "43. Opposite 91-DXI",
@@ -6877,7 +6902,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6885,7 +6910,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: My G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Jay's G-Major Effects",
 			"fields": [
 				{
 					"name": "44. Jay's Old G-Major 4",
@@ -6919,7 +6944,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/33 of Total Effects (142 Total)\nPage 1/2 of Effects in Category (12 Total)"
+				"text": "Page 12/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -6927,7 +6952,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: My G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Jay's G-Major Effects",
 			"fields": [
 				{
 					"name": "50. Jay's G-Major 106",
@@ -6961,7 +6986,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/33 of Total Effects (142 Total)\nPage 2/2 of Effects in Category (12 Total)"
+				"text": "Page 13/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -6969,7 +6994,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: My G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Jay's G-Minor Effects",
 			"fields": [
 				{
 					"name": "56. Jay's Old G-Minor 4",
@@ -6983,7 +7008,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 14/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -6991,7 +7016,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
 					"name": "58. Gold Major",
@@ -7025,7 +7050,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/33 of Total Effects (142 Total)\nPage 1/2 of Effects in Category (11 Total)"
+				"text": "Page 15/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -7033,7 +7058,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
 					"name": "64. The Four Horsemen of X",
@@ -7062,7 +7087,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 16/33 of Total Effects (142 Total)\nPage 2/2 of Effects in Category (11 Total)"
+				"text": "Page 16/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (11 Total)"
 			}
 		}
 	},
@@ -7070,26 +7095,65 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Ian's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Amber's G-Major Effects",
 			"fields": [
 				{
-					"name": "69. Ian's G-Major 74",
+					"name": "69. Amber's G-Major 1",
+					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
+					"inline": "true"
+				},
+				{
+					"name": "70. Amber's G-Major 1583",
+					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 17/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Braxton's G-Major Effects",
+			"fields": [
+				{
+					"name": "71. Braxton's G-Major 21",
+					"value": "Codename: `braxtons g major 21`\nAliases:\n- Braxton's GM21",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 18/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Ian's G-Major Effects",
+			"fields": [
+				{
+					"name": "72. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "true"
 				},
 				{
-					"name": "70. Ian's G-Major 81 (Old)",
+					"name": "73. Ian's G-Major 81 (Old)",
 					"value": "Codename: `ians g major 81 old`\nAliases:\n- Ian's GM81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "71. Ian's G-Major 81",
+					"name": "74. Ian's G-Major 81",
 					"value": "Codename: `ians g major 81`\nAliases:\n- Ian's GM81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 19/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7097,21 +7161,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Ian's G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Ian's G-Minor Effects",
 			"fields": [
 				{
-					"name": "72. Ian's G-Minor 81 (Old)",
+					"name": "75. Ian's G-Minor 81 (Old)",
 					"value": "Codename: `ians g minor 81 old`\nAliases:\n- Ian's GMi81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "73. Ian's G-Minor 81",
+					"name": "76. Ian's G-Minor 81",
 					"value": "Codename: `ians g minor 81`\nAliases:\n- Ian's GMi81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 20/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7119,26 +7183,48 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Emotion Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: SwitchLiteConsole520's G-Major Effects",
 			"fields": [
 				{
-					"name": "74. Crying X",
+					"name": "77. SLC520's G-Major 305",
+					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
+					"inline": "true"
+				},
+				{
+					"name": "78. SLC520's G-Major 1520",
+					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 21/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Emotion Effects",
+			"fields": [
+				{
+					"name": "79. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "true"
 				},
 				{
-					"name": "75. Crying X (Common)",
+					"name": "80. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "true"
 				},
 				{
-					"name": "76. Sad X",
+					"name": "81. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 19/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 22/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7146,41 +7232,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Geometry Dash Level Effects",
 			"fields": [
 				{
-					"name": "77. Effects",
-					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
-					"inline": "true"
-				},
-				{
-					"name": "78. Multirender",
-					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
-					"inline": "true"
-				},
-				{
-					"name": "79. Effect Crossing",
-					"value": "Codename: `effect crossing`\nSyntax: `<effect 1; effect 2; + and so on> <?speed>`",
-					"inline": "true"
-				},
-				{
-					"name": "80. Pipe",
-					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
-					"inline": "true"
-				},
-				{
-					"name": "81. Respondview 2",
-					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
-					"inline": "true"
-				},
-				{
-					"name": "82. Preview 1280",
-					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
+					"name": "82. Electrodynamix",
+					"value": "Codename: `electrodynamix`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 20/33 of Total Effects (142 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 23/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7188,92 +7249,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "83. Multipitch",
-					"value": "Codename: `multipitch`\nSyntax: `<pitches separated by commas>`",
-					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 21/33 of Total Effects (142 Total)\nPage 2/2 of Effects in Category (7 Total)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Split Effects",
-			"fields": [
-				{
-					"name": "84. Split",
-					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
-					"inline": "true"
-				},
-				{
-					"name": "85. Vertical Split",
-					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
-					"inline": "true"
-				},
-				{
-					"name": "86. X Meets",
-					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
-					"inline": "true"
-				},
-				{
-					"name": "87. Getting Faster Split Getting Slower",
-					"value": "Codename: `getting faster split getting slower`",
-					"inline": "true"
-				},
-				{
-					"name": "88. Split ZooPals Effect",
-					"value": "Codename: `split zoopals effect`",
-					"inline": "true"
-				},
-				{
-					"name": "89. Split G-Major 88",
-					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
-					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 22/33 of Total Effects (142 Total)\nPage 1/2 of Effects in Category (7 Total)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Split Effects",
-			"fields": [
-				{
-					"name": "90. Split Amber's G-Major 1",
-					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
-					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 23/33 of Total Effects (142 Total)\nPage 2/2 of Effects in Category (7 Total)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Combination Effects",
-			"fields": [
-				{
-					"name": "91. CoNfUsIoN + Real G-Major 4",
+					"name": "83. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`\nAliases:\n- CoNfUsIoN + Real GM4",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 24/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 24/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7281,36 +7266,154 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Effect Collections",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "92. p2funny",
+					"name": "84. Effects",
+					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
+					"inline": "true"
+				},
+				{
+					"name": "85. Multirender",
+					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
+					"inline": "true"
+				},
+				{
+					"name": "86. Effect Crossing",
+					"value": "Codename: `effect crossing`\nSyntax: `<effect 1; effect 2; + and so on> <?speed>`",
+					"inline": "true"
+				},
+				{
+					"name": "87. Pipe",
+					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
+					"inline": "true"
+				},
+				{
+					"name": "88. Respondview 2",
+					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
+				},
+				{
+					"name": "89. Preview 1280",
+					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 25/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effects with Arguments",
+			"fields": [
+				{
+					"name": "90. Multipitch",
+					"value": "Codename: `multipitch`\nSyntax: `<pitches separated by commas>`",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 26/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Split Effects",
+			"fields": [
+				{
+					"name": "91. Split",
+					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
+					"inline": "true"
+				},
+				{
+					"name": "92. Vertical Split",
+					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
+					"inline": "true"
+				},
+				{
+					"name": "93. X Meets",
+					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
+					"inline": "true"
+				},
+				{
+					"name": "94. Getting Faster Split Getting Slower",
+					"value": "Codename: `getting faster split getting slower`",
+					"inline": "true"
+				},
+				{
+					"name": "95. Split ZooPals Effect",
+					"value": "Codename: `split zoopals effect`",
+					"inline": "true"
+				},
+				{
+					"name": "96. Split G-Major 88",
+					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 27/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Split Effects",
+			"fields": [
+				{
+					"name": "97. Split Amber's G-Major 1",
+					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 28/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effect Collections",
+			"fields": [
+				{
+					"name": "98. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "93. Kelly Effects",
+					"name": "99. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`\nAliases:\n- Kelly",
 					"inline": "true"
 				},
 				{
-					"name": "94. 9 Random Effects",
+					"name": "100. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "95. We Become We Effects",
+					"name": "101. We Become We Effects",
 					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects\n- Pitch Funny Effects",
 					"inline": "true"
 				},
 				{
-					"name": "96. Jay's Klasky Csupo Effects",
+					"name": "102. Jay's Klasky Csupo Effects",
 					"value": "Codename: `jays klasky csupo effects`\nSyntax: `<?speed>`\nAliases:\n- Jay's KC Effects",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 25/33 of Total Effects (142 Total)\nPage 1/1 of Effects in Category (5 Total)"
+				"text": "Page 29/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -7318,41 +7421,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "97. Normal",
+					"name": "103. Normal",
 					"value": "Codename: `normal`",
 					"inline": "true"
 				},
 				{
-					"name": "98. Getting Faster",
+					"name": "104. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "true"
 				},
 				{
-					"name": "99. Getting Slower",
+					"name": "105. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "100. CoNfUsIoN",
+					"name": "106. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "true"
 				},
 				{
-					"name": "101. Wrong Zoom",
+					"name": "107. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "true"
 				},
 				{
-					"name": "102. Billy Gardiner's G-Major 1",
+					"name": "108. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 26/33 of Total Effects (142 Total)\nPage 1/8 of Effects in Category (47 Total)"
+				"text": "Page 30/37 of Total Effects (144 Total)\nPage 1/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7360,41 +7463,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "103. Might Confuse You",
+					"name": "109. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "true"
 				},
 				{
-					"name": "104. Low Voice",
+					"name": "110. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "true"
 				},
 				{
-					"name": "105. Does Respond",
+					"name": "111. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "true"
 				},
 				{
-					"name": "106. Does Respond (Common)",
+					"name": "112. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "true"
 				},
 				{
-					"name": "107. Does Not Respond",
+					"name": "113. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "true"
 				},
 				{
-					"name": "108. Does Not Respond (Common)",
+					"name": "114. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 27/33 of Total Effects (142 Total)\nPage 2/8 of Effects in Category (47 Total)"
+				"text": "Page 31/37 of Total Effects (144 Total)\nPage 2/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7402,41 +7505,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "109. ZooPals Effect",
+					"name": "115. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "110. Luig Group",
+					"name": "116. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "111. Mari Group",
+					"name": "117. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "112. Half Luig Group",
+					"name": "118. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "113. Half Mari Group",
+					"name": "119. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "114. Amber's G-Major 1",
-					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
+					"name": "120. Freakzinga's G-Major 156",
+					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 28/33 of Total Effects (142 Total)\nPage 3/8 of Effects in Category (47 Total)"
+				"text": "Page 32/37 of Total Effects (144 Total)\nPage 3/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7444,41 +7547,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "115. Freakzinga's G-Major 156",
-					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
-					"inline": "true"
-				},
-				{
-					"name": "116. Weird X",
+					"name": "121. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "117. Opposite Weird X",
+					"name": "122. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "118. Not Scary",
+					"name": "123. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "true"
 				},
 				{
-					"name": "119. Pika Major",
+					"name": "124. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "true"
 				},
 				{
-					"name": "120. Rj Kumar's G-Major 9",
+					"name": "125. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
+					"inline": "true"
+				},
+				{
+					"name": "126. Rj Kumar's G-Major 9 (Alternate)",
+					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 29/33 of Total Effects (142 Total)\nPage 4/8 of Effects in Category (47 Total)"
+				"text": "Page 33/37 of Total Effects (144 Total)\nPage 4/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7486,41 +7589,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "121. Rj Kumar's G-Major 9 (Alternate)",
-					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
-					"inline": "true"
-				},
-				{
-					"name": "122. I KILLED X",
+					"name": "127. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "true"
 				},
 				{
-					"name": "123. Green Lowers",
+					"name": "128. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "true"
 				},
 				{
-					"name": "124. Green Lowers (Traditional)",
+					"name": "129. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "125. Green Lowers (Sapphire)",
+					"name": "130. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "true"
 				},
 				{
-					"name": "126. Goo Goo Gaa Gaa",
+					"name": "131. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
+					"inline": "true"
+				},
+				{
+					"name": "132. Even X Discontinues",
+					"value": "Codename: `even x discontinues`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 30/33 of Total Effects (142 Total)\nPage 5/8 of Effects in Category (47 Total)"
+				"text": "Page 34/37 of Total Effects (144 Total)\nPage 5/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7528,41 +7631,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "127. Even X Discontinues",
-					"value": "Codename: `even x discontinues`",
-					"inline": "true"
-				},
-				{
-					"name": "128. X Committed",
+					"name": "133. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "true"
 				},
 				{
-					"name": "129. I Accidentally X",
+					"name": "134. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "true"
 				},
 				{
-					"name": "130. Pitch Black",
+					"name": "135. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "true"
 				},
 				{
-					"name": "131. Pitch White",
+					"name": "136. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "true"
 				},
 				{
-					"name": "132. Nikita8500HD Major",
+					"name": "137. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
+					"inline": "true"
+				},
+				{
+					"name": "138. Simulator V19",
+					"value": "Codename: `simulator v19`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 31/33 of Total Effects (142 Total)\nPage 6/8 of Effects in Category (47 Total)"
+				"text": "Page 35/37 of Total Effects (144 Total)\nPage 6/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7570,41 +7673,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "133. Amber's G-Major 1583",
-					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
-					"inline": "true"
-				},
-				{
-					"name": "134. SLC520's G-Major 1520",
-					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
-					"inline": "true"
-				},
-				{
-					"name": "135. Simulator V19",
-					"value": "Codename: `simulator v19`",
-					"inline": "true"
-				},
-				{
-					"name": "136. SLC520's G-Major 305",
-					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
-					"inline": "true"
-				},
-				{
-					"name": "137. Reverse",
+					"name": "139. Reverse",
 					"value": "Codename: `reverse`\nAliases:\n- Reversed",
 					"inline": "true"
 				},
 				{
-					"name": "138. Audio Reverse",
+					"name": "140. Audio Reverse",
 					"value": "Codename: `audio reverse`\nAliases:\n- areverse",
+					"inline": "true"
+				},
+				{
+					"name": "141. Video Reverse",
+					"value": "Codename: `video reverse`\nAliases:\n- vreverse",
+					"inline": "true"
+				},
+				{
+					"name": "142. Not Scary",
+					"value": "Codename: `not scary`",
+					"inline": "true"
+				},
+				{
+					"name": "143. Not Scary (Rounded Pitches)",
+					"value": "Codename: `not scary rounded pitches`",
+					"inline": "true"
+				},
+				{
+					"name": "144. Preview 2 Fast",
+					"value": "Codename: `preview 2 fast`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 32/33 of Total Effects (142 Total)\nPage 7/8 of Effects in Category (47 Total)"
+				"text": "Page 36/37 of Total Effects (144 Total)\nPage 7/8 of Effects in Category (43 Total)"
 			}
 		}
 	},
@@ -7612,36 +7715,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. My G-Major Effects\n**14**. My G-Minor Effects\n**15**. My Other Effects\n**17**. Ian's G-Major Effects\n**18**. Ian's G-Minor Effects\n**19**. Emotion Effects\n**20**. Effects with Arguments\n**22**. Split Effects\n**24**. Combination Effects\n**25**. Effect Collections\n**26**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "139. Video Reverse",
-					"value": "Codename: `video reverse`\nAliases:\n- vreverse",
-					"inline": "true"
-				},
-				{
-					"name": "140. Braxton's G-Major 21",
-					"value": "Codename: `braxtons g major 21`\nAliases:\n- Braxton's GM21",
-					"inline": "true"
-				},
-				{
-					"name": "141. Not Scary",
-					"value": "Codename: `not scary`",
-					"inline": "true"
-				},
-				{
-					"name": "142. Not Scary (Rounded Pitches)",
-					"value": "Codename: `not scary rounded pitches`",
-					"inline": "true"
-				},
-				{
-					"name": "143. Random",
+					"name": "145. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 33/33 of Total Effects (142 Total)\nPage 8/8 of Effects in Category (47 Total)"
+				"text": "Page 37/37 of Total Effects (144 Total)\nPage 8/8 of Effects in Category (43 Total)"
 			}
 		}
 	}
@@ -7650,6 +7733,16 @@
 {if:{arg:0}|=|raw|then:
 Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 {attachtext:{text:https://raw.githubusercontent.com/jayman420/jays-tag-storage/refs/heads/main/tag-raws/ezfx_rescripted}}
+|else:
+{if:{arg:0}|=|log|then:
+{pagejson:[
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)"
+		}
+	}
+]}
 |else:
 {if:{arg:0}|=|ihtx_custom|then:
 {set:exports|{type:number|{arg:1}|10}}
@@ -7842,6 +7935,7 @@ convert mvid image/gif
 speed maud maudd/mvidd
 audioputreplace m maud yes no
 render m
+}
 }
 }
 }
