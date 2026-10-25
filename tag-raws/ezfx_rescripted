@@ -305,42 +305,42 @@
 		"args": 0
 	},
 	"g-major 4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major-4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major_4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g major 4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gmajor4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g_major_4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.1 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -480,82 +480,82 @@
 		"args": 0
 	},
 	"g-major 4 3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major43.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major-4-3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major_4_3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g major 4 3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gmajor43,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major-4-3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g_major_4_3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4 3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm43.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4-3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4_3.0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4 3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm43,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4-3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm4_3,0": {
-		"code": "gray m\nhuecurvergba m red 0 0 0.784\nhuecurvergba m green 0.275 1 0\nhuecurvergba m blue 0.09 1 1\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,70,23) rgba(0,255,255) rgba(200,0,255)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-7,5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -1280,42 +1280,42 @@
 		"args": 0
 	},
 	"g-major 88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major-88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major_88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g major 88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gmajor88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g_major_88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm88": {
-		"code": "gray m\nhuecurvergba m red 1 0 0\nhuecurvergba m green 0.294 0.098 0\nhuecurvergba m blue 1 0.294 0\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -3444,6 +3444,26 @@
 		"preload": "",
 		"args": 0
 	},
+	"x is burning": {
+		"code": "applylut m burning\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*1+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,0,14\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1124758334805909509/1470125622394355805/x_is_burning.cube?ex=6ade4bad&is=6adcfa2d&hm=81e71af897b2ca860b5f061af93166ce4d98ac8a1e936ebdc5f6ddd74660558d& burning",
+		"args": 0
+	},
+	"xisburning": {
+		"code": "applylut m burning\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*1+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,0,14\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1124758334805909509/1470125622394355805/x_is_burning.cube?ex=6ade4bad&is=6adcfa2d&hm=81e71af897b2ca860b5f061af93166ce4d98ac8a1e936ebdc5f6ddd74660558d& burning",
+		"args": 0
+	},
+	"x-is-burning": {
+		"code": "applylut m burning\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*1+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,0,14\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1124758334805909509/1470125622394355805/x_is_burning.cube?ex=6ade4bad&is=6adcfa2d&hm=81e71af897b2ca860b5f061af93166ce4d98ac8a1e936ebdc5f6ddd74660558d& burning",
+		"args": 0
+	},
+	"x_is_burning": {
+		"code": "applylut m burning\nresize m h h\nffmpeg m -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*1+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize m w h\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,0,14\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "loadcube https://cdn.discordapp.com/attachments/1124758334805909509/1470125622394355805/x_is_burning.cube?ex=6ade4bad&is=6adcfa2d&hm=81e71af897b2ca860b5f061af93166ce4d98ac8a1e936ebdc5f6ddd74660558d& burning",
+		"args": 0
+	},
 	"amber's g-major 1": {
 		"code": "invert m\nhueshifthsv m 180\nswirl m -5\nhaah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
@@ -4920,57 +4940,57 @@
 		"args": 0
 	},
 	"split g-major 88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"splitg-major88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split-g-major-88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split_g-major_88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split g major 88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"splitgmajor88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split_g_major_88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split gm88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"splitgm88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split-gm88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"split_gm88": {
-		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngray n\nhuecurvergba n red 1 0 0\nhuecurvergba n green 0.294 0.098 0\nhuecurvergba n blue 1 0.294 0\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "copy m n\nvolume m 1\ncrop m w/2 h\ngradientmap n rgba(255,75,255) rgba(0,25,75) rgba(0,0,0)\nswirl n -50\nwaaw n\ncrop n w/2 h w/2 0\njoin m n\nvolume m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0,-4,3\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -5060,27 +5080,27 @@
 		"args": 1
 	},
 	"kelly effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"kellyeffects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"kelly-effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"kelly_effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"kelly": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -50\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud -1\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 -134\nexplode 2\ncopy 2 2aud\nconvert 2aud audio/wav\nmultipitch 2aud -8\nffmpeg 2aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 2 2aud\nconcat m 2\ncopy n 3\nhuecurvergba 3 all 0 1 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,5\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nconcat m 3\ncopy n 4\ninvert 4\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud 0,3\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -150\ninvert 5\nflop 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud 0,-3\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\ninvertrgba 6 1 1 0\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud -5,0,4\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\ninvertrgba 7 0 1 1\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,4\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nconcat m 7\ncopy n 8\nswaprgba 8 bgr\nhueshifthsv 8 252\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud -12\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nswaprgba 9 bgr\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 12\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
@@ -5165,82 +5185,82 @@
 		"args": 2
 	},
 	"jay's klasky csupo effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay'sklaskycsupoeffects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay's-klasky-csupo-effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay's_klasky_csupo_effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays klasky csupo effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jaysklaskycsupoeffects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays-klasky-csupo-effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays_klasky_csupo_effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay's kc effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay'skceffects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay's-kc-effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jay's_kc_effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays kc effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jayskceffects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays-kc-effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
 	"jays_kc_effects": {
-		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -50\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
+		"code": "{if:{arg:1}|=|true|then:\nspeed m 10\n}\ncopy m n\ncopy n 1\nhueshifthsv 1 -60\ncopy 1 1crop\ncrop 1crop w h*0.66 0 0\nswirl 1crop -60\noverlay 1 1crop 0 0\ncopy 1 1aud\nconvert 1aud audio/wav\nmultipitch 1aud 0,-12\nffmpeg 1aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 1 1aud\nconcat m 1\ncopy n 2\nhueshifthsv 2 180\ninvert 2\nhaah 2\naudioreverse 2\nconcat m 2\ncopy n 3\nhueshifthsv 3 -60\ncopy 3 3crop\ncrop 3crop w h*0.66 0 0\nswirl 3crop -60\noverlay 3 3crop 0 0\ncopy 3 3aud\nconvert 3aud audio/wav\nmultipitch 3aud 0,-12\nffmpeg 3aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 3 3aud\nhueshifthsv 3 180\ninvert 3\nhaah 3\naudioreverse 3\nconcat m 3\ncopy n 4\nhueshifthsv 4 -60\ncopy 4 4aud\nconvert 4aud audio/wav\nmultipitch 4aud -1\nffmpeg 4aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 4 4aud\nconcat m 4\ncopy n 5\nhueshifthsv 5 -134\nexplode 5\ncopy 5 5aud\nconvert 5aud audio/wav\nmultipitch 5aud -8\nffmpeg 5aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 5 5aud\nconcat m 5\ncopy n 6\nflop 6\nhueshifthsv 6 240\ncopy 6 6aud\nconvert 6aud audio/wav\nmultipitch 6aud 0,5\nffmpeg 6aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 6 6aud\nconcat m 6\ncopy n 7\nflop 7\nhueshifthsv 7 240\ncopy 7 7aud\nconvert 7aud audio/wav\nmultipitch 7aud 0,5\nffmpeg 7aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 7 7aud\nhueshifthsv 7 180\ninvert 7\nhaah 7\naudioreverse 7\nconcat m 7\ncopy n 8\nhueshifthsv 8 221.4\ninvert 8\nresize 8 h h\nffmpeg 8 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*10)))*(-15*1)))',format=yuv420p\nresize 8 w h\ncopy 8 8aud\nconvert 8aud audio/wav\nmultipitch 8aud 0,-5\nffmpeg 8aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 8 8aud\nconcat m 8\ncopy n 9\nhueshifthsv 9 221.4\ninvert 9\nresize 9 h h\nffmpeg 9 -vf format=yuv444p,geq='p(X-((sin((T*5*0+(0*15))+(Y/H)*(PI*0)))*(-15*0))\\,Y-((sin((T*5*0+(0*15))+(X/W)*(PI*5)))*(-15*-2)))',format=yuv420p\nresize 9 w h\ncopy 9 9aud\nconvert 9aud audio/wav\nmultipitch 9aud 0,-7\nffmpeg 9aud -af bass=f=200:g=1.2:transform=5\naudioputreplace 9 9aud\nconcat m 9",
 		"preload": "",
 		"args": 1
 	},
@@ -5660,82 +5680,82 @@
 		"args": 0
 	},
 	"luig group": {
-		"code": "hueshifthsv m -50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"luiggroup": {
-		"code": "hueshifthsv m -50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"luig-group": {
-		"code": "hueshifthsv m -50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"luig_group": {
-		"code": "hueshifthsv m -50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"mari group": {
-		"code": "hueshifthsv m 50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"marigroup": {
-		"code": "hueshifthsv m 50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"mari-group": {
-		"code": "hueshifthsv m 50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"mari_group": {
-		"code": "hueshifthsv m 50\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 60\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 1\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half luig group": {
-		"code": "hueshifthsv m -25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"halfluiggroup": {
-		"code": "hueshifthsv m -25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half-luig-group": {
-		"code": "hueshifthsv m -25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half_luig_group": {
-		"code": "hueshifthsv m -25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half mari group": {
-		"code": "hueshifthsv m 25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"halfmarigroup": {
-		"code": "hueshifthsv m 25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half-mari-group": {
-		"code": "hueshifthsv m 25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"half_mari_group": {
-		"code": "hueshifthsv m 25\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m 30\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 0.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -6265,22 +6285,22 @@
 		"args": 0
 	},
 	"even x discontinues": {
-		"code": "hueshifthsv m -50\nswirl m 120\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\nswirl m 120\ntvsimulator m 0.75\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"evenxdiscontinues": {
-		"code": "hueshifthsv m -50\nswirl m 120\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\nswirl m 120\ntvsimulator m 0.75\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"even-x-discontinues": {
-		"code": "hueshifthsv m -50\nswirl m 120\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\nswirl m 120\ntvsimulator m 0.75\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"even_x_discontinues": {
-		"code": "hueshifthsv m -50\nswirl m 120\nrotate m 90\nwaves m mh/24 mw/5 mh/180\nrotate m -90\ncover m w h\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "hueshifthsv m -60\nswirl m 120\ntvsimulator m 0.75\nswirl m -120\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -7.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -6305,82 +6325,162 @@
 		"args": 0
 	},
 	"i accidentally x": {
-		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0) rgba(255,255,0) rgba(0,255,0) rgba(0,255,255) rgba(0,0,255) rgba(255,0,255) rgba(255,0,0)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"iaccidentallyx": {
-		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0) rgba(255,255,0) rgba(0,255,0) rgba(0,255,255) rgba(0,0,255) rgba(255,0,255) rgba(255,0,0)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"i-accidentally-x": {
-		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0) rgba(255,255,0) rgba(0,255,0) rgba(0,255,255) rgba(0,0,255) rgba(255,0,255) rgba(255,0,0)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"i_accidentally_x": {
-		"code": "spin m yes no yes\ngray m\nhuecurvergba m red 1 1 0 0 0 1 1\nhuecurvergba m green 0 1 1 1 0 0 0\nhuecurvergba m blue 0 0 0 1 1 1 0\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0) rgba(255,255,0) rgba(0,255,0) rgba(0,255,255) rgba(0,0,255) rgba(255,0,255) rgba(255,0,0)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -4\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud\naudiodestroy m",
+		"preload": "",
+		"args": 0
+	},
+	"pitch black (traditional)": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitchblack(traditional)": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch-black-(traditional)": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch_black_(traditional)": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch black traditional": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitchblacktraditional": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch-black-traditional": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch_black_traditional": {
+		"code": "gradientmap m rgba(0,0,0,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch black": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitchblack": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch-black": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch_black": {
-		"code": "create bg w h 0 0 0\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 white 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(0,0,0,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch white (traditional)": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitchwhite(traditional)": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch-white-(traditional)": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch_white_(traditional)": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch white traditional": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitchwhitetraditional": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch-white-traditional": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"pitch_white_traditional": {
+		"code": "gradientmap m rgba(255,255,255,255) rgba(0,0,0,0)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch white": {
-		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,255,255,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitchwhite": {
-		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,255,255,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch-white": {
-		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,255,255,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pitch_white": {
-		"code": "create bg w h 255 255 255\nconvert bg video/mp4\nrepeatduration bg md\nsetfps bg fps\noverlay bg m 0 0 black 0.2 0.5\ncopy bg m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(255,255,255,255),0 rgba(0,0,0,0),0.5\ncopy m maud\nconvert maud audio/wav\nmultipitch maud 24\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"nikita8500hd major": {
-		"code": "gray m\nhuecurvergba m red 0.114 0 0.529 1 1\nhuecurvergba m green 1 0.055 0.133 0.125 0.937\nhuecurvergba m blue 0 1 0 0 0.059\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(29,255,0) rgba(0,14,255) rgba(135,34,0) rgba(255,32,0) rgba(255,239,15)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"nikita8500hdmajor": {
-		"code": "gray m\nhuecurvergba m red 0.114 0 0.529 1 1\nhuecurvergba m green 1 0.055 0.133 0.125 0.937\nhuecurvergba m blue 0 1 0 0 0.059\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(29,255,0) rgba(0,14,255) rgba(135,34,0) rgba(255,32,0) rgba(255,239,15)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"nikita8500hd-major": {
-		"code": "gray m\nhuecurvergba m red 0.114 0 0.529 1 1\nhuecurvergba m green 1 0.055 0.133 0.125 0.937\nhuecurvergba m blue 0 1 0 0 0.059\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(29,255,0) rgba(0,14,255) rgba(135,34,0) rgba(255,32,0) rgba(255,239,15)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"nikita8500hd_major": {
-		"code": "gray m\nhuecurvergba m red 0.114 0 0.529 1 1\nhuecurvergba m green 1 0.055 0.133 0.125 0.937\nhuecurvergba m blue 0 1 0 0 0.059\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"code": "gradientmap m rgba(29,255,0) rgba(0,14,255) rgba(135,34,0) rgba(255,32,0) rgba(255,239,15)\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -3,-5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -6524,8 +6624,53 @@
 		"preload": "",
 		"args": 0
 	},
+	"high pitched, mirrored and scary audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"highpitched,mirroredandscaryaudio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"high-pitched,-mirrored-and-scary-audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"high_pitched,_mirrored_and_scary_audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"high pitched mirrored and scary audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"highpitchedmirroredandscaryaudio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"high-pitched-mirrored-and-scary-audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"high_pitched_mirrored_and_scary_audio": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"hpmasa": {
+		"code": "haah m\ncopy m maud\nconvert maud audio/wav\nmultipitch maud -11.5,-4.5,0.5,4.5,5.5\nffmpeg maud -af bass=f=200:g=1.2:transform=5\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|ambers g major 1|ambers g major 1583|braxtons g major 21|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|slc520s g major 305|slc520s g major 1520|crying x|crying x common|sad x|electrodynamix|confusion + real g major 4|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|freakzingas g major 156|weird x|opposite weird x|not scary|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black|pitch white|nikita8500hd major|simulator v19|reverse|audio reverse|video reverse|not scary rounded pitches|preview 2 fast}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|x is burning|ambers g major 1|ambers g major 1583|braxtons g major 21|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|slc520s g major 305|slc520s g major 1520|crying x|crying x common|sad x|electrodynamix|confusion + real g major 4|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|freakzingas g major 156|weird x|opposite weird x|not scary|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black traditional|pitch black|pitch white traditional|pitch white|nikita8500hd major|simulator v19|reverse|audio reverse|video reverse|not scary rounded pitches|preview 2 fast|high pitched mirrored and scary audio}.code|{get:data}}",
 		"preload": "",
 		"args": 0
 	}
@@ -6597,7 +6742,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/37 of Total Effects (144 Total)\nPage 1/5 of Effects in Category (29 Total)"
+				"text": "Page 1/37 of Total Effects (148 Total)\nPage 1/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6639,7 +6784,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/37 of Total Effects (144 Total)\nPage 2/5 of Effects in Category (29 Total)"
+				"text": "Page 2/37 of Total Effects (148 Total)\nPage 2/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6681,7 +6826,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/37 of Total Effects (144 Total)\nPage 3/5 of Effects in Category (29 Total)"
+				"text": "Page 3/37 of Total Effects (148 Total)\nPage 3/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6723,7 +6868,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/37 of Total Effects (144 Total)\nPage 4/5 of Effects in Category (29 Total)"
+				"text": "Page 4/37 of Total Effects (148 Total)\nPage 4/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6760,7 +6905,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/37 of Total Effects (144 Total)\nPage 5/5 of Effects in Category (29 Total)"
+				"text": "Page 5/37 of Total Effects (148 Total)\nPage 5/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6802,7 +6947,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/37 of Total Effects (148 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6819,7 +6964,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/37 of Total Effects (148 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -6841,7 +6986,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -6858,7 +7003,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6885,7 +7030,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -6902,7 +7047,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -6944,7 +7089,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (12 Total)"
+				"text": "Page 12/37 of Total Effects (148 Total)\nPage 1/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -6986,7 +7131,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 13/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (12 Total)"
+				"text": "Page 13/37 of Total Effects (148 Total)\nPage 2/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -7008,7 +7153,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 14/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 14/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7050,7 +7195,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 15/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (11 Total)"
+				"text": "Page 15/37 of Total Effects (148 Total)\nPage 1/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -7084,10 +7229,15 @@
 					"name": "68. Sierpinski's Triangle",
 					"value": "Codename: `sierpinskis triangle`\nAliases:\n- Sierpinski\n- Sierpinski's Effect",
 					"inline": "true"
+				},
+				{
+					"name": "69. X is Burning",
+					"value": "Codename: `x is burning`",
+					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 16/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (11 Total)"
+				"text": "Page 16/37 of Total Effects (148 Total)\nPage 2/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -7098,18 +7248,18 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Amber's G-Major Effects",
 			"fields": [
 				{
-					"name": "69. Amber's G-Major 1",
+					"name": "70. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "true"
 				},
 				{
-					"name": "70. Amber's G-Major 1583",
+					"name": "71. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 17/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7120,13 +7270,13 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Braxton's G-Major Effects",
 			"fields": [
 				{
-					"name": "71. Braxton's G-Major 21",
+					"name": "72. Braxton's G-Major 21",
 					"value": "Codename: `braxtons g major 21`\nAliases:\n- Braxton's GM21",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 18/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7137,23 +7287,23 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Ian's G-Major Effects",
 			"fields": [
 				{
-					"name": "72. Ian's G-Major 74",
+					"name": "73. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "true"
 				},
 				{
-					"name": "73. Ian's G-Major 81 (Old)",
+					"name": "74. Ian's G-Major 81 (Old)",
 					"value": "Codename: `ians g major 81 old`\nAliases:\n- Ian's GM81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "74. Ian's G-Major 81",
+					"name": "75. Ian's G-Major 81",
 					"value": "Codename: `ians g major 81`\nAliases:\n- Ian's GM81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 19/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 19/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7164,18 +7314,18 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Ian's G-Minor Effects",
 			"fields": [
 				{
-					"name": "75. Ian's G-Minor 81 (Old)",
+					"name": "76. Ian's G-Minor 81 (Old)",
 					"value": "Codename: `ians g minor 81 old`\nAliases:\n- Ian's GMi81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "76. Ian's G-Minor 81",
+					"name": "77. Ian's G-Minor 81",
 					"value": "Codename: `ians g minor 81`\nAliases:\n- Ian's GMi81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 20/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 20/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7186,18 +7336,18 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: SwitchLiteConsole520's G-Major Effects",
 			"fields": [
 				{
-					"name": "77. SLC520's G-Major 305",
+					"name": "78. SLC520's G-Major 305",
 					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
 					"inline": "true"
 				},
 				{
-					"name": "78. SLC520's G-Major 1520",
+					"name": "79. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 21/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 21/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7208,23 +7358,23 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Emotion Effects",
 			"fields": [
 				{
-					"name": "79. Crying X",
+					"name": "80. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "true"
 				},
 				{
-					"name": "80. Crying X (Common)",
+					"name": "81. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "true"
 				},
 				{
-					"name": "81. Sad X",
+					"name": "82. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 22/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 22/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7235,13 +7385,13 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Geometry Dash Level Effects",
 			"fields": [
 				{
-					"name": "82. Electrodynamix",
+					"name": "83. Electrodynamix",
 					"value": "Codename: `electrodynamix`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 23/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 23/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7252,13 +7402,13 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "83. CoNfUsIoN + Real G-Major 4",
+					"name": "84. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`\nAliases:\n- CoNfUsIoN + Real GM4",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 24/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 24/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7269,38 +7419,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "84. Effects",
+					"name": "85. Effects",
 					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "85. Multirender",
+					"name": "86. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "86. Effect Crossing",
+					"name": "87. Effect Crossing",
 					"value": "Codename: `effect crossing`\nSyntax: `<effect 1; effect 2; + and so on> <?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "87. Pipe",
+					"name": "88. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "true"
 				},
 				{
-					"name": "88. Respondview 2",
+					"name": "89. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "89. Preview 1280",
+					"name": "90. Preview 1280",
 					"value": "Codename: `preview 1280`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 25/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 25/37 of Total Effects (148 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7311,13 +7461,13 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "90. Multipitch",
+					"name": "91. Multipitch",
 					"value": "Codename: `multipitch`\nSyntax: `<pitches separated by commas>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 26/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 26/37 of Total Effects (148 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7328,38 +7478,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "91. Split",
+					"name": "92. Split",
 					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "92. Vertical Split",
+					"name": "93. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "93. X Meets",
+					"name": "94. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "94. Getting Faster Split Getting Slower",
+					"name": "95. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "95. Split ZooPals Effect",
+					"name": "96. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "96. Split G-Major 88",
+					"name": "97. Split G-Major 88",
 					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 27/37 of Total Effects (144 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 27/37 of Total Effects (148 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7370,13 +7520,13 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "97. Split Amber's G-Major 1",
+					"name": "98. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 28/37 of Total Effects (144 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 28/37 of Total Effects (148 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7387,33 +7537,33 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Effect Collections",
 			"fields": [
 				{
-					"name": "98. p2funny",
+					"name": "99. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "99. Kelly Effects",
+					"name": "100. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`\nAliases:\n- Kelly",
 					"inline": "true"
 				},
 				{
-					"name": "100. 9 Random Effects",
+					"name": "101. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "101. We Become We Effects",
+					"name": "102. We Become We Effects",
 					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects\n- Pitch Funny Effects",
 					"inline": "true"
 				},
 				{
-					"name": "102. Jay's Klasky Csupo Effects",
+					"name": "103. Jay's Klasky Csupo Effects",
 					"value": "Codename: `jays klasky csupo effects`\nSyntax: `<?speed>`\nAliases:\n- Jay's KC Effects",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 29/37 of Total Effects (144 Total)\nPage 1/1 of Effects in Category (5 Total)"
+				"text": "Page 29/37 of Total Effects (148 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -7424,38 +7574,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "103. Normal",
+					"name": "104. Normal",
 					"value": "Codename: `normal`",
 					"inline": "true"
 				},
 				{
-					"name": "104. Getting Faster",
+					"name": "105. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "true"
 				},
 				{
-					"name": "105. Getting Slower",
+					"name": "106. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "106. CoNfUsIoN",
+					"name": "107. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "true"
 				},
 				{
-					"name": "107. Wrong Zoom",
+					"name": "108. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "true"
 				},
 				{
-					"name": "108. Billy Gardiner's G-Major 1",
+					"name": "109. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 30/37 of Total Effects (144 Total)\nPage 1/8 of Effects in Category (43 Total)"
+				"text": "Page 30/37 of Total Effects (148 Total)\nPage 1/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7466,38 +7616,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "109. Might Confuse You",
+					"name": "110. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "true"
 				},
 				{
-					"name": "110. Low Voice",
+					"name": "111. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "true"
 				},
 				{
-					"name": "111. Does Respond",
+					"name": "112. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "true"
 				},
 				{
-					"name": "112. Does Respond (Common)",
+					"name": "113. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "true"
 				},
 				{
-					"name": "113. Does Not Respond",
+					"name": "114. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "true"
 				},
 				{
-					"name": "114. Does Not Respond (Common)",
+					"name": "115. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 31/37 of Total Effects (144 Total)\nPage 2/8 of Effects in Category (43 Total)"
+				"text": "Page 31/37 of Total Effects (148 Total)\nPage 2/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7508,38 +7658,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "115. ZooPals Effect",
+					"name": "116. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "116. Luig Group",
+					"name": "117. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "117. Mari Group",
+					"name": "118. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "118. Half Luig Group",
+					"name": "119. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "119. Half Mari Group",
+					"name": "120. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "120. Freakzinga's G-Major 156",
+					"name": "121. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 32/37 of Total Effects (144 Total)\nPage 3/8 of Effects in Category (43 Total)"
+				"text": "Page 32/37 of Total Effects (148 Total)\nPage 3/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7550,38 +7700,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "121. Weird X",
+					"name": "122. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "122. Opposite Weird X",
+					"name": "123. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "123. Not Scary",
+					"name": "124. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "true"
 				},
 				{
-					"name": "124. Pika Major",
+					"name": "125. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "true"
 				},
 				{
-					"name": "125. Rj Kumar's G-Major 9",
+					"name": "126. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "true"
 				},
 				{
-					"name": "126. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "127. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 33/37 of Total Effects (144 Total)\nPage 4/8 of Effects in Category (43 Total)"
+				"text": "Page 33/37 of Total Effects (148 Total)\nPage 4/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7592,38 +7742,38 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "127. I KILLED X",
+					"name": "128. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "true"
 				},
 				{
-					"name": "128. Green Lowers",
+					"name": "129. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "true"
 				},
 				{
-					"name": "129. Green Lowers (Traditional)",
+					"name": "130. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "130. Green Lowers (Sapphire)",
+					"name": "131. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "true"
 				},
 				{
-					"name": "131. Goo Goo Gaa Gaa",
+					"name": "132. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "true"
 				},
 				{
-					"name": "132. Even X Discontinues",
+					"name": "133. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 34/37 of Total Effects (144 Total)\nPage 5/8 of Effects in Category (43 Total)"
+				"text": "Page 34/37 of Total Effects (148 Total)\nPage 5/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7634,80 +7784,80 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "133. X Committed",
+					"name": "134. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "true"
 				},
 				{
-					"name": "134. I Accidentally X",
+					"name": "135. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "true"
 				},
 				{
-					"name": "135. Pitch Black",
+					"name": "136. Pitch Black (Traditional)",
+					"value": "Codename: `pitch black traditional`",
+					"inline": "true"
+				},
+				{
+					"name": "137. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "true"
 				},
 				{
-					"name": "136. Pitch White",
-					"value": "Codename: `pitch white`",
+					"name": "138. Pitch White (Traditional)",
+					"value": "Codename: `pitch white traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "137. Nikita8500HD Major",
+					"name": "139. Pitch White",
+					"value": "Codename: `pitch white`",
+					"inline": "true"
+				}
+			],
+			"footer": {
+				"text": "Page 35/37 of Total Effects (148 Total)\nPage 6/8 of Effects in Category (46 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
+			"fields": [
+				{
+					"name": "140. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "true"
 				},
 				{
-					"name": "138. Simulator V19",
+					"name": "141. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "true"
-				}
-			],
-			"footer": {
-				"text": "Page 35/37 of Total Effects (144 Total)\nPage 6/8 of Effects in Category (43 Total)"
-			}
-		}
-	},
-	{
-		"embed": {
-			"color": 255,
-			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
-			"fields": [
+				},
 				{
-					"name": "139. Reverse",
+					"name": "142. Reverse",
 					"value": "Codename: `reverse`\nAliases:\n- Reversed",
 					"inline": "true"
 				},
 				{
-					"name": "140. Audio Reverse",
+					"name": "143. Audio Reverse",
 					"value": "Codename: `audio reverse`\nAliases:\n- areverse",
 					"inline": "true"
 				},
 				{
-					"name": "141. Video Reverse",
+					"name": "144. Video Reverse",
 					"value": "Codename: `video reverse`\nAliases:\n- vreverse",
 					"inline": "true"
 				},
 				{
-					"name": "142. Not Scary",
+					"name": "145. Not Scary",
 					"value": "Codename: `not scary`",
-					"inline": "true"
-				},
-				{
-					"name": "143. Not Scary (Rounded Pitches)",
-					"value": "Codename: `not scary rounded pitches`",
-					"inline": "true"
-				},
-				{
-					"name": "144. Preview 2 Fast",
-					"value": "Codename: `preview 2 fast`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 36/37 of Total Effects (144 Total)\nPage 7/8 of Effects in Category (43 Total)"
+				"text": "Page 36/37 of Total Effects (148 Total)\nPage 7/8 of Effects in Category (46 Total)"
 			}
 		}
 	},
@@ -7718,13 +7868,28 @@
 			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Geometry Dash Level Effects\n**24**. Combination Effects\n**25**. Effects with Arguments\n**27**. Split Effects\n**29**. Effect Collections\n**30**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "145. Random",
+					"name": "146. Not Scary (Rounded Pitches)",
+					"value": "Codename: `not scary rounded pitches`",
+					"inline": "true"
+				},
+				{
+					"name": "147. Preview 2 Fast",
+					"value": "Codename: `preview 2 fast`",
+					"inline": "true"
+				},
+				{
+					"name": "148. High Pitched, Mirrored And Scary Audio",
+					"value": "Codename: `high pitched mirrored and scary audio`\nAliases:\n- HPMASA",
+					"inline": "true"
+				},
+				{
+					"name": "149. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 37/37 of Total Effects (144 Total)\nPage 8/8 of Effects in Category (43 Total)"
+				"text": "Page 37/37 of Total Effects (148 Total)\nPage 8/8 of Effects in Category (46 Total)"
 			}
 		}
 	}
@@ -7739,7 +7904,11 @@ Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 	{
 		"embed": {
 			"color": 255,
-			"title": "THE LIST (but better)"
+			"title": "Update Log",
+			"description": "- **v1.2.1 (10/23/2026)**: updated effects yayayayaya:\n-# - UPDATED **G-Major 4** and **Pitch White/Black**'s code to use the new `gradientmap` action\n-# - ADDED **High Pitched, Mirrored And Scary Audio**\n- **v1.2.0 (10/23/2026)**: This update actually has *two* new things\n-# - The update log finally exists! \n-# - New G-Major/Minor categories\n-# Disclaimer: Some updates below this point are not properly logged due to the update log not existing at the time :(\n- **v1.2.0 (10/19/2026)**: I don't exactly remember what happened, but FFmpeg Rubberband was replaced by the `multipitch` action\n- **v1.1.0 (10/17/2026)**: FFmpeg's Rubberband filter has replaced the original `audiopitch` system\n- **v1.0 (9/4/2026)**: ALIASES HAVE BEEN ADDED\n- **v0.0 (8/21/2026)**: EZFX: Rescripted releases!",
+			"footer": {
+				"text": "Page 1/1"
+			}
 		}
 	}
 ]}
