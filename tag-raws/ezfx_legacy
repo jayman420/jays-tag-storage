@@ -1,4 +1,5 @@
 {if:{argslen}|=|0|then:
+btw this tag isn't being worked on anymore
 # {upper:{tagname}} (v1.01) #
 # the *slightly good* update #
 ```.t {tagname} <effect> <effect args> <subcommand> <subcommand args>```
