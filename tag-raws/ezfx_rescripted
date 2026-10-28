@@ -2489,6 +2489,86 @@
 		"preload": "",
 		"args": 0
 	},
+	"jay's g-major 88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay'sg-major88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay's-g-major-88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay's_g-major_88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays g major 88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jaysgmajor88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays-g-major-88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays_g_major_88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay's gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay'sgm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay's-gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jay's_gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jaysgm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays-gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
+	"jays_gm88": {
+		"code": "invert m\ngradientmap m rgba(255,63.75,255,255) rgba(255,255,255,255)\nswirl m -50\nwaaw m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -1,6\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"preload": "",
+		"args": 0
+	},
 	"jay's g-major 106": {
 		"code": "hueshifthsv m 180\ninvert m\nflop m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -0.08,6.92\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
@@ -5085,47 +5165,47 @@
 		"args": 1
 	},
 	"split": {
-		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w/2 h\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w/2 h w/2 0\njoin m n",
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w/2 h\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w/2 h w/2 0\njoin m n\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"vertical split": {
-		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true",
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"verticalsplit": {
-		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true",
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"vertical-split": {
-		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true",
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"vertical_split": {
-		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true",
+		"code": "copy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\ncrop m w h/2\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\ncrop n w h/2 0 h/2\njoin m n true\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"x meets": {
-		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n",
+		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"xmeets": {
-		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n",
+		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"x-meets": {
-		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n",
+		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
 	"x_meets": {
-		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n",
+		"code": "resize m w/2 h\ncopy m n\n{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.code|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{replace:\\u0020m| n|{traversejson:{arg:2}.code|{get:data}}}\n}\n}\njoin m n\nvolume m",
 		"preload": "{if:{traversejson:{arg:1}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:1}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:1}.preload|{get:data}}\n}\n}\n{if:{traversejson:{arg:2}.code|{get:data}}|=||then:\n{js:console.error(`effect doesn't exist lol`)}\n|else:\n{if:{traversejson:{arg:2}.args|{get:data}}|=||then:\n{js:console.error(`Effects with arguments cannot be used here`)}\n|else:\n{traversejson:{arg:2}.preload|{get:data}}\n}\n}",
 		"args": 2
 	},
@@ -6900,7 +6980,7 @@
 		"args": 0
 	},
 	"random": {
-		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|x is burning|ambers g major 1|ambers g major 1 v2|ambers g major 1583|braxtons g major 21|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|slc520s g major 305|slc520s g major 1520|crying x|crying x common|sad x|opposite crying x|opposite sad x|electrodynamix|opposite electrodynamix|confusion + real g major 4|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|freakzingas g major 156|weird x|opposite weird x|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black traditional|pitch black|pitch white traditional|pitch white|nikita8500hd major|simulator v19|reverse|audio reverse|video reverse|not scary|not scary rounded pitches|preview 2 fast|high pitched mirrored and scary audio}.code|{get:data}}",
+		"code": "{traversejson:{choose:g major|g major 0|g major 1|g major 1 2,0|g major 2|g major 2 2,0|g major 4|real g major 4|real g major 4 traditional|g major 4 3,0|g major 5|g major 6|g major 7|g major 8|g major 16|g major 16 common|g major 16 2,0|g major 16 3,0|g major 16 4,0|g major 20 original|g major 74|g major 74 original|g major 88|g major 125|g major 302|g major 305|g major 591|g major 9000|g major 77114|g minor|g minor 2|g minor 4|real g minor 4|g minor 5|g minor 305|g minor 77114|custom major 3|custom major 333|custom minor 3|22 dxi|43 dxi|91 dxi|opposite 91 dxi|jays old g major 4|jays g major 14|jays g major 15|jays g major 17|jays g major 21|jays g major 22|jays g major 88|jays g major 106|jays g major 106 original|jays g major 137|jays g major 2800|jays g major 4670|jays g major 525600|jays old g minor 4|jays g minor 15|gold major|the loudest x|klaalk|ykssky|xs pet fly|double spin|the four horsemen of x|x may need assistance|x is evil|x is nice|sierpinskis triangle|x is burning|ambers g major 1|ambers g major 1 v2|ambers g major 1583|braxtons g major 21|ians g major 74|ians g major 81 old|ians g major 81|ians g minor 81 old|ians g minor 81|slc520s g major 305|slc520s g major 1520|crying x|crying x common|sad x|opposite crying x|opposite sad x|electrodynamix|opposite electrodynamix|confusion + real g major 4|getting faster split getting slower|split zoopals effect|split g major 88|split ambers g major 1|normal|getting faster|getting slower|confusion|wrong zoom|billy gardiners g major 1|might confuse you|low voice|does respond|does respond common|does not respond|does not respond common|zoopals effect|luig group|mari group|half luig group|half mari group|freakzingas g major 156|weird x|opposite weird x|pika major|rj kumars g major 9|rj kumars g major 9 alternate|i killed x|green lowers|green lowers traditional|green lowers sapphire|goo goo gaa gaa|even x discontinues|x committed|i accidentally x|pitch black traditional|pitch black|pitch white traditional|pitch white|nikita8500hd major|simulator v19|reverse|audio reverse|video reverse|not scary|not scary rounded pitches|preview 2 fast|high pitched mirrored and scary audio}.code|{get:data}}",
 		"preload": "",
 		"args": 0
 	}
@@ -6938,7 +7018,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "1. G-Major",
@@ -6972,7 +7052,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 1/39 of Total Effects (154 Total)\nPage 1/5 of Effects in Category (29 Total)"
+				"text": "Page 1/40 of Total Effects (155 Total)\nPage 1/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -6980,7 +7060,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "7. G-Major 4",
@@ -7014,7 +7094,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 2/39 of Total Effects (154 Total)\nPage 2/5 of Effects in Category (29 Total)"
+				"text": "Page 2/40 of Total Effects (155 Total)\nPage 2/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -7022,7 +7102,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "13. G-Major 7",
@@ -7056,7 +7136,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 3/39 of Total Effects (154 Total)\nPage 3/5 of Effects in Category (29 Total)"
+				"text": "Page 3/40 of Total Effects (155 Total)\nPage 3/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -7064,7 +7144,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "19. G-Major 16 4.0",
@@ -7098,7 +7178,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 4/39 of Total Effects (154 Total)\nPage 4/5 of Effects in Category (29 Total)"
+				"text": "Page 4/40 of Total Effects (155 Total)\nPage 4/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -7106,7 +7186,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Major Effects",
 			"fields": [
 				{
 					"name": "25. G-Major 302",
@@ -7135,7 +7215,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 5/39 of Total Effects (154 Total)\nPage 5/5 of Effects in Category (29 Total)"
+				"text": "Page 5/40 of Total Effects (155 Total)\nPage 5/5 of Effects in Category (29 Total)"
 			}
 		}
 	},
@@ -7143,7 +7223,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "30. G-Minor",
@@ -7177,7 +7257,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 6/39 of Total Effects (154 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 6/40 of Total Effects (155 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7185,7 +7265,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: G-Minor Effects",
 			"fields": [
 				{
 					"name": "36. G-Minor 77114",
@@ -7194,7 +7274,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 7/39 of Total Effects (154 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 7/40 of Total Effects (155 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7202,7 +7282,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Custom Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Custom Major Effects",
 			"fields": [
 				{
 					"name": "37. Custom Major 3",
@@ -7216,7 +7296,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 8/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 8/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7224,7 +7304,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Custom Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Custom Minor Effects",
 			"fields": [
 				{
 					"name": "39. Custom Minor 3",
@@ -7233,7 +7313,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 9/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 9/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7241,7 +7321,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Degree Xerox Ice (DXI) Effects",
 			"fields": [
 				{
 					"name": "40. 22-DXI",
@@ -7260,7 +7340,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 10/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 10/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7268,7 +7348,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Opposite DXI Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Opposite DXI Effects",
 			"fields": [
 				{
 					"name": "43. Opposite 91-DXI",
@@ -7277,7 +7357,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 11/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 11/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7285,7 +7365,7 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Jay's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Jay's G-Major Effects",
 			"fields": [
 				{
 					"name": "44. Jay's Old G-Major 4",
@@ -7319,7 +7399,7 @@
 				}
 			],
 			"footer": {
-				"text": "Page 12/39 of Total Effects (154 Total)\nPage 1/2 of Effects in Category (12 Total)"
+				"text": "Page 12/40 of Total Effects (155 Total)\nPage 1/3 of Effects in Category (13 Total)"
 			}
 		}
 	},
@@ -7327,41 +7407,58 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Jay's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Jay's G-Major Effects",
 			"fields": [
 				{
-					"name": "50. Jay's G-Major 106",
+					"name": "50. Jay's G-Major 88",
+					"value": "Codename: `jays g major 88`\nAliases:\n- Jay's GM88",
+					"inline": "true"
+				},
+				{
+					"name": "51. Jay's G-Major 106",
 					"value": "Codename: `jays g major 106`\nAliases:\n- Jay's GM106",
 					"inline": "true"
 				},
 				{
-					"name": "51. Jay's G-Major 106 (Original)",
+					"name": "52. Jay's G-Major 106 (Original)",
 					"value": "Codename: `jays g major 106 original`\nAliases:\n- Jay's GM106 (Original)",
 					"inline": "true"
 				},
 				{
-					"name": "52. Jay's G-Major 137",
+					"name": "53. Jay's G-Major 137",
 					"value": "Codename: `jays g major 137`\nAliases:\n- Jay's GM137",
 					"inline": "true"
 				},
 				{
-					"name": "53. Jay's G-Major 2800",
+					"name": "54. Jay's G-Major 2800",
 					"value": "Codename: `jays g major 2800`\nAliases:\n- Jay's GM2800",
 					"inline": "true"
 				},
 				{
-					"name": "54. Jay's G-Major 4670",
+					"name": "55. Jay's G-Major 4670",
 					"value": "Codename: `jays g major 4670`\nAliases:\n- Jay's GM4670",
 					"inline": "true"
-				},
+				}
+			],
+			"footer": {
+				"text": "Page 13/40 of Total Effects (155 Total)\nPage 2/3 of Effects in Category (13 Total)"
+			}
+		}
+	},
+	{
+		"embed": {
+			"color": 255,
+			"title": "THE LIST (but better)",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Jay's G-Major Effects",
+			"fields": [
 				{
-					"name": "55. Jay's G-Major 525600",
+					"name": "56. Jay's G-Major 525600",
 					"value": "Codename: `jays g major 525600`\nAliases:\n- Jay's GM525600",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 13/39 of Total Effects (154 Total)\nPage 2/2 of Effects in Category (12 Total)"
+				"text": "Page 14/40 of Total Effects (155 Total)\nPage 3/3 of Effects in Category (13 Total)"
 			}
 		}
 	},
@@ -7369,21 +7466,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Jay's G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Jay's G-Minor Effects",
 			"fields": [
 				{
-					"name": "56. Jay's Old G-Minor 4",
+					"name": "57. Jay's Old G-Minor 4",
 					"value": "Codename: `jays old g minor 4`\nAliases:\n- Jay's Old GMi4",
 					"inline": "true"
 				},
 				{
-					"name": "57. Jay's G-Minor 15",
+					"name": "58. Jay's G-Minor 15",
 					"value": "Codename: `jays g minor 15`\nAliases:\n- Jay's GMi15",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 14/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 15/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7391,41 +7488,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "58. Gold Major",
+					"name": "59. Gold Major",
 					"value": "Codename: `gold major`",
 					"inline": "true"
 				},
 				{
-					"name": "59. The Loudest X",
+					"name": "60. The Loudest X",
 					"value": "Codename: `the loudest x`",
 					"inline": "true"
 				},
 				{
-					"name": "60. KlaalK",
+					"name": "61. KlaalK",
 					"value": "Codename: `klaalk`",
 					"inline": "true"
 				},
 				{
-					"name": "61. YksskY",
+					"name": "62. YksskY",
 					"value": "Codename: `ykssky`",
 					"inline": "true"
 				},
 				{
-					"name": "62. X's Pet Fly",
+					"name": "63. X's Pet Fly",
 					"value": "Codename: `xs pet fly`",
 					"inline": "true"
 				},
 				{
-					"name": "63. Double Spin",
+					"name": "64. Double Spin",
 					"value": "Codename: `double spin`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 15/39 of Total Effects (154 Total)\nPage 1/2 of Effects in Category (12 Total)"
+				"text": "Page 16/40 of Total Effects (155 Total)\nPage 1/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -7433,41 +7530,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: My Other Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: My Other Effects",
 			"fields": [
 				{
-					"name": "64. The Four Horsemen of X",
+					"name": "65. The Four Horsemen of X",
 					"value": "Codename: `the four horsemen of x`",
 					"inline": "true"
 				},
 				{
-					"name": "65. X May Need Assistance",
+					"name": "66. X May Need Assistance",
 					"value": "Codename: `x may need assistance`",
 					"inline": "true"
 				},
 				{
-					"name": "66. X IS EVIL!!!",
+					"name": "67. X IS EVIL!!!",
 					"value": "Codename: `x is evil`",
 					"inline": "true"
 				},
 				{
-					"name": "67. X IS NICE!!!",
+					"name": "68. X IS NICE!!!",
 					"value": "Codename: `x is nice`",
 					"inline": "true"
 				},
 				{
-					"name": "68. Sierpinski's Triangle",
+					"name": "69. Sierpinski's Triangle",
 					"value": "Codename: `sierpinskis triangle`\nAliases:\n- Sierpinski\n- Sierpinski's Effect",
 					"inline": "true"
 				},
 				{
-					"name": "69. X is Burning",
+					"name": "70. X is Burning",
 					"value": "Codename: `x is burning`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 16/39 of Total Effects (154 Total)\nPage 2/2 of Effects in Category (12 Total)"
+				"text": "Page 17/40 of Total Effects (155 Total)\nPage 2/2 of Effects in Category (12 Total)"
 			}
 		}
 	},
@@ -7475,26 +7572,26 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Amber's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Amber's G-Major Effects",
 			"fields": [
 				{
-					"name": "70. Amber's G-Major 1",
+					"name": "71. Amber's G-Major 1",
 					"value": "Codename: `ambers g major 1`\nAliases:\n- Amber's GM1",
 					"inline": "true"
 				},
 				{
-					"name": "71. Amber's G-Major 1 v2",
+					"name": "72. Amber's G-Major 1 v2",
 					"value": "Codename: `ambers g major 1 v2`\nAliases:\n- Amber's GM1 v2",
 					"inline": "true"
 				},
 				{
-					"name": "72. Amber's G-Major 1583",
+					"name": "73. Amber's G-Major 1583",
 					"value": "Codename: `ambers g major 1583`\nAliases:\n- Amber's GM1583",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 17/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 18/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7502,16 +7599,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Braxton's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Braxton's G-Major Effects",
 			"fields": [
 				{
-					"name": "73. Braxton's G-Major 21",
+					"name": "74. Braxton's G-Major 21",
 					"value": "Codename: `braxtons g major 21`\nAliases:\n- Braxton's GM21",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 18/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 19/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7519,26 +7616,26 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Ian's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Ian's G-Major Effects",
 			"fields": [
 				{
-					"name": "74. Ian's G-Major 74",
+					"name": "75. Ian's G-Major 74",
 					"value": "Codename: `ians g major 74`\nAliases:\n- Ian's GM74",
 					"inline": "true"
 				},
 				{
-					"name": "75. Ian's G-Major 81 (Old)",
+					"name": "76. Ian's G-Major 81 (Old)",
 					"value": "Codename: `ians g major 81 old`\nAliases:\n- Ian's GM81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "76. Ian's G-Major 81",
+					"name": "77. Ian's G-Major 81",
 					"value": "Codename: `ians g major 81`\nAliases:\n- Ian's GM81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 19/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 20/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7546,21 +7643,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Ian's G-Minor Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Ian's G-Minor Effects",
 			"fields": [
 				{
-					"name": "77. Ian's G-Minor 81 (Old)",
+					"name": "78. Ian's G-Minor 81 (Old)",
 					"value": "Codename: `ians g minor 81 old`\nAliases:\n- Ian's GMi81 (Old)",
 					"inline": "true"
 				},
 				{
-					"name": "78. Ian's G-Minor 81",
+					"name": "79. Ian's G-Minor 81",
 					"value": "Codename: `ians g minor 81`\nAliases:\n- Ian's GMi81",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 20/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 21/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7568,21 +7665,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: SwitchLiteConsole520's G-Major Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: SwitchLiteConsole520's G-Major Effects",
 			"fields": [
 				{
-					"name": "79. SLC520's G-Major 305",
+					"name": "80. SLC520's G-Major 305",
 					"value": "Codename: `slc520s g major 305`\nAliases:\n- SLC520's GM305\n- SLC's G-Major 305\n- SLC's GM305\n- Damien's G-Major 305\n- Damien's GM305",
 					"inline": "true"
 				},
 				{
-					"name": "80. SLC520's G-Major 1520",
+					"name": "81. SLC520's G-Major 1520",
 					"value": "Codename: `slc520s g major 1520`\nAliases:\n- SLC520's GM1520\n- SLC's G-Major 1520\n- SLC's GM1520\n- Damien's G-Major 1520\n- Damien's GM1520",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 21/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 22/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7590,26 +7687,26 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Emotion Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Emotion Effects",
 			"fields": [
 				{
-					"name": "81. Crying X",
+					"name": "82. Crying X",
 					"value": "Codename: `crying x`\nAliases:\n- Crying\n- Crying Effect",
 					"inline": "true"
 				},
 				{
-					"name": "82. Crying X (Common)",
+					"name": "83. Crying X (Common)",
 					"value": "Codename: `crying x common`",
 					"inline": "true"
 				},
 				{
-					"name": "83. Sad X",
+					"name": "84. Sad X",
 					"value": "Codename: `sad x`\nAliases:\n- Sad\n- Sad Effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 22/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (3 Total)"
+				"text": "Page 23/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (3 Total)"
 			}
 		}
 	},
@@ -7617,21 +7714,21 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Opposite Emotion Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Opposite Emotion Effects",
 			"fields": [
 				{
-					"name": "84. Opposite Crying X",
+					"name": "85. Opposite Crying X",
 					"value": "Codename: `opposite crying x`\nAliases:\n- Opposite Crying\n- Opposite Crying Effect",
 					"inline": "true"
 				},
 				{
-					"name": "85. Opposite Sad X",
+					"name": "86. Opposite Sad X",
 					"value": "Codename: `opposite sad x`\nAliases:\n- Opposite Sad\n- Opposite Sad Effect",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 23/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (2 Total)"
+				"text": "Page 24/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (2 Total)"
 			}
 		}
 	},
@@ -7639,16 +7736,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Geometry Dash Level Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Geometry Dash Level Effects",
 			"fields": [
 				{
-					"name": "86. Electrodynamix",
+					"name": "87. Electrodynamix",
 					"value": "Codename: `electrodynamix`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 24/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 25/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7656,16 +7753,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Opposite Geometry Dash Level Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Opposite Geometry Dash Level Effects",
 			"fields": [
 				{
-					"name": "87. Opposite Electrodynamix",
+					"name": "88. Opposite Electrodynamix",
 					"value": "Codename: `opposite electrodynamix`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 25/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 26/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7673,16 +7770,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Combination Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Combination Effects",
 			"fields": [
 				{
-					"name": "88. CoNfUsIoN + Real G-Major 4",
+					"name": "89. CoNfUsIoN + Real G-Major 4",
 					"value": "Codename: `confusion + real g major 4`\nAliases:\n- CoNfUsIoN + Real GM4",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 26/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (1 Total)"
+				"text": "Page 27/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (1 Total)"
 			}
 		}
 	},
@@ -7690,41 +7787,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "89. Custom",
+					"name": "90. Custom",
 					"value": "Codename: `custom`\nSyntax: `<code> <preload>`",
 					"inline": "true"
 				},
 				{
-					"name": "90. FFmpeg",
+					"name": "91. FFmpeg",
 					"value": "Codename: `ffmpeg`\nSyntax: `<code> <preload>`",
 					"inline": "true"
 				},
 				{
-					"name": "91. Custom + FFmpeg",
+					"name": "92. Custom + FFmpeg",
 					"value": "Codename: `custom + ffmpeg`\nSyntax: `<iscript_code> <ffmpeg_code> <preload>`",
 					"inline": "true"
 				},
 				{
-					"name": "92. Effects",
+					"name": "93. Effects",
 					"value": "Codename: `effects`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "93. Multirender",
+					"name": "94. Multirender",
 					"value": "Codename: `multirender`\nSyntax: `<effect 1; effect 2; + and so on> <?remove_normal>`",
 					"inline": "true"
 				},
 				{
-					"name": "94. Effect Crossing",
+					"name": "95. Effect Crossing",
 					"value": "Codename: `effect crossing`\nSyntax: `<effect 1; effect 2; + and so on> <?speed>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 27/39 of Total Effects (154 Total)\nPage 1/2 of Effects in Category (9 Total)"
+				"text": "Page 28/40 of Total Effects (155 Total)\nPage 1/2 of Effects in Category (9 Total)"
 			}
 		}
 	},
@@ -7732,26 +7829,26 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Effects with Arguments",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Effects with Arguments",
 			"fields": [
 				{
-					"name": "95. Pipe",
+					"name": "96. Pipe",
 					"value": "Codename: `pipe`\nSyntax: `<effect 1; effect 2; + and so on>`",
 					"inline": "true"
 				},
 				{
-					"name": "96. Respondview 2",
+					"name": "97. Respondview 2",
 					"value": "Codename: `respondview 2`\nSyntax: `<start_pos> <duration>`",
 					"inline": "true"
 				},
 				{
-					"name": "97. Multipitch",
+					"name": "98. Multipitch",
 					"value": "Codename: `multipitch`\nSyntax: `<pitches>`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 28/39 of Total Effects (154 Total)\nPage 2/2 of Effects in Category (9 Total)"
+				"text": "Page 29/40 of Total Effects (155 Total)\nPage 2/2 of Effects in Category (9 Total)"
 			}
 		}
 	},
@@ -7759,41 +7856,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Split Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "98. Split",
+					"name": "99. Split",
 					"value": "Codename: `split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "99. Vertical Split",
+					"name": "100. Vertical Split",
 					"value": "Codename: `vertical split`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "100. X Meets",
+					"name": "101. X Meets",
 					"value": "Codename: `x meets`\nSyntax: `<effect 1> <effect 2>`",
 					"inline": "true"
 				},
 				{
-					"name": "101. Getting Faster Split Getting Slower",
+					"name": "102. Getting Faster Split Getting Slower",
 					"value": "Codename: `getting faster split getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "102. Split ZooPals Effect",
+					"name": "103. Split ZooPals Effect",
 					"value": "Codename: `split zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "103. Split G-Major 88",
+					"name": "104. Split G-Major 88",
 					"value": "Codename: `split g major 88`\nAliases:\n- Split GM88",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 29/39 of Total Effects (154 Total)\nPage 1/2 of Effects in Category (7 Total)"
+				"text": "Page 30/40 of Total Effects (155 Total)\nPage 1/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7801,16 +7898,16 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Split Effects",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Split Effects",
 			"fields": [
 				{
-					"name": "104. Split Amber's G-Major 1",
+					"name": "105. Split Amber's G-Major 1",
 					"value": "Codename: `split ambers g major 1`\nAliases:\n- Split Amber's GM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 30/39 of Total Effects (154 Total)\nPage 2/2 of Effects in Category (7 Total)"
+				"text": "Page 31/40 of Total Effects (155 Total)\nPage 2/2 of Effects in Category (7 Total)"
 			}
 		}
 	},
@@ -7818,36 +7915,36 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Effect Collections",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Effect Collections",
 			"fields": [
 				{
-					"name": "105. p2funny",
+					"name": "106. p2funny",
 					"value": "Codename: `p2funny`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "106. Kelly Effects",
+					"name": "107. Kelly Effects",
 					"value": "Codename: `kelly effects`\nSyntax: `<?speed>`\nAliases:\n- Kelly",
 					"inline": "true"
 				},
 				{
-					"name": "107. 9 Random Effects",
+					"name": "108. 9 Random Effects",
 					"value": "Codename: `9 random effects`\nSyntax: `<?speed>`",
 					"inline": "true"
 				},
 				{
-					"name": "108. We Become We Effects",
+					"name": "109. We Become We Effects",
 					"value": "Codename: `we become we effects`\nSyntax: `<?speed> <?no_normal>`\nAliases:\n- WBW Effects\n- Pitch Funny Effects",
 					"inline": "true"
 				},
 				{
-					"name": "109. Jay's Klasky Csupo Effects",
+					"name": "110. Jay's Klasky Csupo Effects",
 					"value": "Codename: `jays klasky csupo effects`\nSyntax: `<?speed>`\nAliases:\n- Jay's KC Effects",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 31/39 of Total Effects (154 Total)\nPage 1/1 of Effects in Category (5 Total)"
+				"text": "Page 32/40 of Total Effects (155 Total)\nPage 1/1 of Effects in Category (5 Total)"
 			}
 		}
 	},
@@ -7855,41 +7952,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "110. Normal",
+					"name": "111. Normal",
 					"value": "Codename: `normal`",
 					"inline": "true"
 				},
 				{
-					"name": "111. Getting Faster",
+					"name": "112. Getting Faster",
 					"value": "Codename: `getting faster`",
 					"inline": "true"
 				},
 				{
-					"name": "112. Getting Slower",
+					"name": "113. Getting Slower",
 					"value": "Codename: `getting slower`",
 					"inline": "true"
 				},
 				{
-					"name": "113. CoNfUsIoN",
+					"name": "114. CoNfUsIoN",
 					"value": "Codename: `confusion`",
 					"inline": "true"
 				},
 				{
-					"name": "114. Wrong Zoom",
+					"name": "115. Wrong Zoom",
 					"value": "Codename: `wrong zoom`",
 					"inline": "true"
 				},
 				{
-					"name": "115. Billy Gardiner's G-Major 1",
+					"name": "116. Billy Gardiner's G-Major 1",
 					"value": "Codename: `billy gardiners g major 1`\nAliases:\n- Billy Gardiner's GM1\n- Billy's G-Major 1\n- Billy's GM1\n- BGGM1",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 32/39 of Total Effects (154 Total)\nPage 1/8 of Effects in Category (45 Total)"
+				"text": "Page 33/40 of Total Effects (155 Total)\nPage 1/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -7897,41 +7994,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "116. Might Confuse You",
+					"name": "117. Might Confuse You",
 					"value": "Codename: `might confuse you`",
 					"inline": "true"
 				},
 				{
-					"name": "117. Low Voice",
+					"name": "118. Low Voice",
 					"value": "Codename: `low voice`",
 					"inline": "true"
 				},
 				{
-					"name": "118. Does Respond",
+					"name": "119. Does Respond",
 					"value": "Codename: `does respond`",
 					"inline": "true"
 				},
 				{
-					"name": "119. Does Respond (Common)",
+					"name": "120. Does Respond (Common)",
 					"value": "Codename: `does respond common`",
 					"inline": "true"
 				},
 				{
-					"name": "120. Does Not Respond",
+					"name": "121. Does Not Respond",
 					"value": "Codename: `does not respond`",
 					"inline": "true"
 				},
 				{
-					"name": "121. Does Not Respond (Common)",
+					"name": "122. Does Not Respond (Common)",
 					"value": "Codename: `does not respond common`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 33/39 of Total Effects (154 Total)\nPage 2/8 of Effects in Category (45 Total)"
+				"text": "Page 34/40 of Total Effects (155 Total)\nPage 2/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -7939,41 +8036,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "122. ZooPals Effect",
+					"name": "123. ZooPals Effect",
 					"value": "Codename: `zoopals effect`",
 					"inline": "true"
 				},
 				{
-					"name": "123. Luig Group",
+					"name": "124. Luig Group",
 					"value": "Codename: `luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "124. Mari Group",
+					"name": "125. Mari Group",
 					"value": "Codename: `mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "125. Half Luig Group",
+					"name": "126. Half Luig Group",
 					"value": "Codename: `half luig group`",
 					"inline": "true"
 				},
 				{
-					"name": "126. Half Mari Group",
+					"name": "127. Half Mari Group",
 					"value": "Codename: `half mari group`",
 					"inline": "true"
 				},
 				{
-					"name": "127. Freakzinga's G-Major 156",
+					"name": "128. Freakzinga's G-Major 156",
 					"value": "Codename: `freakzingas g major 156`\nAliases:\n- Freakzinga's GM156",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 34/39 of Total Effects (154 Total)\nPage 3/8 of Effects in Category (45 Total)"
+				"text": "Page 35/40 of Total Effects (155 Total)\nPage 3/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -7981,41 +8078,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "128. Weird X",
+					"name": "129. Weird X",
 					"value": "Codename: `weird x`\nAliases:\n- Weird\n- Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "129. Opposite Weird X",
+					"name": "130. Opposite Weird X",
 					"value": "Codename: `opposite weird x`\nAliases:\n- Opposite Weird\n- Opposite Weird Effect",
 					"inline": "true"
 				},
 				{
-					"name": "130. Pika Major",
+					"name": "131. Pika Major",
 					"value": "Codename: `pika major`",
 					"inline": "true"
 				},
 				{
-					"name": "131. Rj Kumar's G-Major 9",
+					"name": "132. Rj Kumar's G-Major 9",
 					"value": "Codename: `rj kumars g major 9`\nAliases:\n- Rj Kumar's GM9",
 					"inline": "true"
 				},
 				{
-					"name": "132. Rj Kumar's G-Major 9 (Alternate)",
+					"name": "133. Rj Kumar's G-Major 9 (Alternate)",
 					"value": "Codename: `rj kumars g major 9 alternate`\nAliases:\n- Rj Kumar's GM9 (Alternate)",
 					"inline": "true"
 				},
 				{
-					"name": "133. I KILLED X",
+					"name": "134. I KILLED X",
 					"value": "Codename: `i killed x`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 35/39 of Total Effects (154 Total)\nPage 4/8 of Effects in Category (45 Total)"
+				"text": "Page 36/40 of Total Effects (155 Total)\nPage 4/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -8023,41 +8120,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "134. Green Lowers",
+					"name": "135. Green Lowers",
 					"value": "Codename: `green lowers`",
 					"inline": "true"
 				},
 				{
-					"name": "135. Green Lowers (Traditional)",
+					"name": "136. Green Lowers (Traditional)",
 					"value": "Codename: `green lowers traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "136. Green Lowers (Sapphire)",
+					"name": "137. Green Lowers (Sapphire)",
 					"value": "Codename: `green lowers sapphire`",
 					"inline": "true"
 				},
 				{
-					"name": "137. Goo Goo Gaa Gaa",
+					"name": "138. Goo Goo Gaa Gaa",
 					"value": "Codename: `goo goo gaa gaa`",
 					"inline": "true"
 				},
 				{
-					"name": "138. Even X Discontinues",
+					"name": "139. Even X Discontinues",
 					"value": "Codename: `even x discontinues`",
 					"inline": "true"
 				},
 				{
-					"name": "139. X Committed",
+					"name": "140. X Committed",
 					"value": "Codename: `x committed`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 36/39 of Total Effects (154 Total)\nPage 5/8 of Effects in Category (45 Total)"
+				"text": "Page 37/40 of Total Effects (155 Total)\nPage 5/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -8065,41 +8162,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "140. I Accidentally X",
+					"name": "141. I Accidentally X",
 					"value": "Codename: `i accidentally x`",
 					"inline": "true"
 				},
 				{
-					"name": "141. Pitch Black (Traditional)",
+					"name": "142. Pitch Black (Traditional)",
 					"value": "Codename: `pitch black traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "142. Pitch Black",
+					"name": "143. Pitch Black",
 					"value": "Codename: `pitch black`",
 					"inline": "true"
 				},
 				{
-					"name": "143. Pitch White (Traditional)",
+					"name": "144. Pitch White (Traditional)",
 					"value": "Codename: `pitch white traditional`",
 					"inline": "true"
 				},
 				{
-					"name": "144. Pitch White",
+					"name": "145. Pitch White",
 					"value": "Codename: `pitch white`",
 					"inline": "true"
 				},
 				{
-					"name": "145. Nikita8500HD Major",
+					"name": "146. Nikita8500HD Major",
 					"value": "Codename: `nikita8500hd major`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 37/39 of Total Effects (154 Total)\nPage 6/8 of Effects in Category (45 Total)"
+				"text": "Page 38/40 of Total Effects (155 Total)\nPage 6/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -8107,41 +8204,41 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "146. Simulator V19",
+					"name": "147. Simulator V19",
 					"value": "Codename: `simulator v19`",
 					"inline": "true"
 				},
 				{
-					"name": "147. Reverse",
+					"name": "148. Reverse",
 					"value": "Codename: `reverse`\nAliases:\n- Reversed",
 					"inline": "true"
 				},
 				{
-					"name": "148. Audio Reverse",
+					"name": "149. Audio Reverse",
 					"value": "Codename: `audio reverse`\nAliases:\n- areverse",
 					"inline": "true"
 				},
 				{
-					"name": "149. Video Reverse",
+					"name": "150. Video Reverse",
 					"value": "Codename: `video reverse`\nAliases:\n- vreverse",
 					"inline": "true"
 				},
 				{
-					"name": "150. Not Scary",
+					"name": "151. Not Scary",
 					"value": "Codename: `not scary`",
 					"inline": "true"
 				},
 				{
-					"name": "151. Not Scary (Rounded Pitches)",
+					"name": "152. Not Scary (Rounded Pitches)",
 					"value": "Codename: `not scary rounded pitches`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 38/39 of Total Effects (154 Total)\nPage 7/8 of Effects in Category (45 Total)"
+				"text": "Page 39/40 of Total Effects (155 Total)\nPage 7/8 of Effects in Category (45 Total)"
 			}
 		}
 	},
@@ -8149,26 +8246,26 @@
 		"embed": {
 			"color": 255,
 			"title": "THE LIST (but better)",
-			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**14**. Jay's G-Minor Effects\n**15**. My Other Effects\n**17**. Amber's G-Major Effects\n**18**. Braxton's G-Major Effects\n**19**. Ian's G-Major Effects\n**20**. Ian's G-Minor Effects\n**21**. SwitchLiteConsole520's G-Major Effects\n**22**. Emotion Effects\n**23**. Opposite Emotion Effects\n**24**. Geometry Dash Level Effects\n**25**. Opposite Geometry Dash Level Effects\n**26**. Combination Effects\n**27**. Effects with Arguments\n**29**. Split Effects\n**31**. Effect Collections\n**32**. Uncategorized\n\n### Category: Uncategorized",
+			"description": "## Table of Contents\n**1**. G-Major Effects\n**6**. G-Minor Effects\n**8**. Custom Major Effects\n**9**. Custom Minor Effects\n**10**. Degree Xerox Ice (DXI) Effects\n**11**. Opposite DXI Effects\n**12**. Jay's G-Major Effects\n**15**. Jay's G-Minor Effects\n**16**. My Other Effects\n**18**. Amber's G-Major Effects\n**19**. Braxton's G-Major Effects\n**20**. Ian's G-Major Effects\n**21**. Ian's G-Minor Effects\n**22**. SwitchLiteConsole520's G-Major Effects\n**23**. Emotion Effects\n**24**. Opposite Emotion Effects\n**25**. Geometry Dash Level Effects\n**26**. Opposite Geometry Dash Level Effects\n**27**. Combination Effects\n**28**. Effects with Arguments\n**30**. Split Effects\n**32**. Effect Collections\n**33**. Uncategorized\n\n### Category: Uncategorized",
 			"fields": [
 				{
-					"name": "152. Preview 2 Fast",
+					"name": "153. Preview 2 Fast",
 					"value": "Codename: `preview 2 fast`",
 					"inline": "true"
 				},
 				{
-					"name": "153. High Pitched, Mirrored And Scary Audio",
+					"name": "154. High Pitched, Mirrored And Scary Audio",
 					"value": "Codename: `high pitched mirrored and scary audio`\nAliases:\n- HPMASA",
 					"inline": "true"
 				},
 				{
-					"name": "154. Random",
+					"name": "155. Random",
 					"value": "Codename: `random`",
 					"inline": "true"
 				}
 			],
 			"footer": {
-				"text": "Page 39/39 of Total Effects (154 Total)\nPage 8/8 of Effects in Category (45 Total)"
+				"text": "Page 40/40 of Total Effects (155 Total)\nPage 8/8 of Effects in Category (45 Total)"
 			}
 		}
 	}
@@ -8184,7 +8281,7 @@ Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 		"embed": {
 			"color": 255,
 			"title": "Update Log",
-			"description": "- **v1.2.4 (10/26/2026)**: hey guys new pitch system again\n-# - Audio file gets converted to `.flac` instead of `.wav`\n-# - FFmpeg bass replaced with `audioequalizer`\nand some other stuff\n-# - UPDATED Split effects to no longer include `volume` at the end (with the exception of G. Faster Split G. Slower)\n-# - ADDED **Amber's G-Major 1 v2** and **Multipitch**\n- **v1.2.3 (10/25/2026)**: Bug fixes!\n-# - UPDATED **Sad X**, **Simulator V19**, and **Jay's G-Major 4670** to use geq waves\n-# - ADDED **Opposite Crying X** and **Opposite Sad X**\n- **v1.2.2 (10/24/2026)**: updated effects yayayayaya:\n-# - UPDATED **G-Major 4** and **Pitch White/Black**'s code to use the new `gradientmap` action\n-# - ADDED **Pitch White/Black (Traditional)**\n-# - ADDED **High Pitched, Mirrored And Scary Audio**\n-# - also the log works this time hooray\n- **v1.2.1 (10/23/2026)**: This update actually has *two* new things\n-# - The update log finally exists! \n-# - New G-Major/Minor categories\n-# Disclaimer: Some updates below this point are not properly logged due to the update log not existing at the time :(\n- **v1.2.0 (10/19/2026)**: I don't exactly remember what happened, but FFmpeg Rubberband was replaced by the `multipitch` action\n- **v1.1.0 (10/17/2026)**: FFmpeg's Rubberband filter has replaced the original `audiopitch` system\n- **v1.0 (9/4/2026)**: ALIASES HAVE BEEN ADDED\n- **v0.0 (8/21/2026)**: EZFX: Rescripted releases!",
+			"description": "- **v1.2.4 (10/26/2026)**: hey guys new pitch system again\n-# - Audio file gets converted to `.flac` instead of `.wav`\n-# - FFmpeg bass replaced with `audioequalizer`\nand some other stuff\n-# - UPDATED Split effects to no longer include `volume` at the end (with the exception of G. Faster Split G. Slower, and other Split effects that require arguments)\n-# - ADDED **Amber's G-Major 1 v2** and **Multipitch**\n- **v1.2.3 (10/25/2026)**: Bug fixes!\n-# - UPDATED **Sad X**, **Simulator V19**, and **Jay's G-Major 4670** to use geq waves\n-# - ADDED **Opposite Crying X** and **Opposite Sad X**\n- **v1.2.2 (10/24/2026)**: updated effects yayayayaya:\n-# - UPDATED **G-Major 4** and **Pitch White/Black**'s code to use the new `gradientmap` action\n-# - ADDED **Pitch White/Black (Traditional)**\n-# - ADDED **High Pitched, Mirrored And Scary Audio**\n-# - also the log works this time hooray\n- **v1.2.1 (10/23/2026)**: This update actually has *two* new things\n-# - The update log finally exists! \n-# - New G-Major/Minor categories\n-# Disclaimer: Some updates below this point are not properly logged due to the update log not existing at the time :(\n- **v1.2.0 (10/19/2026)**: I don't exactly remember what happened, but FFmpeg Rubberband was replaced by the `multipitch` action\n- **v1.1.0 (10/17/2026)**: FFmpeg's Rubberband filter has replaced the original `audiopitch` system\n- **v1.0 (9/4/2026)**: ALIASES HAVE BEEN ADDED\n- **v0.0 (8/21/2026)**: EZFX: Rescripted releases!",
 			"footer": {
 				"text": "Page 1/1"
 			}
