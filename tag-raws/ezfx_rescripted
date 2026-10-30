@@ -1320,42 +1320,42 @@
 		"args": 0
 	},
 	"g-major 125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major-125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g-major_125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g major 125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gmajor125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"g_major_125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"gm125": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx mx2\nswaprgba mx2 bgra\noverlay mx mx2 0 0 none 0.01 1 true (idx/fc)*100\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx mxx2\nswaprgba mxx2 bgra\noverlay mxx mxx2 0 0 none 0.01 1 true \"(idx / mxfc)*100\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,-14\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -3260,42 +3260,42 @@
 		"args": 0
 	},
 	"x's pet fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"x'spetfly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"x's-pet-fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"x's_pet_fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"xs pet fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"xspetfly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"xs-pet-fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"xs_pet_fly": {
-		"code": "foreachframe m 0 fc {jsonify:\ncopy mx n\nscale n 0.25\ngray n\noverlay mx n ((w/2)-(nw/2))+sin(6.28*(idx/fc))*w/4 ((h/2)-(nh/2))+cos(6.28*(idx/fc))*h/-4\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "foreachframe m 0 mfc {jsonify:\ncopy mxx n\nscale n 0.25\ngray n\noverlay mxx n ((w/2)-(nw/2))+\"sin(6.28*(idx / mxfc))*w/4\" ((h/2)-(nh/2))+\"cos(6.28*(idx / mxfc))*h/-4\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud 0,10\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -6070,82 +6070,82 @@
 		"args": 0
 	},
 	"freakzinga's g-major 156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga'sg-major156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga's-g-major-156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga's_g-major_156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas g major 156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingasgmajor156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas-g-major-156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas_g_major_156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga's gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga'sgm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga's-gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzinga's_gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingasgm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas-gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
 	"freakzingas_gm156": {
-		"code": "dobetween m 0 d/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m d/2 d {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
+		"code": "dobetween m 0 md/2 {jsonify:\nhueshifthsv mx 180\nswaprgba mx bgr\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud 0.5,4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}\ndobetween m md/2 md {jsonify:\nhueshifthsv mx 180\nreverse mx\ncopy mx mxaud\nconvert mxaud audio/flac\nmultipitch mxaud -0.5,-4.5\naudioequalizer mxaud -1 3 0 0 0 0 0\naudioputreplace mx mxaud\n}",
 		"preload": "",
 		"args": 0
 	},
@@ -6255,22 +6255,22 @@
 		"args": 0
 	},
 	"pika major": {
-		"code": "hueshifthsvffmpeg m 24.69\nhueshifthsv m 0 200\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "hueshiftyiq m 24.69\nhueshiftccs m 0 3\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pikamajor": {
-		"code": "hueshifthsvffmpeg m 24.69\nhueshifthsv m 0 200\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "hueshiftyiq m 24.69\nhueshiftccs m 0 3\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pika-major": {
-		"code": "hueshifthsvffmpeg m 24.69\nhueshifthsv m 0 200\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "hueshiftyiq m 24.69\nhueshiftccs m 0 3\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
 	"pika_major": {
-		"code": "hueshifthsvffmpeg m 24.69\nhueshifthsv m 0 200\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
+		"code": "hueshiftyiq m 24.69\nhueshiftccs m 0 3\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -7,0,7\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud",
 		"preload": "",
 		"args": 0
 	},
@@ -6615,22 +6615,22 @@
 		"args": 0
 	},
 	"i accidentally x": {
-		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 mfc {jsonify:\nzoom mxx \"min(1/(1-(idx / mxfc)),10)\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"iaccidentallyx": {
-		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 mfc {jsonify:\nzoom mxx \"min(1/(1-(idx / mxfc)),10)\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"i-accidentally-x": {
-		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 mfc {jsonify:\nzoom mxx \"min(1/(1-(idx / mxfc)),10)\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
 	"i_accidentally_x": {
-		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 fc {jsonify:\nzoom mx min(1/(1-(idx/fc)),10)\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
+		"code": "spin m yes no yes\ngradientmap m rgba(255,0,0,255) rgba(255,255,0,255) rgba(0,255,0,255) rgba(0,255,255,255) rgba(0,0,255,255) rgba(255,0,255,255) rgba(255,0,0,255)\nforeachframe m 0 mfc {jsonify:\nzoom mxx \"min(1/(1-(idx / mxfc)),10)\"\n}\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -4\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud\naudiodestroy m",
 		"preload": "",
 		"args": 0
 	},
@@ -8281,7 +8281,7 @@ Here's the entire EZFX:R code for your viewing pleasure (or maybe for modding)
 		"embed": {
 			"color": 255,
 			"title": "Update Log",
-			"description": "- **v1.2.4 (10/26/2026)**: hey guys new pitch system again\n-# - Audio file gets converted to `.flac` instead of `.wav`\n-# - FFmpeg bass replaced with `audioequalizer`\nand some other stuff\n-# - UPDATED Split effects to no longer include `volume` at the end (with the exception of G. Faster Split G. Slower, and other Split effects that require arguments)\n-# - ADDED **Amber's G-Major 1 v2** and **Multipitch**\n- **v1.2.3 (10/25/2026)**: Bug fixes!\n-# - UPDATED **Sad X**, **Simulator V19**, and **Jay's G-Major 4670** to use geq waves\n-# - ADDED **Opposite Crying X** and **Opposite Sad X**\n- **v1.2.2 (10/24/2026)**: updated effects yayayayaya:\n-# - UPDATED **G-Major 4** and **Pitch White/Black**'s code to use the new `gradientmap` action\n-# - ADDED **Pitch White/Black (Traditional)**\n-# - ADDED **High Pitched, Mirrored And Scary Audio**\n-# - also the log works this time hooray\n- **v1.2.1 (10/23/2026)**: This update actually has *two* new things\n-# - The update log finally exists! \n-# - New G-Major/Minor categories\n-# Disclaimer: Some updates below this point are not properly logged due to the update log not existing at the time :(\n- **v1.2.0 (10/19/2026)**: I don't exactly remember what happened, but FFmpeg Rubberband was replaced by the `multipitch` action\n- **v1.1.0 (10/17/2026)**: FFmpeg's Rubberband filter has replaced the original `audiopitch` system\n- **v1.0 (9/4/2026)**: ALIASES HAVE BEEN ADDED\n- **v0.0 (8/21/2026)**: EZFX: Rescripted releases!",
+			"description": "- **v1.2.5 (10/30/2026)**: fixed pika major\n-# - yay we went 3 days without a minor update\n- **v1.2.4 (10/26/2026)**: hey guys new pitch system again\n-# - Audio file gets converted to `.flac` instead of `.wav`\n-# - FFmpeg bass replaced with `audioequalizer`\nand some other stuff\n-# - UPDATED Split effects to no longer include `volume` at the end (with the exception of G. Faster Split G. Slower, and other Split effects that require arguments)\n-# - ADDED **Amber's G-Major 1 v2** and **Multipitch**\n- **v1.2.3 (10/25/2026)**: Bug fixes!\n-# - UPDATED **Sad X**, **Simulator V19**, and **Jay's G-Major 4670** to use geq waves\n-# - ADDED **Opposite Crying X** and **Opposite Sad X**\n- **v1.2.2 (10/24/2026)**: updated effects yayayayaya:\n-# - UPDATED **G-Major 4** and **Pitch White/Black**'s code to use the new `gradientmap` action\n-# - ADDED **Pitch White/Black (Traditional)**\n-# - ADDED **High Pitched, Mirrored And Scary Audio**\n-# - also the log works this time hooray\n- **v1.2.1 (10/23/2026)**: This update actually has *two* new things\n-# - The update log finally exists! \n-# - New G-Major/Minor categories\n-# Disclaimer: Some updates below this point are not properly logged due to the update log not existing at the time :(\n- **v1.2.0 (10/19/2026)**: I don't exactly remember what happened, but FFmpeg Rubberband was replaced by the `multipitch` action\n- **v1.1.0 (10/17/2026)**: FFmpeg's Rubberband filter has replaced the original `audiopitch` system\n- **v1.0 (9/4/2026)**: ALIASES HAVE BEEN ADDED\n- **v0.0 (8/21/2026)**: EZFX: Rescripted releases!",
 			"footer": {
 				"text": "Page 1/1"
 			}
