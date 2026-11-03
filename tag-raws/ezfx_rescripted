@@ -1,4 +1,4 @@
-.t add easy_effects {set:data|{ignore:{
+{set:data|{ignore:{
 	"g-major": {
 		"code": "invert m\ncopy m maud\nconvert maud audio/flac\nmultipitch maud -12,-5,0,4,7,12\naudioequalizer maud -1 3 0 0 0 0 0\naudioputreplace m maud yes no",
 		"preload": "",
